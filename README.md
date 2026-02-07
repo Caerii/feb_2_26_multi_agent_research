@@ -2,14 +2,16 @@
 
 ## Exec Summary
 
-Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
 - Multi-agent memory systems (Graph-based Agent Memory survey)
 - Dynamic topology management (DyTopo, TKG-Thinker)
-- Efficiency breakthroughs (RL-VLA³: 59-127% throughput gains)
+- Efficiency breakthroughs (RL-VLA³: 59-127% throughput gains; WideSeek-R1 width scaling)
+- Agent self-improvement (Group-Evolving Agents, Empirical-MCTS, AgentArk distillation)
 - Application-specific benchmarks (PieArena MBA negotiation, H-AdminSim hospital admin)
+- Healthcare agentic evaluation (7-dimensional taxonomy)
 
 ---
 
@@ -38,6 +40,14 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 | Towards Science of Collective AI | 2602.05289 | Collaboration gain metric Γ for scientific MAS |
 | Data-Centric Interpretability (MARL) | 2602.05183 | SAE-based LLM MARL training analysis |
 | CoWork-X | 2602.05004 | Skill-based HTN retrieval with co-evolution |
+| Group-Evolving Agents (GEA) | 2602.04837 | Open-ended self-improvement via experience sharing |
+| WideSeek-R1 | 2602.04634 | Width scaling via MARL for info seeking (4B≈671B) |
+| Vibe AIGC | 2602.04575 | Content generation via agentic orchestration |
+| PCE (Assumptions to Actions) | 2602.04326 | Uncertainty-aware planning for embodied agents |
+| Agent-Omit | 2602.04284 | Adaptive thought/observation omission |
+| Empirical-MCTS | 2602.04248 | Continuous evolution via dual-experience MCTS |
+| OMG-Agent | 2602.04144 | Missing modality generation (coarse-to-fine workflow) |
+| Agentic AI Healthcare Taxonomy | 2602.04813 | 7-dimension evaluation framework (49 studies) |
 
 ### Efficiency & Infrastructure
 
@@ -49,6 +59,7 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 | SAR-RAG | 2602.04712 | SAR target recognition with RAG |
 | DARWIN | 2602.05848 | Self-improving evolutionary GPT |
 | DeepRead | 2602.05014 | Structure-aware agentic document QA |
+| AgentArk | 2602.03955 | Distills multi-agent intelligence into single model |
 
 ### Applications & Specialization
 
@@ -193,6 +204,61 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 **Approach:** Hierarchical task networks with co-evolution
 **Impact:** Dynamic skill acquisition in collaborative settings
 
+### Group-Evolving Agents (GEA): Open-Ended Self-Improvement
+**ID:** 2602.04837
+**Key:** Experience sharing across group
+**Approach:** Treats agent group as evolutionary unit for sharing/reuse
+**Results:** 71.0% vs 56.7% on SWE-bench Verified; 88.3% vs 68.3% on Polyglot
+**Impact:** Converts exploratory diversity into long-term progress; 1.4 vs 5 iterations for framework bug fixes
+
+### Agentic AI Healthcare: Seven-Dimensional Taxonomy
+**ID:** 2602.04813
+**Key:** Evaluation framework for medical agents
+**Approach:** 7 dimensions with 29 sub-dimensions across 49 studies (Cognitive, Knowledge, Interaction, Adaptation, Safety, Framework, Tasks)
+**Results:** External Knowledge Integration ~76% implemented; Event-Triggered Activation ~92% not implemented; Drift Detection ~98% not implemented
+**Impact:** Identifies gaps: Treatment Planning ~59% not implemented; Multi-Agent Design ~82% dominant pattern
+
+### WideSeek-R1: Width Scaling via MARL
+**ID:** 2602.04634
+**Key:** Lead-agent-subagent framework with parallel execution
+**Approach:** MARL-trained coordination for broad information seeking (20k tasks)
+**Results:** WideSeek-R1-4B achieves 40.0% F1 on WideSearch ≈ DeepSeek-R1-671B
+**Impact:** Width scaling enables small models to match large; gains scale with parallel subagents
+
+### Vibe AIGC: Content Generation via Orchestration
+**ID:** 2602.04575
+**Key:** Meta-Planner with Commander-Vibe paradigm
+**Approach:** User provides "Vibe" (aesthetic/logic); Meta-Planner deconstructs into agentic pipelines
+**Impact:** Shifts from stochastic inference to logical orchestration; democratizes complex asset creation
+
+### PCE: Planner-Composer-Evaluator for Embodied Agents
+**ID:** 2602.04326
+**Key:** Uncertainty-aware planning with decision trees
+**Approach:** Converts LLM assumptions into structured decision tree (assumptions→actions)
+**Results:** Outperforms communication-centric baselines on C-WAH and TDW-MAT; ICLR 2026
+**Impact:** Reduces communication overhead; produces human-perceived efficient/trustworthy patterns
+
+### Agent-Omit: Adaptive Thought/Observation Omission
+**ID:** 2602.04284
+**Key:** Selective omission training via RL
+**Approach:** Cold-start data + omit-aware RL with dual sampling
+**Results:** Agent-Omit-8B comparable to 7 frontier LLM agents; best efficiency trade-off
+**Impact:** Adaptive behavior reduces redundant computation during multi-turn interactions
+
+### Empirical-MCTS: Continuous Agent Evolution
+**ID:** 2602.04248
+**Key:** Dual-loop framework (local + global memory)
+**Approach:** PE-EMP for local meta-prompt evolution + Memory Optimization Agent
+**Results:** Outperforms stateless MCTS and experience-driven agents on AIME25, ARC-AGI-2, MathArena Apex
+**Impact:** Transforms stateless search into continuous learning; accumulates wisdom across problems
+
+### OMG-Agent: Missing Modality Generation
+**ID:** 2602.04144
+**Key:** Decoupled coarse-to-fine workflow
+**Approach:** 3 stages: MLLM Semantic Planner, Evidence Retriever, Retrieval-Injected Executor
+**Results:** 2.6-point gain on CMU-MOSI at 70% missing rate
+**Impact:** Overcomes Semantic-Detail Entanglement; robust under extreme missingness
+
 ### S3-CoT: Succinct Chain-of-Thought
 **ID:** 2602.01982
 **Key:** System 1/2 dual cognitive
@@ -222,6 +288,12 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 **Key:** Structure-aware agentic QA
 **Approach:** Leverages document structure for better QA
 **Impact:** Improves document understanding for agents
+
+### AgentArk: Distilling Multi-Agent Intelligence
+**ID:** 2602.03955
+**Key:** Multi-agent to single-agent distillation
+**Approach:** 3 strategies: reasoning-enhanced fine-tuning, trajectory augmentation, process-aware distillation
+**Impact:** Transforms test-time interactions into model weights; maintains reasoning of multi-agent with single-agent efficiency
 
 ### PL-Distill: Audio-Language Compression
 **ID:** 2602.01547
@@ -306,6 +378,16 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 - SAE-based MARL analysis
 - LLM evaluator bias metrics
 
+### 6. Self-Improvement Paradigms
+- Group-evolution with experience sharing
+- Continuous empirical accumulation (Empirical-MCTS)
+- Model distillation (AgentArk: multi→single agent)
+
+### 7. Domain-Specific Evaluation
+- Healthcare 7-dimensional taxonomy
+- Negotiation benchmarks
+- Missing modality generation workflows
+
 ---
 
 ## Research Directions Identified
@@ -330,6 +412,6 @@ Total papers analyzed: **33 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
 - **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-200 of 1,516 total
+- **Scan status:** Entries 1-250 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
