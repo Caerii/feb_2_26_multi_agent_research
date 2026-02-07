@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **207 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **217 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -58,6 +58,15 @@ Total papers analyzed: **207 multi-agent systems** from arXiv cs.AI
 - Decentralized commitment mechanisms (blockchain-based coordination without mediation)
 - Hierarchical uncertainty-aware planning (multi-level robustness for real-world deployment)
 - Constraint-driven collaborative planning (PMC decomposition, MACI meta-planning)
+- Communication-aware MARL frameworks (9-dimensional Comm-MADRL taxonomy)
+- Environmental surprise communication for OOD adaptation (shared novelty signals)
+- Game-theoretic stable MARL (Nash equilibrium trust region optimization)
+- Hierarchical reflection architectures (multi-temporal error recovery)
+- Spatio-temporal planning agents (hierarchical data curation cascading recipe)
+- Permutation-invariant team formation (optimal grouping via option-critic networks)
+- Formal normative frameworks (Kelsenian contrary-to-duty logic)
+- Hyperedge relational reasoning (group-wise social intelligence inference)
+- Adaptive coopetition mechanisms (UCB-based resilience with verification)
 - Privacy-preserved multi-robot coordination (independent specs with global collaborative specs)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
@@ -218,6 +227,15 @@ Total papers analyzed: **207 multi-agent systems** from arXiv cs.AI
 | Agentic Software Project Management | 2601.16392 | Junior PM multi-agent system for Software Engineering 3.0 |
 | XAMT Memory Security | 2512.15790 | Bilevel optimization for covert memory poisoning defense |
 | AI-enhanced Collective Intelligence | 2403.10433 | Multilayer representation for human-AI collectives (cognition/physical/info layers) |
+| Survey of Multi-Agent Deep RL with Communication | 2203.08975 | 34-page survey on Comm-MADRL frameworks |
+| Communicating Unexpectedness for OOD MARL | 2501.01140 | Agents communicate environment surprise for adaptation |
+| Game-Theoretic MARL Trust Region | 2106.06828 | MATRL for stable multi-agent learning optimization |
+| MobileUse: Hierarchical GUI Agent | 2507.16853 | Multi-temporal reflection for mobile automation |
+| AMAP Agentic Planning | 2512.24957 | Spatio-temporal planning with hierarchical data curation |
+| Hierarchical RL for Agent Grouping | 2501.06554 | Optimal team formation with permutation-invariant networks |
+| Normative MAS from Kelsenian Perspective | 1709.02018 | Formal normative logic with contrary-to-duty support |
+| Multi-Agent Dynamic Relational Reasoning | 2401.12275 | Hyperedge inference for group-wise social intelligence |
+| Adaptive Coopetition for Resilient Reasoning | 2510.18179 | UCB-based coopetition with verifier signals |
 | Operational Collective Intelligence | 2402.13273 | Aggregative crowdsourced forecasting for coordinated decision-making |
 | Artificial Collective Intelligence Engineering | 2304.05147 | 34-page comprehensive survey on engineering computational collectives |
 | Emergent Collective Intelligence | 2301.01609 | Massive-agent cooperation/competition via Lux environment (self-play emergence) |
@@ -1671,6 +1689,73 @@ Total papers analyzed: **207 multi-agent systems** from arXiv cs.AI
 **Key:** Long-sequence video understanding via multi-agent stage pipeline
 **Approach:** Multi-agent framework with 3E principle (Explore, Examine, Enhance) for long-sequence video storytelling and understanding; Explore agent identifies key scenes, Examine agent analyzes details, Enhance agent synthesizes narrative; handles hour-level videos requiring temporal coherence
 **Impact:** Models distributed analysis of long-duration temporal data useful for virtual organizations processing extended event sequences from sensor feeds or operation logs
+
+---
+
+## Batch 20: Learning, Hierarchical & Relational Reasoning Papers
+
+### Survey of Multi-Agent Deep RL with Communication
+**ID:** 2203.08975
+**Key:** 34-page comprehensive survey with 9-dimensional Comm-MADRL analysis
+**Approach:** Provides systematic survey of multi-agent deep reinforcement learning with communication (Comm-MADRL) organizing 130+ papers across 9 dimensions: communication objectives, protocols, architectures, message representations, learning algorithms, environments, benchmark tasks, datasets, evaluation metrics; analyzes fundamental questions about when/what/how to communicate; proposes research directions at intersection of MARL and communication
+**Results:** Comprehensive taxonomy enabling systematic selection of communication approaches for specific MAS requirements; reveals gaps in communication-aware MARL research
+**Impact:** Essential reference for virtual AI organizations designing communication infrastructure enabling agents to coordinate effectively across distributed operations
+
+### Communicating Unexpectedness for OOD Multi-Agent Reinforcement Learning
+**ID:** 2501.01140
+**Key:** Agents share environmental surprise signals for adaptation to novel situations
+**Approach:** Introduces framework where agents communicate their experienced environmental unexpectedness (deviation from expected outcomes) enabling collective identification of out-of-distribution situations; agents maintain novelty detectors and broadcast surprise signals; group-level adaptation triggered by consensus on unexpected circumstances
+**Results:** Demonstrated improved adaptation to novel environments compared to isolated agent approaches; collective surprise communication enables faster convergence on appropriate responses
+**Impact:** Provides mechanism for virtual organizations operating in dynamic environments where agents must collectively recognize and adapt to unprecedented situations
+
+### Game-Theoretic MARL Trust Region
+**ID:** 2106.06828
+**Key:** MATRL for stable multi-agent learning optimization via Nash equilibrium
+**Approach:** Introduces Multi-Agent Trust Region Learning (MATRL) algorithm using game-theoretic trust region optimization; constrains policy updates to maintain stability across multi-agent interactions; leverages Nash equilibrium concepts ensuring no agent benefits from deviating from coordinated strategy
+**Results:** Stable convergence in multi-agent scenarios with reduced performance oscillations compared to vanilla multi-agent RL; improved sample efficiency through constrained optimization
+**Impact:** Provides theoretically-grounded training approach for virtual organizations requiring reliable, stable multi-agent learning without destabilizing oscillations
+
+### MobileUse: GUI Agent with Hierarchical Reflection
+**ID:** 2507.16853
+**Key:** Multi-temporal reflection architecture for robust mobile task execution
+**Approach:** Multi-agent GUI automation framework for mobile devices with hierarchical reflection architecture comprising short-term (immediate error recovery), mid-term (subgoal adjustment), and long-term (strategy revision) reflection layers; multiple reflection agents operating at different temporal granularities monitoring and correcting execution trajectory
+**Results:** Significantly improved robustness and error recovery on mobile GUI automation benchmarks; multi-temporal reflection enables adaptation to dynamic application states
+**Impact:** Provides pattern for virtual organizations building resilient agents capable of self-correction across multiple time horizons in changing operational environments
+
+### AMAP Agentic Planning Technical Report
+**ID:** 2512.24957
+**Key:** Spatio-temporal planning agent with hierarchical data curation
+**Approach:** Advanced Multi-Agent Planning (AMAP) framework specializing in spatio-temporal planning with hierarchical data curation approach; uses cascading training recipe where data quality improves through staged curation processes; agents coordinate across spatial and temporal dimensions handling constraints of time-dependent planning tasks
+**Results:** Demonstrated effectiveness on complex planning benchmarks requiring spatio-temporal coordination; hierarchical curation reduces noisy training data leading to better planning policies
+**Impact:** Provides blueprint for virtual organizations requiring agents to coordinate across space and time (logistics, scheduling, resource allocation) with data quality improvements through staged processes
+
+### Hierarchical Reinforcement Learning for Optimal Agent Grouping
+**ID:** 2501.06554
+**Key:** Permutation-invariant networks for team formation optimization
+**Approach:** Hierarchical RL framework solving optimal agent grouping problem where agents must form teams maximizing collective performance; uses permutation-invariant networks handling variable team sizes without requiring agent identity order; integrates option-critic architecture enabling learning of team formation strategies
+**Results:** Outperforms baseline grouping methods on multi-agent benchmarks; permutation invariance ensures scalable performance across varying team compositions; learned strategies transfer to novel team sizes
+**Impact:** Enables virtual organizations to dynamically form optimal teams and groupings without explicit team definitions, facilitating flexible organizational structure adaptation
+
+### Normative Multi-Agent Systems from Kelsenian Perspective
+**ID:** 1709.02018
+**Key:** Formal normative logic framework supporting contrary-to-duty scenarios
+**Approach:** Develops formal framework for normative multi-agent systems based on Kelsenian theory of law; introduces deontic logic supporting contrary-to-duty obligations (scenarios where agent action creates new obligation); formalizes normative reasoning enabling compliance checking and enforcement in multi-agent contexts
+**Results:** Correctly handles complex normative scenarios including contrary-to-duty obligations; provides logic-based verification capabilities for normative systems
+**Impact:** Provides theoretical foundation for virtual organizations with formal governance requirements where agents must navigate complex normative systems including remedial obligations
+
+### Multi-Agent Dynamic Relational Reasoning
+**ID:** 2401.12275
+**Key:** Hyperedge inference for group-wise social intelligence in robot navigation
+**Approach:** Multi-agent relational reasoning framework using dynamic hypergraph representation capturing group-wise relationships; agents perform hyperedge inference understanding multi-entity relational structures beyond pairwise interactions; applied to robot navigation scenarios requiring understanding of group behaviors
+**Results:** Superior performance on navigation tasks requiring understanding of group dynamics; hyperedge representation captures complex relational patterns not expressible with pairwise graphs
+**Impact:** Enables virtual AI organizations to develop agents understanding group-level social phenomena and collective behaviors beyond individual relationships
+
+### Adaptive Coopetition for Resilient Reasoning
+**ID:** 2510.18179
+**Key:** UCB-based coopetition mechanism with verifier signals
+**Approach:** Framework implementing adaptive coopetition where agents dynamically switch between cooperative and competitive modes based on confidence; uses Upper Confidence Bound (UCB) strategy for mode selection balancing exploration and collaboration; incorporates verifier signals providing feedback on reasoning quality guiding adaptation
+**Results:** Improved resilience to adversarial examples through adaptive mode switching; better performance on reasoning benchmarks with cooperative-competitive balance tuned via UCB
+**Impact:** Provides resilience mechanism for virtual organizations where agents need flexible collaboration strategies adapting to task complexity and confidence levels
 
 ---
 
