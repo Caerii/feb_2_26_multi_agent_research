@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -23,6 +23,11 @@ Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
 - Dynamic communication topology (TodyComm policy gradient)
 - Routing collapse mitigation (EquiRouter decision-aware ranking)
 - Actor-Refiner search collaboration (Search-R2 targeted correction)
+- Proactive intent modeling (IntentRL RL framework)
+- Compositional skill synthesis (Agentic Proposing synthetic trajectories)
+- Framework benchmarking (MAFBench unified evaluation)
+- Process verification (MAS-ProVe cross-paradigm study)
+- Division of labor patterns (Analyzer-Reasoner-Executor for time series)
 
 ---
 
@@ -68,6 +73,11 @@ Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
 | Conversational Inertia | 2602.03664 | Context Preference Learning for multi-turn agents |
 | EquiRouter | 2602.03478 | Decision-aware ranking to mitigate routing collapse (17% cost reduction) |
 | Search-R2 | 2602.03647 | Actor-Refiner collaboration for search-integrated reasoning |
+| IntentRL | 2602.03468 | Proactive user-intent agents for deep research via RL |
+| Agentic Proposing | 2602.03279 | Compositional skill synthesis with synthetic trajectories |
+| Understanding Multi-Agent LLM Frameworks | 2602.03128 | MAFBench unified evaluation for framework choices |
+| MAS-ProVe | 2602.03053 | Process verification across paradigms and contexts |
+| Visual Reasoning over Time Series (MAS4TS) | 2602.03026 | Analyzer-Reasoner-Executor paradigm |
 
 ### Efficiency & Infrastructure
 
@@ -477,6 +487,41 @@ Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
 **Results:** Outperforms strong RAG and RL baselines across general and multi-hop QA datasets; superior accuracy with minimal overhead
 **Impact:** Addresses sparse trajectory-level reward limitation; targeted intervention for search-integrated agents
 
+### IntentRL: Proactive User-Intent Agents for Deep Research
+**ID:** 2602.03468
+**Key:** Reinforcement learning for proactive deep research agents
+**Approach:** Formulates user-intent alignment as RL problem; agents learn to anticipate and proactively gather relevant information beyond explicit queries
+**Results:** Demonstrates effectiveness on deep research benchmarks with improved coverage and relevance
+**Impact:** Moves agentic systems from reactive to proactive; enables deeper research assistance
+
+### Agentic Proposing: Compositional Skill Synthesis
+**ID:** 2602.03279
+**Key:** Modular skill composition via synthetic trajectories
+**Approach:** Decomposes complex tasks into composable skills; uses synthetic trajectory generation for training; 30B solver achieves SOTA
+**Results:** 91.6% on AIME25 with 11K synthetic trajectories; scales effectively with trajectory diversity
+**Impact:** Demonstrates data-efficient skill learning; modular approach enables rapid skill acquisition
+
+### Understanding Multi-Agent LLM Frameworks
+**ID:** 2602.03128
+**Key:** MAFBench unified evaluation for framework impact
+**Approach:** Comprehensive benchmark testing different framework choices (memory, communication, routing) on multiple tasks
+**Results:** Framework choices increase latency 100x+ for minor accuracy gains; identifies optimal configurations
+**Impact:** Provides evidence for framework design decisions; highlights performance-cost trade-offs
+
+### MAS-ProVe: Process Verification Across Paradigms
+**ID:** 2602.03053
+**Key:** Verification study across 3 paradigms and 4 context strategies
+**Approach:** Evaluates process verification effectiveness across different MAS paradigms and context management strategies
+**Results:** Identifies best combinations of verification approaches and context strategies
+**Impact:** Advances understanding of verification in multi-agent systems; provides guidelines
+
+### Visual Reasoning over Time Series (MAS4TS)
+**ID:** 2602.03026
+**Key:** Multi-agent Analyzer-Reasoner-Executor paradigm
+**Approach:** Three-agent collaboration: Analyzer extracts insights, Reasoner performs reasoning, Executor produces answers for time series data
+**Results:** Effective on visual reasoning benchmarks with time series data
+**Impact:** Demonstrates multi-agent division of labor for complex temporal reasoning
+
 ---
 
 ## Cross-Cutting Trends
@@ -540,6 +585,6 @@ Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
 - **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-400 of 1,516 total
+- **Scan status:** Entries 1-500 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
