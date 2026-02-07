@@ -12,6 +12,7 @@
       "focus": "Dynamic topology routing with semantic matching",
       "tags": {
         "use_case": [
+          "#communication",
           "#memory"
         ],
         "technical": [
@@ -37,7 +38,6 @@
           "#negotiation"
         ],
         "technical": [
-          "#simulation",
           "#benchmark"
         ],
         "application": [
@@ -79,7 +79,8 @@
       "focus": "Temporal knowledge graph reasoning via agentic RL",
       "tags": {
         "use_case": [
-          "#general"
+          "#memory",
+          "#verification"
         ],
         "technical": [
           "#general"
@@ -189,10 +190,9 @@
       "focus": "MBA negotiation benchmark with behavioral profiling",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#general"
         ],
         "technical": [
-          "#simulation",
           "#benchmark"
         ],
         "application": [
@@ -256,13 +256,10 @@
       "focus": "LLM-based communication with conformal prediction",
       "tags": {
         "use_case": [
-          "#communication",
-          "#verification"
+          "#communication"
         ],
         "technical": [
-          "#deep-learning",
-          "#llm",
-          "#formal-methods"
+          "#llm"
         ],
         "application": [
           "#general"
@@ -271,7 +268,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#theoretical"
+          "#experimental"
         ]
       }
     },
@@ -281,7 +278,6 @@
       "focus": "Parallel agentic memory reuse across teams",
       "tags": {
         "use_case": [
-          "#team-formation",
           "#memory"
         ],
         "technical": [
@@ -329,13 +325,13 @@
           "#human-in-loop"
         ],
         "technical": [
-          "#general"
+          "#benchmark"
         ],
         "application": [
           "#scientific-discovery"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -352,7 +348,6 @@
         ],
         "technical": [
           "#marl",
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -372,7 +367,7 @@
       "focus": "Skill-based HTN retrieval with co-evolution",
       "tags": {
         "use_case": [
-          "#general"
+          "#memory"
         ],
         "technical": [
           "#planning"
@@ -394,8 +389,7 @@
       "focus": "Open-ended self-improvement via experience sharing",
       "tags": {
         "use_case": [
-          "#team-formation",
-          "#verification"
+          "#team-formation"
         ],
         "technical": [
           "#general"
@@ -571,7 +565,7 @@
       "focus": "Information-theoretic framework: 2 diverse ≈ 16 homogeneous",
       "tags": {
         "use_case": [
-          "#team-formation"
+          "#general"
         ],
         "technical": [
           "#simulation"
@@ -580,7 +574,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-medium"
         ],
         "maturity": [
           "#theoretical"
@@ -593,7 +587,7 @@
       "focus": "Automated sub-agent creation (16.28% improvement)",
       "tags": {
         "use_case": [
-          "#verification"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -690,7 +684,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-medium"
         ],
         "maturity": [
           "#experimental"
@@ -703,7 +697,7 @@
       "focus": "Proactive user-intent agents via RL",
       "tags": {
         "use_case": [
-          "#general"
+          "#human-in-loop"
         ],
         "technical": [
           "#general"
@@ -750,20 +744,17 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
-          "#simulation",
           "#benchmark"
         ],
         "application": [
           "#general"
         ],
         "scalability": [
-          "#scale-medium",
-          "#scale-large"
+          "#scale-medium"
         ],
         "maturity": [
-          "#theoretical"
+          "#experimental"
         ]
       }
     },
@@ -861,11 +852,10 @@
       "focus": "Auction-based scaling for small agents",
       "tags": {
         "use_case": [
-          "#negotiation",
-          "#economic"
+          "#negotiation"
         ],
         "technical": [
-          "#general"
+          "#game-theory"
         ],
         "application": [
           "#general"
@@ -890,7 +880,7 @@
           "#general"
         ],
         "application": [
-          "#general"
+          "#scientific-discovery"
         ],
         "scalability": [
           "#scale-medium"
@@ -1016,7 +1006,7 @@
       "focus": "Information gain reward for retrieval reasoning",
       "tags": {
         "use_case": [
-          "#team-formation"
+          "#memory"
         ],
         "technical": [
           "#general"
@@ -1041,7 +1031,7 @@
           "#general"
         ],
         "technical": [
-          "#general"
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -1050,7 +1040,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#experimental"
+          "#applied"
         ]
       }
     },
@@ -1086,7 +1076,7 @@
           "#general"
         ],
         "technical": [
-          "#general"
+          "#formal-methods"
         ],
         "application": [
           "#general"
@@ -1105,11 +1095,11 @@
       "focus": "Federated knowledge exchange for tool-routed LLMs",
       "tags": {
         "use_case": [
+          "#memory",
           "#federated"
         ],
         "technical": [
-          "#deep-learning",
-          "#llm"
+          "#general"
         ],
         "application": [
           "#general"
@@ -1153,7 +1143,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1217,7 +1206,7 @@
       "focus": "Decentralized log-mediated reasoning framework",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#general"
         ],
         "technical": [
           "#simulation"
@@ -1239,17 +1228,17 @@
       "focus": "LLM-assisted swarm intelligence for collective AI",
       "tags": {
         "use_case": [
+          "#team-formation",
           "#large-scale"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -1262,15 +1251,13 @@
       "focus": "Privacy-preserving LLM UAV swarms",
       "tags": {
         "use_case": [
-          "#federated",
-          "#large-scale"
+          "#federated"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
-          "#general"
+          "#robotics"
         ],
         "scalability": [
           "#scale-medium"
@@ -1291,7 +1278,6 @@
           "#human-in-loop"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
           "#simulation"
         ],
@@ -1299,7 +1285,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#theoretical"
@@ -1312,7 +1298,7 @@
       "focus": "Tool knowledge graphs for planning",
       "tags": {
         "use_case": [
-          "#general"
+          "#memory"
         ],
         "technical": [
           "#planning"
@@ -1403,7 +1389,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1426,7 +1411,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1578,7 +1562,7 @@
       "focus": "Knowledge base-aware routing for MAS",
       "tags": {
         "use_case": [
-          "#general"
+          "#memory"
         ],
         "technical": [
           "#general"
@@ -1603,9 +1587,7 @@
           "#team-formation"
         ],
         "technical": [
-          "#deep-learning",
-          "#planning",
-          "#llm"
+          "#planning"
         ],
         "application": [
           "#robotics"
@@ -1627,10 +1609,9 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
+          "#llm",
           "#planning",
-          "#pddl",
-          "#llm"
+          "#pddl"
         ],
         "application": [
           "#robotics"
@@ -1652,9 +1633,7 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
-          "#simulation",
           "#benchmark"
         ],
         "application": [
@@ -1696,12 +1675,10 @@
       "focus": "Linguistic effects in LLM negotiations",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#general"
         ],
         "technical": [
-          "#deep-learning",
-          "#llm",
-          "#game-theory"
+          "#llm"
         ],
         "application": [
           "#general"
@@ -1723,7 +1700,6 @@
           "#negotiation"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1790,7 +1766,6 @@
           "#human-in-loop"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1832,6 +1807,7 @@
       "focus": "Monitoring protocol with up to 20% performance gain",
       "tags": {
         "use_case": [
+          "#governance",
           "#safety"
         ],
         "technical": [
@@ -1854,11 +1830,11 @@
       "focus": "Environment-based verifier for Einstein Puzzles",
       "tags": {
         "use_case": [
-          "#communication",
           "#verification"
         ],
         "technical": [
-          "#formal-methods"
+          "#formal-methods",
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -1880,7 +1856,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -1922,6 +1897,7 @@
       "focus": "Internet of Agents protocol suite with registration/discovery/interaction",
       "tags": {
         "use_case": [
+          "#governance",
           "#human-in-loop"
         ],
         "technical": [
@@ -1944,10 +1920,10 @@
       "focus": "AI-native 3-layer system for agent internet communication",
       "tags": {
         "use_case": [
-          "#communication"
+          "#governance"
         ],
         "technical": [
-          "#general"
+          "#deep-learning"
         ],
         "application": [
           "#telecom"
@@ -2055,16 +2031,17 @@
       "focus": "Multilayer representation for human-AI collectives (cognition/physical/info layers)",
       "tags": {
         "use_case": [
+          "#large-scale",
           "#human-in-loop"
         ],
         "technical": [
-          "#general"
+          "#deep-learning"
         ],
         "application": [
           "#robotics"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -2077,10 +2054,10 @@
       "focus": "34-page survey on Comm-MADRL frameworks",
       "tags": {
         "use_case": [
-          "#communication"
+          "#general"
         ],
         "technical": [
-          "#simulation"
+          "#marl"
         ],
         "application": [
           "#general"
@@ -2089,8 +2066,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#survey",
-          "#theoretical"
+          "#survey"
         ]
       }
     },
@@ -2100,10 +2076,11 @@
       "focus": "Agents communicate environment surprise for adaptation",
       "tags": {
         "use_case": [
-          "#communication"
+          "#general"
         ],
         "technical": [
-          "#marl"
+          "#marl",
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -2144,7 +2121,7 @@
       "focus": "Multi-temporal reflection for mobile automation",
       "tags": {
         "use_case": [
-          "#general"
+          "#verification"
         ],
         "technical": [
           "#general"
@@ -2166,7 +2143,7 @@
       "focus": "Spatio-temporal planning with hierarchical data curation",
       "tags": {
         "use_case": [
-          "#general"
+          "#verification"
         ],
         "technical": [
           "#planning"
@@ -2194,7 +2171,7 @@
           "#general"
         ],
         "application": [
-          "#telecom"
+          "#general"
         ],
         "scalability": [
           "#scale-medium"
@@ -2255,7 +2232,7 @@
       "focus": "UCB-based coopetition with verifier signals",
       "tags": {
         "use_case": [
-          "#communication"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -2277,7 +2254,7 @@
       "focus": "Aggregative crowdsourced forecasting for coordinated decision-making",
       "tags": {
         "use_case": [
-          "#general"
+          "#large-scale"
         ],
         "technical": [
           "#general"
@@ -2286,7 +2263,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -2299,7 +2276,7 @@
       "focus": "34-page comprehensive survey on engineering computational collectives",
       "tags": {
         "use_case": [
-          "#general"
+          "#large-scale"
         ],
         "technical": [
           "#general"
@@ -2308,7 +2285,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#survey"
@@ -2324,13 +2301,12 @@
           "#large-scale"
         ],
         "technical": [
-          "#general"
+          "#simulation"
         ],
         "application": [
           "#general"
         ],
         "scalability": [
-          "#scale-large",
           "#scale-massive"
         ],
         "maturity": [
@@ -2367,17 +2343,18 @@
       "focus": "Swarm Intelligence Enhanced Reasoning for LLM multi-agent optimization",
       "tags": {
         "use_case": [
+          "#team-formation",
           "#large-scale"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-medium",
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -2456,11 +2433,9 @@
       "focus": "LLM+Blockchain for medical supply chain transparency and coordination",
       "tags": {
         "use_case": [
-          "#negotiation",
           "#supply-chain"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -2481,7 +2456,6 @@
       "focus": "Demand forecasting, supplier selection, and multi-agent negotiation for retail",
       "tags": {
         "use_case": [
-          "#negotiation",
           "#supply-chain"
         ],
         "technical": [
@@ -2504,11 +2478,11 @@
       "focus": "Strategic Planning, Interaction, and Negotiation benchmark for social reasoning",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#general"
         ],
         "technical": [
           "#planning",
-          "#simulation",
+          "#game-theory",
           "#benchmark"
         ],
         "application": [
@@ -2528,7 +2502,8 @@
       "focus": "Deep RL for self-interested team formation and joint plan agreement",
       "tags": {
         "use_case": [
-          "#team-formation"
+          "#team-formation",
+          "#governance"
         ],
         "technical": [
           "#general"
@@ -2550,10 +2525,10 @@
       "focus": "LLM-driven agents for ant colony foraging and bird flocking simulation",
       "tags": {
         "use_case": [
+          "#team-formation",
           "#large-scale"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
           "#simulation"
         ],
@@ -2561,10 +2536,11 @@
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-medium",
+          "#scale-massive"
         ],
         "maturity": [
-          "#applied"
+          "#experimental"
         ]
       }
     },
@@ -2596,11 +2572,9 @@
       "focus": "Communicative multimodal multi-agent benchmark with language collaboration",
       "tags": {
         "use_case": [
-          "#communication",
           "#human-in-loop"
         ],
         "technical": [
-          "#simulation",
           "#benchmark"
         ],
         "application": [
@@ -2620,11 +2594,10 @@
       "focus": "55,000 Minecraft task variants for multi-modal multi-agent collaboration",
       "tags": {
         "use_case": [
-          "#team-formation",
           "#human-in-loop"
         ],
         "technical": [
-          "#general"
+          "#formal-methods"
         ],
         "application": [
           "#general"
@@ -2646,7 +2619,8 @@
           "#general"
         ],
         "technical": [
-          "#marl"
+          "#marl",
+          "#deep-learning"
         ],
         "application": [
           "#telecom"
@@ -2668,7 +2642,7 @@
           "#general"
         ],
         "technical": [
-          "#formal-methods"
+          "#general"
         ],
         "application": [
           "#manufacturing-ops",
@@ -2710,7 +2684,6 @@
       "focus": "Multi-echelon multi-commodity inventory management simulator",
       "tags": {
         "use_case": [
-          "#communication",
           "#supply-chain"
         ],
         "technical": [
@@ -2737,7 +2710,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
           "#simulation"
         ],
@@ -2748,8 +2720,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#theoretical",
-          "#applied"
+          "#theoretical"
         ]
       }
     },
@@ -2759,7 +2730,7 @@
       "focus": "Multi-task communication with Transformer encoder",
       "tags": {
         "use_case": [
-          "#communication"
+          "#general"
         ],
         "technical": [
           "#deep-learning",
@@ -2782,7 +2753,7 @@
       "focus": "Financial markets agent simulation framework",
       "tags": {
         "use_case": [
-          "#economic"
+          "#general"
         ],
         "technical": [
           "#simulation"
@@ -2826,7 +2797,7 @@
       "focus": "MARL for wireless network resource allocation",
       "tags": {
         "use_case": [
-          "#general"
+          "#task-allocation"
         ],
         "technical": [
           "#marl"
@@ -2895,7 +2866,6 @@
           "#large-scale"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
           "#simulation"
         ],
@@ -2904,7 +2874,6 @@
         ],
         "scalability": [
           "#scale-medium",
-          "#scale-large",
           "#scale-massive"
         ],
         "maturity": [
@@ -2943,16 +2912,17 @@
           "#federated"
         ],
         "technical": [
-          "#general"
+          "#marl"
         ],
         "application": [
+          "#manufacturing-ops",
           "#telecom"
         ],
         "scalability": [
           "#scale-medium"
         ],
         "maturity": [
-          "#experimental"
+          "#applied"
         ]
       }
     },
@@ -2962,11 +2932,10 @@
       "focus": "F-MAPPO for 14% UX improvement while preserving local privacy",
       "tags": {
         "use_case": [
-          "#federated",
-          "#verification"
+          "#federated"
         ],
         "technical": [
-          "#general"
+          "#marl"
         ],
         "application": [
           "#general"
@@ -2988,7 +2957,7 @@
           "#federated"
         ],
         "technical": [
-          "#general"
+          "#marl"
         ],
         "application": [
           "#healthcare"
@@ -3007,7 +2976,8 @@
       "focus": "Orchestrated knowledge-driven multi-agent team with Biologist/Chemist/Pharmacologist",
       "tags": {
         "use_case": [
-          "#team-formation"
+          "#team-formation",
+          "#memory"
         ],
         "technical": [
           "#general"
@@ -3051,7 +3021,6 @@
       "focus": "Decentralized RL for multi-agent teams managing unexpected task loads",
       "tags": {
         "use_case": [
-          "#team-formation",
           "#task-allocation"
         ],
         "technical": [
@@ -3086,7 +3055,8 @@
           "#general"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-medium",
+          "#scale-massive"
         ],
         "maturity": [
           "#experimental"
@@ -3099,7 +3069,7 @@
       "focus": "Full-pipeline AutoML with retrieval-augmented planning",
       "tags": {
         "use_case": [
-          "#general"
+          "#memory"
         ],
         "technical": [
           "#planning"
@@ -3124,7 +3094,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -3134,8 +3103,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#survey",
-          "#applied"
+          "#survey"
         ]
       }
     },
@@ -3145,7 +3113,6 @@
       "focus": "Shielded Multi-Agent RL with probabilistic logic",
       "tags": {
         "use_case": [
-          "#safety",
           "#verification"
         ],
         "technical": [
@@ -3169,7 +3136,6 @@
       "focus": "Agent-based fuzzy logic negotiation for cloud infrastructure",
       "tags": {
         "use_case": [
-          "#negotiation",
           "#task-allocation",
           "#verification"
         ],
@@ -3193,8 +3159,7 @@
       "focus": "Belief-Desire-Intention agents for cloud resource trading",
       "tags": {
         "use_case": [
-          "#negotiation",
-          "#economic"
+          "#negotiation"
         ],
         "technical": [
           "#general"
@@ -3216,7 +3181,7 @@
       "focus": "Alternating Constrained Offers Protocol for efficient network-edge negotiation",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#governance"
         ],
         "technical": [
           "#general"
@@ -3238,7 +3203,7 @@
       "focus": "Mean field MARL for 1000-device spectrum sharing negotiation",
       "tags": {
         "use_case": [
-          "#negotiation",
+          "#communication",
           "#large-scale"
         ],
         "technical": [
@@ -3261,7 +3226,7 @@
       "focus": "CVaR-aware agentic negotiation for 6G network slicing",
       "tags": {
         "use_case": [
-          "#negotiation"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -3283,6 +3248,7 @@
       "focus": "Comprehensive survey: past, present, future of swarm robotics",
       "tags": {
         "use_case": [
+          "#team-formation",
           "#large-scale"
         ],
         "technical": [
@@ -3292,7 +3258,7 @@
           "#robotics"
         ],
         "scalability": [
-          "#scale-medium"
+          "#scale-massive"
         ],
         "maturity": [
           "#survey"
@@ -3305,6 +3271,7 @@
       "focus": "Laplacian-based arena shape identification via emergent consensus",
       "tags": {
         "use_case": [
+          "#team-formation",
           "#large-scale"
         ],
         "technical": [
@@ -3314,7 +3281,6 @@
           "#robotics"
         ],
         "scalability": [
-          "#scale-medium",
           "#scale-massive"
         ],
         "maturity": [
@@ -3334,7 +3300,7 @@
           "#simulation"
         ],
         "application": [
-          "#general"
+          "#scientific-discovery"
         ],
         "scalability": [
           "#scale-medium"
@@ -3350,11 +3316,10 @@
       "focus": "Norm-adaptive policies for bargaining problems",
       "tags": {
         "use_case": [
-          "#governance",
-          "#negotiation"
+          "#governance"
         ],
         "technical": [
-          "#game-theory"
+          "#general"
         ],
         "application": [
           "#general"
@@ -3385,6 +3350,7 @@
           "#scale-medium"
         ],
         "maturity": [
+          "#theoretical",
           "#experimental"
         ]
       }
@@ -3395,14 +3361,13 @@
       "focus": "Blockchain-based commitment devices for coordination",
       "tags": {
         "use_case": [
-          "#governance",
-          "#communication"
+          "#governance"
         ],
         "technical": [
           "#general"
         ],
         "application": [
-          "#supply-chain-logistics"
+          "#general"
         ],
         "scalability": [
           "#scale-medium"
@@ -3419,7 +3384,6 @@
       "tags": {
         "use_case": [
           "#team-formation",
-          "#governance",
           "#human-in-loop"
         ],
         "technical": [
@@ -3442,6 +3406,7 @@
       "focus": "LTL-based human knowledge injection for planning agents",
       "tags": {
         "use_case": [
+          "#memory",
           "#verification",
           "#human-in-loop"
         ],
@@ -3469,7 +3434,8 @@
           "#general"
         ],
         "technical": [
-          "#planning"
+          "#planning",
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -3491,9 +3457,8 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
-          "#planning",
           "#llm",
+          "#planning",
           "#simulation"
         ],
         "application": [
@@ -3516,7 +3481,7 @@
           "#general"
         ],
         "technical": [
-          "#general"
+          "#planning"
         ],
         "application": [
           "#general"
@@ -3535,7 +3500,6 @@
       "focus": "Individual and collaborative specifications with privacy-preserved communication",
       "tags": {
         "use_case": [
-          "#communication",
           "#federated",
           "#verification"
         ],
@@ -3547,7 +3511,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-medium"
         ],
         "maturity": [
           "#experimental"
@@ -3569,7 +3533,7 @@
           "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-medium"
         ],
         "maturity": [
           "#experimental"
@@ -3582,7 +3546,7 @@
       "focus": "Taxonomy: miscoordination, conflict, collusion failure modes",
       "tags": {
         "use_case": [
-          "#safety"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -3594,7 +3558,7 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#experimental"
+          "#survey"
         ]
       }
     },
@@ -3661,7 +3625,8 @@
           "#scale-medium"
         ],
         "maturity": [
-          "#theoretical"
+          "#theoretical",
+          "#experimental"
         ]
       }
     },
@@ -3693,7 +3658,7 @@
       "focus": "Full asynchronism: 59-127% throughput improvement",
       "tags": {
         "use_case": [
-          "#verification"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -3715,16 +3680,16 @@
       "focus": "Succinct Chain-of-Thought with System 1/2 cognitive",
       "tags": {
         "use_case": [
-          "#general"
+          "#supply-chain"
         ],
         "technical": [
           "#general"
         ],
         "application": [
-          "#supply-chain-logistics"
+          "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-medium"
         ],
         "maturity": [
           "#experimental"
@@ -3825,7 +3790,7 @@
       "focus": "Distributed low-rank optimization (~10× comm reduction)",
       "tags": {
         "use_case": [
-          "#communication"
+          "#general"
         ],
         "technical": [
           "#general"
@@ -3850,7 +3815,6 @@
           "#federated"
         ],
         "technical": [
-          "#simulation",
           "#benchmark"
         ],
         "application": [
@@ -3876,7 +3840,7 @@
           "#general"
         ],
         "application": [
-          "#supply-chain-logistics"
+          "#general"
         ],
         "scalability": [
           "#scale-medium"
@@ -3892,8 +3856,8 @@
       "focus": "Communication/memory efficient FL fine-tuning",
       "tags": {
         "use_case": [
-          "#communication",
-          "#memory"
+          "#memory",
+          "#federated"
         ],
         "technical": [
           "#general"
@@ -4003,14 +3967,13 @@
       "focus": "Information bottleneck + vector quantization",
       "tags": {
         "use_case": [
-          "#team-formation",
           "#communication"
         ],
         "technical": [
           "#general"
         ],
         "application": [
-          "#general"
+          "#telecom"
         ],
         "scalability": [
           "#scale-medium"
@@ -4029,7 +3992,6 @@
           "#human-in-loop"
         ],
         "technical": [
-          "#deep-learning",
           "#llm"
         ],
         "application": [
@@ -4100,7 +4062,7 @@
           "#llm"
         ],
         "application": [
-          "#supply-chain-logistics"
+          "#general"
         ],
         "scalability": [
           "#scale-medium"
@@ -4141,7 +4103,7 @@
           "#general"
         ],
         "technical": [
-          "#general"
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -4188,13 +4150,14 @@
           "#marl"
         ],
         "application": [
-          "#general"
+          "#finance-trading",
+          "#scientific-discovery"
         ],
         "scalability": [
           "#scale-medium"
         ],
         "maturity": [
-          "#experimental"
+          "#survey"
         ]
       }
     },
@@ -4213,7 +4176,8 @@
           "#general"
         ],
         "scalability": [
-          "#scale-small"
+          "#scale-small",
+          "#scale-medium"
         ],
         "maturity": [
           "#experimental"
@@ -4251,9 +4215,9 @@
           "#safety"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
-          "#simulation"
+          "#simulation",
+          "#benchmark"
         ],
         "application": [
           "#general"
@@ -4319,7 +4283,6 @@
           "#general"
         ],
         "technical": [
-          "#deep-learning",
           "#llm",
           "#simulation"
         ],
@@ -4346,7 +4309,7 @@
           "#general"
         ],
         "application": [
-          "#general"
+          "#healthcare"
         ],
         "scalability": [
           "#scale-medium"
@@ -4368,7 +4331,7 @@
           "#general"
         ],
         "application": [
-          "#general"
+          "#healthcare"
         ],
         "scalability": [
           "#scale-medium"
@@ -4429,10 +4392,10 @@
       "focus": "Predictive guardrail via world models",
       "tags": {
         "use_case": [
-          "#general"
+          "#safety"
         ],
         "technical": [
-          "#general"
+          "#simulation"
         ],
         "application": [
           "#general"
@@ -4451,7 +4414,7 @@
       "focus": "Multi-agent emergent behavior evaluation framework",
       "tags": {
         "use_case": [
-          "#general"
+          "#large-scale"
         ],
         "technical": [
           "#simulation",
@@ -4465,7 +4428,8 @@
           "#scale-massive"
         ],
         "maturity": [
-          "#theoretical"
+          "#theoretical",
+          "#experimental"
         ]
       }
     }

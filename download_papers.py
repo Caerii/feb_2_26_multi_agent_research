@@ -33,13 +33,13 @@ def download_paper(paper_id, output_dir="papers"):
         if response.status_code == 200:
             with open(output_path, "wb") as f:
                 f.write(response.content)
-            print("✓")
+            print("OK")
             return True
         else:
-            print(f"✗ (HTTP {response.status_code})")
+            print(f"FAIL (HTTP {response.status_code})")
             return False
     except Exception as e:
-        print(f"✗ ({str(e)})")
+        print(f"FAIL ({str(e)})")
         return False
 
 
