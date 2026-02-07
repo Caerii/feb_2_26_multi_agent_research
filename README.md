@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -45,6 +45,14 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 - Graph-based tool planning (tool knowledge graph fusion with domain knowledge)
 - Agent action ordering (AOAD-MAT explicit sequence prediction in MARL)
 - Convention-based cooperation (augmented action space with implicit knowledge sharing)
+- Hierarchical agentic reasoning (multi-strategy coordination for science)
+- Interpretable alignment (rubric-based reward models for long-horizon tasks)
+- FSM-based orchestration (finite-state machine routing for desktop automation)
+- Knowledge-aware routing (privacy-preserving KB relevance signals)
+- Visual planning agents (VLLM zero-shot physical task planning)
+- PDDL-LLM coordination (separated team-level and robot-level planning)
+- LLM coordination benchmark (pure coordination settings with ToM evaluation)
+- Linguistic negotiation effects (language choice shifts agent outcomes)
 
 ---
 
@@ -116,7 +124,20 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 | AOAD-MAT | 2510.13343 | Agent order of action decisions in MARL |
 | Hanabi Conventions | 2412.06333 | Action space augmentation for cooperation |
 | Differential Voting | 2601.18824 | Axiomatically diverse preference aggregation |
- | Beyond Majority Voting | 2510.01499 | Higher-order LLM aggregation algorithms |
+| Beyond Majority Voting | 2510.01499 | Higher-order LLM aggregation algorithms |
+| MASTER | 2512.13930 | Hierarchical multi-agent LLM reasoning for materials discovery |
+| ARCANE | 2512.06196 | Multi-agent framework for interpretable alignment |
+| Agentic Reasoning Survey | 2601.12538 | Comprehensive agentic reasoning survey |
+| SMAGDi | 2511.05528 | Socratic interaction graph distillation for efficiency |
+| AutoTool | 2512.13278 | Dynamic tool selection for agentic reasoning |
+| Agentic Lybic | 2509.11067 | Multiagent execution with tiered orchestration |
+| Multi-Agent Orchestration Survey | 2601.13671 | Architectures, protocols, enterprise adoption |
+| KBA Orchestration | 2509.19599 | Knowledge base-aware routing for MAS |
+| Wonderful Team | 2407.19094 | Zero-shot physical task planning with visual LLMs |
+| PIP-LLM | 2510.22784 | PDDL-IP with LLMs for multi-robot coordination |
+| LLM-Coordination | 2310.03903 | Benchmark for LLM multi-agent coordination |
+| VirTLab | 2510.08242 | Interactive 2D environments for team dynamics |
+| The Language of Bargaining | 2601.04387 | Linguistic effects in LLM negotiations |
 
 ### Efficiency & Infrastructure
 
@@ -139,6 +160,7 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 | Bandwidth-Efficient Multi-Agent Comm | 2602.02035 | Information bottleneck + vector quantization |
 | COLT | 2602.01935 | Lightweight multi-LLM collaboration via shared MCTS |
 | TABX | 2602.01665 | High-throughput sandbox battle simulator |
+| Less is More | 2504.16408 | Quality-guided distillation for structured reasoning |
 
 ### Methodology & Safety
 
@@ -154,6 +176,7 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 | CAM | 2602.02138 | Causality-based analysis for code generation systems |
 | 4C Framework | 2602.01942 | Human society-inspired agentic security framework |
 | SafePred | 2602.01725 | Predictive guardrail via world models |
+| MAEBE | 2506.03053 | Multi-agent emergent behavior evaluation framework |
 
 ---
 
@@ -836,6 +859,111 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 **Results:** Consistently outperforms majority voting on synthetic datasets, UltraFeedback, MMLU, and ARMMAN healthcare
 **Impact:** Addresses limitations of equal-weight voting for multi-agent LLM pipelines
 
+### MASTER: Hierarchical Multi-Agent LLM Reasoning for Materials Discovery
+**ID:** 2512.13930
+**Key:** Multi-strategy coordination for autonomous scientific reasoning
+**Approach:** MASTER framework with hierarchical multi-agent LLM reasoning: multimodal system translates natural language into DFT workflows, higher-level reasoning agents guide discovery through multiple strategies (single agent baseline, peer review, triage-ranking, triage-forms)
+**Results:** Reasoning-driven exploration reduces required atomistic simulations by up to 90% relative to trial-and-error across CO adsorption on Cu-surface adatoms and M-N-C catalysts; reveals chemically grounded decisions
+**Impact:** Accelerates materials discovery and marks new paradigm for autonomous scientific exploration via multi-agent collaboration
+
+### ARCANE: Multi-Agent Framework for Interpretable Alignment
+**ID:** 2512.06196
+**Key:** Rubric-based reward models for long-horizon task alignment
+**Approach:** Frames alignment as multi-agent collaboration problem; dynamic stakeholder preferences as natural-language rubrics (weighted sets of verifiable criteria); Group-Sequence Policy Optimization (GSPO) balances interpretability, faithfulness, and efficiency
+**Results:** Evaluated on 219 labeled rubrics from GDPVal benchmark; produces compact, legible evaluations; enables configurable trade-offs (correctness vs. conciseness) without retraining
+**Impact:** Promising path toward interpretable, test-time adaptive alignment for complex, long-horizon AI systems
+
+### Agentic Reasoning Survey
+**ID:** 2601.12538
+**Key:** Comprehensive survey organizing agentic reasoning across three layers
+**Approach:** Three-layer organization: (1) foundational agentic reasoning (single-agent capabilities in stable environments), (2) self-evolving agentic reasoning (feedback, memory, adaptation), (3) collective multi-agent reasoning (coordination, knowledge sharing, shared goals); distinguishes in-context reasoning (test-time interaction) from post-training reasoning
+**Results:** Synthesizes representative frameworks across real-world applications and benchmarks in science, robotics, healthcare, autonomous research, mathematics
+**Impact:** Unified roadmap bridging thought and action; outlines open challenges including personalization, long-horizon interaction, world modeling, scalable multi-agent training, governance
+
+### SMAGDi: Socratic Multi-Agent Interaction Graph Distillation
+**ID:** 2511.05528
+**Key:** Interaction graph distillation for efficient reasoning
+**Approach:** Distills five-agent Llama-based MAS debate dynamics into 6B Socratic decomposer-solver student; represents debate traces as directed interaction graphs with correctness labels and cross-agent edges; composite objective with language modeling, graph supervision, contrastive reasoning, embedding alignment
+**Results:** Compresses 40B multi-agent system into 6B student while retaining 88% of accuracy on StrategyQA and MMLU; outperforms MAGDi, standard KD, fine-tuned baselines
+**Impact:** Explicitly modeling interaction graphs enables small models to inherit multi-agent benefits while remaining efficient for real-world deployment
+
+### AutoTool: Dynamic Tool Selection Integration for Agentic Reasoning
+**ID:** 2512.13278
+**Key:** Dynamic tool selection capability throughout reasoning trajectories
+**Approach:** 200k dataset with explicit tool-selection rationales across 1,000+ tools and 100+ tasks; dual-phase optimization: (i) supervised and RL-based trajectory stabilization for coherent reasoning, (ii) KL-regularized Plackett-Luce ranking for consistent multi-step tool selection
+**Results:** Trained Qwen3-8B and Qwen2.5-VL-7B; average gains: 6.4% in math & science reasoning, 4.5% in search-based QA, 7.7% in code generation, 6.9% in multimodal understanding; generalizes to unseen tools
+**Impact:** Enables LLM agents to dynamically select from evolving toolsets during inference
+
+### Agentic Lybic: Multi-Agent Execution with Tiered Orchestration
+**ID:** 2509.11067
+**Key:** FSM-based routing for adaptive desktop automation
+**Approach:** Multi-agent system operating as finite-state machine with dynamic orchestration; Controller, Manager, three Workers (Technician for code, Operator for GUI, Analyst for decisions), Evaluator; FSM routing enables adaptive replanning and error recovery
+**Results:** Achieves state-of-the-art 57.07% success rate on OSWorld benchmark in 50 steps; substantially outperforms existing methods
+**Impact:** Principled multi-agent orchestration with continuous quality control provides superior reliability for generalized desktop automation
+
+### Multi-Agent Orchestration Survey: Architectures, Protocols, Enterprise Adoption
+**ID:** 2601.13671
+**Key:** Unified architectural framework for orchestrated multi-agent systems
+**Approach:** Integrates planning, policy enforcement, state management, and quality operations into coherent orchestration layer; defines Model Context Protocol (standardizes agent access to external tools) and Agent2Agent protocol (governs peer coordination, negotiation, delegation)
+**Results:** Provides comprehensive treatments:bridging conceptual architectures with implementation-ready design principles for enterprise-scale AI ecosystems
+**Impact:** Establishes interoperable communication substrate enabling scalable, auditable, policy-compliant reasoning across distributed agent collectives
+
+### KBA Orchestration: Knowledge Base-Aware Privacy-Preserving Routing
+**ID:** 2509.19599
+**Key:** Privacy-preserving relevance signals from agent knowledge bases
+**Approach:** Augments static descriptions with dynamic KB relevance signals; when static descriptions insufficient, orchestrator prompts subagents in parallel; each agent assesses task relevance against private KB, returns lightweight ACK without exposing data; signals populate shared semantic cache
+**Results:** Significantly outperforms static description-driven methods in routing precision and overall system efficiency
+**Impact:** Enables more accurate and adaptive task routing preserving agent autonomy and data confidentiality for large-scale systems
+
+### Wonderful Team: Zero-Shot Physical Task Planning with Visual LLMs
+**ID:** 2407.19094
+**Key:** VLLM-based high-level physical task planning
+**Approach:** Multi-agent Vision Large Language Model framework; provides image of robot's surroundings and task description, VLLM outputs sequence of actions; tightly integrated loop between perception, control, and planning
+**Results:** 40% success rate improvement over NLaP on VimaBench; 30% improvement over Trajectory Generators on drawing/wiping tasks; 70% improvement on semantic reasoning tasks including environment rearrangement
+**Impact:** Highlights rapid improvements of VLLMs; demonstrates VLLMs as viable option for some high-level robotic planning problems
+
+### PIP-LLM: PDDL-Integer Programming with LLMs for Multi-Robot Coordination
+**ID:** 2510.22784
+**Key:** Separated team-level and robot-level planning for multi-robot coordination
+**Approach:** PDDL-based team-level planning abstracts away robot assignment; IP-based robot-level planning explicitly optimizes travel costs, workload, respecting robot capabilities; translation into dependency graph guides robot-level planning with IP-based task allocation
+**Results:** Improves plan success rate, reduces maximum and average travel costs, achieves better load balancing compared to baselines across diverse tasks
+**Impact:** Avoids pitfalls of syntax-based decomposition; scales to larger teams through separation of planning from assignment
+
+### LLM-Coordination: Benchmark for LLM Multi-Agent Coordination
+**ID:** 2310.03903
+**Key:** Pure coordination settings evaluating LLM coordination abilities
+**Approach:** Two tasks: Agentic Coordination (LLMs act in pure coordination games), Coordination Question Answering (198 multiple-choice questions testing Environment Comprehension, ToM Reasoning, Joint Planning); Zero-Shot Coordination experiments test robustness to unseen partners
+**Results:** LLM-Agents excel in environment-variable coordination but struggle with partner beliefs/intentions; significant room for improvement in ToM reasoning and joint planning; LLM agents exhibit robustness to unseen partners unlike RL methods
+**Impact:** Indicates potential of LLMs as agents in pure coordination setups; underscores areas for improvement
+
+### VirTLab: Interactive 2D Environments for Team Dynamics
+**ID:** 2510.08242
+**Key:** Customizable interactive simulations for studying human-AI team dynamics
+**Approach:** System enabling users to design interactive, customizable 2D spatial environment simulations with LLM-based agents; build scenarios, assign roles, observe how agents coordinate, move, adapt over time; bridges team cognition behaviors with scalable agent-based modeling
+**Results:** Aligns simulated outcomes with empirical evaluations and user study
+**Impact:** Provides testbed for investigating how environments influence coordination, collaboration, emergent team behaviors; makes simulations accessible to technical and non-technical users
+
+### The Language of Bargaining: Linguistic Effects in LLM Negotiations
+**ID:** 2601.04387
+**Key:** Language choice effects on multi-agent negotiation outcomes
+**Approach:** Controlled multi-agent simulations across Ultimatum, Buy-Sell, and Resource Exchange games; test English vs. four Indic framings (Hindi, Punjabi, Gujarati, Marwadi) while holding game rules, model parameters, incentives constant
+**Results:** Language choice can shift outcomes more strongly than changing models, reversing proposer advantages and reallocating surplus; effects are task-contingent: Indic languages reduce stability in distributive games yet induce richer exploration in integrative settings
+**Impact:** Demonstrates that English-only evaluation yields incomplete conclusions; culturally-aware evaluation essential for fair deployment
+
+### Less is More: Quality-Guided Distillation for Structured Reasoning
+**ID:** 2504.16408
+**Key:** Multi-agent framework with reverse-prompt induction for structured reasoning
+**Approach:** Multi-agent framework for low-resource structural reasoning from only 24 labeled examples; reverse-prompt induction, retrieval-augmented reasoning synthesis via GPT-4o, dual-stage reward-guided filtering across three subtasks: question parsing, CoT parsing, step-level verification; all modules fine-tuned from Llama-3-8B-Instruct under unified LoRA+ setup
+**Results:** Third-place winning approach in LLMSR@XLLM25; combines structure validation with reward filtering for few-shot and zero-shot prompts
+**Impact:** Underscores value of controllable data distillation in enhancing structured inference under low-resource constraints
+
+### MAEBE: Multi-Agent Emergent Behavior Evaluation Framework
+**ID:** 2506.03053
+**Key:** Framework for assessing emergent risks in multi-agent AI ensembles
+**Approach:** Multi-Agent Emergent Behavior Evaluation using Greatest Good Benchmark and novel double-inversion question technique; evaluates moral preferences and emergent group dynamics including peer pressure and convergence behavior
+**Results:** Ensembles exhibit phenomena like peer pressure influencing convergence even when guided by supervisor; moral reasoning not directly predictable from isolated agent behavior due to emergent group dynamics
+**Impact:** Necessity of evaluating AI systems in interactive, multi-agent contexts; reveals novel emergent risks beyond single-agent safety
+
 ---
 
 ## Cross-Cutting Trends
@@ -899,6 +1027,6 @@ Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Research date:** Feb 2, 2026 (folder name reflects research date, not paper submission dates)
 - **Source:** arXiv cs.AI category (papers from any date)
-- **Scan status:** Entries 1-1100 of 1,516 total
+- **Scan status:** Entries 1-1400 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
