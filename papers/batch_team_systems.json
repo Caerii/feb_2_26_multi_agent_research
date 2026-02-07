@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FXsqvCz+YFJvFyCtmt4WYedHSSo</id>
+  <title>arXiv Query: search_query=all:"multi-agent team"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T05:00:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22multi-agent+team%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>52</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01202v1</id>
+    <title>Learning Transferable Cooperative Behavior in Multi-Agent Teams</title>
+    <updated>2019-06-04T05:36:43Z</updated>
+    <link href="https://arxiv.org/abs/1906.01202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.01202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While multi-agent interactions can be naturally modeled as a graph, the environment has traditionally been considered as a black box. We propose to create a shared agent-entity graph, where agents and environmental entities form vertices, and edges exist between the vertices which can communicate with each other. Agents learn to cooperate by exchanging messages along the edges of this graph. Our proposed multi-agent reinforcement learning framework is invariant to the number of agents or entities present in the system as well as permutation invariance, both of which are desirable properties for any multi-agent system representation. We present state-of-the-art results on coverage, formation and line control tasks for multi-agent teams in a fully decentralized framework and further show that the learned policies quickly transfer to scenarios with different team sizes along with strong zero-shot generalization performance. This is an important step towards developing multi-agent teams which can be realistically deployed in the real world without assuming complete prior knowledge or instantaneous communication at unbounded distances.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-04T05:36:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akshat Agarwal</name>
+    </author>
+    <author>
+      <name>Sumit Kumar</name>
+    </author>
+    <author>
+      <name>Katia Sycara</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.08279v1</id>
+    <title>Task Allocation with Load Management in Multi-Agent Teams</title>
+    <updated>2022-07-17T20:17:09Z</updated>
+    <link href="https://arxiv.org/abs/2207.08279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.08279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In operations of multi-agent teams ranging from homogeneous robot swarms to heterogeneous human-autonomy teams, unexpected events might occur. While efficiency of operation for multi-agent task allocation problems is the primary objective, it is essential that the decision-making framework is intelligent enough to manage unexpected task load with limited resources. Otherwise, operation effectiveness would drastically plummet with overloaded agents facing unforeseen risks. In this work, we present a decision-making framework for multi-agent teams to learn task allocation with the consideration of load management through decentralized reinforcement learning, where idling is encouraged and unnecessary resource usage is avoided. We illustrate the effect of load management on team performance and explore agent behaviors in example scenarios. Furthermore, a measure of agent importance in collaboration is developed to infer team resilience when facing handling potential overload situations.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-17T20:17:09Z</published>
+    <arxiv:comment>8 pages, 5 figures, 2022 IEEE International Conference on Robotics and Automation</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>ICRA (2022) 8823-8830</arxiv:journal_ref>
+    <author>
+      <name>Haochen Wu</name>
+    </author>
+    <author>
+      <name>Amin Ghadami</name>
+    </author>
+    <author>
+      <name>Alparslan Emrah Bayrak</name>
+    </author>
+    <author>
+      <name>Jonathon M. Smereka</name>
+    </author>
+    <author>
+      <name>Bogdan I. Epureanu</name>
+    </author>
+    <arxiv:doi>10.1109/ICRA46639.2022.9811374</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICRA46639.2022.9811374" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.05587v1</id>
+    <title>Optimal Composition of Heterogeneous Multi-Agent Teams for Coverage Problems with Performance Bound Guarantees</title>
+    <updated>2020-03-12T03:00:29Z</updated>
+    <link href="https://arxiv.org/abs/2003.05587v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.05587v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of determining the optimal composition of a heterogeneous multi-agent team for coverage problems by including costs associated with different agents and subject to an upper bound on the maximal allowable number of agents. We formulate a resource allocation problem without introducing additional non-convexities to the original problem. We develop a distributed Projected Gradient Ascent (PGA) algorithm to solve the optimal team composition problem. To deal with non-convexity, we initialize the algorithm using a greedy method and exploit the submodularity and curvature properties of the coverage objective function to derive novel tighter performance bound guarantees on the optimization problem solution. Numerical examples are included to validate the effectiveness of this approach in diverse mission space configurations and different heterogeneous multi-agent collections. Comparative results obtained using a commercial mixed-integer nonlinear programming problem solver demonstrate both the accuracy and computational efficiency of the distributed PGA algorithm.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-12T03:00:29Z</published>
+    <arxiv:comment>To be published in Automatica</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>Automatica (2020) 117</arxiv:journal_ref>
+    <author>
+      <name>Chuangchuang Sun</name>
+    </author>
+    <author>
+      <name>Shirantha Welikala</name>
+    </author>
+    <author>
+      <name>Christos G. Cassandras</name>
+    </author>
+    <arxiv:doi>10.1016/j.automatica.2020.108961</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.automatica.2020.108961" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12955v1</id>
+    <title>Onto4MAT: A Swarm Shepherding Ontology for Generalised Multi-Agent Teaming</title>
+    <updated>2022-03-24T09:36:50Z</updated>
+    <link href="https://arxiv.org/abs/2203.12955v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12955v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research in multi-agent teaming has increased substantially over recent years, with knowledge-based systems to support teaming processes typically focused on delivering functional (communicative) solutions for a team to act meaningfully in response to direction. Enabling humans to effectively interact and team with a swarm of autonomous cognitive agents is an open research challenge in Human-Swarm Teaming research, partially due to the focus on developing the enabling architectures to support these systems. Typically, bi-directional transparency and shared semantic understanding between agents has not prioritised a designed mechanism in Human-Swarm Teaming, potentially limiting how a human and a swarm team can share understanding and information\textemdash data through concepts and contexts\textemdash to achieve a goal. To address this, we provide a formal knowledge representation design that enables the swarm Artificial Intelligence to reason about its environment and system, ultimately achieving a shared goal. We propose the Ontology for Generalised Multi-Agent Teaming, Onto4MAT, to enable more effective teaming between humans and teams through the biologically-inspired approach of shepherding.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-24T09:36:50Z</published>
+    <arxiv:comment>19 pages, 2 tables, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Adam J. Hepworth</name>
+    </author>
+    <author>
+      <name>Daniel P. Baxter</name>
+    </author>
+    <author>
+      <name>Hussein A. Abbass</name>
+    </author>
+    <arxiv:doi>10.1109/ACCESS.2022.3180032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ACCESS.2022.3180032" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13865v1</id>
+    <title>Understanding Human-Multi-Agent Team Formation for Creative Work</title>
+    <updated>2026-01-20T11:27:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.13865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Team-based collaboration is a cornerstone of modern creative work. Recent advances in generative AI open possibilities for humans to collaborate with multiple AI agents in distinct roles to address complex creative workflows. Yet, how to form Human-Multi-Agent Teams (HMATs) is underexplored, especially given that inter-agent interactions increase complexity and the risk of unexpected behaviors. In this exploratory study, we aim to understand how to form HMATs for creative work using CrafTeam, a technology probe that allows users to form and collaborate with their teams. We conducted a study with 12 design practitioners, in which participants iterated through a three-step cycle: forming HMATs, ideating with their teams, and reflecting on their teams' ideation. Our findings reveal that while participants initially attempted autonomous team operations, they ultimately adopted team formations in which they directly orchestrated agents. We discuss design considerations for HMAT formation that humans can effectively orchestrate multiple agents.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T11:27:51Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Hyunseung Lim</name>
+    </author>
+    <author>
+      <name>Dasom Choi</name>
+    </author>
+    <author>
+      <name>Sooyohn Nam</name>
+    </author>
+    <author>
+      <name>Bogoan Kim</name>
+    </author>
+    <author>
+      <name>Hwajung Hong</name>
+    </author>
+    <arxiv:doi>10.1145/3772318.3791166</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3772318.3791166" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01848v2</id>
+    <title>On Emergent Communication in Competitive Multi-Agent Teams</title>
+    <updated>2020-07-16T04:15:59Z</updated>
+    <link href="https://arxiv.org/abs/2003.01848v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.01848v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several recent works have found the emergence of grounded compositional language in the communication protocols developed by mostly cooperative multi-agent systems when learned end-to-end to maximize performance on a downstream task. However, human populations learn to solve complex tasks involving communicative behaviors not only in fully cooperative settings but also in scenarios where competition acts as an additional external pressure for improvement. In this work, we investigate whether competition for performance from an external, similar agent team could act as a social influence that encourages multi-agent populations to develop better communication protocols for improved performance, compositionality, and convergence speed. We start from Task &amp; Talk, a previously proposed referential game between two cooperative agents as our testbed and extend it into Task, Talk &amp; Compete, a game involving two competitive teams each consisting of two aforementioned cooperative agents. Using this new setting, we provide an empirical study demonstrating the impact of competitive influence on multi-agent teams. Our results show that an external competitive influence leads to improved accuracy and generalization, as well as faster emergence of communicative languages that are more informative and compositional.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-04T01:14:27Z</published>
+    <arxiv:comment>AAMAS 2020, code: https://github.com/pliang279/Competitive-Emergent-Communication</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Jeffrey Chen</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Louis-Philippe Morency</name>
+    </author>
+    <author>
+      <name>Satwik Kottur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01011v2</id>
+    <title>Multi-Agent Teams Hold Experts Back</title>
+    <updated>2026-02-03T04:46:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.01011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent LLM systems are increasingly deployed as autonomous collaborators, where agents interact freely rather than execute fixed, pre-specified workflows. In such settings, effective coordination cannot be fully designed in advance and must instead emerge through interaction. However, most prior work enforces coordination through fixed roles, workflows, or aggregation rules, leaving open the question of how well self-organizing teams perform when coordination is unconstrained. Drawing on organizational psychology, we study whether self-organizing LLM teams achieve strong synergy, where team performance matches or exceeds the best individual member. Across human-inspired and frontier ML benchmarks, we find that -- unlike human teams -- LLM teams consistently fail to match their expert agent's performance, even when explicitly told who the expert is, incurring performance losses of up to 37.6%. Decomposing this failure, we show that expert leveraging, rather than identification, is the primary bottleneck. Conversational analysis reveals a tendency toward integrative compromise -- averaging expert and non-expert views rather than appropriately weighting expertise -- which increases with team size and correlates negatively with performance. Interestingly, this consensus-seeking behavior improves robustness to adversarial agents, suggesting a trade-off between alignment and effective expertise utilization. Our findings reveal a significant gap in the ability of self-organizing multi-agent teams to harness the collective expertise of their members.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T04:34:36Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Aneesh Pappu</name>
+    </author>
+    <author>
+      <name>Batu El</name>
+    </author>
+    <author>
+      <name>Hancheng Cao</name>
+    </author>
+    <author>
+      <name>Carmelo di Nolfo</name>
+    </author>
+    <author>
+      <name>Yanchao Sun</name>
+    </author>
+    <author>
+      <name>Meng Cao</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06480v1</id>
+    <title>An Alert-Generation Framework for Improving Resiliency in Human-Supervised, Multi-Agent Teams</title>
+    <updated>2019-09-13T22:39:08Z</updated>
+    <link href="https://arxiv.org/abs/1909.06480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.06480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human-supervision in multi-agent teams is a critical requirement to ensure that the decision-maker's risk preferences are utilized to assign tasks to robots. In stressful complex missions that pose risk to human health and life, such as humanitarian-assistance and disaster-relief missions, human mistakes or delays in tasking robots can adversely affect the mission. To assist human decision making in such missions, we present an alert-generation framework capable of detecting various modes of potential failure or performance degradation. We demonstrate that our framework, based on state machine simulation and formal methods, offers probabilistic modeling to estimate the likelihood of unfavorable events. We introduce smart simulation that offers a computationally-efficient way of detecting low-probability situations compared to standard Monte-Carlo simulations. Moreover, for certain class of problems, our inference-based method can provide guarantees on correctly detecting task failures.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-13T22:39:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sarah Al-Hussaini</name>
+    </author>
+    <author>
+      <name>Jason M. Gregory</name>
+    </author>
+    <author>
+      <name>Shaurya Shriyam</name>
+    </author>
+    <author>
+      <name>Satyandra K. Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07209v2</id>
+    <title>Multi-Agent Continuous Transportation with Online Balanced Partitioning</title>
+    <updated>2016-07-28T09:11:40Z</updated>
+    <link href="https://arxiv.org/abs/1511.07209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the concept of continuous transportation task to the context of multi-agent systems. A continuous transportation task is one in which a multi-agent team visits a number of fixed locations, picks up objects, and delivers them to a final destination. The goal is to maximize the rate of transportation while the objects are replenished over time. Examples of problems that need continuous transportation are foraging, area sweeping, and first/last mile problem. Previous approaches typically neglect the interference and are highly dependent on communications among agents. Some also incorporate an additional reconnaissance agent to gather information. In this paper, we present a hybrid of centralized and distributed approaches that minimize the interference and communications in the multi-agent team without the need for a reconnaissance agent. We contribute two partitioning-transportation algorithms inspired by existing algorithms, and contribute one novel online partitioning-transportation algorithm with information gathering in the multi-agent team. Our algorithms have been implemented and tested extensively in the simulation. The results presented in this paper demonstrate the effectiveness of our algorithms that outperform the existing algorithms, even without any communications between the agents and without the presence of a reconnaissance agent.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-23T13:04:47Z</published>
+    <arxiv:comment>2 pages, published in the proceedings of the 15th AAMAS conference</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Somchaya Liemhetcharat</name>
+    </author>
+    <author>
+      <name>Kian Hsiang Low</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19375v1</id>
+    <title>Multi-Agent Team Access Monitoring: Environments that Benefit from Target Information Sharing</title>
+    <updated>2024-03-28T12:37:11Z</updated>
+    <link href="https://arxiv.org/abs/2403.19375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic access monitoring of multiple target areas has applications including checkpoint enforcement, surveillance and containment of fire and flood hazards. Monitoring access for a single target region has been successfully modeled as a minimum-cut problem. We generalize this model to support multiple target areas using two approaches: iterating on individual targets and examining the collections of targets holistically. Through simulation we measure the performance of each approach on different scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-28T12:37:11Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Andrew Dudash</name>
+    </author>
+    <author>
+      <name>Scott James</name>
+    </author>
+    <author>
+      <name>Ryan Rubel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21623v1</id>
+    <title>Democratizing Drug Discovery with an Orchestrated, Knowledge-Driven Multi-Agent Team for User-Guided Therapeutic Design</title>
+    <updated>2025-12-25T11:03:04Z</updated>
+    <link href="https://arxiv.org/abs/2512.21623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Therapeutic discovery remains a formidable challenge, impeded by the fragmentation of specialized domains and the execution gap between computational design and physiological validation. Although generative AI offers promise, current models often function as passive assistants rather than as autonomous executors. Here, we introduce OrchestRA, a human-in-the-loop multi-agent platform that unifies biology, chemistry, and pharmacology into an autonomous discovery engine. Unlike static code generators, our agents actively execute simulations and reason the results to drive iterative optimization. Governed by an Orchestrator, a Biologist Agent leverages deep reasoning over a massive knowledge graph (&gt;10 million associations) to pinpoint high-confidence targets; a Chemist Agent autonomously detects structural pockets for de novo design or drug repositioning; and a Pharmacologist Agent evaluates candidates via rigorous physiologically based pharmacokinetic (PBPK) simulations. This architecture establishes a dynamic feedback loop where pharmacokinetic and toxicity profiles directly trigger structural reoptimization. By seamlessly integrating autonomous execution with human guidance, OrchestRA democratizes therapeutic design, transforming drug discovery from a stochastic search to a programmable evidence-based engineering discipline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-25T11:03:04Z</published>
+    <arxiv:comment>51 pages, 4 figures (with supplementary information)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Takahide Suzuki</name>
+    </author>
+    <author>
+      <name>Kazuki Nakanishi</name>
+    </author>
+    <author>
+      <name>Takashi Fujiwara</name>
+    </author>
+    <author>
+      <name>Hideyuki Shimizu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23379v1</id>
+    <title>Relational Weight Optimization for Enhancing Team Performance in Multi-Agent Multi-Armed Bandits</title>
+    <updated>2024-10-30T18:34:32Z</updated>
+    <link href="https://arxiv.org/abs/2410.23379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an approach to improve team performance in a Multi-Agent Multi-Armed Bandit (MAMAB) framework using Fastest Mixing Markov Chain (FMMC) and Fastest Distributed Linear Averaging (FDLA) optimization algorithms. The multi-agent team is represented using a fixed relational network and simulated using the Coop-UCB2 algorithm. The edge weights of the communication network directly impact the time taken to reach distributed consensus. Our goal is to shrink the timescale on which the convergence of the consensus occurs to achieve optimal team performance and maximize reward. Through our experiments, we show that the convergence to team consensus occurs slightly faster in large constrained networks.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-30T18:34:32Z</published>
+    <arxiv:comment>Accepted for publication in Modeling, Estimation, and Control Conference (MECC) 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Monish Reddy Kotturu</name>
+    </author>
+    <author>
+      <name>Saniya Vahedian Movahed</name>
+    </author>
+    <author>
+      <name>Paul Robinette</name>
+    </author>
+    <author>
+      <name>Kshitij Jerath</name>
+    </author>
+    <author>
+      <name>Amanda Redlich</name>
+    </author>
+    <author>
+      <name>Reza Azadeh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10958v1</id>
+    <title>Developing, Evaluating and Scaling Learning Agents in Multi-Agent Environments</title>
+    <updated>2022-09-22T12:28:29Z</updated>
+    <link href="https://arxiv.org/abs/2209.10958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Game Theory &amp; Multi-Agent team at DeepMind studies several aspects of multi-agent learning ranging from computing approximations to fundamental concepts in game theory to simulating social dilemmas in rich spatial environments and training 3-d humanoids in difficult team coordination tasks. A signature aim of our group is to use the resources and expertise made available to us at DeepMind in deep reinforcement learning to explore multi-agent systems in complex environments and use these benchmarks to advance our understanding. Here, we summarise the recent work of our team and present a taxonomy that we feel highlights many important open challenges in multi-agent research.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T12:28:29Z</published>
+    <arxiv:comment>Published in AI Communications 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ian Gemp</name>
+    </author>
+    <author>
+      <name>Thomas Anthony</name>
+    </author>
+    <author>
+      <name>Yoram Bachrach</name>
+    </author>
+    <author>
+      <name>Avishkar Bhoopchand</name>
+    </author>
+    <author>
+      <name>Kalesha Bullard</name>
+    </author>
+    <author>
+      <name>Jerome Connor</name>
+    </author>
+    <author>
+      <name>Vibhavari Dasagi</name>
+    </author>
+    <author>
+      <name>Bart De Vylder</name>
+    </author>
+    <author>
+      <name>Edgar Duenez-Guzman</name>
+    </author>
+    <author>
+      <name>Romuald Elie</name>
+    </author>
+    <author>
+      <name>Richard Everett</name>
+    </author>
+    <author>
+      <name>Daniel Hennes</name>
+    </author>
+    <author>
+      <name>Edward Hughes</name>
+    </author>
+    <author>
+      <name>Mina Khan</name>
+    </author>
+    <author>
+      <name>Marc Lanctot</name>
+    </author>
+    <author>
+      <name>Kate Larson</name>
+    </author>
+    <author>
+      <name>Guy Lever</name>
+    </author>
+    <author>
+      <name>Siqi Liu</name>
+    </author>
+    <author>
+      <name>Luke Marris</name>
+    </author>
+    <author>
+      <name>Kevin R. McKee</name>
+    </author>
+    <author>
+      <name>Paul Muller</name>
+    </author>
+    <author>
+      <name>Julien Perolat</name>
+    </author>
+    <author>
+      <name>Florian Strub</name>
+    </author>
+    <author>
+      <name>Andrea Tacchetti</name>
+    </author>
+    <author>
+      <name>Eugene Tarassov</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Karl Tuyls</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.13376v1</id>
+    <title>Learning Symbolic Task Decompositions for Multi-Agent Teams</title>
+    <updated>2025-02-19T02:24:44Z</updated>
+    <link href="https://arxiv.org/abs/2502.13376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.13376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One approach for improving sample efficiency in cooperative multi-agent learning is to decompose overall tasks into sub-tasks that can be assigned to individual agents. We study this problem in the context of reward machines: symbolic tasks that can be formally decomposed into sub-tasks. In order to handle settings without a priori knowledge of the environment, we introduce a framework that can learn the optimal decomposition from model-free interactions with the environment. Our method uses a task-conditioned architecture to simultaneously learn an optimal decomposition and the corresponding agents' policies for each sub-task. In doing so, we remove the need for a human to manually design the optimal decomposition while maintaining the sample-efficiency benefits of improved credit assignment. We provide experimental results in several deep reinforcement learning settings, demonstrating the efficacy of our approach. Our results indicate that our approach succeeds even in environments with codependent agent dynamics, enabling synchronous multi-agent learning not achievable in previous works.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T02:24:44Z</published>
+    <arxiv:comment>8 pages, main track full paper at AAMAS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ameesh Shah</name>
+    </author>
+    <author>
+      <name>Niklas Lauffer</name>
+    </author>
+    <author>
+      <name>Thomas Chen</name>
+    </author>
+    <author>
+      <name>Nikhil Pitta</name>
+    </author>
+    <author>
+      <name>Sanjit A. Seshia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.18546v1</id>
+    <title>Multi-agent coordination for data gathering with periodic requests and deliveries</title>
+    <updated>2025-03-24T10:59:31Z</updated>
+    <link href="https://arxiv.org/abs/2503.18546v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.18546v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this demo work we develop a method to plan and coordinate a multi-agent team to gather information on demand. The data is periodically requested by a static Operation Center (OC) from changeable goals locations. The mission of the team is to reach these locations, taking measurements and delivering the data to the OC. Due to the limited communication range as well as signal attenuation because of the obstacles, the agents must travel to the OC, to upload the data. The agents can play two roles: ones as workers gathering data, the others as collectors traveling invariant paths for collecting the data of the workers to re-transmit it to the OC. The refreshing time of the delivered information depends on the number of available agents as well as of the scenario. The proposed algorithm finds out the best balance between the number of collectors-workers and the partition of the scenario into working areas in the planning phase, which provides the minimum refreshing time and will be the one executed by the agents.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-24T10:59:31Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yaroslav Marchukov</name>
+    </author>
+    <author>
+      <name>Luis Montano</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-24209-1_27</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-24209-1_27" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.02737v1</id>
+    <title>Neural Network-based Control for Multi-Agent Systems from Spatio-Temporal Specifications</title>
+    <updated>2021-04-06T18:08:09Z</updated>
+    <link href="https://arxiv.org/abs/2104.02737v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.02737v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a framework for solving control synthesis problems for multi-agent networked systems required to satisfy spatio-temporal specifications. We use Spatio-Temporal Reach and Escape Logic (STREL) as a specification language. For this logic, we define smooth quantitative semantics, which captures the degree of satisfaction of a formula by a multi-agent team. We use the novel quantitative semantics to map control synthesis problems with STREL specifications to optimization problems and propose a combination of heuristic and gradient-based methods to solve such problems. As this method might not meet the requirements of a real-time implementation, we develop a machine learning technique that uses the results of the off-line optimizations to train a neural network that gives the control inputs at current states. We illustrate the effectiveness of the proposed framework by applying it to a model of a robotic team required to satisfy a spatial-temporal specification under communication constraints.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-06T18:08:09Z</published>
+    <arxiv:comment>8 pages. Submitted to the CDC 2021</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Suhail Alsalehi</name>
+    </author>
+    <author>
+      <name>Noushin Mehdipour</name>
+    </author>
+    <author>
+      <name>Ezio Bartocci</name>
+    </author>
+    <author>
+      <name>Calin Belta</name>
+    </author>
+    <arxiv:doi>10.1109/CDC45484.2021.9682921</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CDC45484.2021.9682921" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.11504v1</id>
+    <title>Multi-agent coordination for on-demand data gathering with periodic information upload</title>
+    <updated>2025-03-14T15:28:42Z</updated>
+    <link href="https://arxiv.org/abs/2503.11504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.11504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we develop a method for planning and coordinating a multi-agent team deployment to periodically gather information on demand. A static operation center (OC) periodically requests information from changing goal locations. The objective is to gather data in the goals and to deliver it to the OC, balancing the refreshing time and the total number of information packages. The system automatically splits the team in two roles: workers to gather data, or collectors to retransmit the data to the OC. The proposed three step method: 1) finds out the best area partition for the workers; 2) obtains the best balance between workers and collectors, and with whom the workers must to communicate, a collector or the OC; 3) computes the best tour for the workers to visit the goals and deliver them to the OC or to a collector in movement. The method is tested in simulations in different scenarios, providing the best area partition algorithm and the best balance between collectors and workers.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-14T15:28:42Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yaroslav Marchukov</name>
+    </author>
+    <author>
+      <name>Luis Montano</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-24209-1_13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-24209-1_13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.08638v1</id>
+    <title>Deep Continuum Deformation Coordination and Optimization with Safety Guarantees</title>
+    <updated>2023-04-17T22:15:55Z</updated>
+    <link href="https://arxiv.org/abs/2304.08638v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.08638v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we develop and present a novel strategy for safe coordination of a large-scale multi-agent team with ``\textit{local deformation}" capabilities. Multi-agent coordination is defined by our proposed method as a multi-layer deformation problem specified as a Deep Neural Network (DNN) optimization problem. The proposed DNN consists of $p$ hidden layers, each of which contains artificial neurons representing unique agents. Furthermore, based on the desired positions of the agents of hidden layer $k$ ($k=1,\cdots,p-1$), the desired deformation of the agents of hidden layer $k + 1$ is planned. In contrast to the available neural network learning problems, our proposed neural network optimization receives time-invariant reference positions of the boundary agents as inputs and trains the weights based on the desired trajectory of the agent team configuration, where the weights are constrained by certain lower and upper bounds to ensure inter-agent collision avoidance. We simulate and provide the results of a large-scale quadcopter team coordination tracking a desired elliptical trajectory to validate the proposed approach.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-17T22:15:55Z</published>
+    <arxiv:comment>6 pages, accepted at ACC 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Harshvardhan Uppaluru</name>
+    </author>
+    <author>
+      <name>Hossein Rastgoftar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14851v3</id>
+    <title>Knowledge-Based Strategies for Multi-Agent Teams Playing Against Nature</title>
+    <updated>2021-12-28T16:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2012.14851v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14851v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study teams of agents that play against Nature towards achieving a common objective. The agents are assumed to have imperfect information due to partial observability, and have no communication during the play of the game. We propose a natural notion of higher-order knowledge of agents. Based on this notion, we define a class of knowledge-based strategies, and consider the problem of synthesis of strategies of this class. We introduce a multi-agent extension, MKBSC, of the well-known Knowledge-Based Subset Construction applied to such games. Its iterative applications turn out to compute higher-order knowledge of the agents. We show how the MKBSC can be used for the design of knowledge-based strategy profiles and investigate the transfer of existence of such strategies between the original game and in the iterated applications of the MKBSC, under some natural assumptions. We also relate and compare the "intensional" view on knowledge-based strategies based on explicit knowledge representation and update, with the "extensional" view on finite memory strategies based on finite transducers and show that, in a certain sense, these are equivalent.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-29T16:59:12Z</published>
+    <arxiv:comment>51 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Dilian Gurov</name>
+    </author>
+    <author>
+      <name>Valentin Goranko</name>
+    </author>
+    <author>
+      <name>Edvin Lundberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.09866v1</id>
+    <title>Resilient Continuum Deformation Coordination</title>
+    <updated>2019-09-21T18:45:53Z</updated>
+    <link href="https://arxiv.org/abs/1909.09866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.09866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper applies the principles of continuum mechanics to safely and resiliently coordinate a multi-agent team. A hybrid automation with two operation modes, Homogeneous Deformation Mode (HDM) and Containment Exclusion Mode (CEM), are developed to robustly manage group coordination in the presence of unpredicted agent failures. HDM becomes active when all agents are healthy, where the group coordination is defined by homogeneous transformation coordination functions. By classifying agents as leaders and followers, a desired n-D homogeneous transformation is uniquely related to the desired trajectories of n+1 leaders and acquired by the remaining followers in real-time through local communication. The paper offers a novel approach for leader selection as well as naturally establishing and reestablishing inter-agent communication whenever the agent team enters the HDM. CEM is activated when at least one agent fails to admit group coordination. This paper applies unique features of decentralized homogeneous transformation coordination to quickly detect each arising anomalous situation and excludes failed agent(s) from group coordination of healthy agents. In CEM, agent coordination is treated as an ideal fluid flow where the desired agents' paths are defined along stream lines inspired by fluid flow field theory to circumvent exclusion spaces surrounding failed agent(s).</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-21T18:45:53Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Hossein Rastgoftar</name>
+    </author>
+    <author>
+      <name>Ella Atkins</name>
+    </author>
+  </entry>
+</feed>

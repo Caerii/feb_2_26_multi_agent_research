@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **158 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -81,6 +81,22 @@ Total papers analyzed: **158 multi-agent systems** from arXiv cs.AI
 - Collaborative RAG for diverse data (specialized agents per data source type)
 - Visual programming interfaces (blocks-based environment for non-programmers)
 - Vision-radio fusion (real-time radio+video sensing for O-RAN xApps)
+- Collective intelligence frameworks (multilayer cognition/physical/info networks for human-AI orgs)
+- Operational CI via crowdsourced forecasting (ACF for coordinated decision-making)
+- Massive-agent emergence (Lux environment showing group strategy evolution)
+- HMAT orchestration patterns (human-directed vs autonomous multi-agent team formation)
+- Swarm intelligence enhanced reasoning (density-driven LLM optimization)
+- Brain-inspired multi-agent memory (episodic/semantic/salience subsystems)
+- 6-type modular memory (MIRIX: Core/Episodic/Semantic/Procedural/Resource/Knowledge Vault)
+- Learnable agent-specific latent memories (LatentMem with experience bank/composer)
+- Blockchain+LLM negotiation (medical supply chain transparent coordination)
+- Automated inventory systems (agentic forecasting, supplier selection, negotiation)
+- Strategic planning/negotiation benchmark (SPIN-Bench multi-domain social reasoning)
+- Deep RL team formation (self-interested agent negotiation and joint plans)
+- LLM-driven swarm simulation (ant colony foraging, bird flocking with NetLogo)
+- Symbiotic AGI networks (input/output optimizers, 99.9% GPU reduction, 82ms loops)
+- Communicative multimodal benchmark (COMMA reveals GPT-4o communication weaknesses)
+- Large-scale agent control (HIVE framework for 2000+ agent coordination)
 
 ---
 
@@ -178,6 +194,24 @@ Total papers analyzed: **158 multi-agent systems** from arXiv cs.AI
 | MAViS | 2508.08487 | Multi-agent long-sequence video storytelling with 3E principle |
 | ACPs (Agent Collaboration Protocols) | 2505.13523 | Internet of Agents protocol suite with registration/discovery/interaction |
 | Agent Network Protocol (ANP) | 2508.00007 | AI-native 3-layer system for agent internet communication |
+| AI-enhanced Collective Intelligence | 2403.10433 | Multilayer representation for human-AI collectives (cognition/physical/info layers) |
+| Operational Collective Intelligence | 2402.13273 | Aggregative crowdsourced forecasting for coordinated decision-making |
+| Artificial Collective Intelligence Engineering | 2304.05147 | 34-page comprehensive survey on engineering computational collectives |
+| Emergent Collective Intelligence | 2301.01609 | Massive-agent cooperation/competition via Lux environment (self-play emergence) |
+| Understanding HMAT Formation | 2601.13865 | Human-Multi-Agent Team formation for creative work orchestration |
+| SIER | 2505.17115 | Swarm Intelligence Enhanced Reasoning for LLM multi-agent optimization |
+| BMAM | 2601.20465 | Brain-inspired multi-agent memory with episodic/semantic/salience components |
+| MIRIX | 2507.07957 | 6-type memory system (Core/Episodic/Semantic/Procedural/Resource/Knowledge Vault) |
+| LatentMem | 2602.03036 | Learnable agent-specific latent memories via experience bank and composer |
+| Resilient Multi-Agent Negotiation | 2507.17134 | LLM+Blockchain for medical supply chain transparency and coordination |
+| Agentic Inventory Replenishment | 2511.23366 | Demand forecasting, supplier selection, and multi-agent negotiation for retail |
+| SPIN-Bench | 2503.12349 | Strategic Planning, Interaction, and Negotiation benchmark for social reasoning |
+| Negotiating Team Formation | 2010.10380 | Deep RL for self-interested team formation and joint plan agreement |
+| Multi-Agent LLM Swarm Applications | 2503.03800 | LLM-driven agents for ant colony foraging and bird flocking simulation |
+| Symbiotic Agents | 2507.17695 | Trustworthy AGI-driven networks with RAN optimizers and SLA negotiators |
+| COMMA | 2410.07553 | Communicative multimodal multi-agent benchmark with language collaboration |
+| TeamCraft | 2412.05255 | Minecraft multi-modal multi-agent benchmark for collaborative tasks |
+| HIVE | 2412.11761 | LLM-driven multi-agent control framework for scaling to 2000+ agents |
 | AutoML-Agent | 2410.02958 | Full-pipeline AutoML with retrieval-augmented planning |
 | LLM Agent Survey | 2503.21460 | 329-paper survey on methodology, applications, challenges |
 | SMARL | 2411.04867 | Shielded Multi-Agent RL with probabilistic logic |
@@ -1237,6 +1271,112 @@ Total papers analyzed: **158 multi-agent systems** from arXiv cs.AI
 1. Coalition formation in open environments
 2. Social intelligence barriers and robustness
 3. File-native agentic architectures
+
+---
+
+## Batch 15: Collective Intelligence & Autonomous Orchestration Papers
+
+### AI-Enhanced Collective Intelligence
+**ID:** 2403.10433
+**Key:** Multilayer framework for human-AI collectives with cognition/physical/info layers
+**Approach:** Conceptualizes human-AI collective intelligence as multilayer network comprising cognition layer (human diversity from surface to deep attributes), physical layer, and information layer; explores how agent diversity and interactions influence system collective intelligence
+**Impact:** Foundation for designing virtual organizations where AI agents and human workers collaborate with complementary capabilities
+
+### Operational Collective Intelligence of Humans and Machines
+**ID:** 2402.13273
+**Key:** Aggregative crowdsourced forecasting (ACF) for operational decision-making
+**Approach:** Uses ACF to elicit predictions and rationales independently from diverse crowd, aggregate them, and inform higher-level operational decision-making; operational CI emerges from connecting humans and AI for decision-advantage
+**Impact:** Provides model for autonomous organizations making coordinated decisions across distributed operational scenarios
+
+### Artificial Collective Intelligence Engineering
+**ID:** 2304.05147
+**Key:** 34-page comprehensive survey on engineering computational collectives
+**Approach:** Provides broad scoping questions mapping collective intelligence research from CS/engineering perspective; covers fundamental concepts and main research perspectives including swarm robotics, crowd computing, IoT-inspired systems
+**Impact:** Identifies opportunities and challenges for designers of virtual autonomous organizations wanting to engineer collective intelligence properties
+
+### Emergent Collective Intelligence from Massive-Agent Cooperation
+**ID:** 2301.01609
+**Key:** Artificial CI emergence via massive-agent RL in Lux environment
+**Approach:** Proposes Lux environment with dynamic massive agents in two teams scrambling for resources; agents co-evolve through self-play, observing stages from atomic skills to group strategies without explicit coordination mechanism
+**Impact:** Demonstrates that collective intelligence emerges from individual agent decisions, enabling virtual organizations without centralized coordination mechanisms
+
+### Understanding Human-Multi-Agent Team Formation (HMAT)
+**ID:** 2601.13865
+**Key:** Human orchestration patterns for creative work multi-agent teams
+**Approach:** Explores team formation via CrafTeam technology probe; 12 design practitioners iterated through forming teams, ideating, and reflecting; findings show shift from autonomous operations to human-orchestrated teams
+**Impact:** Reveals design considerations for HMAT formation where humans effectively orchestrate multiple agents in creative virtual work scenarios
+
+### SIER: Swarm Intelligence Enhanced Reasoning
+**ID:** 2505.17115
+**Key:** Density-driven framework for LLM-based multi-agent optimization
+**Approach:** Integrates swarm intelligence into LLM reasoning by formulating reasoning as optimization problem; uses kernel density estimation and non-dominated sorting for quality/diversity optimization; step-level quality evaluation corrects low-quality intermediate steps
+**Impact:** Enables virtual AI companies to scale reasoning optimization through collective agent search strategies
+
+### BMAM: Brain-inspired Multi-Agent Memory Framework
+**ID:** 2601.20465
+**Key:** Functionally specialized memory subsystems to prevent "soul erosion"
+**Approach:** Decomposes memory into episodic, semantic, salience-aware, and control-oriented components operating at complementary time scales; organizes episodic memories along explicit timelines; retrieves evidence by fusing multiple signals
+**Impact:** Addresses long-horizon memory consistency challenges in virtual AI organizations requiring persistent agent identity across sessions
+
+### MIRIX: Multi-Agent Memory System for LLM-Based Agents
+**ID:** 2507.07957
+**Key:** 6-type modular memory system for multimodal experiences
+**Approach:** Consists of Core, Episodic, Semantic, Procedural, Resource Memory, and Knowledge Vault; multi-agent framework dynamically controls updates and retrieval; supports visual and multimodal experiences beyond text
+**Impact:** Enables virtual AI organizations to persist, reason over, and accurately retrieve diverse long-term data at scale with 35% higher accuracy and 99.9% storage reduction vs RAG
+
+### LatentMem: Customizing Latent Memory for Multi-Agent Systems
+**ID:** 2602.03036
+**Key:** Learnable agent-specific memory to address homogenization and overload
+**Approach:** Comprises experience bank storing raw interaction trajectories and memory composer synthesizing compact latent memories conditioned on retrieved experience and agent-specific contexts; Latent Memory Policy Optimization propagates task signals
+**Impact:** Achieves up to 19.36% performance over vanilla settings, enabling virtual organizations with role-aware memory scaling
+
+### Resilient Multi-Agent Negotiation for Medical Supply Chains
+**ID:** 2507.17134
+**Key:** LLM + Blockchain for transparent, resilient supply chain coordination
+**Approach:** Hybrid framework with off-chain LLM agent layer enabling adaptive reasoning/local decision-making, on-chain blockchain layer ensuring immutable transparent enforcement via smart contracts; cross-layer communication protocol bridges negotiation with institutional enforcement
+**Impact:** Provides model for virtual autonomous organizations managing critical supply chains with both adaptive intelligence and trustworthy enforcement
+
+### Agentic AI Framework for Smart Inventory Replenishment
+**ID:** 2511.23366
+**Key:** Demand forecasting, supplier selection, and negotiation for retail
+**Approach:** Agentic AI model monitors inventory, initiates purchase attempts to suppliers, scans for trending products; applies demand forecasting, supplier selection optimization, multi-agent negotiation, and continuous learning
+**Impact:** Demonstrates autonomous operational capability for virtual AI companies handling inventory management with decreased stockouts and reduced holding costs
+
+### SPIN-Bench: Strategic Planning, Interaction, and Negotiation
+**ID:** 2503.12349
+**Key:** Multi-domain evaluation for strategic planning and social reasoning
+**Approach:** Combines PDDL tasks, competitive board games, cooperative card games, and multi-agent negotiation scenarios; varies action spaces, state complexity, and number of interacting agents
+**Impact:** Reveals LLMs encounter significant bottlenecks in deep multi-hop reasoning and socially adept coordination under uncertainty, critical for virtual organizational decision-making
+
+### Negotiating Team Formation Using Deep Reinforcement Learning
+**ID:** 2010.10380
+**Key:** Self-interested agent team formation via deep RL
+**Approach:** Experience-driven framework for training agents to negotiate and form teams without assumptions about protocol; tests on non-spatial and spatially extended environments
+**Impact:** Shows agents reach negotiation outcomes consistent with fair solutions from cooperative game theory, enabling virtual organizations with self-forming expert teams
+
+### Multi-Agent Systems Powered by LLMs: Applications in Swarm Intelligence
+**ID:** 2503.03800
+**Key:** LLM-driven agents for ant colony foraging and bird flocking
+**Approach:** Toolchain integrating LLMs with NetLogo simulation platform via Python extension; applies structured rule-based prompts and autonomous knowledge-driven prompts; enables prompt-driven behavior generation
+**Impact:** Demonstrates how virtual AI organizations can study and induce emergent behaviors in multi-agent environments
+
+### Symbiotic Agents: Trustworthy AGI-driven Networks
+**ID:** 2507.17695
+**Key:** Optimizers at input/output levels for bounded uncertainty steering
+**Approach:** LLM-based autonomous agents with real-time optimization algorithms for Trustworthy AI; input-level optimizers provide bounded uncertainty steering for numerically precise tasks, output-level optimizers supervised by LLM enable adaptive real-time control; includes RAN optimizers and multi-agent SLA negotiators
+**Impact:** Reduces decision errors fivefold vs standalone LLM agents; smaller models achieve similar accuracy with 99.9% GPU reduction; 82ms near-real-time loops for scalable virtual organization infrastructure
+
+### COMMA: Communicative Multimodal Multi-Agent Benchmark
+**ID:** 2410.07553
+**Key:** Puzzle benchmark for inter-agent communication and collaboration
+**Approach:** Features variety of multimodal puzzles evaluating four key agentic capability categories in communicative collaboration setting; tests agents with unequal information working together on tasks beyond individual capabilities
+**Impact:** Reveals surprising weaknesses in state-of-the-art models including GPT-4o and o4-mini, indicating communication as growth area for virtual organizational collaboration
+
+### HIVE: Framework for LLM-Driven Multi-Agent Control
+**ID:** 2412.11761
+**Key:** Framework enabling control of up to 2000+ agents
+**Approach:** Scalable LLM-driven multi-agent control framework supporting large-scale agent populations for complex simulation and coordination tasks
+**Impact:** Enables virtual AI organizations to scale agent coordination to thousands of agents, essential for large-scale autonomous operations
 
 ---
 

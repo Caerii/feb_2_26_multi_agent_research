@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k3w7/tyG/QsbM63gp6jsTHtuhWc</id>
+  <title>arXiv Query: search_query=all:"federated multi-agent"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:58:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22federated+multi-agent%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.02289v3</id>
+    <title>Federated Multi-Agent Mapping for Planetary Exploration</title>
+    <updated>2025-03-06T22:11:55Z</updated>
+    <link href="https://arxiv.org/abs/2404.02289v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.02289v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent robotic exploration stands to play an important role in space exploration as the next generation of robotic systems ventures to far-flung environments. A key challenge in this new paradigm will be to effectively share and utilize the vast amount of data generated onboard while operating in bandwidth-constrained regimes typical of space missions. Federated learning (FL) is a promising tool for bridging this gap. Drawing inspiration from the upcoming CADRE Lunar rover mission, we propose a federated multi-agent mapping approach that jointly trains a global map model across agents without transmitting raw data. Our method leverages implicit neural mapping to generate parsimonious, adaptable representations, reducing data transmission by up to 93.8% compared to raw maps. Furthermore, we enhance this approach with meta-initialization on Earth-based traversability datasets to significantly accelerate map convergence; reducing iterations required to reach target performance by 80% compared to random initialization. We demonstrate the efficacy of our approach on Martian terrains and glacier datasets, achieving downstream path planning F1 scores as high as 0.95 while outperforming on map reconstruction losses.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-02T20:32:32Z</published>
+    <arxiv:comment>7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tiberiu-Ioan Szatmari</name>
+    </author>
+    <author>
+      <name>Abhishek Cauligi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07383v1</id>
+    <title>Federated Multi-Agent DRL for Radio Resource Management in Industrial 6G in-X subnetworks</title>
+    <updated>2024-06-11T15:50:42Z</updated>
+    <link href="https://arxiv.org/abs/2406.07383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, 6G in-X subnetworks have been proposed as low-power short-range radio cells to support localized extreme wireless connectivity inside entities such as industrial robots, vehicles, and the human body. Deployment of in-X subnetworks within these entities may result in rapid changes in interference levels and thus, varying link quality. This paper investigates distributed dynamic channel allocation to mitigate inter-subnetwork interference in dense in-factory deployments of 6G in-X subnetworks. This paper introduces two new techniques, Federated Multi-Agent Double Deep Q-Network (F-MADDQN) and Federated Multi-Agent Deep Proximal Policy Optimization (F-MADPPO), for channel allocation in 6G in-X subnetworks. These techniques are based on a client-to-server horizontal federated reinforcement learning framework. The methods require sharing only local model weights with a centralized gNB for federated aggregation thereby preserving local data privacy and security. Simulations were conducted using a practical indoor factory environment proposed by 5G-ACIA and 3GPP models for in-factory environments. The results showed that the proposed methods achieved slightly better performance than baseline schemes with significantly reduced signaling overhead compared to the baseline solutions. The schemes also showed better robustness and generalization ability to changes in deployment densities and propagation parameters.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T15:50:42Z</published>
+    <arxiv:comment>Accepted for Workshop on Industrial Wireless Networks - IEEE International Symposium on Personal, Indoor and Mobile Radio Communications</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Bjarke Madsen</name>
+    </author>
+    <author>
+      <name>Ramoni Adeogun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17342v1</id>
+    <title>Adaptive Social Metaverse Streaming based on Federated Multi-Agent Deep Reinforcement Learning</title>
+    <updated>2025-06-19T13:33:43Z</updated>
+    <link href="https://arxiv.org/abs/2506.17342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The social metaverse is a growing digital ecosystem that blends virtual and physical worlds. It allows users to interact socially, work, shop, and enjoy entertainment. However, privacy remains a major challenge, as immersive interactions require continuous collection of biometric and behavioral data. At the same time, ensuring high-quality, low-latency streaming is difficult due to the demands of real-time interaction, immersive rendering, and bandwidth optimization. To address these issues, we propose ASMS (Adaptive Social Metaverse Streaming), a novel streaming system based on Federated Multi-Agent Proximal Policy Optimization (F-MAPPO). ASMS leverages F-MAPPO, which integrates federated learning (FL) and deep reinforcement learning (DRL) to dynamically adjust streaming bit rates while preserving user privacy. Experimental results show that ASMS improves user experience by at least 14% compared to existing streaming methods across various network conditions. Therefore, ASMS enhances the social metaverse experience by providing seamless and immersive streaming, even in dynamic and resource-constrained networks, while ensuring that sensitive user data remains on local devices.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-19T13:33:43Z</published>
+    <arxiv:comment>Accepted by IEEE Transactions on Computational Social Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zijian Long</name>
+    </author>
+    <author>
+      <name>Haopeng Wang</name>
+    </author>
+    <author>
+      <name>Haiwei Dong</name>
+    </author>
+    <author>
+      <name>Abdulmotaleb El Saddik</name>
+    </author>
+    <arxiv:doi>10.1109/TCSS.2025.3555419</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TCSS.2025.3555419" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.05800v1</id>
+    <title>FedMRL: Data Heterogeneity Aware Federated Multi-agent Deep Reinforcement Learning for Medical Imaging</title>
+    <updated>2024-07-08T10:10:07Z</updated>
+    <link href="https://arxiv.org/abs/2407.05800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.05800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent advancements in federated learning (FL) for medical image diagnosis, addressing data heterogeneity among clients remains a significant challenge for practical implementation. A primary hurdle in FL arises from the non-IID nature of data samples across clients, which typically results in a decline in the performance of the aggregated global model. In this study, we introduce FedMRL, a novel federated multi-agent deep reinforcement learning framework designed to address data heterogeneity. FedMRL incorporates a novel loss function to facilitate fairness among clients, preventing bias in the final global model. Additionally, it employs a multi-agent reinforcement learning (MARL) approach to calculate the proximal term $(μ)$ for the personalized local objective function, ensuring convergence to the global optimum. Furthermore, FedMRL integrates an adaptive weight adjustment method using a Self-organizing map (SOM) on the server side to counteract distribution shifts among clients' local data distributions. We assess our approach using two publicly available real-world medical datasets, and the results demonstrate that FedMRL significantly outperforms state-of-the-art techniques, showing its efficacy in addressing data heterogeneity in federated learning. The code can be found here~{\url{https://github.com/Pranabiitp/FedMRL}}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-08T10:10:07Z</published>
+    <arxiv:comment>Accepted to MICCAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pranab Sahoo</name>
+    </author>
+    <author>
+      <name>Ashutosh Tripathi</name>
+    </author>
+    <author>
+      <name>Sriparna Saha</name>
+    </author>
+    <author>
+      <name>Samrat Mondal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.11014v1</id>
+    <title>Privacy-Preserving Joint Edge Association and Power Optimization for the Internet of Vehicles via Federated Multi-Agent Reinforcement Learning</title>
+    <updated>2023-01-26T10:09:23Z</updated>
+    <link href="https://arxiv.org/abs/2301.11014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.11014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proactive edge association is capable of improving wireless connectivity at the cost of increased handover (HO) frequency and energy consumption, while relying on a large amount of private information sharing required for decision making. In order to improve the connectivity-cost trade-off without privacy leakage, we investigate the privacy-preserving joint edge association and power allocation (JEAPA) problem in the face of the environmental uncertainty and the infeasibility of individual learning. Upon modelling the problem by a decentralized partially observable Markov Decision Process (Dec-POMDP), it is solved by federated multi-agent reinforcement learning (FMARL) through only sharing encrypted training data for federatively learning the policy sought. Our simulation results show that the proposed solution strikes a compelling trade-off, while preserving a higher privacy level than the state-of-the-art solutions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-26T10:09:23Z</published>
+    <arxiv:comment>6 pages, 4 figures, IEEE Trans. on Veh. Technol</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yan Lin</name>
+    </author>
+    <author>
+      <name>Jinming Bao</name>
+    </author>
+    <author>
+      <name>Yijin Zhang</name>
+    </author>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <author>
+      <name>Feng Shu</name>
+    </author>
+    <author>
+      <name>Lajos Hanzo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.12592v1</id>
+    <title>Securing IoT Communication using Physical Sensor Data -- Graph Layer Security with Federated Multi-Agent Deep Reinforcement Learning</title>
+    <updated>2023-02-24T12:10:23Z</updated>
+    <link href="https://arxiv.org/abs/2302.12592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.12592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Internet-of-Things (IoT) devices are often used to transmit physical sensor data over digital wireless channels. Traditional Physical Layer Security (PLS)-based cryptography approaches rely on accurate channel estimation and information exchange for key generation, which irrevocably ties key quality with digital channel estimation quality. Recently, we proposed a new concept called Graph Layer Security (GLS), where digital keys are derived from physical sensor readings. The sensor readings between legitimate users are correlated through a common background infrastructure environment (e.g., a common water distribution network or electric grid). The challenge for GLS has been how to achieve distributed key generation. This paper presents a Federated multi-agent Deep reinforcement learning-assisted Distributed Key generation scheme (FD2K), which fully exploits the common features of physical dynamics to establish secret key between legitimate users. We present for the first time initial experimental results of GLS with federated learning, achieving considerable security performance in terms of key agreement rate (KAR), and key randomness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-24T12:10:23Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Liang Wang</name>
+    </author>
+    <author>
+      <name>Zhuangkun Wei</name>
+    </author>
+    <author>
+      <name>Weisi Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.10163v1</id>
+    <title>Federated Multi-Agent Reinforcement Learning for Privacy-Preserving and Energy-Aware Resource Management in 6G Edge Networks</title>
+    <updated>2025-09-12T11:41:40Z</updated>
+    <link href="https://arxiv.org/abs/2509.10163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.10163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As sixth-generation (6G) networks move toward ultra-dense, intelligent edge environments, efficient resource management under stringent privacy, mobility, and energy constraints becomes critical. This paper introduces a novel Federated Multi-Agent Reinforcement Learning (Fed-MARL) framework that incorporates cross-layer orchestration of both the MAC layer and application layer for energy-efficient, privacy-preserving, and real-time resource management across heterogeneous edge devices. Each agent uses a Deep Recurrent Q-Network (DRQN) to learn decentralized policies for task offloading, spectrum access, and CPU energy adaptation based on local observations (e.g., queue length, energy, CPU usage, and mobility). To protect privacy, we introduce a secure aggregation protocol based on elliptic curve Diffie Hellman key exchange, which ensures accurate model updates without exposing raw data to semi-honest adversaries. We formulate the resource management problem as a partially observable multi-agent Markov decision process (POMMDP) with a multi-objective reward function that jointly optimizes latency, energy efficiency, spectral efficiency, fairness, and reliability under 6G-specific service requirements such as URLLC, eMBB, and mMTC. Simulation results demonstrate that Fed-MARL outperforms centralized MARL and heuristic baselines in task success rate, latency, energy efficiency, and fairness, while ensuring robust privacy protection and scalability in dynamic, resource-constrained 6G edge networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-12T11:41:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Francisco Javier Esono Nkulu Andong</name>
+    </author>
+    <author>
+      <name>Qi Min</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.00641v1</id>
+    <title>Federated Multi-Agent Deep Reinforcement Learning Approach via Physics-Informed Reward for Multi-Microgrid Energy Management</title>
+    <updated>2022-12-29T08:35:11Z</updated>
+    <link href="https://arxiv.org/abs/2301.00641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.00641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The utilization of large-scale distributed renewable energy promotes the development of the multi-microgrid (MMG), which raises the need of developing an effective energy management method to minimize economic costs and keep self energy-sufficiency. The multi-agent deep reinforcement learning (MADRL) has been widely used for the energy management problem because of its real-time scheduling ability. However, its training requires massive energy operation data of microgrids (MGs), while gathering these data from different MGs would threaten their privacy and data security. Therefore, this paper tackles this practical yet challenging issue by proposing a federated multi-agent deep reinforcement learning (F-MADRL) algorithm via the physics-informed reward. In this algorithm, the federated learning (FL) mechanism is introduced to train the F-MADRL algorithm thus ensures the privacy and the security of data. In addition, a decentralized MMG model is built, and the energy of each participated MG is managed by an agent, which aims to minimize economic costs and keep self energy-sufficiency according to the physics-informed reward. At first, MGs individually execute the self-training based on local energy operation data to train their local agent models. Then, these local models are periodically uploaded to a server and their parameters are aggregated to build a global agent, which will be broadcasted to MGs and replace their local agents. In this way, the experience of each MG agent can be shared and the energy operation data is not explicitly transmitted, thus protecting the privacy and ensuring data security. Finally, experiments are conducted on Oak Ridge national laboratory distributed energy control communication lab microgrid (ORNL-MG) test system, and the comparisons are carried out to verify the effectiveness of introducing the FL mechanism and the outperformance of our proposed F-MADRL.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-29T08:35:11Z</published>
+    <arxiv:comment>Accepted by IEEE Transactions on Neural Networks and Learning Systems</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>IEEE Transactions on Neural Networks and Learning Systems 35 (2024) 5902-5914</arxiv:journal_ref>
+    <author>
+      <name>Yuanzheng Li</name>
+    </author>
+    <author>
+      <name>Shangyang He</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Yang Shi</name>
+    </author>
+    <author>
+      <name>Zhigang Zeng</name>
+    </author>
+    <arxiv:doi>10.1109/TNNLS.2022.3232630</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TNNLS.2022.3232630" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.07392v4</id>
+    <title>From Static to Adaptive Defense: Federated Multi-Agent Deep Reinforcement Learning-Driven Moving Target Defense Against DoS Attacks in UAV Swarm Networks</title>
+    <updated>2025-11-20T09:41:03Z</updated>
+    <link href="https://arxiv.org/abs/2506.07392v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.07392v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of UAVs has enabled a wide range of mission-critical applications and is becoming a cornerstone of low-altitude networks, supporting smart cities, emergency response, and more. However, the open wireless environment, dynamic topology, and resource constraints of UAVs expose low-altitude networks to severe DoS threats. Traditional defense approaches, which rely on fixed configurations or centralized decision-making, cannot effectively respond to the rapidly changing conditions in UAV swarm environments. To address these challenges, we propose a novel federated multi-agent deep reinforcement learning (FMADRL)-driven moving target defense (MTD) framework for proactive DoS mitigation in low-altitude networks. Specifically, we design lightweight and coordinated MTD mechanisms, including leader switching, route mutation, and frequency hopping, to disrupt attacker efforts and enhance network resilience. The defense problem is formulated as a multi-agent partially observable Markov decision process, capturing the uncertain nature of UAV swarms under attack. Each UAV is equipped with a policy agent that autonomously selects MTD actions based on partial observations and local experiences. By employing a policy gradient-based algorithm, UAVs collaboratively optimize their policies via reward-weighted aggregation. Extensive simulations demonstrate that our approach significantly outperforms state-of-the-art baselines, achieving up to a 34.6% improvement in attack mitigation rate, a reduction in average recovery time of up to 94.6%, and decreases in energy consumption and defense cost by as much as 29.3% and 98.3%, respectively, under various DoS attack strategies. These results highlight the potential of intelligent, distributed defense mechanisms to protect low-altitude networks, paving the way for reliable and scalable low-altitude economy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-09T03:33:04Z</published>
+    <arxiv:comment>15pages; Accepted by IEEE TCCN</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuyang Zhou</name>
+    </author>
+    <author>
+      <name>Guang Cheng</name>
+    </author>
+    <author>
+      <name>Kang Du</name>
+    </author>
+    <author>
+      <name>Zihan Chen</name>
+    </author>
+    <author>
+      <name>Tian Qin</name>
+    </author>
+    <author>
+      <name>Yuyu Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.08175v1</id>
+    <title>Privacy-Enhancing Paradigms within Federated Multi-Agent Systems</title>
+    <updated>2025-03-11T08:38:45Z</updated>
+    <link href="https://arxiv.org/abs/2503.08175v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.08175v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based Multi-Agent Systems (MAS) have proven highly effective in solving complex problems by integrating multiple agents, each performing different roles. However, in sensitive domains, they face emerging privacy protection challenges. In this paper, we introduce the concept of Federated MAS, highlighting the fundamental differences between Federated MAS and traditional FL. We then identify key challenges in developing Federated MAS, including: 1) heterogeneous privacy protocols among agents, 2) structural differences in multi-party conversations, and 3) dynamic conversational network structures. To address these challenges, we propose Embedded Privacy-Enhancing Agents (EPEAgent), an innovative solution that integrates seamlessly into the Retrieval-Augmented Generation (RAG) phase and the context retrieval stage. This solution minimizes data flows, ensuring that only task-relevant, agent-specific information is shared. Additionally, we design and generate a comprehensive dataset to evaluate the proposed paradigm. Extensive experiments demonstrate that EPEAgent effectively enhances privacy protection while maintaining strong system performance. The code will be availiable at https://github.com/ZitongShi/EPEAgent</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-11T08:38:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zitong Shi</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>Wenke Huang</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Jiawei Shao</name>
+    </author>
+    <author>
+      <name>Mang Ye</name>
+    </author>
+    <author>
+      <name>Carl Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14137v3</id>
+    <title>Federated Multi-Agent Actor-Critic Learning for Age Sensitive Mobile Edge Computing</title>
+    <updated>2021-05-11T10:02:12Z</updated>
+    <link href="https://arxiv.org/abs/2012.14137v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14137v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As an emerging technique, mobile edge computing (MEC) introduces a new processing scheme for various distributed communication-computing systems such as industrial Internet of Things (IoT), vehicular communication, smart city, etc. In this work, we mainly focus on the timeliness of the MEC systems where the freshness of the data and computation tasks is significant. Firstly, we formulate a kind of age-sensitive MEC models and define the average age of information (AoI) minimization problems of interests. Then, a novel policy based multi-agent deep reinforcement learning (RL) framework, called heterogeneous multi-agent actor critic (H-MAAC), is proposed as a paradigm for joint collaboration in the investigated MEC systems, where edge devices and center controller learn the interactive strategies through their own observations. To improves the system performance, we develop the corresponding online algorithm by introducing an edge federated learning mode into the multi-agent cooperation whose advantages on learning convergence can be guaranteed theoretically. To the best of our knowledge, it's the first joint MEC collaboration algorithm that combines the edge federated mode with the multi-agent actor-critic reinforcement learning. Furthermore, we evaluate the proposed approach and compare it with classical RL based methods. As a result, the proposed framework not only outperforms the baseline on average system age, but also promotes the stability of training process. Besides, the simulation results provide some innovative perspectives for the system design under the edge federated collaboration.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-28T08:19:26Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Zheqi Zhu</name>
+    </author>
+    <author>
+      <name>Shuo Wan</name>
+    </author>
+    <author>
+      <name>Pingyi Fan</name>
+    </author>
+    <author>
+      <name>Khaled B. Letaief</name>
+    </author>
+    <arxiv:doi>10.1109/JIOT.2021.3078514</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JIOT.2021.3078514" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.13026v2</id>
+    <title>The Gradient Convergence Bound of Federated Multi-Agent Reinforcement Learning with Efficient Communication</title>
+    <updated>2023-05-29T12:53:01Z</updated>
+    <link href="https://arxiv.org/abs/2103.13026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.13026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper considers independent reinforcement learning (IRL) for multi-agent collaborative decision-making in the paradigm of federated learning (FL). However, FL generates excessive communication overheads between agents and a remote central server, especially when it involves a large number of agents or iterations. Besides, due to the heterogeneity of independent learning environments, multiple agents may undergo asynchronous Markov decision processes (MDPs), which will affect the training samples and the model's convergence performance. On top of the variation-aware periodic averaging (VPA) method and the policy-based deep reinforcement learning (DRL) algorithm (i.e., proximal policy optimization (PPO)), this paper proposes two advanced optimization schemes orienting to stochastic gradient descent (SGD): 1) A decay-based scheme gradually decays the weights of a model's local gradients with the progress of successive local updates, and 2) By representing the agents as a graph, a consensus-based scheme studies the impact of exchanging a model's local gradients among nearby agents from an algebraic connectivity perspective. This paper also provides novel convergence guarantees for both developed schemes, and demonstrates their superior effectiveness and efficiency in improving the system's utility value through theoretical analyses and simulation results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-24T07:21:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xing Xu</name>
+    </author>
+    <author>
+      <name>Rongpeng Li</name>
+    </author>
+    <author>
+      <name>Zhifeng Zhao</name>
+    </author>
+    <author>
+      <name>Honggang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02668v1</id>
+    <title>FAuNO: Semi-Asynchronous Federated Reinforcement Learning Framework for Task Offloading in Edge Systems</title>
+    <updated>2025-06-03T09:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2506.02668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Edge computing addresses the growing data demands of connected-device networks by placing computational resources closer to end users through decentralized infrastructures. This decentralization challenges traditional, fully centralized orchestration, which suffers from latency and resource bottlenecks. We present \textbf{FAuNO} -- \emph{Federated Asynchronous Network Orchestrator} -- a buffered, asynchronous \emph{federated reinforcement-learning} (FRL) framework for decentralized task offloading in edge systems. FAuNO adopts an actor-critic architecture in which local actors learn node-specific dynamics and peer interactions, while a federated critic aggregates experience across agents to encourage efficient cooperation and improve overall system performance. Experiments in the \emph{PeersimGym} environment show that FAuNO consistently matches or exceeds heuristic and federated multi-agent RL baselines in reducing task loss and latency, underscoring its adaptability to dynamic edge-computing scenarios.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-03T09:15:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Frederico Metelo</name>
+    </author>
+    <author>
+      <name>Alexandre Oliveira</name>
+    </author>
+    <author>
+      <name>Stevo Racković</name>
+    </author>
+    <author>
+      <name>Pedro Ákos Costa</name>
+    </author>
+    <author>
+      <name>Cláudia Soares</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06842v1</id>
+    <title>Federated Multi-Agent Deep Reinforcement Learning for Dynamic and Flexible 3D Operation of 5G Multi-MAP Networks</title>
+    <updated>2023-06-30T12:09:34Z</updated>
+    <link href="https://arxiv.org/abs/2307.06842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper addresses the efficient management of Mobile Access Points (MAPs), which are Unmanned Aerial Vehicles (UAV), in 5G networks. We propose a two-level hierarchical architecture, which dynamically reconfigures the network while considering Integrated Access-Backhaul (IAB) constraints. The high-layer decision process determines the number of MAPs through consensus, and we develop a joint optimization process to account for co-dependence in network self-management. In the low-layer, MAPs manage their placement using a double-attention based Deep Reinforcement Learning (DRL) model that encourages cooperation without retraining. To improve generalization and reduce complexity, we propose a federated mechanism for training and sharing one placement model for every MAP in the low-layer. Additionally, we jointly optimize the placement and backhaul connectivity of MAPs using a multi-objective reward function, considering the impact of varying MAP placement on wireless backhaul connectivity.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-30T12:09:34Z</published>
+    <arxiv:comment>2023 IEEE International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Esteban Catté</name>
+    </author>
+    <author>
+      <name>Mohamed Sana</name>
+    </author>
+    <author>
+      <name>Mickael Maman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.10987v1</id>
+    <title>Adaptive Digital Twin and Communication-Efficient Federated Learning Network Slicing for 5G-enabled Internet of Things</title>
+    <updated>2024-06-22T15:33:35Z</updated>
+    <link href="https://arxiv.org/abs/2407.10987v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.10987v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Network slicing enables industrial Internet of Things (IIoT) networks with multiservice and differentiated resource requirements to meet increasing demands through efficient use and management of network resources. Typically, the network slice orchestrator relies on demand forecasts for each slice to make informed decisions and maximize resource utilization. The new generation of Industry 4.0 has introduced digital twins to map physical systems to digital models for accurate decision-making. In our approach, we first use graph-attention networks to build a digital twin environment for network slices, enabling real-time traffic analysis, monitoring, and demand forecasting. Based on these predictions, we formulate the resource allocation problem as a federated multi-agent reinforcement learning problem and employ a deep deterministic policy gradient to determine the resource allocation policy while preserving the privacy of the slices. Our results demonstrate that the proposed approaches can improve the accuracy of demand prediction for network slices and reduce the communication overhead of dynamic network slicing.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-22T15:33:35Z</published>
+    <arxiv:comment>8 pages, 7 figures, conference</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Daniel Ayepah-Mensah</name>
+    </author>
+    <author>
+      <name>Guolin Sun</name>
+    </author>
+    <author>
+      <name>Yu Pang</name>
+    </author>
+    <author>
+      <name>Wei Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.04241v1</id>
+    <title>AI-Enabled Unmanned Vehicle-Assisted Reconfigurable Intelligent Surfaces: Deployment, Prototyping, Experiments, and Opportunities</title>
+    <updated>2023-11-06T22:22:00Z</updated>
+    <link href="https://arxiv.org/abs/2311.04241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.04241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The requirement of wireless data demands is increasingly high as the sixth-generation (6G) technology evolves. Reconfigurable intelligent surface (RIS) is promisingly deemed to be one of 6G techniques for extending service coverage, reducing power consumption, and enhancing spectral efficiency. In this article, we have provided some fundamentals of RIS deployment in theory and hardware perspectives as well as utilization of artificial intelligence (AI) and machine learning. We conducted an intelligent deployment of RIS (i-Dris) prototype, including dual-band auto-guided vehicle (AGV) assisted RISs associated with an mmWave base station (BS) and a receiver. The RISs are deployed on the AGV with configured incident/reflection angles. While, both the mmWave BS and receiver are associated with an edge server monitoring downlink packets for obtaining system throughput. We have designed a federated multi-agent reinforcement learning scheme associated with several AGV-RIS agents and sub-agents per AGV-RIS consisting of the deployment of position, height, orientation and elevation angles. The experimental results presented the stationary measurement in different aspects and scenarios. The i-Dris can reach up to 980 Mbps transmission throughput under a bandwidth of 100 MHz with comparably low complexity as well as rapid deployment, which outperforms the other existing works. At last, we highlight some opportunities and future issues in leveraging RIS-empowered wireless communication networks.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-06T22:22:00Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Li-Hsiang Shen</name>
+    </author>
+    <author>
+      <name>Kai-Ten Feng</name>
+    </author>
+    <author>
+      <name>Ta-Sung Lee</name>
+    </author>
+    <author>
+      <name>Yuan-Chun Lin</name>
+    </author>
+    <author>
+      <name>Shih-Cheng Lin</name>
+    </author>
+    <author>
+      <name>Chia-Chan Chang</name>
+    </author>
+    <author>
+      <name>Sheng-Fuh Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04268v1</id>
+    <title>Making Tunable Parameters State-Dependent in Weather and Climate Models with Reinforcement Learning</title>
+    <updated>2026-01-07T11:19:16Z</updated>
+    <link href="https://arxiv.org/abs/2601.04268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Weather and climate models rely on parametrisations to represent unresolved sub-grid processes. Traditional schemes rely on fixed coefficients that are weakly constrained and tuned offline, contributing to persistent biases that limit their ability to adapt to the underlying physics. This study presents a framework that learns components of parametrisation schemes online as a function of the evolving model state using reinforcement learning (RL) and evaluates the resulting RL-driven parameter updates across a hierarchy of idealised testbeds spanning a simple climate bias correction (SCBC), a radiative-convective equilibrium (RCE), and a zonal mean energy balance model (EBM) with both single-agent and federated multi-agent settings. Across nine RL algorithms, Truncated Quantile Critics (TQC), Deep Deterministic Policy Gradient (DDPG), and Twin Delayed DDPG (TD3) achieved the highest skill and the most stable convergence across configurations, with performance assessed against a static baseline using area-weighted RMSE, temperature profile and pressure-level diagnostics. For the EBM, single-agent RL outperformed static parameter tuning with the strongest gains in tropical and mid-latitude bands, while federated RL on multi-agent setups enabled geographically specialised control and faster convergence, with a six-agent DDPG configuration using frequent aggregation yielding the lowest area-weighted RMSE across the tropics and mid-latitudes. The learnt corrections were also physically meaningful as agents modulated EBM radiative parameters to reduce meridional biases, adjusted RCE lapse rates to match vertical temperature errors, and stabilised SCBC heating increments to limit drift. Overall, results highlight RL to deliver skilful state-dependent, and regime-aware parametrisations, offering a scalable pathway for online learning within numerical models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T11:19:16Z</published>
+    <arxiv:comment>66 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pritthijit Nath</name>
+    </author>
+    <author>
+      <name>Sebastian Schemm</name>
+    </author>
+    <author>
+      <name>Henry Moss</name>
+    </author>
+    <author>
+      <name>Peter Haynes</name>
+    </author>
+    <author>
+      <name>Emily Shuckburgh</name>
+    </author>
+    <author>
+      <name>Mark J. Webb</name>
+    </author>
+  </entry>
+</feed>

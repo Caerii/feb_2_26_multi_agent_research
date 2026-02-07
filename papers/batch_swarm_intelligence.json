@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/liGMu36+a+IuAyLItzBFUoeMCL4</id>
+  <title>arXiv Query: search_query=all:"swarm intelligence"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T05:00:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22swarm+intelligence%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>396</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6342v1</id>
+    <title>Efficiency Analysis of Swarm Intelligence and Randomization Techniques</title>
+    <updated>2013-03-25T22:50:22Z</updated>
+    <link href="https://arxiv.org/abs/1303.6342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm intelligence has becoming a powerful technique in solving design and scheduling tasks. Metaheuristic algorithms are an integrated part of this paradigm, and particle swarm optimization is often viewed as an important landmark. The outstanding performance and efficiency of swarm-based algorithms inspired many new developments, though mathematical understanding of metaheuristics remains partly a mystery. In contrast to the classic deterministic algorithms, metaheuristics such as PSO always use some form of randomness, and such randomization now employs various techniques. This paper intends to review and analyze some of the convergence and efficiency associated with metaheuristics such as firefly algorithm, random walks, and Lévy flights. We will discuss how these techniques are used and their implications for further research.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-25T22:50:22Z</published>
+    <arxiv:comment>10 pages. arXiv admin note: substantial text overlap with arXiv:1212.0220, arXiv:1208.0527, arXiv:1003.1466</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>X. S. Yang, Efficiency analysis of swarm intelligence and randomization techniques, Journal of Computational and Theoretical Nanoscience, Vol. 9, No. 2, pp. 189-198 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Xin-She Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.13276v1</id>
+    <title>Distributed Swarm Intelligence</title>
+    <updated>2023-01-30T20:36:35Z</updated>
+    <link href="https://arxiv.org/abs/2301.13276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.13276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the development of a distributed application that facilitates the understanding and application of swarm intelligence in solving optimization problems. The platform comprises a search space of customizable random particles, allowing users to tailor the solution to their specific needs. By leveraging the power of Ray distributed computing, the application can support multiple users simultaneously, offering a flexible and scalable solution. The primary objective of this project is to provide a user-friendly platform that enhances the understanding and practical use of swarm intelligence in problem-solving.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-30T20:36:35Z</published>
+    <arxiv:comment>7 pages, 3 Figure, 1 Algorithm</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Karthik Reddy Kanjula</name>
+    </author>
+    <author>
+      <name>Sai Meghana Kolla</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.4116v1</id>
+    <title>Swarm Intelligence</title>
+    <updated>2009-10-21T15:02:12Z</updated>
+    <link href="https://arxiv.org/abs/0910.4116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.4116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Biologically inspired computing is an area of computer science which uses the advantageous properties of biological systems. It is the amalgamation of computational intelligence and collective intelligence. Biologically inspired mechanisms have already proved successful in achieving major advances in a wide range of problems in computing and communication systems. The consortium of bio-inspired computing are artificial neural networks, evolutionary algorithms, swarm intelligence, artificial immune systems, fractal geometry, DNA computing and quantum computing, etc. This article gives an introduction to swarm intelligence.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-21T15:02:12Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Sabu M. Thampi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04182v3</id>
+    <title>A Generic Model for Swarm Intelligence and Its Validations</title>
+    <updated>2025-01-17T06:56:43Z</updated>
+    <link href="https://arxiv.org/abs/1712.04182v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.04182v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The modeling of emergent swarm intelligence constitutes a major challenge and it has been tackled in a number of different ways. However, existing approaches fail to capture the nature of swarm intelligence and they are either too abstract for practical application or not generic enough to describe the various types of emergence phenomena. In this paper, a contradiction-centric model for swarm intelligence is proposed, in which individu-als determine their behaviors based on their internal contradictions whilst they associate and interact to update their contradictions. The model hypothesizes that 1) the emergence of swarm intelligence is rooted in the de-velopment of individuals' internal contradictions and the interactions taking place between individuals and the environment, and 2) swarm intelligence is essentially a combinative reflection of the configurations of individuals' internal contradictions and the distributions of these contradictions across individuals. The model is formally described and five swarm intelligence systems are studied to illustrate its broad applicability. The studies confirm the generic character of the model and its effectiveness for describing the emergence of various kinds of swarm intelligence; and they also demonstrate that the model is straightforward to apply, without the need for complicated computations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-12T09:25:02Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>WSEAS Transactions on Information Science and Applications, ISSN / E-ISSN: 1790-0832 / 2224-3402, Volume 18, 2021, Art. #14, p.116-130</arxiv:journal_ref>
+    <author>
+      <name>Wenpin Jiao</name>
+    </author>
+    <arxiv:doi>10.37394/23209.2021.18.14</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.37394/23209.2021.18.14" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.19585v1</id>
+    <title>A Contradiction-Centered Model for the Emergence of Swarm Intelligence</title>
+    <updated>2025-01-17T07:05:08Z</updated>
+    <link href="https://arxiv.org/abs/2503.19585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.19585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The phenomenon of emergence of swarm intelligence exists widely in nature and human society. People have been exploring the root cause of emergence of swarm intelligence and trying to establish general theories and models for emergence of swarm intelligence. However, the existing theories or models do not grasp the essence of swarm intelligence, so they lack generality and are difficult to explain various phenomena of emergence of swarm intelligence. In this paper, a contradiction-centered model for the emergence of swarm intelligence is proposed, in which the internal contradictions of individuals determine their behavior and properties, individuals are related and interact within the swarm because of competing and occupying environmental resources, interactions and swarm potential affect the internal contradictions of individuals and their distribution in the swarm, and the swarm intelligence is manifested as the specific distribution of individual contradictions. This model completely explains the conditions, dynamics, pathways, formations and processes of the emergence of swarm intelligence. In order to verify the validity of this model, several swarm intelligence systems are implemented and analyzed in this paper. The experimental results show that the model has good generality and can be used to describe the emergence of various swarm intelligence.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-17T07:05:08Z</published>
+    <arxiv:comment>21 pages, in Chinese language</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Wenpin Jiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11787v1</id>
+    <title>Survey of Swarm Intelligence Approaches to Search Documents Based On Semantic Similarity</title>
+    <updated>2025-07-15T23:03:52Z</updated>
+    <link href="https://arxiv.org/abs/2507.11787v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11787v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm Intelligence (SI) is gaining a lot of popularity in artificial intelligence, where the natural behavior of animals and insects is observed and translated into computer algorithms called swarm computing to solve real-world problems. Due to their effectiveness, they are applied in solving various computer optimization problems. This survey will review all the latest developments in Searching for documents based on semantic similarity using Swarm Intelligence algorithms and recommend future research directions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-15T23:03:52Z</published>
+    <arxiv:comment>CSAIDE '25: Proceedings of the 2025 4th International Conference on Cyber Security, Artificial Intelligence and the Digital Economy</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chandrashekar Muniyappa</name>
+    </author>
+    <author>
+      <name>Eunjin Kim</name>
+    </author>
+    <arxiv:doi>10.1145/3729706.3729817</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3729706.3729817" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.03964v1</id>
+    <title>Interactive Restless Multi-armed Bandit Game and Swarm Intelligence Effect</title>
+    <updated>2015-03-13T06:53:01Z</updated>
+    <link href="https://arxiv.org/abs/1503.03964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.03964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain the conditions for the emergence of the swarm intelligence effect in an interactive game of restless multi-armed bandit (rMAB). A player competes with multiple agents. Each bandit has a payoff that changes with a probability $p_{c}$ per round. The agents and player choose one of three options: (1) Exploit (a good bandit), (2) Innovate (asocial learning for a good bandit among $n_{I}$ randomly chosen bandits), and (3) Observe (social learning for a good bandit). Each agent has two parameters $(c,p_{obs})$ to specify the decision: (i) $c$, the threshold value for Exploit, and (ii) $p_{obs}$, the probability for Observe in learning. The parameters $(c,p_{obs})$ are uniformly distributed. We determine the optimal strategies for the player using complete knowledge about the rMAB. We show whether or not social or asocial learning is more optimal in the $(p_{c},n_{I})$ space and define the swarm intelligence effect. We conduct a laboratory experiment (67 subjects) and observe the swarm intelligence effect only if $(p_{c},n_{I})$ are chosen so that social learning is far more optimal than asocial learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-13T06:53:01Z</published>
+    <arxiv:comment>18 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>New generation computing, vol.34, No. 3, 291-306, 2016</arxiv:journal_ref>
+    <author>
+      <name>Shunsuke Yoshida</name>
+    </author>
+    <author>
+      <name>Masato Hisakado</name>
+    </author>
+    <author>
+      <name>Shintaro Mori</name>
+    </author>
+    <arxiv:doi>10.1007/s00354-016-0306-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00354-016-0306-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.00795v1</id>
+    <title>Design and development of a software system for swarm intelligence based research studies</title>
+    <updated>2017-04-03T20:17:32Z</updated>
+    <link href="https://arxiv.org/abs/1704.00795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.00795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduce a software system including widely-used Swarm Intelligence algorithms or approaches to be used for the related scientific research studies associated with the subject area. The programmatic infrastructure of the system allows working on a fast, easy-to-use, interactive platform to perform Swarm Intelligence based studies in a more effective, efficient and accurate way. In this sense, the system employs all of the necessary controls for the algorithms and it ensures an interactive platform on which computer users can perform studies on a wide spectrum of solution approaches associated with simple and also more advanced problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-03T20:17:32Z</published>
+    <arxiv:comment>6 pages, 2 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Broad Research in Artificial Intelligence and Neuroscience, 3(3), 2012, 12-17</arxiv:journal_ref>
+    <author>
+      <name>Utku Kose</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00998v1</id>
+    <title>Swarm Intelligence in Semi-supervised Classification</title>
+    <updated>2017-06-03T20:09:06Z</updated>
+    <link href="https://arxiv.org/abs/1706.00998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This Paper represents a literature review of Swarm intelligence algorithm in the area of semi-supervised classification. There are many research papers for applying swarm intelligence algorithms in the area of machine learning. Some algorithms of SI are applied in the area of ML either solely or hybrid with other ML algorithms. SI algorithms are also used for tuning parameters of ML algorithm, or as a backbone for ML algorithms. This paper introduces a brief literature review for applying swarm intelligence algorithms in the field of semi-supervised learning</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-03T20:09:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Data Mining And Knowledge Engineering, 9(5), 99-103 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Shahira Shaaban Azab</name>
+    </author>
+    <author>
+      <name>Hesham Ahmed Hefny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.17115v2</id>
+    <title>Swarm Intelligence Enhanced Reasoning: A Density-Driven Framework for LLM-Based Multi-Agent Optimization</title>
+    <updated>2025-05-30T08:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2505.17115v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.17115v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, many approaches, such as Chain-of-Thought (CoT) prompting and Multi-Agent Debate (MAD), have been proposed to further enrich Large Language Models' (LLMs) complex problem-solving capacities in reasoning scenarios. However, these methods may fail to solve complex problems due to the lack of ability to find optimal solutions. Swarm Intelligence has been serving as a powerful tool for finding optima in the field of traditional optimization problems. To this end, we propose integrating swarm intelligence into the reasoning process by introducing a novel Agent-based Swarm Intelligence (ASI) paradigm. In this paradigm, we formulate LLM reasoning as an optimization problem and use a swarm intelligence scheme to guide a group of LLM-based agents in collaboratively searching for optimal solutions. To avoid swarm intelligence getting trapped in local optima, we further develop a Swarm Intelligence Enhancing Reasoning (SIER) framework, which develops a density-driven strategy to enhance the reasoning ability. To be specific, we propose to perform kernel density estimation and non-dominated sorting to optimize both solution quality and diversity simultaneously. In this case, SIER efficiently enhances solution space exploration through expanding the diversity of the reasoning path. Besides, a step-level quality evaluation is used to help agents improve solution quality by correcting low-quality intermediate steps. Then, we use quality thresholds to dynamically control the termination of exploration and the selection of candidate steps, enabling a more flexible and efficient reasoning process. Extensive experiments are ...</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-21T15:48:13Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ying Zhu</name>
+    </author>
+    <author>
+      <name>Heng Zhou</name>
+    </author>
+    <author>
+      <name>Rui Su</name>
+    </author>
+    <author>
+      <name>Peiqin Zhuang</name>
+    </author>
+    <author>
+      <name>Lei Bai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.6741v1</id>
+    <title>Memcomputing and Swarm Intelligence</title>
+    <updated>2014-08-28T14:55:16Z</updated>
+    <link href="https://arxiv.org/abs/1408.6741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.6741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the relation between memcomputing, namely computing with and in memory, and swarm intelligence algorithms. In particular, we show that one can design memristive networks to solve short-path optimization problems that can also be solved by ant-colony algorithms. By employing appropriate memristive elements one can demonstrate an almost one-to-one correspondence between memcomputing and ant colony optimization approaches. However, the memristive network has the capability of finding the solution in one deterministic step, compared to the stochastic multi-step ant colony optimization. This result paves the way for nanoscale hardware implementations of several swarm intelligence algorithms that are presently explored, from scheduling problems to robotics.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-28T14:55:16Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Y. V. Pershin</name>
+    </author>
+    <author>
+      <name>M. Di Ventra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05521v1</id>
+    <title>Swarm Intelligence for Self-Organized Clustering</title>
+    <updated>2021-06-10T06:21:48Z</updated>
+    <link href="https://arxiv.org/abs/2106.05521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Algorithms implementing populations of agents which interact with one another and sense their environment may exhibit emergent behavior such as self-organization and swarm intelligence. Here a swarm system, called Databionic swarm (DBS), is introduced which is able to adapt itself to structures of high-dimensional data characterized by distance and/or density-based structures in the data space. By exploiting the interrelations of swarm intelligence, self-organization and emergence, DBS serves as an alternative approach to the optimization of a global objective function in the task of clustering. The swarm omits the usage of a global objective function and is parameter-free because it searches for the Nash equilibrium during its annealing process. To our knowledge, DBS is the first swarm combining these approaches. Its clustering can outperform common clustering methods such as K-means, PAM, single linkage, spectral clustering, model-based clustering, and Ward, if no prior knowledge about the data is available. A central problem in clustering is the correct estimation of the number of clusters. This is addressed by a DBS visualization called topographic map which allows assessing the number of clusters. It is known that all clustering algorithms construct clusters, irrespective of the data set contains clusters or not. In contrast to most other clustering algorithms, the topographic map identifies, that clustering of the data is meaningless if the data contains no (natural) clusters. The performance of DBS is demonstrated on a set of benchmark data, which are constructed to pose difficult clustering problems and in two real-world applications.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-10T06:21:48Z</published>
+    <arxiv:comment>54 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>Artificial intelligence, Vol. 290, pp. 103237. 2021</arxiv:journal_ref>
+    <author>
+      <name>Michael C. Thrun</name>
+    </author>
+    <author>
+      <name>Alfred Ultsch</name>
+    </author>
+    <arxiv:doi>10.1016/j.artint.2020.103237</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.artint.2020.103237" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.12823v2</id>
+    <title>Introductory Review of Swarm Intelligence Techniques</title>
+    <updated>2022-09-30T05:09:10Z</updated>
+    <link href="https://arxiv.org/abs/2209.12823v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.12823v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid upliftment of technology, there has emerged a dire need to fine-tune or optimize certain processes, software, models or structures, with utmost accuracy and efficiency. Optimization algorithms are preferred over other methods of optimization through experimentation or simulation, for their generic problem-solving abilities and promising efficacy with the least human intervention. In recent times, the inducement of natural phenomena into algorithm design has immensely triggered the efficiency of optimization process for even complex multi-dimensional, non-continuous, non-differentiable and noisy problem search spaces. This chapter deals with the Swarm intelligence (SI) based algorithms or Swarm Optimization Algorithms, which are a subset of the greater Nature Inspired Optimization Algorithms (NIOAs). Swarm intelligence involves the collective study of individuals and their mutual interactions leading to intelligent behavior of the swarm. The chapter presents various population-based SI algorithms, their fundamental structures along with their mathematical models.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-26T16:29:55Z</published>
+    <arxiv:comment>Submitted to Springer</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Thounaojam Chinglemba</name>
+    </author>
+    <author>
+      <name>Soujanyo Biswas</name>
+    </author>
+    <author>
+      <name>Debashish Malakar</name>
+    </author>
+    <author>
+      <name>Vivek Meena</name>
+    </author>
+    <author>
+      <name>Debojyoti Sarkar</name>
+    </author>
+    <author>
+      <name>Anupam Biswas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00136v1</id>
+    <title>Missing Data Estimation in High-Dimensional Datasets: A Swarm Intelligence-Deep Neural Network Approach</title>
+    <updated>2016-07-01T07:34:50Z</updated>
+    <link href="https://arxiv.org/abs/1607.00136v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.00136v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we examine the problem of missing data in high-dimensional datasets by taking into consideration the Missing Completely at Random and Missing at Random mechanisms, as well as theArbitrary missing pattern. Additionally, this paper employs a methodology based on Deep Learning and Swarm Intelligence algorithms in order to provide reliable estimates for missing data. The deep learning technique is used to extract features from the input data via an unsupervised learning approach by modeling the data distribution based on the input. This deep learning technique is then used as part of the objective function for the swarm intelligence technique in order to estimate the missing data after a supervised fine-tuning phase by minimizing an error function based on the interrelationship and correlation between features in the dataset. The investigated methodology in this paper therefore has longer running times, however, the promising potential outcomes justify the trade-off. Also, basic knowledge of statistics is presumed.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-01T07:34:50Z</published>
+    <arxiv:comment>12 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Collins Leke</name>
+    </author>
+    <author>
+      <name>Tshilidzi Marwala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.3909v2</id>
+    <title>Network Routing Optimization Using Swarm Intelligence</title>
+    <updated>2015-08-17T00:38:32Z</updated>
+    <link href="https://arxiv.org/abs/1209.3909v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.3909v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this paper is to highlight and explore a traditional problem, which is the minimum spanning tree, and finding the shortest-path in network routing, by using Swarm Intelligence. This work to be considered as an investigation topic with combination between operations research, discrete mathematics, and evolutionary computing aiming to solve one of networking problems.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-18T11:12:23Z</published>
+    <arxiv:comment>10 Pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Mohamed A. El Galil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.2257v1</id>
+    <title>Using the quaternion's representation of individuals in swarm intelligence and evolutionary computation</title>
+    <updated>2013-06-10T17:43:28Z</updated>
+    <link href="https://arxiv.org/abs/1306.2257v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.2257v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces a novel idea for representation of individuals using quaternions in swarm intelligence and evolutionary algorithms. Quaternions are a number system, which extends complex numbers. They are successfully applied to problems of theoretical physics and to those areas needing fast rotation calculations. We propose the application of quaternions in optimization, more precisely, we have been using quaternions for representation of individuals in Bat algorithm. The preliminary results of our experiments when optimizing a test-suite consisting of ten standard functions showed that this new algorithm significantly improved the results of the original Bat algorithm. Moreover, the obtained results are comparable with other swarm intelligence and evolutionary algorithms, like the artificial bees colony, and differential evolution. We believe that this representation could also be successfully applied to other swarm intelligence and evolutionary algorithms.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-10T17:43:28Z</published>
+    <arxiv:comment>Technical Report on Faculty of Electrical Engineering and Computer Science, Maribor, Slovenia, 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Iztok Fister</name>
+    </author>
+    <author>
+      <name>Iztok Fister</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.03800v1</id>
+    <title>Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence</title>
+    <updated>2025-03-05T17:13:27Z</updated>
+    <link href="https://arxiv.org/abs/2503.03800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.03800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work examines the integration of large language models (LLMs) into multi-agent simulations by replacing the hard-coded programs of agents with LLM-driven prompts. The proposed approach is showcased in the context of two examples of complex systems from the field of swarm intelligence: ant colony foraging and bird flocking. Central to this study is a toolchain that integrates LLMs with the NetLogo simulation platform, leveraging its Python extension to enable communication with GPT-4o via the OpenAI API. This toolchain facilitates prompt-driven behavior generation, allowing agents to respond adaptively to environmental data. For both example applications mentioned above, we employ both structured, rule-based prompts and autonomous, knowledge-driven prompts. Our work demonstrates how this toolchain enables LLMs to study self-organizing processes and induce emergent behaviors within multi-agent environments, paving the way for new approaches to exploring intelligent systems and modeling swarm intelligence inspired by natural phenomena. We provide the code, including simulation files and data at https://github.com/crjimene/swarm_gpt.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-05T17:13:27Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Cristian Jimenez-Romero</name>
+    </author>
+    <author>
+      <name>Alper Yegenoglu</name>
+    </author>
+    <author>
+      <name>Christian Blum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.08407v4</id>
+    <title>Trust-Awareness to Secure Swarm Intelligence from Data Injection Attack</title>
+    <updated>2023-05-10T10:28:53Z</updated>
+    <link href="https://arxiv.org/abs/2211.08407v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.08407v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enabled by the emerging industrial agent (IA) technology, swarm intelligence (SI) is envisaged to play an important role in future industrial Internet of Things (IIoT) that is shaped by Sixth Generation (6G) mobile communications and digital twin (DT). However, its fragility against data injection attack may halt it from practical deployment. In this paper we propose an efficient trust approach to address this security concern for SI.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T13:37:50Z</published>
+    <arxiv:comment>Accepted and to be presented at IEEE ICC 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Bin Han</name>
+    </author>
+    <author>
+      <name>Dennis Krummacker</name>
+    </author>
+    <author>
+      <name>Qiuheng Zhou</name>
+    </author>
+    <author>
+      <name>Hans D. Schotten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.4051v1</id>
+    <title>Coordinating metaheuristic agents with swarm intelligence</title>
+    <updated>2013-04-15T11:09:41Z</updated>
+    <link href="https://arxiv.org/abs/1304.4051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.4051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coordination of multi agent systems remains as a problem since there is no prominent method to completely solve this problem. Metaheuristic agents are specific implementations of multi-agent systems, which imposes working together to solve optimisation problems with metaheuristic algorithms. The idea borrowed from swarm intelligence seems working much better than those implementations suggested before. This paper reports the performance of swarms of simulated annealing agents collaborating with particle swarm optimization algorithm. The proposed approach is implemented for multidimensional knapsack problem and has resulted much better than some other works published before.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-15T11:09:41Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Journal of Intelligent Manufacturing, 23 (4), pp:991-999, 2012</arxiv:journal_ref>
+    <author>
+      <name>Mehmet Emin Aydin</name>
+    </author>
+    <arxiv:doi>10.1007/s10845-010-0435-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10845-010-0435-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.05387v2</id>
+    <title>Image Edge Detection based on Swarm Intelligence using Memristive Networks</title>
+    <updated>2017-02-14T23:17:49Z</updated>
+    <link href="https://arxiv.org/abs/1606.05387v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.05387v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in the development of memristive devices has opened new opportunities for hardware implementation of non-Boolean computing. To this end, the suitability of memristive devices for swarm intelligence algorithms has enabled researchers to solve a maze in hardware. In this paper, we utilize swarm intelligence of memristive networks to perform image edge detection. First, we propose a hardware-friendly algorithm for image edge detection based on ant colony. Second, we implement the image edge detection algorithm using memristive networks. Furthermore, we explain the impact of various parameters of the memristors on the efficacy of the implementation. Our results show 28% improvement in the energy compared to a low power CMOS hardware implementation based on stochastic circuits. Furthermore, our design occupies up to 5x less area.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-16T23:54:16Z</published>
+    <arxiv:comment>This paper was submitted to IEEE Transactions on Computer Aided design</arxiv:comment>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Zoha Pajouhi</name>
+    </author>
+    <author>
+      <name>Kaushik Roy</name>
+    </author>
+  </entry>
+</feed>

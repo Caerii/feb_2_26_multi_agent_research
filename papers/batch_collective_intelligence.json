@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bhruz5tKsdOoukZ/aO0xhw15vag</id>
+  <title>arXiv Query: search_query=all:"collective intelligence"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T05:00:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22collective+intelligence%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>429</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.3401v1</id>
+    <title>Collective Intelligence in Humans: A Literature Review</title>
+    <updated>2012-04-16T08:34:22Z</updated>
+    <link href="https://arxiv.org/abs/1204.3401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.3401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This literature review focuses on collective intelligence in humans. A keyword search was performed on the Web of Knowledge and selected papers were reviewed in order to reveal themes relevant to collective intelligence. Three levels of abstraction were identified in discussion about the phenomenon: the micro-level, the macro-level and the level of emergence. Recurring themes in the literature were categorized under the above-mentioned framework and directions for future research were identified.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-16T08:34:22Z</published>
+    <arxiv:comment>Presented at Collective Intelligence conference, 2012 (arXiv:1204.2991)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Juho Salminen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.10433v4</id>
+    <title>AI-enhanced Collective Intelligence</title>
+    <updated>2024-09-26T09:33:29Z</updated>
+    <link href="https://arxiv.org/abs/2403.10433v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.10433v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current societal challenges exceed the capacity of humans operating either alone or collectively. As AI evolves, its role within human collectives will vary from an assistive tool to a participatory member. Humans and AI possess complementary capabilities that, together, can surpass the collective intelligence of either humans or AI in isolation. However, the interactions in human-AI systems are inherently complex, involving intricate processes and interdependencies. This review incorporates perspectives from complex network science to conceptualize a multilayer representation of human-AI collective intelligence, comprising cognition, physical, and information layers. Within this multilayer network, humans and AI agents exhibit varying characteristics; humans differ in diversity from surface-level to deep-level attributes, while AI agents range in degrees of functionality and anthropomorphism. We explore how agents' diversity and interactions influence the system's collective intelligence and analyze real-world instances of AI-enhanced collective intelligence. We conclude by considering potential challenges and future developments in this field.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-15T16:11:15Z</published>
+    <arxiv:comment>43 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>AI-enhanced collective intelligence. Patterns, 5(11) 2024</arxiv:journal_ref>
+    <author>
+      <name>Hao Cui</name>
+    </author>
+    <author>
+      <name>Taha Yasseri</name>
+    </author>
+    <arxiv:doi>10.1016/j.patter.2024.101074</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.patter.2024.101074" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.4071v1</id>
+    <title>Motivations for Participation in Socially Networked Collective Intelligence Systems</title>
+    <updated>2012-04-18T12:42:09Z</updated>
+    <link href="https://arxiv.org/abs/1204.4071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.4071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most significant challenges facing systems of collective intelligence is how to encourage participation on the scale required to produce high quality data. This paper details ongoing work with Phrase Detectives, an online game-with-a-purpose deployed on Facebook, and investigates user motivations for participation in social network gaming where the wisdom of crowds produces useful data.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-18T12:42:09Z</published>
+    <arxiv:comment>Presented at Collective Intelligence conference, 2012 (arXiv:1204.2991)</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Jon Chamberlain</name>
+    </author>
+    <author>
+      <name>Udo Kruschwitz</name>
+    </author>
+    <author>
+      <name>Massimo Poesio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.3891v1</id>
+    <title>Re-differentiation as collective intelligence: The Ktunaxa language online community</title>
+    <updated>2012-04-17T03:09:47Z</updated>
+    <link href="https://arxiv.org/abs/1204.3891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.3891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents preliminary results of an investigation of collectively intelligent behavior in a Native North American speech community. The research reveals several independently initiated strategies organized around the collective problem of language endangerment. Specifically, speakers are engaging in self-organizing efforts to reverse historical language simplification that resulted from cultural trauma. These acts of collective intelligence serve to reduce entropy in speech community identity.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-17T03:09:47Z</published>
+    <arxiv:comment>Presented at Collective Intelligence conference, 2012 (arXiv:1204.2991)</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Christopher Horsethief</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.04220v1</id>
+    <title>Health Care Crowds: Collective Intelligence in Public Health</title>
+    <updated>2017-02-10T09:37:27Z</updated>
+    <link href="https://arxiv.org/abs/1702.04220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.04220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For what purposes are crowds being implemented in health care? Which crowdsourcing methods are being used? This work begins to answer these questions by reporting the early results of a systematic literature review of 110 pieces of relevant research. The results of this exploratory research in progress reveals that collective intelligence outcomes are being generated in three broad categories of public health care; health promotion, health research, and health maintenance, using all three known forms of crowdsourcing. Stemming from this fundamental analysis, some potential implications of the research are discussed and useful future research is outlined.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-10T09:37:27Z</published>
+    <arxiv:comment>Collective Intelligence 2015. Center for the Study of Complex Systems, University of Michigan</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>J. Prpic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.03109v1</id>
+    <title>Next Generation Crowdsourcing for Collective Intelligence</title>
+    <updated>2017-02-10T09:24:00Z</updated>
+    <link href="https://arxiv.org/abs/1702.03109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.03109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>New techniques leveraging IT-mediated crowds such as Crowdsensing, Situated Crowdsourcing, Spatial Crowdsourcing, and Wearables Crowdsourcing have now materially emerged. These techniques, here termed next generation Crowdsourcing, serve to extend Crowdsourcing efforts beyond the heretofore dominant desktop computing paradigm. Employing new configurations of hardware, software, and people, these techniques represent new forms of organization for IT-mediated crowds. However, it is not known how these new techniques change the processes and outcomes of IT-mediated crowds for Collective Intelligence purposes? The aim of this exploratory work is to begin to answer this question. The work ensues by outlining the relevant findings of the first generation Crowdsourcing paradigm, before reviewing the emerging literature pertaining to the new generation of Crowdsourcing techniques. Premised on this review, a collectively exhaustive and mutually exclusive typology is formed, organizing the next generation Crowdsourcing techniques along two salient dimensions common to all first generation Crowdsourcing techniques. As a result, this work situates the next generation Crowdsourcing techniques within the extant Crowdsourcing literature, and identifies new research avenues stemming directly from the analysis.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-10T09:24:00Z</published>
+    <arxiv:comment>Collective Intelligence Conference, 2016. Stern School of Business, NYU</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>J. Prpic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13960v1</id>
+    <title>Using Artificial Intelligence to Accelerate Collective Intelligence: Policy Synth and Smarter Crowdsourcing</title>
+    <updated>2024-06-03T11:27:23Z</updated>
+    <link href="https://arxiv.org/abs/2407.13960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an era characterized by rapid societal changes and complex challenges, institutions' traditional methods of problem-solving in the public sector are increasingly proving inadequate. In this study, we present an innovative and effective model for how institutions can use artificial intelligence to enable groups of people to generate effective solutions to urgent problems more efficiently. We describe a proven collective intelligence method, called Smarter Crowdsourcing, which is designed to channel the collective intelligence of those with expertise about a problem into actionable solutions through crowdsourcing. Then we introduce Policy Synth, an innovative toolkit which leverages AI to make the Smarter Crowdsourcing problem-solving approach both more scalable, more effective and more efficient. Policy Synth is crafted using a human-centric approach, recognizing that AI is a tool to enhance human intelligence and creativity, not replace it. Based on a real-world case study comparing the results of expert crowdsourcing alone with expert sourcing supported by Policy Synth AI agents, we conclude that Smarter Crowdsourcing with Policy Synth presents an effective model for integrating the collective wisdom of human experts and the computational power of AI to enhance and scale up public problem-solving processes. While many existing approaches view AI as a tool to make crowdsourcing and deliberative processes better and more efficient, Policy Synth goes a step further, recognizing that AI can also be used to synthesize the findings from engagements together with research to develop evidence-based solutions and policies. The study offers practical tools and insights for institutions looking to engage communities effectively in addressing urgent societal challenges.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-03T11:27:23Z</published>
+    <arxiv:comment>51 pages, 23 figures, Submitted for ACM Collective Intelligence Conference 2024, Parallel Track Presentation, Boston, MA, USA</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Róbert Bjarnason</name>
+    </author>
+    <author>
+      <name>Dane Gambrell</name>
+    </author>
+    <author>
+      <name>Joshua Lanthier-Welch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01360v2</id>
+    <title>A Survey on Social-Physical Sensing: An Emerging Sensing Paradigm that Explores the Collective Intelligence of Humans and Machine</title>
+    <updated>2023-03-14T21:05:22Z</updated>
+    <link href="https://arxiv.org/abs/2104.01360v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01360v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Propelled by the omnipresence of versatile data capture, communication, and computing technologies, physical sensing has revolutionized the avenue for decisively interpreting the real world. However, various limitations hinder physical sensing's effectiveness in critical scenarios such as disaster response and urban anomaly detection. Meanwhile, social sensing is contriving as a pervasive sensing paradigm leveraging observations from human participants equipped with portable devices and ubiquitous Internet connectivity to perceive the environment. Despite its virtues, social sensing also inherently suffers from a few drawbacks (e.g., inconsistent reliability and uncertain data provenance). Motivated by the complementary strengths of the two sensing modes, social-physical sensing (SPS) is protruding as an emerging sensing paradigm that explores the collective intelligence of humans and machines to reconstruct the "state of the world", both physically and socially. While a good number of interesting SPS applications have been studied, several critical unsolved challenges still exist in SPS. In this paper, we provide a comprehensive survey of SPS, emphasizing its definition, key enablers, state-of-the-art applications, potential research challenges, and roadmap for future work. This paper intends to bridge the knowledge gap of existing sensing-focused survey papers by thoroughly examining the various aspects of SPS crucial for building potent SPS systems.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-03T09:36:00Z</published>
+    <arxiv:comment>Accepted for publication at ACM Collective Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Md Tahmid Rashid</name>
+    </author>
+    <author>
+      <name>Na Wei</name>
+    </author>
+    <author>
+      <name>Dong Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.13273v1</id>
+    <title>Operational Collective Intelligence of Humans and Machines</title>
+    <updated>2024-02-16T22:45:09Z</updated>
+    <link href="https://arxiv.org/abs/2402.13273v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.13273v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the use of aggregative crowdsourced forecasting (ACF) as a mechanism to help operationalize ``collective intelligence'' of human-machine teams for coordinated actions. We adopt the definition for Collective Intelligence as: ``A property of groups that emerges from synergies among data-information-knowledge, software-hardware, and individuals (those with new insights as well as recognized authorities) that enables just-in-time knowledge for better decisions than these three elements acting alone.'' Collective Intelligence emerges from new ways of connecting humans and AI to enable decision-advantage, in part by creating and leveraging additional sources of information that might otherwise not be included. Aggregative crowdsourced forecasting (ACF) is a recent key advancement towards Collective Intelligence wherein predictions (X\% probability that Y will happen) and rationales (why I believe it is this probability that X will happen) are elicited independently from a diverse crowd, aggregated, and then used to inform higher-level decision-making. This research asks whether ACF, as a key way to enable Operational Collective Intelligence, could be brought to bear on operational scenarios (i.e., sequences of events with defined agents, components, and interactions) and decision-making, and considers whether such a capability could provide novel operational capabilities to enable new forms of decision-advantage.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-16T22:45:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nikolos Gurney</name>
+    </author>
+    <author>
+      <name>Fred Morstatter</name>
+    </author>
+    <author>
+      <name>David V. Pynadath</name>
+    </author>
+    <author>
+      <name>Adam Russell</name>
+    </author>
+    <author>
+      <name>Gleb Satyukov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.00206v2</id>
+    <title>Evaluation Mechanism of Collective Intelligence for Heterogeneous Agents Group</title>
+    <updated>2019-05-28T14:00:27Z</updated>
+    <link href="https://arxiv.org/abs/1903.00206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.00206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collective intelligence is manifested when multiple agents coherently work in observation, interaction, decision-making and action. In this paper, we define and quantify the intelligence level of heterogeneous agents group with the improved Anytime Universal Intelligence Test(AUIT), based on an extension of the existing evaluation of homogeneous agents group. The relationship of intelligence level with agents composition, group size, spatial complexity and testing time is analyzed. The intelligence level of heterogeneous agents groups is compared with the homogeneous ones to analyze the effects of heterogeneity on collective intelligence. Our work will help to understand the essence of collective intelligence more deeply and reveal the effect of various key factors on group intelligence level.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-01T08:45:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Anna Dai</name>
+    </author>
+    <author>
+      <name>Zhifeng Zhao</name>
+    </author>
+    <author>
+      <name>Honggang Zhang</name>
+    </author>
+    <author>
+      <name>Rongpeng Li</name>
+    </author>
+    <author>
+      <name>Yugeng Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.09444v1</id>
+    <title>Defining the Collective Intelligence Supply Chain</title>
+    <updated>2018-09-25T12:57:30Z</updated>
+    <link href="https://arxiv.org/abs/1809.09444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.09444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Organisations are increasingly open to scrutiny, and need to be able to prove that they operate in a fair and ethical way. Accountability should extend to the production and use of the data and knowledge assets used in AI systems, as it would for any raw material or process used in production of physical goods. This paper considers collective intelligence, comprising data and knowledge generated by crowd-sourced workforces, which can be used as core components of AI systems. A proposal is made for the development of a supply chain model for tracking the creation and use of crowdsourced collective intelligence assets, with a blockchain based decentralised architecture identified as an appropriate means of providing validation, accountability and fairness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-25T12:57:30Z</published>
+    <arxiv:comment>Presented at AAAI FSS-18: Artificial Intelligence in Government and Public Sector, Arlington, Virginia, USA</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Iain Barclay</name>
+    </author>
+    <author>
+      <name>Alun Preece</name>
+    </author>
+    <author>
+      <name>Ian Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.05147v1</id>
+    <title>Artificial Collective Intelligence Engineering: a Survey of Concepts and Perspectives</title>
+    <updated>2023-04-11T11:22:47Z</updated>
+    <link href="https://arxiv.org/abs/2304.05147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.05147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collectiveness is an important property of many systems--both natural and artificial. By exploiting a large number of individuals, it is often possible to produce effects that go far beyond the capabilities of the smartest individuals, or even to produce intelligent collective behaviour out of not-so-intelligent individuals. Indeed, collective intelligence, namely the capability of a group to act collectively in a seemingly intelligent way, is increasingly often a design goal of engineered computational systems--motivated by recent techno-scientific trends like the Internet of Things, swarm robotics, and crowd computing, just to name a few. For several years, the collective intelligence observed in natural and artificial systems has served as a source of inspiration for engineering ideas, models, and mechanisms. Today, artificial and computational collective intelligence are recognised research topics, spanning various techniques, kinds of target systems, and application domains. However, there is still a lot of fragmentation in the research panorama of the topic within computer science, and the verticality of most communities and contributions makes it difficult to extract the core underlying ideas and frames of reference. The challenge is to identify, place in a common structure, and ultimately connect the different areas and methods addressing intelligent collectives. To address this gap, this paper considers a set of broad scoping questions providing a map of collective intelligence research, mostly by the point of view of computer scientists and engineers. Accordingly, it covers preliminary notions, fundamental concepts, and the main research perspectives, identifying opportunities and challenges for researchers on artificial and computational collective intelligence engineering.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-11T11:22:47Z</published>
+    <arxiv:comment>This is the author's final version of the article, accepted for publication in the Artificial Life journal. Data: 34 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Artificial Life, July 2023, Pages 1-35, Online ISSN: 1530-9185, Print ISSN: 1064-5462</arxiv:journal_ref>
+    <author>
+      <name>Roberto Casadei</name>
+    </author>
+    <arxiv:doi>10.1162/artl_a_00408</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1162/artl_a_00408" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.09168v2</id>
+    <title>An AI Theory of Mind Will Enhance Our Collective Intelligence</title>
+    <updated>2025-07-08T00:18:46Z</updated>
+    <link href="https://arxiv.org/abs/2411.09168v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.09168v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collective intelligence plays a central role in many fields, from economics and evolutionary theory to neural networks and eusocial insects, and is also core to work on emergence and self-organisation in complex-systems theory. However, in human collective intelligence there is still much to understand about how specific psychological processes at the individual level give rise to self-organised structures at the social level. Psychological factors have so far played a minor role in collective-intelligence studies because the principles are often general and applicable to agents without sophisticated psychologies. We emphasise, with examples from other complex adaptive systems, the broad applicability of collective-intelligence principles, while noting that mechanisms and time scales differ markedly between cases. We review evidence that flexible collective intelligence in human social settings is improved by a particular cognitive tool: our Theory of Mind. We then hypothesise that AIs equipped with a theory of mind will enhance collective intelligence in ways similar to human contributions. To make this case, we step back from the algorithmic basis of AI psychology and consider the large-scale impact AI can have as agential actors in a 'social ecology' rather than as mere technological tools. We identify several key characteristics of psychologically mediated collective intelligence and show that the development of a Theory of Mind is crucial in distinguishing human social collective intelligence from more general forms. Finally, we illustrate how individuals, human or otherwise, integrate within a collective not by being genetically or algorithmically programmed, but by growing and adapting into the socio-cognitive niche they occupy. AI can likewise inhabit one or multiple such niches, facilitated by a Theory of Mind.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-14T03:58:50Z</published>
+    <arxiv:comment>26 pages, 2 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Michael S. Harré</name>
+    </author>
+    <author>
+      <name>Catherine Drysdale</name>
+    </author>
+    <author>
+      <name>Jaime Ruiz-Serra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.2991v3</id>
+    <title>Collective Intelligence 2012: Proceedings</title>
+    <updated>2012-08-25T22:50:03Z</updated>
+    <link href="https://arxiv.org/abs/1204.2991v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.2991v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This volume holds the proceedings of the Collective Intelligence 2012 conference in Cambridge, Massachusetts. It contains the full papers, poster papers, and plenary abstracts.
+  Collective intelligence has existed at least as long as humans have, because families, armies, countries, and companies have all - at least sometimes - acted collectively in ways that seem intelligent. But in the last decade or so a new kind of collective intelligence has emerged: groups of people and computers, connected by the Internet, collectively doing intelligent things. For example, Google technology harvests knowledge generated by millions of people creating and linking web pages and then uses this knowledge to answer queries in ways that often seem amazingly intelligent. Or in Wikipedia, thousands of people around the world have collectively created a very large and high quality intellectual product with almost no centralized control, and almost all as volunteers! These early examples of Internet-enabled collective intelligence are not the end of the story but just the beginning. And in order to understand the possibilities and constraints of these new kinds of intelligence, we need a new interdisciplinary field.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-12T00:47:40Z</published>
+    <arxiv:comment>Papers presented at CI2012. Proceedings chair Michael Bernstein</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Thomas W. Malone</name>
+    </author>
+    <author>
+      <name>Luis von Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.03899v2</id>
+    <title>Optimal incentives for collective intelligence</title>
+    <updated>2017-10-17T12:18:41Z</updated>
+    <link href="https://arxiv.org/abs/1611.03899v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.03899v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collective intelligence is the ability of a group to perform more effectively than any individual alone. Diversity among group members is a key condition for the emergence of collective intelligence, but maintaining diversity is challenging in the face of social pressure to imitate one's peers. We investigate the role incentives play in maintaining useful diversity through an evolutionary game-theoretic model of collective prediction. We show that market-based incentive systems produce herding effects, reduce information available to the group and suppress collective intelligence. In response, we propose a new incentive scheme that rewards accurate minority predictions, and show that this produces optimal diversity and collective predictive accuracy. We conclude that real-world systems should reward those who have demonstrated accuracy when majority opinion has been in error.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-11T22:21:24Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <arxiv:journal_ref>PNAS 2017 114 (20) 5077-5082</arxiv:journal_ref>
+    <author>
+      <name>Richard P. Mann</name>
+    </author>
+    <author>
+      <name>Dirk Helbing</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1618722114</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1618722114" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7561v1</id>
+    <title>Collective intelligence in Massive Online Dialogues</title>
+    <updated>2014-06-29T21:01:38Z</updated>
+    <link href="https://arxiv.org/abs/1406.7561v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.7561v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence and ongoing development of Web 2.0 technologies have enabled new and advanced forms of collective intelligence at unprecedented scales, allowing large numbers of individuals to act collectively and create high quality intellectual artifacts. However, little is known about how and when they indeed promote collective intelligence. In this manuscript, we provide a survey of the automated tools developed to analyze discourse-centric collective intelligence. By conducting a thematic analysis of the current research direction, a set of gaps and limitations are identified.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-29T21:01:38Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Taraneh Khazaei</name>
+    </author>
+    <author>
+      <name>Lu Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01066v1</id>
+    <title>An active inference model of collective intelligence</title>
+    <updated>2021-04-02T14:32:01Z</updated>
+    <link href="https://arxiv.org/abs/2104.01066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To date, formal models of collective intelligence have lacked a plausible mathematical description of the relationship between local-scale interactions between highly autonomous sub-system components (individuals) and global-scale behavior of the composite system (the collective). In this paper we use the Active Inference Formulation (AIF), a framework for explaining the behavior of any non-equilibrium steady state system at any scale, to posit a minimal agent-based model that simulates the relationship between local individual-level interaction and collective intelligence (operationalized as system-level performance). We explore the effects of providing baseline AIF agents (Model 1) with specific cognitive capabilities: Theory of Mind (Model 2); Goal Alignment (Model 3), and Theory of Mind with Goal Alignment (Model 4). These stepwise transitions in sophistication of cognitive ability are motivated by the types of advancements plausibly required for an AIF agent to persist and flourish in an environment populated by other AIF agents, and have also recently been shown to map naturally to canonical steps in human cognitive ability. Illustrative results show that stepwise cognitive transitions increase system performance by providing complementary mechanisms for alignment between agents' local and global optima. Alignment emerges endogenously from the dynamics of interacting AIF agents themselves, rather than being imposed exogenously by incentives to agents' behaviors (contra existing computational models of collective intelligence) or top-down priors for collective behavior (contra existing multiscale simulations of AIF). These results shed light on the types of generic information-theoretic patterns conducive to collective intelligence in human and other complex adaptive systems.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-02T14:32:01Z</published>
+    <arxiv:comment>32 pages, 10 figures, manuscript under review</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Rafael Kaufmann</name>
+    </author>
+    <author>
+      <name>Pranav Gupta</name>
+    </author>
+    <author>
+      <name>Jacob Taylor</name>
+    </author>
+    <arxiv:doi>10.3390/e23070830</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e23070830" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0325v1</id>
+    <title>A Computational Model of Crowds for Collective Intelligence</title>
+    <updated>2014-06-30T13:49:54Z</updated>
+    <link href="https://arxiv.org/abs/1407.0325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we present a high-level computational model of IT-mediated crowds for collective intelligence. We introduce the Crowd Capital perspective as an organizational-level model of collective intelligence generation from IT-mediated crowds, and specify a computational system including agents, forms of IT, and organizational knowledge.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-30T13:49:54Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>John Prpic</name>
+    </author>
+    <author>
+      <name>Piper Jackson</name>
+    </author>
+    <author>
+      <name>Thai Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01609v2</id>
+    <title>Emergent collective intelligence from massive-agent cooperation and competition</title>
+    <updated>2023-01-05T06:05:28Z</updated>
+    <link href="https://arxiv.org/abs/2301.01609v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01609v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by organisms evolving through cooperation and competition between different populations on Earth, we study the emergence of artificial collective intelligence through massive-agent reinforcement learning. To this end, We propose a new massive-agent reinforcement learning environment, Lux, where dynamic and massive agents in two teams scramble for limited resources and fight off the darkness. In Lux, we build our agents through the standard reinforcement learning algorithm in curriculum learning phases and leverage centralized control via a pixel-to-pixel policy network. As agents co-evolve through self-play, we observe several stages of intelligence, from the acquisition of atomic skills to the development of group strategies. Since these learned group strategies arise from individual decisions without an explicit coordination mechanism, we claim that artificial collective intelligence emerges from massive-agent cooperation and competition. We further analyze the emergence of various learned strategies through metrics and ablation studies, aiming to provide insights for reinforcement learning implementations in massive-agent environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-04T13:23:12Z</published>
+    <arxiv:comment>Published at NeurIPS 2022 Deep RL workshop. Code available at https://github.com/hanmochen/lux-open</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hanmo Chen</name>
+    </author>
+    <author>
+      <name>Stone Tao</name>
+    </author>
+    <author>
+      <name>Jiaxin Chen</name>
+    </author>
+    <author>
+      <name>Weihan Shen</name>
+    </author>
+    <author>
+      <name>Xihui Li</name>
+    </author>
+    <author>
+      <name>Chenghui Yu</name>
+    </author>
+    <author>
+      <name>Sikai Cheng</name>
+    </author>
+    <author>
+      <name>Xiaolong Zhu</name>
+    </author>
+    <author>
+      <name>Xiu Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0954v1</id>
+    <title>Learning from Collective Intelligence in Groups</title>
+    <updated>2012-10-03T01:34:00Z</updated>
+    <link href="https://arxiv.org/abs/1210.0954v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.0954v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collective intelligence, which aggregates the shared information from large crowds, is often negatively impacted by unreliable information sources with the low quality data. This becomes a barrier to the effective use of collective intelligence in a variety of applications. In order to address this issue, we propose a probabilistic model to jointly assess the reliability of sources and find the true data. We observe that different sources are often not independent of each other. Instead, sources are prone to be mutually influenced, which makes them dependent when sharing information with each other. High dependency between sources makes collective intelligence vulnerable to the overuse of redundant (and possibly incorrect) information from the dependent sources. Thus, we reveal the latent group structure among dependent sources, and aggregate the information at the group level rather than from individual sources directly. This can prevent the collective intelligence from being inappropriately dominated by dependent sources. We will also explicitly reveal the reliability of groups, and minimize the negative impacts of unreliable groups. Experimental results on real-world data sets show the effectiveness of the proposed approach with respect to existing algorithms.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-03T01:34:00Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Guo-Jun Qi</name>
+    </author>
+    <author>
+      <name>Charu Aggarwal</name>
+    </author>
+    <author>
+      <name>Pierre Moulin</name>
+    </author>
+    <author>
+      <name>Thomas Huang</name>
+    </author>
+  </entry>
+</feed>

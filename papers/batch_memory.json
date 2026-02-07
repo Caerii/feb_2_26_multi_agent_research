@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/P9EJ81kxMQUF/csNvHYXhqVrlwQ</id>
+  <title>arXiv Query: search_query=all:"multi-agent memory"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:58:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22multi-agent+memory%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20465v1</id>
+    <title>BMAM: Brain-inspired Multi-Agent Memory Framework</title>
+    <updated>2026-01-28T10:36:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.20465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language-model-based agents operating over extended interaction horizons face persistent challenges in preserving temporally grounded information and maintaining behavioral consistency across sessions, a failure mode we term soul erosion. We present BMAM (Brain-inspired Multi-Agent Memory), a general-purpose memory architecture that models agent memory as a set of functionally specialized subsystems rather than a single unstructured store. Inspired by cognitive memory systems, BMAM decomposes memory into episodic, semantic, salience-aware, and control-oriented components that operate at complementary time scales. To support long-horizon reasoning, BMAM organizes episodic memories along explicit timelines and retrieves evidence by fusing multiple complementary signals. Experiments on the LoCoMo benchmark show that BMAM achieves 78.45 percent accuracy under the standard long-horizon evaluation setting, and ablation analyses confirm that the hippocampus-inspired episodic memory subsystem plays a critical role in temporal reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T10:36:03Z</published>
+    <arxiv:comment>Submitted to ACL (ARR 2026 January submission); non-anonymous preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Jiaxiang Liu</name>
+    </author>
+    <author>
+      <name>Yusong Wang</name>
+    </author>
+    <author>
+      <name>Yujie Wu</name>
+    </author>
+    <author>
+      <name>Mingkun Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.07957v1</id>
+    <title>MIRIX: Multi-Agent Memory System for LLM-Based Agents</title>
+    <updated>2025-07-10T17:40:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.07957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.07957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although memory capabilities of AI agents are gaining increasing attention, existing solutions remain fundamentally limited. Most rely on flat, narrowly scoped memory components, constraining their ability to personalize, abstract, and reliably recall user-specific information over time. To this end, we introduce MIRIX, a modular, multi-agent memory system that redefines the future of AI memory by solving the field's most critical challenge: enabling language models to truly remember. Unlike prior approaches, MIRIX transcends text to embrace rich visual and multimodal experiences, making memory genuinely useful in real-world scenarios. MIRIX consists of six distinct, carefully structured memory types: Core, Episodic, Semantic, Procedural, Resource Memory, and Knowledge Vault, coupled with a multi-agent framework that dynamically controls and coordinates updates and retrieval. This design enables agents to persist, reason over, and accurately retrieve diverse, long-term user data at scale. We validate MIRIX in two demanding settings. First, on ScreenshotVQA, a challenging multimodal benchmark comprising nearly 20,000 high-resolution computer screenshots per sequence, requiring deep contextual understanding and where no existing memory systems can be applied, MIRIX achieves 35% higher accuracy than the RAG baseline while reducing storage requirements by 99.9%. Second, on LOCOMO, a long-form conversation benchmark with single-modal textual input, MIRIX attains state-of-the-art performance of 85.4%, far surpassing existing baselines. These results show that MIRIX sets a new performance standard for memory-augmented LLM agents. To allow users to experience our memory system, we provide a packaged application powered by MIRIX. It monitors the screen in real time, builds a personalized memory base, and offers intuitive visualization and secure local storage to ensure privacy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-10T17:40:11Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03036v1</id>
+    <title>LatentMem: Customizing Latent Memory for Multi-Agent Systems</title>
+    <updated>2026-02-03T03:03:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.03036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-powered multi-agent systems (MAS) demonstrate remarkable collective intelligence, wherein multi-agent memory serves as a pivotal mechanism for continual adaptation. However, existing multi-agent memory designs remain constrained by two fundamental bottlenecks: (i) memory homogenization arising from the absence of role-aware customization, and (ii) information overload induced by excessively fine-grained memory entries. To address these limitations, we propose LatentMem, a learnable multi-agent memory framework designed to customize agent-specific memories in a token-efficient manner. Specifically, LatentMem comprises an experience bank that stores raw interaction trajectories in a lightweight form, and a memory composer that synthesizes compact latent memories conditioned on retrieved experience and agent-specific contexts. Further, we introduce Latent Memory Policy Optimization (LMPO), which propagates task-level optimization signals through latent memories to the composer, encouraging it to produce compact and high-utility representations. Extensive experiments across diverse benchmarks and mainstream MAS frameworks show that LatentMem achieves a performance gain of up to $19.36$% over vanilla settings and consistently outperforms existing memory architectures, without requiring any modifications to the underlying frameworks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T03:03:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Muxin Fu</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Xiangyuan Xue</name>
+    </author>
+    <author>
+      <name>Yafu Li</name>
+    </author>
+    <author>
+      <name>Zefeng He</name>
+    </author>
+    <author>
+      <name>Siyuan Huang</name>
+    </author>
+    <author>
+      <name>Xiaoye Qu</name>
+    </author>
+    <author>
+      <name>Yu Cheng</name>
+    </author>
+    <author>
+      <name>Yang Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17338v2</id>
+    <title>PBFT-Backed Semantic Voting for Multi-Agent Memory Pruning</title>
+    <updated>2025-06-24T06:44:47Z</updated>
+    <link href="https://arxiv.org/abs/2506.17338v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17338v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of multi-agent systems (MAS) in complex, dynamic environments necessitates robust and efficient mechanisms for managing shared knowledge. A critical challenge is ensuring that distributed memories remain synchronized, relevant, and free from the accumulation of outdated or inconsequential data - a process analogous to biological forgetting. This paper introduces the Co-Forgetting Protocol, a novel, comprehensive framework designed to address this challenge by enabling synchronized memory pruning in MAS. The protocol integrates three key components: (1) context-aware semantic voting, where agents utilize a lightweight DistilBERT model to assess the relevance of memory items based on their content and the current operational context; (2) multi-scale temporal decay functions, which assign diminishing importance to memories based on their age and access frequency across different time horizons; and (3) a Practical Byzantine Fault Tolerance (PBFT)-based consensus mechanism, ensuring that decisions to retain or discard memory items are agreed upon by a qualified and fault-tolerant majority of agents, even in the presence of up to f Byzantine (malicious or faulty) agents in a system of N greater than or equal to 3f+1 agents. The protocol leverages gRPC for efficient inter-agent communication and Pinecone for scalable vector embedding storage and similarity search, with SQLite managing metadata. Experimental evaluations in a simulated MAS environment with four agents demonstrate the protocol's efficacy, achieving a 52% reduction in memory footprint over 500 epochs, 88% voting accuracy in forgetting decisions against human-annotated benchmarks, a 92% PBFT consensus success rate under simulated Byzantine conditions, and an 82% cache hit rate for memory access.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-19T08:28:29Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Duong Bach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13564v2</id>
+    <title>Memory in the Age of AI Agents</title>
+    <updated>2026-01-13T09:33:57Z</updated>
+    <link href="https://arxiv.org/abs/2512.13564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Traditional taxonomies such as long/short-term memory have proven insufficient to capture the diversity of contemporary agent memory systems. This work aims to provide an up-to-date landscape of current agent memory research. We begin by clearly delineating the scope of agent memory and distinguishing it from related concepts such as LLM memory, retrieval augmented generation (RAG), and context engineering. We then examine agent memory through the unified lenses of forms, functions, and dynamics. From the perspective of forms, we identify three dominant realizations of agent memory, namely token-level, parametric, and latent memory. From the perspective of functions, we propose a finer-grained taxonomy that distinguishes factual, experiential, and working memory. From the perspective of dynamics, we analyze how memory is formed, evolved, and retrieved over time. To support practical development, we compile a comprehensive summary of memory benchmarks and open-source frameworks. Beyond consolidation, we articulate a forward-looking perspective on emerging research frontiers, including memory automation, reinforcement learning integration, multimodal memory, multi-agent memory, and trustworthiness issues. We hope this survey serves not only as a reference for existing work, but also as a conceptual foundation for rethinking memory as a first-class primitive in the design of future agentic intelligence.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T17:22:34Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuyang Hu</name>
+    </author>
+    <author>
+      <name>Shichun Liu</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Boyang Liu</name>
+    </author>
+    <author>
+      <name>Fangyi Zhu</name>
+    </author>
+    <author>
+      <name>Jiahang Lin</name>
+    </author>
+    <author>
+      <name>Honglin Guo</name>
+    </author>
+    <author>
+      <name>Shihan Dou</name>
+    </author>
+    <author>
+      <name>Zhiheng Xi</name>
+    </author>
+    <author>
+      <name>Senjie Jin</name>
+    </author>
+    <author>
+      <name>Jiejun Tan</name>
+    </author>
+    <author>
+      <name>Yanbin Yin</name>
+    </author>
+    <author>
+      <name>Jiongnan Liu</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhongxiang Sun</name>
+    </author>
+    <author>
+      <name>Yutao Zhu</name>
+    </author>
+    <author>
+      <name>Hao Sun</name>
+    </author>
+    <author>
+      <name>Boci Peng</name>
+    </author>
+    <author>
+      <name>Zhenrong Cheng</name>
+    </author>
+    <author>
+      <name>Xuanbo Fan</name>
+    </author>
+    <author>
+      <name>Jiaxin Guo</name>
+    </author>
+    <author>
+      <name>Xinlei Yu</name>
+    </author>
+    <author>
+      <name>Zhenhong Zhou</name>
+    </author>
+    <author>
+      <name>Zewen Hu</name>
+    </author>
+    <author>
+      <name>Jiahao Huo</name>
+    </author>
+    <author>
+      <name>Junhao Wang</name>
+    </author>
+    <author>
+      <name>Yuwei Niu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Xiaobin Hu</name>
+    </author>
+    <author>
+      <name>Yue Liao</name>
+    </author>
+    <author>
+      <name>Qiankun Li</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+    <author>
+      <name>Yixin Liu</name>
+    </author>
+    <author>
+      <name>Dawei Cheng</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+    <author>
+      <name>Yan Zhang</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Yu-Gang Jiang</name>
+    </author>
+    <author>
+      <name>Shuicheng Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04668v3</id>
+    <title>Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs</title>
+    <updated>2026-01-12T09:40:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.04668v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04668v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph topology is a fundamental determinant of memory leakage in multi-agent LLM systems, yet its effects remain poorly quantified. We introduce MAMA (Multi-Agent Memory Attack), a framework that measures how network structure shapes leakage. MAMA operates on synthetic documents containing labeled Personally Identifiable Information (PII) entities, from which we generate sanitized task instructions. We execute a two-phase protocol: Engram (seeding private information into a target agent's memory) and Resonance (multi-round interaction where an attacker attempts extraction). Over 10 rounds, we measure leakage as exact-match recovery of ground-truth PII from attacker outputs. We evaluate six canonical topologies (complete, ring, chain, tree, star, star-ring) across $n\in\{4,5,6\}$, attacker-target placements, and base models. Results are consistent: denser connectivity, shorter attacker-target distance, and higher target centrality increase leakage; most leakage occurs in early rounds and then plateaus; model choice shifts absolute rates but preserves topology ordering; spatiotemporal/location attributes leak more readily than identity credentials or regulated identifiers. We distill practical guidance for system design: favor sparse or hierarchical connectivity, maximize attacker-target separation, and restrict hub/shortcut pathways via topology-aware access control.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T11:00:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jinbo Liu</name>
+    </author>
+    <author>
+      <name>Defu Cao</name>
+    </author>
+    <author>
+      <name>Yifei Wei</name>
+    </author>
+    <author>
+      <name>Tianyao Su</name>
+    </author>
+    <author>
+      <name>Yuan Liang</name>
+    </author>
+    <author>
+      <name>Yushun Dong</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Yue Zhao</name>
+    </author>
+    <author>
+      <name>Xiyang Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08997v2</id>
+    <title>Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory</title>
+    <updated>2026-01-12T11:46:09Z</updated>
+    <link href="https://arxiv.org/abs/2508.08997v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08997v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems built on Large Language Models (LLMs) show exceptional promise for complex collaborative problem-solving, yet they face fundamental challenges stemming from context window limitations that impair memory consistency, role adherence, and procedural integrity. This paper introduces Intrinsic Memory Agents, a novel framework that addresses these limitations through agent-specific memories that evolve intrinsically with agent outputs. Specifically, our method maintains role-aligned memory that preserves specialized perspectives while focusing on task-relevant information. Our approach utilises a generic memory template applicable to new problems without the need to hand-craft specific memory prompts. We benchmark our approach on the PDDL, FEVER, and ALFWorld datasets, comparing its performance to existing state-of-the-art multi-agentic memory approaches and showing state-of-the-art or comparable performance across all three, with the highest consistency. An additional evaluation is performed on a complex data pipeline design task, and we demonstrate that our approach produces higher quality designs across 5 metrics: scalability, reliability, usability, cost-effectiveness, and documentation, plus additional qualitative evidence of the improvements. Our findings suggest that addressing memory limitations through intrinsic approaches can improve the capabilities of multi-agent LLM systems on structured planning tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-12T15:05:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sizhe Yuen</name>
+    </author>
+    <author>
+      <name>Francisco Gomez Medina</name>
+    </author>
+    <author>
+      <name>Ting Su</name>
+    </author>
+    <author>
+      <name>Yali Du</name>
+    </author>
+    <author>
+      <name>Adam J. Sobey</name>
+    </author>
+  </entry>
+</feed>

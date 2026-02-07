@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/w3JKx+sxGf1iwqqmm5ungI0xBaI</id>
+  <title>arXiv Query: search_query=all:"multi-agent negotiation"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:58:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22multi-agent+negotiation%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.17134v1</id>
+    <title>Resilient Multi-Agent Negotiation for Medical Supply Chains:Integrating LLMs and Blockchain for Transparent Coordination</title>
+    <updated>2025-07-23T02:14:42Z</updated>
+    <link href="https://arxiv.org/abs/2507.17134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.17134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Global health emergencies, such as the COVID-19 pandemic, have exposed critical weaknesses in traditional medical supply chains, including inefficiencies in resource allocation, lack of transparency, and poor adaptability to dynamic disruptions. This paper presents a novel hybrid framework that integrates blockchain technology with a decentralized, large language model (LLM) powered multi-agent negotiation system to enhance the resilience and accountability of medical supply chains during crises. In this system, autonomous agents-representing manufacturers, distributors, and healthcare institutions-engage in structured, context-aware negotiation and decision-making processes facilitated by LLMs, enabling rapid and ethical allocation of scarce medical resources. The off-chain agent layer supports adaptive reasoning and local decision-making, while the on-chain blockchain layer ensures immutable, transparent, and auditable enforcement of decisions via smart contracts. The framework also incorporates a formal cross-layer communication protocol to bridge decentralized negotiation with institutional enforcement. A simulation environment emulating pandemic scenarios evaluates the system's performance, demonstrating improvements in negotiation efficiency, fairness of allocation, supply chain responsiveness, and auditability. This research contributes an innovative approach that synergizes blockchain trust guarantees with the adaptive intelligence of LLM-driven agents, providing a robust and scalable solution for critical supply chain coordination under uncertainty.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-23T02:14:42Z</published>
+    <arxiv:comment>11 pages, 6 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Mariam ALMutairi</name>
+    </author>
+    <author>
+      <name>Hyungmin Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08335v1</id>
+    <title>Numerical Abstract Persuasion Argumentation for Expressing Concurrent Multi-Agent Negotiations</title>
+    <updated>2020-01-23T01:46:58Z</updated>
+    <link href="https://arxiv.org/abs/2001.08335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.08335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A negotiation process by 2 agents e1 and e2 can be interleaved by another negotiation process between, say, e1 and e3. The interleaving may alter the resource allocation assumed at the inception of the first negotiation process. Existing proposals for argumentation-based negotiations have focused primarily on two-agent bilateral negotiations, but scarcely on the concurrency of multi-agent negotiations. To fill the gap, we present a novel argumentation theory, basing its development on abstract persuasion argumentation (which is an abstract argumentation formalism with a dynamic relation). Incorporating into it numerical information and a mechanism of handshakes among members of the dynamic relation, we show that the extended theory adapts well to concurrent multi-agent negotiations over scarce resources.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-23T01:46:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ryuta Arisaka</name>
+    </author>
+    <author>
+      <name>Takayuki Ito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.09214v1</id>
+    <title>Applying Multi-Agent Negotiation to Solve the Production Routing Problem With Privacy Preserving</title>
+    <updated>2024-06-13T15:15:34Z</updated>
+    <link href="https://arxiv.org/abs/2406.09214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.09214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to address the Production Routing Problem with Privacy Preserving (PRPPP) in supply chain optimization. The integrated optimization of production, inventory, distribution, and routing decisions in real-world industry applications poses several challenges, including increased complexity, discrepancies between planning and execution, and constraints on information sharing. To mitigate these challenges, this paper proposes the use of intelligent agent negotiation within a hybrid Multi-Agent System (MAS) integrated with optimization algorithms. The MAS facilitates communication and coordination among entities, encapsulates private information, and enables negotiation. This, along with optimization algorithms, makes it a compelling framework for establishing optimal solutions. The approach is supported by real-world applications and synergies between MAS and optimization methods, demonstrating its effectiveness in addressing complex supply chain optimization problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T15:15:34Z</published>
+    <arxiv:comment>The 15th Workshop on Optimization and Learning in Multiagent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Luiza Pellin Biasoto</name>
+    </author>
+    <author>
+      <name>Vinicius Renan de Carvalho</name>
+    </author>
+    <author>
+      <name>Jaime Simão Sichman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.23366v1</id>
+    <title>Agentic AI Framework for Smart Inventory Replenishment</title>
+    <updated>2025-11-28T17:14:13Z</updated>
+    <link href="https://arxiv.org/abs/2511.23366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.23366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In contemporary retail, the variety of products available (e.g. clothing, groceries, cosmetics, frozen goods) make it difficult to predict the demand, prevent stockouts, and find high-potential products. We suggest an agentic AI model that will be used to monitor the inventory, initiate purchase attempts to the appropriate suppliers, and scan for trending or high-margin products to incorporate. The system applies demand forecasting, supplier selection optimization, multi-agent negotiation and continuous learning. We apply a prototype to a setting in the store of a middle scale mart, test its performance on three conventional and artificial data tables, and compare the results to the base heuristics. Our findings indicate that there is a decrease in stockouts, a reduction of inventory holding costs, and an improvement in product mix turnover. We address constraints, scalability as well as improvement prospect.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-28T17:14:13Z</published>
+    <arxiv:comment>Presented at International Conference on Business and Digital Technology, Bahrain, Springer Nature, 27 November 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Toqeer Ali Syed</name>
+    </author>
+    <author>
+      <name>Salman Jan</name>
+    </author>
+    <author>
+      <name>Gohar Ali</name>
+    </author>
+    <author>
+      <name>Ali Akarma</name>
+    </author>
+    <author>
+      <name>Ahmad Ali</name>
+    </author>
+    <author>
+      <name>Qurat-ul-Ain Mastoi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.04126v1</id>
+    <title>A Negotiating Strategy for a Hybrid Goal Function in Multilateral Negotiation</title>
+    <updated>2022-01-11T18:50:58Z</updated>
+    <link href="https://arxiv.org/abs/2201.04126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.04126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In various multi-agent negotiation settings, a negotiator's utility depends, either partially or fully, on the sum of negotiators' utilities (i.e., social welfare). While the need for effective negotiating-agent designs that take into account social welfare has been acknowledged in recent work, and even established as a category in automated negotiating agent competitions, very few designs have been proposed to date. In this paper, we present the design principles and results of an extensive evaluation of agent HerbT+, a negotiating agent aiming to maximize a linear tradeoff between individual and social welfare. Our evaluation framework relies on the automated negotiating agents competition (ANAC) and includes a thorough comparison of performance with the top 15 agents submitted between 2015-2018 based on negotiations involving 63 agents submitted to these competitions. We find that, except for a few minor exceptions, when social-welfare plays a substantial role in the agent's goal function, our agent outperforms all other tested designs.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-11T18:50:58Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Alon Stern</name>
+    </author>
+    <author>
+      <name>Sarit Kraus</name>
+    </author>
+    <author>
+      <name>David Sarne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.10380v1</id>
+    <title>Negotiating Team Formation Using Deep Reinforcement Learning</title>
+    <updated>2020-10-20T15:41:23Z</updated>
+    <link href="https://arxiv.org/abs/2010.10380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.10380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When autonomous agents interact in the same environment, they must often cooperate to achieve their goals. One way for agents to cooperate effectively is to form a team, make a binding agreement on a joint plan, and execute it. However, when agents are self-interested, the gains from team formation must be allocated appropriately to incentivize agreement. Various approaches for multi-agent negotiation have been proposed, but typically only work for particular negotiation protocols. More general methods usually require human input or domain-specific data, and so do not scale. To address this, we propose a framework for training agents to negotiate and form teams using deep reinforcement learning. Importantly, our method makes no assumptions about the specific negotiation protocol, and is instead completely experience driven. We evaluate our approach on both non-spatial and spatially extended team-formation negotiation environments, demonstrating that our agents beat hand-crafted bots and reach negotiation outcomes consistent with fair solutions predicted by cooperative game theory. Additionally, we investigate how the physical location of agents influences negotiation outcomes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-20T15:41:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Artificial Intelligence 288 (2020): 103356</arxiv:journal_ref>
+    <author>
+      <name>Yoram Bachrach</name>
+    </author>
+    <author>
+      <name>Richard Everett</name>
+    </author>
+    <author>
+      <name>Edward Hughes</name>
+    </author>
+    <author>
+      <name>Angeliki Lazaridou</name>
+    </author>
+    <author>
+      <name>Joel Z. Leibo</name>
+    </author>
+    <author>
+      <name>Marc Lanctot</name>
+    </author>
+    <author>
+      <name>Michael Johanson</name>
+    </author>
+    <author>
+      <name>Wojciech M. Czarnecki</name>
+    </author>
+    <author>
+      <name>Thore Graepel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.10208v1</id>
+    <title>Towards Learning Multi-agent Negotiations via Self-Play</title>
+    <updated>2020-01-28T08:37:33Z</updated>
+    <link href="https://arxiv.org/abs/2001.10208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.10208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Making sophisticated, robust, and safe sequential decisions is at the heart of intelligent systems. This is especially critical for planning in complex multi-agent environments, where agents need to anticipate other agents' intentions and possible future actions. Traditional methods formulate the problem as a Markov Decision Process, but the solutions often rely on various assumptions and become brittle when presented with corner cases. In contrast, deep reinforcement learning (Deep RL) has been very effective at finding policies by simultaneously exploring, interacting, and learning from environments. Leveraging the powerful Deep RL paradigm, we demonstrate that an iterative procedure of self-play can create progressively more diverse environments, leading to the learning of sophisticated and robust multi-agent policies. We demonstrate this in a challenging multi-agent simulation of merging traffic, where agents must interact and negotiate with others in order to successfully merge on or off the road. While the environment starts off simple, we increase its complexity by iteratively adding an increasingly diverse set of agents to the agent "zoo" as training progresses. Qualitatively, we find that through self-play, our policies automatically learn interesting behaviors such as defensive driving, overtaking, yielding, and the use of signal lights to communicate intentions to other agents. In addition, quantitatively, we show a dramatic improvement of the success rate of merging maneuvers from 63% to over 98%.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-28T08:37:33Z</published>
+    <arxiv:comment>Autonomous Driving Workshop, IEEE International Conference on Computer Vision (ICCV 2019)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yichuan Charlie Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.04892v1</id>
+    <title>Automata for Infinite Argumentation Structures</title>
+    <updated>2018-10-11T08:26:59Z</updated>
+    <link href="https://arxiv.org/abs/1810.04892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.04892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of abstract argumentation frameworks (afs) has, in the main, focused on finite structures, though there are many significant contexts where argumentation can be regarded as a process involving infinite objects. To address this limitation, in this paper we propose a novel approach for describing infinite afs using tools from formal language theory. In particular, the possibly infinite set of arguments is specified through the language recognized by a deterministic finite automaton while a suitable formalism, called attack expression, is introduced to describe the relation of attack between arguments. The proposed approach is shown to satisfy some desirable properties which can not be achieved through other "naive" uses of formal languages. In particular, the approach is shown to be expressive enough to capture (besides any arbitrary finite structure) a large variety of infinite afs including two major examples from previous literature and two sample cases from the domains of multi-agent negotiation and ambient intelligence. On the computational side, we show that several decision and construction problems which are known to be polynomial time solvable in finite afs are decidable in the context of the proposed formalism and we provide the relevant algorithms. Moreover we obtain additional results concerning the case of finitary afs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-11T08:26:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pietro Baroni</name>
+    </author>
+    <author>
+      <name>Federico Cerutti</name>
+    </author>
+    <author>
+      <name>Paul E. Dunne</name>
+    </author>
+    <author>
+      <name>Massimiliano Giacomin</name>
+    </author>
+    <arxiv:doi>10.1016/j.artint.2013.05.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.artint.2013.05.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.12349v5</id>
+    <title>SPIN-Bench: How Well Do LLMs Plan Strategically and Reason Socially?</title>
+    <updated>2025-10-15T19:15:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.12349v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.12349v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning and strategic behavior in social interactions is a hallmark of intelligence. This form of reasoning is significantly more sophisticated than isolated planning or reasoning tasks in static settings (e.g., math problem solving). In this paper, we present Strategic Planning, Interaction, and Negotiation (SPIN-Bench), a new multi-domain evaluation designed to measure the intelligence of strategic planning and social reasoning. While many existing benchmarks focus on narrow planning or single-agent reasoning, SPIN-Bench combines classical PDDL tasks, competitive board games, cooperative card games, and multi-agent negotiation scenarios in one unified framework. The framework includes both a benchmark as well as an arena to simulate and evaluate the variety of social settings to test reasoning and strategic behavior of AI agents. We formulate the benchmark SPIN-Bench by systematically varying action spaces, state complexity, and the number of interacting agents to simulate a variety of social settings where success depends on not only methodical and step-wise decision making, but also conceptual inference of other (adversarial or cooperative) participants. Our experiments reveal that while contemporary LLMs handle basic fact retrieval and short-range planning reasonably well, they encounter significant performance bottlenecks in tasks requiring deep multi-hop reasoning over large state spaces and socially adept coordination under uncertainty. We envision SPIN-Bench as a catalyst for future research on robust multi-agent planning, social reasoning, and human--AI teaming. Project Website: https://spinbench.github.io/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-16T04:10:53Z</published>
+    <arxiv:comment>48 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jianzhu Yao</name>
+    </author>
+    <author>
+      <name>Kevin Wang</name>
+    </author>
+    <author>
+      <name>Ryan Hsieh</name>
+    </author>
+    <author>
+      <name>Haisu Zhou</name>
+    </author>
+    <author>
+      <name>Tianqing Zou</name>
+    </author>
+    <author>
+      <name>Zerui Cheng</name>
+    </author>
+    <author>
+      <name>Zhangyang Wang</name>
+    </author>
+    <author>
+      <name>Pramod Viswanath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10245v1</id>
+    <title>Reach-Avoid-Stay-Collision-Avoidance Negotiation Framework for Multi-Agent Systems via Spatiotemporal Tubes</title>
+    <updated>2025-03-13T10:45:34Z</updated>
+    <link href="https://arxiv.org/abs/2503.10245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study presents a multi-agent negotiation-based framework to obtain collision-free paths while performing prescribed-time reach-avoid-stay (RAS) tasks for agents with unknown dynamics and bounded disturbance. By employing spatiotemporal tubes to generate time-varying state constraints, we ensure that all agents adhere to RAS specifications using synthesized controllers. To prevent inter-agent collisions, a negotiation mechanism is proposed where successful negotiations result in spatiotemporal tubes for each agent fulfilling desired tasks. This approach results in a completely distributed, approximation-free control law for each agent. The effectiveness of this mechanism was validated through simulations of multi-agent robot navigation and drone navigation tasks involving prescribed-time RAS specifications and collision avoidance.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T10:45:34Z</published>
+    <arxiv:comment>Accepted in ECC 2025</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Mohd. Faizuddin Faruqui</name>
+    </author>
+    <author>
+      <name>Ratnangshu Das</name>
+    </author>
+    <author>
+      <name>Ravi Kumar L</name>
+    </author>
+    <author>
+      <name>Pushpak Jagtap</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.16242v1</id>
+    <title>Reproducibility Study of Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation</title>
+    <updated>2025-02-22T14:28:49Z</updated>
+    <link href="https://arxiv.org/abs/2502.16242v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.16242v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a reproducibility study and extension of "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation." We validate the original findings using a range of open-weight models (1.5B-70B parameters) and GPT-4o Mini while introducing several novel contributions. We analyze the Pareto front of the games, propose a communication-free baseline to test whether successful negotiations are possible without agent interaction, evaluate recent small language models' performance, analyze structural information leakage in model responses, and implement an inequality metric to assess negotiation fairness. Our results demonstrate that smaller models (&lt;10B parameters) struggle with format adherence and coherent responses, but larger open-weight models can approach proprietary model performance. Additionally, in many scenarios, single-agent approaches can achieve comparable results to multi-agent negotiations, challenging assumptions about the necessity of agent communication to perform well on the benchmark. This work also provides insights into the accessibility, fairness, environmental impact, and privacy considerations of LLM-based negotiation systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-22T14:28:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jose L. Garcia</name>
+    </author>
+    <author>
+      <name>Karolina Hajkova</name>
+    </author>
+    <author>
+      <name>Maria Marchenko</name>
+    </author>
+    <author>
+      <name>Carlos Miguel Patiño</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.17695v2</id>
+    <title>Symbiotic Agents: A Novel Paradigm for Trustworthy AGI-driven Networks</title>
+    <updated>2025-09-03T09:49:56Z</updated>
+    <link href="https://arxiv.org/abs/2507.17695v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.17695v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based autonomous agents are expected to play a vital role in the evolution of 6G networks, by empowering real-time decision-making related to management and service provisioning to end-users. This shift facilitates the transition from a specialized intelligence approach, where artificial intelligence (AI) algorithms handle isolated tasks, to artificial general intelligence (AGI)-driven networks, where agents possess broader reasoning capabilities and can manage diverse network functions. In this paper, we introduce a novel agentic paradigm that combines LLMs with real-time optimization algorithms towards Trustworthy AI, defined as symbiotic agents. Optimizers at the LLM's input-level provide bounded uncertainty steering for numerically precise tasks, whereas output-level optimizers supervised by the LLM enable adaptive real-time control. We design and implement two novel agent types including: (i) Radio Access Network optimizers, and (ii) multi-agent negotiators for Service-Level Agreements (SLAs). We further propose an end-to-end architecture for AGI networks and evaluate it on a 5G testbed capturing channel fluctuations from moving vehicles. Results show that symbiotic agents reduce decision errors fivefold compared to standalone LLM-based agents, while smaller language models (SLM) achieve similar accuracy with a 99.9% reduction in GPU resource overhead and in near-real-time loops of 82 ms. A multi-agent demonstration for collaborative RAN on the real-world testbed highlights significant flexibility in service-level agreement and resource allocation, reducing RAN over-utilization by approximately 44%. Drawing on our findings and open-source implementations, we introduce the symbiotic paradigm as the foundation for next-generation, AGI-driven networks-systems designed to remain adaptable, efficient, and trustworthy even as LLMs advance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-23T17:01:23Z</published>
+    <arxiv:comment>Submitted to Computer Networks AI for 6G</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ilias Chatzistefanidis</name>
+    </author>
+    <author>
+      <name>Navid Nikaein</name>
+    </author>
+  </entry>
+</feed>

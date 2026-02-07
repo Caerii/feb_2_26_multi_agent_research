@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dgwt3DD4Ped4SnNCEaJTk5WXRCI</id>
+  <title>arXiv Query: search_query=all:"swarm robotics"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T05:00:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22swarm+robotics%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>288</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00671v1</id>
+    <title>Past, Present, and Future of Swarm Robotics</title>
+    <updated>2021-01-03T17:27:36Z</updated>
+    <link href="https://arxiv.org/abs/2101.00671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm Robotics is an emerging field of adapting the phenomenon of natural swarms to robotics. It is a study of robots that are aimed to mimic natural swarms, like ants and birds, to form a system that is scalable, flexible, and robust. These robots show self-organization, autonomy, cooperation, and coordination amongst themselves. The cost and design complexity factor is aimed to keep low, hence trying to form systems that are very much similar to natural swarms. The robots operate without any central entity to control them, and the communication amongst the robots can either be direct (robot-to-robot) or indirect (robot-to-environment). Swarm robotics has a wide range of application fields, from simple household tasks to military missions. This paper reviews the swarm robotics approach from its history to its future. It discusses the basic idea of swarm robotics, its important features, simulators, projects, real life applications and some future ideas.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-03T17:27:36Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ahmad Reza Cheraghi</name>
+    </author>
+    <author>
+      <name>Sahdia Shahzad</name>
+    </author>
+    <author>
+      <name>Kalman Graffi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.06360v1</id>
+    <title>Review on Efficient Strategies for Coordinated Motion and Tracking in Swarm Robotics</title>
+    <updated>2023-02-13T13:46:21Z</updated>
+    <link href="https://arxiv.org/abs/2302.06360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.06360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics is a creative method of organizing multi-robot structures, consisting of many basic robots influenced by communal insects. The greatest astonishing attribute of swarm robots is their capacity to function together to accomplish a collective objective. This paper addresses the list of current surveys, problems and algorithms that were stimulated in the research of Coordinated Movement in Swarm robotics. Algorithms for swarm robotics movement are contrasted, considering the swarm micro-robots to accomplish aggregation, creation, and clamouring by contrasting the relative computational simulations between the algorithms and simulations used.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-13T13:46:21Z</published>
+    <arxiv:comment>This is an outcome of a literature review which has yet to be published</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>B. Udugama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.06948v1</id>
+    <title>Closing the Gap in Swarm Robotics Simulations: An Extended Ardupilot/Gazebo plugin</title>
+    <updated>2018-11-16T18:00:17Z</updated>
+    <link href="https://arxiv.org/abs/1811.06948v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.06948v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work provides an extension of Ardupilot's capabilities to allow researchers to develop swarm robotics applications in Robot Operating System(ROS)/Gazebo simulations. Ardupilot is a tool used for autopilot functions in autonomous air, land and underwater robots. However, the original Ardupilot was not designed for applications in the field of swarm robotics. Hence, the main contribution of this paper is to endow Ardupilot with the capability to handle swarm robotics simulations, including the refactoring of the manufacturer's description files. This work offers a comprehensive and realistic simulation test-bed for swarm robotics applications under the ROS/Ardupilot umbrella using an existing off-the-shelf Erlerobotics' erlecopter UAV.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-16T18:00:17Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hugo R. M. Sardinha</name>
+    </author>
+    <author>
+      <name>Mauro Dragone</name>
+    </author>
+    <author>
+      <name>Patricia A. Vargas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06912v1</id>
+    <title>BittyBuzz: A Swarm Robotics Runtime for Tiny Systems</title>
+    <updated>2023-07-13T17:20:36Z</updated>
+    <link href="https://arxiv.org/abs/2307.06912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics is an emerging field of research which is increasingly attracting attention thanks to the advances in robotics and its potential applications. However, despite the enthusiasm surrounding this area of research, software development for swarm robotics is still a tedious task. That fact is partly due to the lack of dedicated solutions, in particular for low-cost systems to be produced in large numbers and that can have important resource constraints. To address this issue, we introduce BittyBuzz, a novel runtime platform: it allows Buzz, a domain-specific language, to run on microcontrollers while maintaining dynamic memory management. BittyBuzz is designed to fit a flash memory as small as 32 kB (with usable space for scripts) and work with as little as 2 kB of RAM. In this work, we introduce the BittyBuzz implementation, its differences from the original Buzz virtual machine, and its advantages for swarm robotics systems. We show that BittyBuzz is successfully integrated with three robotic platforms with minimal memory footprint and conduct experiments to show computation performance of BittyBuzz. Results show that BittyBuzz can be effectively used to implement common swarm behaviors on microcontroller-based systems.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T17:20:36Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ulrich Dah-Achinanon</name>
+    </author>
+    <author>
+      <name>Emir Khaled Belhaddad</name>
+    </author>
+    <author>
+      <name>Guillaume Ricard</name>
+    </author>
+    <author>
+      <name>Giovanni Beltrame</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.12391v2</id>
+    <title>HeRo 2.0: A Low-Cost Robot for Swarm Robotics Research</title>
+    <updated>2022-03-04T12:32:04Z</updated>
+    <link href="https://arxiv.org/abs/2202.12391v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.12391v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current state of electronic component miniaturization coupled with the increasing efficiency in hardware and software allow the development of smaller and compact robotic systems. The convenience of using these small, simple, yet capable robots has gathered the research community's attention towards practical applications of swarm robotics. This paper presents the design of a novel platform for swarm robotics applications that is low cost, easy to assemble using off-the-shelf components, and deeply integrated with the most used robotic framework available today: ROS (Robot Operating System). The robotic platform is entirely open, composed of a 3D printed body and open-source software. We describe its architecture, present its main features, and evaluate its functionalities executing experiments using a couple of robots. Results demonstrate that the proposed mobile robot is very effective given its small size and reduced cost, being suitable for swarm robotics research and education.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-24T22:23:14Z</published>
+    <arxiv:comment>Submitted to Autonomous Robots - S.I. 208: Robot Swarms in the Real World: from Design to Deployment</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Paulo Rezeck</name>
+    </author>
+    <author>
+      <name>Hector Azpurua</name>
+    </author>
+    <author>
+      <name>Mauricio FS Correa</name>
+    </author>
+    <author>
+      <name>Luiz Chaimowicz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.20071v1</id>
+    <title>GenGrid: A Generalised Distributed Experimental Environmental Grid for Swarm Robotics</title>
+    <updated>2025-04-24T17:30:38Z</updated>
+    <link href="https://arxiv.org/abs/2504.20071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.20071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GenGrid is a novel comprehensive open-source, distributed platform intended for conducting extensive swarm robotic experiments. The modular platform is designed to run swarm robotics experiments that are compatible with different types of mobile robots ranging from Colias, Kilobot, and E puck. The platform offers programmable control over the experimental setup and its parameters and acts as a tool to collect swarm robot data, including localization, sensory feedback, messaging, and interaction. GenGrid is designed as a modular grid of attachable computing nodes that offers bidirectional communication between the robotic agent and grid nodes and within grids. The paper describes the hardware and software architecture design of the GenGrid system. Further, it discusses some common experimental studies covering multi-robot and swarm robotics to showcase the platform's use. GenGrid of 25 homogeneous cells with identical sensing and communication characteristics with a footprint of 37.5 cm X 37.5 cm, exhibits multiple capabilities with minimal resources. The open-source hardware platform is handy for running swarm experiments, including robot hopping based on multiple gradients, collective transport, shepherding, continuous pheromone deposition, and subsequent evaporation. The low-cost, modular, and open-source platform is significant in the swarm robotics research community, which is currently driven by commercial platforms that allow minimal modifications.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T17:30:38Z</published>
+    <arxiv:comment>2021 IEEE International Conference on Robotics and Automation (ICRA)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Pranav Kedia</name>
+    </author>
+    <author>
+      <name>Madhav Rao</name>
+    </author>
+    <arxiv:doi>10.1109/ICRA48506.2021.9561654</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICRA48506.2021.9561654" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.03148v1</id>
+    <title>Securing emergent behaviour in swarm robotics</title>
+    <updated>2021-02-05T12:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2102.03148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.03148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics is the study of how a large number of relatively simple robots can be designed so that a desired collective behaviour emerges from the local interactions among robots and between the robots and their environment. While many aspects of a swarm may be modelled as various types of ad hoc networks, and accordingly many aspects of security of the swarm may be achieved by conventional means, here we will focus on swarm emergent behaviour as something that most distinguishes swarm robotics from ad hoc networks. We discuss the challenges emergent behaviour poses on communications security, and by classifying a swarm by types of robots, types of communication channels, and types of adversaries, we examine what classes may be secured by traditional methods and focus on aspects that are most relevant to allowing emergent behaviour. We will examine how this can be secured by ensuring that communication is secure. We propose a simple solution using hash chains, and by modelling swarm communications using a series of random graphs, we show that this allows us to identify rogue robots with a high probability.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-05T12:52:52Z</published>
+    <arxiv:comment>Submitted</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Liqun Chen</name>
+    </author>
+    <author>
+      <name>Siaw-Lynn Ng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.11154v1</id>
+    <title>Mobility-Aware Computation Offloading for Swarm Robotics using Deep Reinforcement Learning</title>
+    <updated>2023-08-22T03:20:14Z</updated>
+    <link href="https://arxiv.org/abs/2308.11154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.11154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics is envisioned to automate a large number of dirty, dangerous, and dull tasks. Robots have limited energy, computation capability, and communication resources. Therefore, current swarm robotics have a small number of robots, which can only provide limited spatio-temporal information. In this paper, we propose to leverage the mobile edge computing to alleviate the computation burden. We develop an effective solution based on a mobility-aware deep reinforcement learning model at the edge server side for computing scheduling and resource. Our results show that the proposed approach can meet delay requirements and guarantee computation precision by using minimum robot energy.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-22T03:20:14Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>2021 IEEE 18th Annual Consumer Communications &amp; Networking Conference (CCNC)</arxiv:journal_ref>
+    <author>
+      <name>Xiucheng Wang</name>
+    </author>
+    <author>
+      <name>Hongzhi Guo</name>
+    </author>
+    <arxiv:doi>10.1109/CCNC49032.2021.9369456</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CCNC49032.2021.9369456" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.13111v1</id>
+    <title>Adaptive Coordinated Motion Control for Swarm Robotics Based on Brain Storm Optimization</title>
+    <updated>2021-05-27T13:14:43Z</updated>
+    <link href="https://arxiv.org/abs/2105.13111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.13111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coordinated motion control in swarm robotics aims to ensure the coherence of members in space, i.e., the robots in a swarm perform coordinated movements to maintain spatial structures. This problem can be modeled as a tracking control problem, in which individuals in the swarm follow a target position with the consideration of specific relative distance or orientations. To keep the communication cost low, the PID controller can be utilized to achieve the leader-follower tracking control task without the information of leader velocities. However, the controller's parameters need to be optimized to adapt to situations changing, such as the different swarm population, the changing of the target to be followed, and the anti-collision demands, etc. In this letter, we apply a modified Brain Storm Optimization (BSO) algorithm to an incremental PID tracking controller to get the relatively optimal parameters adaptively for leader-follower formation control for swarm robotics. Simulation results show that the proposed method could reach the optimal parameters during robot movements. The flexibility and scalability are also validated, which ensures that the proposed method can adapt to different situations and be a good candidate for coordinated motion control for swarm robotics in more realistic scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-27T13:14:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Yuhui Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.02643v1</id>
+    <title>SwarmUS: An open hardware and software on-board platform for swarm robotics development</title>
+    <updated>2022-03-05T02:20:18Z</updated>
+    <link href="https://arxiv.org/abs/2203.02643v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.02643v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real life implementations of distributed swarm robotics are rare. The standardization of a general purpose swarm robotics platform could greatly accelerate swarm robotics towards real life implementations. The SwarmUS platform is an open-source hardware and software on-board embedded system designed to be added onto existing robots while providing them with swarm features, thus proposing a new take on the platform standardization problem. These features include a distributed relative localization system based on Ultra-Wideband, a local communication system based on Wi-Fi and a distributed coordination system based on the Buzz programming language between robots connected within a SwarmUS platform. Additionally, a human-swarm interaction mobile application and an emulation of the platform in the Robot Operating System (ROS) is presented. Finally, an implementation of the system was realized and tested on two types of robots : a TurtleBot3 Burger and two Pioneer 2DX.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-05T02:20:18Z</published>
+    <arxiv:comment>8 pages, 9 figures, submitted to IROS 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Étienne Villemure</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Philippe Arsenault</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabriel Lessard</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thierry Constantin</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hubert Dubé</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Louis-Daniel Gaulin</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xavier Groleau</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samuel Laperrière</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Charles Quesnel</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+    <author>
+      <name>François Ferland</name>
+      <arxiv:affiliation>Université de Sherbrooke</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13453v1</id>
+    <title>Towards a Formal Specification for Self-organized Shape Formation in Swarm Robotics</title>
+    <updated>2025-06-16T13:13:20Z</updated>
+    <link href="https://arxiv.org/abs/2506.13453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The self-organization of robots for the formation of structures and shapes is a stimulating application of the swarm robotic system. It involves a large number of autonomous robots of heterogeneous behavior, coordination among them, and their interaction with the dynamic environment. This process of complex structure formation is considered a complex system, which needs to be modeled by using any modeling approach. Although the formal specification approach along with other formal methods has been used to model the behavior of robots in a swarm. However, to the best of our knowledge, the formal specification approach has not been used to model the self-organization process in swarm robotic systems for shape formation. In this paper, we use a formal specification approach to model the shape formation task of swarm robots. We use Z (Zed) language of formal specification, which is a state-based language, to model the states of the entities of the systems. We demonstrate the effectiveness of Z for the self-organized shape formation. The presented formal specification model gives the outlines for designing and implementing the swarm robotic system for the formation of complex shapes and structures. It also provides the foundation for modeling the complex shape formation process for swarm robotics using a multi-agent system in a simulation-based environment. Keywords: Swarm robotics, Self-organization, Formal specification, Complex systems</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T13:13:20Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>YR Darr</name>
+    </author>
+    <author>
+      <name>MA Niazi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.11160v2</id>
+    <title>ColCOS$Φ$: A Multiple Pheromone Communication System for Swarm Robotics and Social Insects Research</title>
+    <updated>2019-06-05T10:28:46Z</updated>
+    <link href="https://arxiv.org/abs/1905.11160v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.11160v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last few decades we have witnessed how the pheromone of social insect has become a rich inspiration source of swarm robotics. By utilising the virtual pheromone in physical swarm robot system to coordinate individuals and realise direct/indirect inter-robot communications like the social insect, stigmergic behaviour has emerged. However, many studies only take one single pheromone into account in solving swarm problems, which is not the case in real insects. In the real social insect world, diverse behaviours, complex collective performances and flexible transition from one state to another are guided by different kinds of pheromones and their interactions. Therefore, whether multiple pheromone based strategy can inspire swarm robotics research, and inversely how the performances of swarm robots controlled by multiple pheromones bring inspirations to explain the social insects' behaviours will become an interesting question. Thus, to provide a reliable system to undertake the multiple pheromone study, in this paper, we specifically proposed and realised a multiple pheromone communication system called ColCOS$Φ$. This system consists of a virtual pheromone sub-system wherein the multiple pheromone is represented by a colour image displayed on a screen, and the micro-robots platform designed for swarm robotics applications. Two case studies are undertaken to verify the effectiveness of this system: one is the multiple pheromone based on an ant's forage and another is the interactions of aggregation and alarm pheromones. The experimental results demonstrate the feasibility of ColCOS$Φ$ and its great potential in directing swarm robotics and social insects research.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-27T12:16:42Z</published>
+    <arxiv:comment>8 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xuelong Sun</name>
+      <arxiv:affiliation>University of Lincoln, Lincoln, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tian Liu</name>
+      <arxiv:affiliation>University of Lincoln, Lincoln, UK</arxiv:affiliation>
+      <arxiv:affiliation>Guangzhou University, Guangzhou, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cheng Hu</name>
+      <arxiv:affiliation>Guangzhou University, Guangzhou, China</arxiv:affiliation>
+      <arxiv:affiliation>University of Lincoln, Lincoln, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qingbin Fu</name>
+      <arxiv:affiliation>Guangzhou University, Guangzhou, China</arxiv:affiliation>
+      <arxiv:affiliation>University of Lincoln, Lincoln, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shigang Yue</name>
+      <arxiv:affiliation>Guangzhou University, Guangzhou, China</arxiv:affiliation>
+      <arxiv:affiliation>University of Lincoln, Lincoln, UK</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.17147v1</id>
+    <title>Hearing the shape of an arena with spectral swarm robotics</title>
+    <updated>2024-03-25T19:50:07Z</updated>
+    <link href="https://arxiv.org/abs/2403.17147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.17147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics promises adaptability to unknown situations and robustness against failures. However, it still struggles with global tasks that require understanding the broader context in which the robots operate, such as identifying the shape of the arena in which the robots are embedded. Biological swarms, such as shoals of fish, flocks of birds, and colonies of insects, routinely solve global geometrical problems through the diffusion of local cues. This paradigm can be explicitly described by mathematical models that could be directly computed and exploited by a robotic swarm. Diffusion over a domain is mathematically encapsulated by the Laplacian, a linear operator that measures the local curvature of a function. Crucially the geometry of a domain can generally be reconstructed from the eigenspectrum of its Laplacian. Here we introduce spectral swarm robotics where robots diffuse information to their neighbors to emulate the Laplacian operator - enabling them to "hear" the spectrum of their arena. We reveal a universal scaling that links the optimal number of robots (a global parameter) with their optimal radius of interaction (a local parameter). We validate experimentally spectral swarm robotics under challenging conditions with the one-shot classification of arena shapes using a sparse swarm of Kilobots. Spectral methods can assist with challenging tasks where robots need to build an emergent consensus on their environment, such as adaptation to unknown terrains, division of labor, or quorum sensing. Spectral methods may extend beyond robotics to analyze and coordinate swarms of agents of various natures, such as traffic or crowds, and to better understand the long-range dynamics of natural systems emerging from short-range interactions.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-25T19:50:07Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Leo Cazenille</name>
+    </author>
+    <author>
+      <name>Nicolas Lobato-Dauzier</name>
+    </author>
+    <author>
+      <name>Alessia Loi</name>
+    </author>
+    <author>
+      <name>Mika Ito</name>
+    </author>
+    <author>
+      <name>Olivier Marchal</name>
+    </author>
+    <author>
+      <name>Nathanael Aubert-Kato</name>
+    </author>
+    <author>
+      <name>Nicolas Bredeche</name>
+    </author>
+    <author>
+      <name>Anthony J. Genot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01573v4</id>
+    <title>Mixed Reality Environment and High-Dimensional Continuification Control for Swarm Robotics</title>
+    <updated>2024-07-15T13:10:23Z</updated>
+    <link href="https://arxiv.org/abs/2310.01573v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01573v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many new methodologies for the control of large-scale multi-agent systems are based on macroscopic representations of the emerging system dynamics, in the form of continuum approximations of large ensembles. These techniques, that are developed in the limit case of an infinite number of agents, are usually validated only through numerical simulations. In this paper, we introduce a mixed reality set-up for testing swarm robotics techniques, focusing on the macroscopic collective motion of robotic swarms. This hybrid apparatus combines both real differential drive robots and virtual agents to create a heterogeneous swarm of tunable size. We also extend continuification-based control methods for swarms to higher dimensions, and assess experimentally their validity in the new platform. Our study demonstrates the effectiveness of the platform for conducting large-scale swarm robotics experiments, and it contributes new theoretical insights into control algorithms exploiting continuification approaches.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T19:05:24Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Gian Carlo Maffettone</name>
+    </author>
+    <author>
+      <name>Lorenzo Liguori</name>
+    </author>
+    <author>
+      <name>Eduardo Palermo</name>
+    </author>
+    <author>
+      <name>Mario di Bernardo</name>
+    </author>
+    <author>
+      <name>Maurizio Porfiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.11407v2</id>
+    <title>Optimal Virtual Tube Planning and Control for Swarm Robotics</title>
+    <updated>2023-10-24T03:56:08Z</updated>
+    <link href="https://arxiv.org/abs/2304.11407v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.11407v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel method for efficiently solving a trajectory planning problem for swarm robotics in cluttered environments. Recent research has demonstrated high success rates in real-time local trajectory planning for swarm robotics in cluttered environments, but optimizing trajectories for each robot is still computationally expensive, with a computational complexity from $O\left(k\left(n_t,\varepsilon \right)n_t^2\right)$ to $ O\left(k\left(n_t,\varepsilon \right)n_t^3\right)$ where $n_t$ is the number of parameters in the parameterized trajectory, $\varepsilon$ is precision and $k\left(n_t,\varepsilon \right)$ is the number of iterations with respect to $n_t$ and $\varepsilon$. Furthermore, the swarm is difficult to move as a group. To address this issue, we define and then construct the optimal virtual tube, which includes infinite optimal trajectories. Under certain conditions, any optimal trajectory in the optimal virtual tube can be expressed as a convex combination of a finite number of optimal trajectories, with a computational complexity of $O\left(n_t\right)$. Afterward, a hierarchical approach including a planning method of the optimal virtual tube with minimizing energy and distributed model predictive control is proposed. In simulations and experiments, the proposed approach is validated and its effectiveness over other methods is demonstrated through comparison.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-22T13:42:33Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Pengda Mao</name>
+    </author>
+    <author>
+      <name>Rao Fu</name>
+    </author>
+    <author>
+      <name>Quan Quan</name>
+    </author>
+    <arxiv:doi>10.1177/02783649231210012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/02783649231210012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02975v1</id>
+    <title>Swarm robotics and complex behaviour of continuum material</title>
+    <updated>2020-04-01T08:36:34Z</updated>
+    <link href="https://arxiv.org/abs/2004.02975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.02975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In swarm robotics, just as for an animal swarm in Nature, one of the aims is to reach and maintain a desired configuration. One of the possibilities for the team, to reach this aim, is to see what its neighbours are doing. This approach generates a rules system governing the movement of the single robot just by reference to neighbour's motion. The same approach is used in position based dynamics to simulate behaviour of complex continuum materials under deformation. Therefore, in some previous works, we have considered a two-dimensional lattice of particles and calculated its time evolution by using a rules system derived from our experience in swarm robotics. The new position of a particle, like the element of a swarm, is determined by the spatial position of the other particles. No dynamic is considered, but it can be thought as being hidden in the behaviour rules. This method has given good results in some simple situations reproducing the behaviour of deformable bodies under imposed strain. In this paper we try to stress our model to highlight its limits and how they can be improved. Some other, more complex, examples are computed and discussed. Shear test, different lattice, different fracture mechanism and ASTM shape sample behaviour have been investigated by the software tool we have developed.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-01T08:36:34Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2003.11908</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>R. dell'Erba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.02438v1</id>
+    <title>ROS2swarm - A ROS 2 Package for Swarm Robot Behaviors</title>
+    <updated>2024-05-03T19:05:14Z</updated>
+    <link href="https://arxiv.org/abs/2405.02438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.02438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing reusable software for mobile robots is still challenging. Even more so for swarm robots, despite the desired simplicity of the robot controllers. Prototyping and experimenting are difficult due to the multi-robot setting and often require robot-robot communication. Also, the diversity of swarm robot hardware platforms increases the need for hardware-independent software concepts. The main advantages of the commonly used robot software architecture ROS 2 are modularity and platform independence. We propose a new ROS 2 package, ROS2swarm, for applications of swarm robotics that provides a library of ready-to-use swarm behavioral primitives. We show the successful application of our approach on three different platforms, the TurtleBot3 Burger, the TurtleBot3 Waffle Pi, and the Jackal UGV, and with a set of different behavioral primitives, such as aggregation, dispersion, and collective decision-making. The proposed approach is easy to maintain, extendable, and has good potential for simplifying swarm robotics experiments in future applications.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-03T19:05:14Z</published>
+    <arxiv:comment>published in 2022 International Conference on Robotics and Automation (ICRA)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tanja Katharina Kaiser</name>
+    </author>
+    <author>
+      <name>Marian Johannes Begemann</name>
+    </author>
+    <author>
+      <name>Tavia Plattenteich</name>
+    </author>
+    <author>
+      <name>Lars Schilling</name>
+    </author>
+    <author>
+      <name>Georg Schildbach</name>
+    </author>
+    <author>
+      <name>Heiko Hamann</name>
+    </author>
+    <arxiv:doi>10.1109/ICRA46639.2022.9812417</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICRA46639.2022.9812417" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.01380v1</id>
+    <title>An Efficient Real-Time Planning Method for Swarm Robotics Based on an Optimal Virtual Tube</title>
+    <updated>2025-05-02T16:41:38Z</updated>
+    <link href="https://arxiv.org/abs/2505.01380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.01380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Swarm robotics navigating through unknown obstacle environments is an emerging research area that faces challenges. Performing tasks in such environments requires swarms to achieve autonomous localization, perception, decision-making, control, and planning. The limited computational resources of onboard platforms present significant challenges for planning and control. Reactive planners offer low computational demands and high re-planning frequencies but lack predictive capabilities, often resulting in local minima. Long-horizon planners, on the other hand, can perform multi-step predictions to reduce deadlocks but cost much computation, leading to lower re-planning frequencies. This paper proposes a real-time optimal virtual tube planning method for swarm robotics in unknown environments, which generates approximate solutions for optimal trajectories through affine functions. As a result, the computational complexity of approximate solutions is $O(n_t)$, where $n_t$ is the number of parameters in the trajectory, thereby significantly reducing the overall computational burden. By integrating reactive methods, the proposed method enables low-computation, safe swarm motion in unknown environments. The effectiveness of the proposed method is validated through several simulations and experiments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-02T16:41:38Z</published>
+    <arxiv:comment>18 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Pengda Mao</name>
+    </author>
+    <author>
+      <name>Shuli Lv</name>
+    </author>
+    <author>
+      <name>Chen Min</name>
+    </author>
+    <author>
+      <name>Zhaolong Shen</name>
+    </author>
+    <author>
+      <name>Quan Quan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01957v1</id>
+    <title>Maximizing Energy Battery Efficiency in Swarm Robotics</title>
+    <updated>2019-06-05T11:52:50Z</updated>
+    <link href="https://arxiv.org/abs/1906.01957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.01957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Miniaturization and cost, two of the main attractive factors of swarm robotics, have motivated its use as a solution in object collecting tasks, search &amp; rescue missions, and other applications. However, in the current literature only a few papers consider energy allocation efficiency within a swarm. Generally, robots recharge to their maximum level every time unconditionally, and do not incorporate estimates of the energy needed for their next task. In this paper we present an energy efficiency maximization method that minimizes the overall energy cost within a swarm while simultaneously maximizing swarm performance on an object gathering task. The method utilizes dynamic thresholds for upper and lower battery limits. This method has also shown to improve the efficiency of existing energy management methods.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-05T11:52:50Z</published>
+    <arxiv:comment>Presented as ARMS Workshop paper at AAMAS 2019 Conference (http://u.cs.biu.ac.il/~agmon/arms2019/program.html)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Anthony Chen</name>
+    </author>
+    <author>
+      <name>John Harwell</name>
+    </author>
+    <author>
+      <name>Maria Gini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12698v1</id>
+    <title>Potato: A Data-Oriented Programming 3D Simulator for Large-Scale Heterogeneous Swarm Robotics</title>
+    <updated>2023-08-24T10:33:00Z</updated>
+    <link href="https://arxiv.org/abs/2308.12698v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12698v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale simulation with realistic nonlinear dynamic models is crucial for algorithms development for swarm robotics. However, existing platforms are mainly developed based on Object-Oriented Programming (OOP) and either use simple kinematic models to pursue a large number of simulating nodes or implement realistic dynamic models with limited simulating nodes. In this paper, we develop a simulator based on Data-Oriented Programming (DOP) that utilizes GPU parallel computing to achieve large-scale swarm robotic simulations. Specifically, we use a multi-process approach to simulate heterogeneous agents and leverage PyTorch with GPU to simulate homogeneous agents with a large number. We test our approach using a nonlinear quadrotor model and demonstrate that this DOP approach can maintain almost the same computational speed when quadrotors are less than 5,000. We also provide two examples to present the functionality of the platform.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-24T10:33:00Z</published>
+    <arxiv:comment>4 pages, 5 figures, accepted by ICRA 2023 Workshop on "The Role of Robotics Simulators for Unmanned Aerial Vehicles"</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jinjie Li</name>
+    </author>
+    <author>
+      <name>Liang Han</name>
+    </author>
+    <author>
+      <name>Haoyang Yu</name>
+    </author>
+    <author>
+      <name>Zhaotian Wang</name>
+    </author>
+    <author>
+      <name>Pengzhi Yang</name>
+    </author>
+    <author>
+      <name>Ziwei Yan</name>
+    </author>
+    <author>
+      <name>Zhang Ren</name>
+    </author>
+  </entry>
+</feed>
