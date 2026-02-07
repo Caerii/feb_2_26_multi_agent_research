@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **105 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **108 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -37,6 +37,11 @@ Total papers analyzed: **105 multi-agent systems** from arXiv cs.AI
 - Wide Research paradigm (WideSeek dynamic hierarchical agent forking)
 - Production observability (Agentic Observability ReAct for alert triage)
 - PR-grounded long-horizon (daVinci-Agency chain-of-PR trajectory mining)
+- Bandwidth-efficient communication (information bottleneck + vector quantization)
+- Self-evolving coordination (governed protocol modification with invariants)
+- Collective intelligence (SuperBrain swarm co-evolution to meta-intelligence)
+- Privacy-preserving swarms (MPC-encrypted LLM UAV coordination)
+- Human-swarm teaming (LLM-CRF bridges intention-to-action gap in SAR)
 
 ---
 
@@ -101,6 +106,9 @@ Total papers analyzed: **105 multi-agent systems** from arXiv cs.AI
 | SECP | 2602.02170 | Self-evolving coordination protocols with governance |
 | Multi-Agent Teams Hold Experts Back | 2602.01011 | Self-organizing team performance study |
 | DeALOG | 2602.00996 | Decentralized log-mediated reasoning framework |
+| SuperBrain | 2509.00510 | LLM-assisted swarm intelligence for collective AI |
+| PrivLLMSwarm | 2512.06747 | Privacy-preserving LLM UAV swarms |
+| Human-Swarm Teaming | 2511.04042 | LLM-based disaster rescue framework |
 
 ### Efficiency & Infrastructure
 
@@ -763,6 +771,27 @@ Total papers analyzed: **105 multi-agent systems** from arXiv cs.AI
 **Approach:** Specialized agents (Table, Context, Visual, Summarizing, Verification) communicate via log
 **Results:** Competitive performance on FinQA, TAT-QA, CRT-QA, WikiTableQuestions, FeTaQA, MultiModalQA
 **Impact:** Enables collaborative error detection without central control; scalable modularity
+
+### SuperBrain: LLM-Assisted Swarm Intelligence
+**ID:** 2509.00510
+**Key:** Collective intelligence via co-evolution
+**Approach:** Subclass Brain (user-LLM cognitive dyads) → GA-assisted evolution → Swarm Intelligence coordination → Superclass Brain
+**Results:** Framework demonstrated on UAV scheduling and keyword filtering; scalable architecture
+**Impact:** Conceptual foundation for explainable, ethically aligned collective AI; standardizes knowledge exchange
+
+### PrivLLMSwarm: Privacy-Preserving LLM UAV Swarms
+**ID:** 2512.06747
+**Key:** MPC-encrypted LLM inference for swarms
+**Approach:** Secure Multi-Party Computation for transformer components + RL-fined GPT command generator
+**Results:** High semantic accuracy with low encrypted inference latency; superior privacy-utility balance
+**Impact:** Practical foundation for secure LLM-enabled swarms in privacy-sensitive IoT (smart-city, emergency response)
+
+### Human-Swarm Teaming: Disaster SAR
+**ID:** 2511.04042
+**Key:** Bridge intention-to-action gap
+**Approach:** LLM-CRF system for intention comprehension, hierarchical task decomposition, mission planning with real-time feedback
+**Results:** 64.2% faster task completion; 7% higher success rate; 42.9% reduced cognitive workload (NASA-TLX)
+**Impact:** Enables proactive partner swarms reducing manual monitoring in high-stakes scenarios
 
 ---
 
