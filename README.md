@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **230 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **232 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -79,6 +79,8 @@ Total papers analyzed: **230 multi-agent systems** from arXiv cs.AI
 - Action-value network factorizations (network architecture analysis for cooperative MARL design)
 - Uncertainty-aware manufacturing (probabilistic multi-agent systems for cyber-physical production)
 - Autonomous vehicle cooperation/cooperation (multi-agent deep RL for intersection traversal and racing)
+- Human-agent alignment dimensions (6-axis framework for knowledge/autonomy/reputation/ethics alignment)
+- Social perception in cooperation (warmth/competence predict human preferences over objective performance)
 - Privacy-preserved multi-robot coordination (independent specs with global collaborative specs)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
@@ -237,6 +239,8 @@ Total papers analyzed: **230 multi-agent systems** from arXiv cs.AI
 | Communication Verification under Info Asymmetry | 2510.25595 | Environment-based verifier for Einstein Puzzles |
 | Collaborate, Deliberate, Evaluate | 2509.05882 | LLM alignment effects on coordinated multi-agent outcomes |
 | Agentic Software Project Management | 2601.16392 | Junior PM multi-agent system for Software Engineering 3.0 |
+| Designing for Human-Agent Alignment | 2404.04289 | 6 dimensions of alignment between humans and agents |
+| Warmth/Competence in Agent Cooperation | 2201.13448 | Social perception predicts human-agent collaboration preferences |
 | XAMT Memory Security | 2512.15790 | Bilevel optimization for covert memory poisoning defense |
 | AI-enhanced Collective Intelligence | 2403.10433 | Multilayer representation for human-AI collectives (cognition/physical/info layers) |
 | Survey of Multi-Agent Deep RL with Communication | 2203.08975 | 34-page survey on Comm-MADRL frameworks |
@@ -1860,6 +1864,22 @@ Total papers analyzed: **230 multi-agent systems** from arXiv cs.AI
 **Key:** Multi-agent deep RL for cooperative/competitive autonomous vehicles
 **Approach:** Modular parallelizable multi-agent deep reinforcement learning framework imbibing cooperative and competitive behaviors using AutoDRIVE Ecosystem creating digital twins of Nigel and F1TENTH autonomous vehicles; investigates intersection traversal with cooperative vehicles sharing limited state information and adversarial head-to-head racing; adopts decentralized learning architecture for robust training in stochastic environments with sparse observation spaces and constrained safety requirements
 **Impact:** Provides template for virtual organizations operating fleets of autonomous vehicles requiring both cooperative and competitive coordination patterns
+
+---
+
+## Batch 23: Human-Agent Collaboration Studies Papers
+
+### Designing for Human-Agent Alignment: Understanding What Humans Want from Their Agents
+**ID:** 2404.04289
+**Key:** 6 dimensions of alignment between humans and agents
+**Approach:** Qualitative empirical research study investigating alignment parameters for agents performing complex tasks discovered through fictional camera negotiation task; identifies 6 required alignment dimensions: knowledge schema alignment, autonomy and agency alignment, operational alignment and training, reputational heuristics alignment, ethics alignment, and human engagement alignment
+**Impact:** Provides framework for virtual organizations ensuring alignment between human operators and autonomous agents across knowledge sharing, decision-making authority, operational procedures, reputation management, ethical constraints, and human interaction patterns
+
+### Warmth and Competence in Human-Agent Cooperation
+**ID:** 2201.13448
+**Key:** Social perception predicts human-agent collaboration preferences
+**Approach:** Deep reinforcement learning agents trained in Coins two-player social dilemma with 501 human participants measuring impressions through warmth and competence dimensions; implements partner choice framework eliciting revealed preferences where participants choose whether to continue with same agent or play alone
+**Impact:** Demonstrates that social perception of warmth and competence better predicts human collaboration preferences than objective performance metrics enabling virtual organizations to design agent behaviors optimizing for trust and human acceptance
 
 ---
 
