@@ -1,9 +1,8 @@
 {
   "metadata": {
-    "total_papers": 209,
-    "last_updated": "2026-02-07",
-    "source": "arXiv cs.AI",
-    "focus": "Multi-agent systems for virtual AI organizations"
+    "total_papers": 198,
+    "last_updated": "2026-02-07T14:29:45.877649",
+    "source": "arXiv cs.AI + batch files"
   },
   "papers": {
     "2602.06039": {
