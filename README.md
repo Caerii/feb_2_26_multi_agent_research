@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **63 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -18,6 +18,11 @@ Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
 - 3D scene understanding (multi-agent scene graph generation)
 - Distributed training optimization (LoRDO ~10× communication reduction)
 - Collaborative planning (KG-guided multi-robot replanning)
+- Agent scaling theory (diversity beats quantity; K* effective channels)
+- Automated orchestration (AOrchestra tuple abstraction)
+- Dynamic communication topology (TodyComm policy gradient)
+- Routing collapse mitigation (EquiRouter decision-aware ranking)
+- Actor-Refiner search collaboration (Search-R2 targeted correction)
 
 ---
 
@@ -57,6 +62,12 @@ Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
 | INFORM | 2602.04291 | Causal analysis for multi-expert orchestration (INFORM) |
 | MA3DSG | 2602.04152 | Multi-agent 3D scene graph generation |
 | KGLAMP | 2602.04129 | KG-guided LLM for multi-robot planning/replanning |
+| Agent Scaling via Diversity | 2602.03794 | Information-theoretic框架: 2 diverse agents ≈ 16 homogeneous |
+| AOrchestra | 2602.03786 | Automated sub-agent creation (16.28% improvement vs baseline) |
+| TodyComm | 2602.03688 | Task-oriented dynamic communication topology |
+| Conversational Inertia | 2602.03664 | Context Preference Learning for multi-turn agents |
+| EquiRouter | 2602.03478 | Decision-aware ranking to mitigate routing collapse (17% cost reduction) |
+| Search-R2 | 2602.03647 | Actor-Refiner collaboration for search-integrated reasoning |
 
 ### Efficiency & Infrastructure
 
@@ -424,6 +435,48 @@ Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
 **Results:** >5× faster than FlashAttention; 1.57× speed-up while preserving details; 8B model generates 1024×1024 in ~1s; up to 2.28× with scale-skipping
 **Impact:** Training-free acceleration enables high-resolution image generation without last-scale skipping
 
+### Understanding Agent Scaling in LLM-Based MAS via Diversity
+**ID:** 2602.03794
+**Key:** Diversity > homogeneous scaling for MAS performance
+**Approach:** Information-theoretic framework showing performance bounded by intrinsic task uncertainty, not agent count; introduces K* effective channel metric
+**Results:** 2 diverse agents match/exceed 16 homogeneous agents; homogeneous agents saturate early due to correlated outputs
+**Impact:** Principled guidelines for diversity-aware MAS design; challenges naive scaling assumptions
+
+### AOrchestra: Automated Sub-Agent Creation for Agentic Orchestration
+**ID:** 2602.03786
+**Key:** Framework-agnostic agent tuple abstraction (Instruction, Context, Tools, Model)
+**Approach:** Central orchestrator concretizes tuple at each step: curates context, selects tools/models, delegates via automatic agent creation
+**Results:** 16.28% relative improvement vs strongest baseline across GAIA, SWE-Bench, Terminal-Bench with Gemini-3-Flash; Pareto-efficient performance-cost trade-off
+**Impact:** Reduces human engineering; enable plug-and-play diverse agents as task executors
+
+### TodyComm: Task-Oriented Dynamic Communication for Multi-Round MAS
+**ID:** 2602.03688
+**Key:** Behavior-driven collaboration topology adaptation per round
+**Approach:** Dynamic communication algorithm optimizing task utility via policy gradient; adapts to changing roles due to adversary, task progression, bandwidth
+**Results:** Superior task effectiveness under dynamic adversary and communication budgets; retains token efficiency and scalability across 5 benchmarks
+**Impact:** Addresses fixed topology limitation in realistic multi-round applications
+
+### Mitigating Conversational Inertia in Multi-Turn Agents
+**ID:** 2602.03664
+**Key:** Addresses diagonal attention causing imitation bias in multi-turn agents
+**Approach:** Context Preference Learning calibrates model to favor low-inertia over high-inertia responses; leverages context length differences for preference pairs
+**Results:** Validated across 8 agentic environments and 1 deep research scenario; reduces conversational inertia with performance improvements
+**Impact:** Resolves exploitation-exploration tension in few-shot LLM agents
+
+### When Routing Collapses: EquiRouter for Degenerate Convergence
+**ID:** 2602.03478
+**Key:** Routing collapse - routers default to expensive models as budget increases
+**Approach:** Decision-aware router (EquiRouter) directly learns model rankings instead of scalar performance scores; addresses objective-decision mismatch
+**Results:** ~17% cost reduction at GPT-4-level performance on RouterBench vs strongest prior router
+**Impact:** Restores small model utilization; fundamental fix for routing efficiency promises
+
+### Search-R2: Actor-Refiner Collaboration for Search-Integrated Reasoning
+**ID:** 2602.03647
+**Key:** Multi-scale credit assignment via Actor-Refiner decomposition
+**Approach:** Actor produces initial reasoning trajectories; Meta-Refiner selectively diagnoses and repairs flawed steps via cut-and-regenerate; hybrid reward (outcome + dense information density)
+**Results:** Outperforms strong RAG and RL baselines across general and multi-hop QA datasets; superior accuracy with minimal overhead
+**Impact:** Addresses sparse trajectory-level reward limitation; targeted intervention for search-integrated agents
+
 ---
 
 ## Cross-Cutting Trends
@@ -487,6 +540,6 @@ Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
 - **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-350 of 1,516 total
+- **Scan status:** Entries 1-400 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
