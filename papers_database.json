@@ -1,0 +1,4473 @@
+{
+  "metadata": {
+    "total_papers": 209,
+    "last_updated": "2026-02-07",
+    "source": "arXiv cs.AI",
+    "focus": "Multi-agent systems for virtual AI organizations"
+  },
+  "papers": {
+    "2602.06039": {
+      "id": "2602.06039",
+      "name": "DyTopo",
+      "focus": "Dynamic topology routing with semantic matching",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.06008": {
+      "id": "2602.06008",
+      "name": "AgenticPay",
+      "focus": "Multi-agent negotiation benchmark for transactions",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05429": {
+      "id": "2602.05429",
+      "name": "M²-Miner",
+      "focus": "GUI agent data mining with specialized roles",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05818": {
+      "id": "2602.05818",
+      "name": "TKG-Thinker",
+      "focus": "Temporal knowledge graph reasoning via agentic RL",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05665": {
+      "id": "2602.05665",
+      "name": "Graph-based Agent Memory",
+      "focus": "18-author survey on agent memory systems",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2602.05327": {
+      "id": "2602.05327",
+      "name": "ProAct",
+      "focus": "Agentic lookahead for long-horizon planning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03145": {
+      "id": "2602.03145",
+      "name": "Internet of Agentic AI",
+      "focus": "Distributed coalition formation",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05353": {
+      "id": "2602.05353",
+      "name": "AgentXRay",
+      "focus": "Workflow reconstruction (white-boxing black-box agents)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05302": {
+      "id": "2602.05302",
+      "name": "PieArena",
+      "focus": "MBA negotiation benchmark with behavioral profiling",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05115": {
+      "id": "2602.05115",
+      "name": "SocialVeil",
+      "focus": "Social intelligence barriers (45% mutual understanding reduction)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05105": {
+      "id": "2602.05105",
+      "name": "GAMMS",
+      "focus": "Lightweight multi-agent simulation framework",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.06038": {
+      "id": "2602.06038",
+      "name": "CommCP",
+      "focus": "LLM-based communication with conformal prediction",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#verification"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.05965": {
+      "id": "2602.05965",
+      "name": "Learning to Share",
+      "focus": "Parallel agentic memory reuse across teams",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05493": {
+      "id": "2602.05493",
+      "name": "LinguistAgent",
+      "focus": "Dual-agent workflow for linguistic annotation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05289": {
+      "id": "2602.05289",
+      "name": "Towards Science of Collective AI",
+      "focus": "Collaboration gain metric Γ for scientific MAS",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#scientific-discovery"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05183": {
+      "id": "2602.05183",
+      "name": "Data-Centric Interpretability (MARL)",
+      "focus": "SAE-based LLM MARL training analysis",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl",
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.05004": {
+      "id": "2602.05004",
+      "name": "CoWork-X",
+      "focus": "Skill-based HTN retrieval with co-evolution",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04837": {
+      "id": "2602.04837",
+      "name": "Group-Evolving Agents (GEA)",
+      "focus": "Open-ended self-improvement via experience sharing",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#verification"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04326": {
+      "id": "2602.04326",
+      "name": "PCE (Assumptions to Actions)",
+      "focus": "Uncertainty-aware planning for embodied agents",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04284": {
+      "id": "2602.04284",
+      "name": "Agent-Omit",
+      "focus": "Adaptive thought/observation omission",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04248": {
+      "id": "2602.04248",
+      "name": "Empirical-MCTS",
+      "focus": "Continuous evolution via dual-experience MCTS",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04291": {
+      "id": "2602.04291",
+      "name": "INFORM",
+      "focus": "Causal analysis for multi-expert orchestration",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.04152": {
+      "id": "2602.04152",
+      "name": "MA3DSG",
+      "focus": "Multi-agent 3D scene graph generation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04129": {
+      "id": "2602.04129",
+      "name": "KGLAMP",
+      "focus": "KG-guided multi-robot planning/replanning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04634": {
+      "id": "2602.04634",
+      "name": "WideSeek-R1",
+      "focus": "Width scaling via MARL for info seeking (4B≈671B)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03794": {
+      "id": "2602.03794",
+      "name": "Agent Scaling via Diversity",
+      "focus": "Information-theoretic framework: 2 diverse ≈ 16 homogeneous",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.03786": {
+      "id": "2602.03786",
+      "name": "AOrchestra",
+      "focus": "Automated sub-agent creation (16.28% improvement)",
+      "tags": {
+        "use_case": [
+          "#verification"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03688": {
+      "id": "2602.03688",
+      "name": "TodyComm",
+      "focus": "Task-oriented dynamic communication topology",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03664": {
+      "id": "2602.03664",
+      "name": "Conversational Inertia",
+      "focus": "Context Preference Learning for multi-turn agents",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03478": {
+      "id": "2602.03478",
+      "name": "EquiRouter",
+      "focus": "Decision-aware ranking (17% cost reduction)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03647": {
+      "id": "2602.03647",
+      "name": "Search-R2",
+      "focus": "Actor-Refiner collaboration for search reasoning",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03468": {
+      "id": "2602.03468",
+      "name": "IntentRL",
+      "focus": "Proactive user-intent agents via RL",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03279": {
+      "id": "2602.03279",
+      "name": "Agentic Proposing",
+      "focus": "Compositional skill synthesis with trajectories",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03128": {
+      "id": "2602.03128",
+      "name": "Multi-Agent LLM Frameworks (MAFBench)",
+      "focus": "Unified benchmark exposing 100× latency, 30% accuracy variation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium",
+          "#scale-large"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.03053": {
+      "id": "2602.03053",
+      "name": "MAS-ProVe",
+      "focus": "Process verification across paradigms",
+      "tags": {
+        "use_case": [
+          "#verification"
+        ],
+        "technical": [
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03026": {
+      "id": "2602.03026",
+      "name": "Visual Reasoning over Time Series (MAS4TS)",
+      "focus": "Analyzer-Reasoner-Executor paradigm",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03414": {
+      "id": "2602.03414",
+      "name": "Socratic-Geo",
+      "focus": "Synthetic data generation via multi-agent",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02903": {
+      "id": "2602.02903",
+      "name": "MADT (Traffic Coordination)",
+      "focus": "Multi-agent traffic via sequence modeling",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02751": {
+      "id": "2602.02751",
+      "name": "SALE (Strategy Auctions)",
+      "focus": "Auction-based scaling for small agents",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#economic"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02636": {
+      "id": "2602.02636",
+      "name": "WideSeek",
+      "focus": "Dynamic hierarchical Wide Research",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02619": {
+      "id": "2602.02619",
+      "name": "daVinci-Agency",
+      "focus": "Long-horizon via PR-grounded synthesis",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02369": {
+      "id": "2602.02369",
+      "name": "Live-Evo",
+      "focus": "Online evolution of agentic memory",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01869": {
+      "id": "2602.01869",
+      "name": "ProcMEM",
+      "focus": "Reusable procedural memory via Non-Parametric PPO",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01848": {
+      "id": "2602.01848",
+      "name": "ROMA",
+      "focus": "Recursive Open Meta-Agent for long-horizon tasks",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00851": {
+      "id": "2602.00851",
+      "name": "Persuasion Propagation",
+      "focus": "Belief-level intervention framework",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.00845": {
+      "id": "2602.00845",
+      "name": "InfoReasoner",
+      "focus": "Information gain reward for retrieval reasoning",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00785": {
+      "id": "2602.00785",
+      "name": "World Models",
+      "focus": "Intermediary between agents and real world",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00471": {
+      "id": "2602.00471",
+      "name": "L²-VMAS",
+      "focus": "Dual latent memory for visual multi-agent",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small",
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00454": {
+      "id": "2602.00454",
+      "name": "DebateOCR",
+      "focus": "Cross-modal compression for multi-agent debate",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00911": {
+      "id": "2602.00911",
+      "name": "Synapse",
+      "focus": "Federated knowledge exchange for tool-routed LLMs",
+      "tags": {
+        "use_case": [
+          "#federated"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00307": {
+      "id": "2602.00307",
+      "name": "ADP-MA",
+      "focus": "Meta-agents for autonomous data processing",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00359": {
+      "id": "2602.00359",
+      "name": "A-Evolve",
+      "focus": "Agentic evolution for LLM adaptation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02170": {
+      "id": "2602.02170",
+      "name": "SECP",
+      "focus": "Self-evolving coordination protocols with governance",
+      "tags": {
+        "use_case": [
+          "#governance"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01011": {
+      "id": "2602.01011",
+      "name": "Multi-Agent Teams Hold Experts Back",
+      "focus": "Self-organizing team performance study",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.00996": {
+      "id": "2602.00996",
+      "name": "DeALOG",
+      "focus": "Decentralized log-mediated reasoning framework",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2509.00510": {
+      "id": "2509.00510",
+      "name": "SuperBrain",
+      "focus": "LLM-assisted swarm intelligence for collective AI",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.06747": {
+      "id": "2512.06747",
+      "name": "PrivLLMSwarm",
+      "focus": "Privacy-preserving LLM UAV swarms",
+      "tags": {
+        "use_case": [
+          "#federated",
+          "#large-scale"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2511.04042": {
+      "id": "2511.04042",
+      "name": "Human-Swarm Teaming",
+      "focus": "LLM-based disaster rescue framework",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#large-scale",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2510.24690": {
+      "id": "2510.24690",
+      "name": "Graph-Based In-Context Planning",
+      "focus": "Tool knowledge graphs for planning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.13343": {
+      "id": "2510.13343",
+      "name": "AOAD-MAT",
+      "focus": "Agent order of action decisions in MARL",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2412.06333": {
+      "id": "2412.06333",
+      "name": "Hanabi Conventions",
+      "focus": "Action space augmentation for cooperation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.18824": {
+      "id": "2601.18824",
+      "name": "Differential Voting",
+      "focus": "Axiomatically diverse preference aggregation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.01499": {
+      "id": "2510.01499",
+      "name": "Beyond Majority Voting",
+      "focus": "Higher-order LLM aggregation algorithms",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.13930": {
+      "id": "2512.13930",
+      "name": "MASTER",
+      "focus": "Hierarchical multi-agent LLM reasoning for materials discovery",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#scientific-discovery"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.06196": {
+      "id": "2512.06196",
+      "name": "ARCANE",
+      "focus": "Multi-agent framework for interpretable alignment",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2601.12538": {
+      "id": "2601.12538",
+      "name": "Agentic Reasoning Survey",
+      "focus": "Comprehensive agentic reasoning survey",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2511.05528": {
+      "id": "2511.05528",
+      "name": "SMAGDi",
+      "focus": "Socratic interaction graph distillation for efficiency",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.13278": {
+      "id": "2512.13278",
+      "name": "AutoTool",
+      "focus": "Dynamic tool selection for agentic reasoning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2509.11067": {
+      "id": "2509.11067",
+      "name": "Agentic Lybic",
+      "focus": "Multiagent execution with tiered orchestration",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.13671": {
+      "id": "2601.13671",
+      "name": "Multi-Agent Orchestration Survey",
+      "focus": "Architectures, protocols, enterprise adoption",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2509.19599": {
+      "id": "2509.19599",
+      "name": "KBA Orchestration",
+      "focus": "Knowledge base-aware routing for MAS",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2407.19094": {
+      "id": "2407.19094",
+      "name": "Wonderful Team",
+      "focus": "Zero-shot physical task planning with visual LLMs",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#planning",
+          "#llm"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.22784": {
+      "id": "2510.22784",
+      "name": "PIP-LLM",
+      "focus": "PDDL-IP with LLMs for multi-robot coordination",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#planning",
+          "#pddl",
+          "#llm"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2310.03903": {
+      "id": "2310.03903",
+      "name": "LLM-Coordination",
+      "focus": "Benchmark for LLM multi-agent coordination",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.08242": {
+      "id": "2510.08242",
+      "name": "VirTLab",
+      "focus": "Interactive 2D environments for team dynamics",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.04387": {
+      "id": "2601.04387",
+      "name": "The Language of Bargaining",
+      "focus": "Linguistic effects in LLM negotiations",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#game-theory"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2412.20138": {
+      "id": "2412.20138",
+      "name": "TradingAgents",
+      "focus": "LLM-powered financial trading with specialized agent roles",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#finance-trading"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.08156": {
+      "id": "2601.08156",
+      "name": "Project Synapse",
+      "focus": "Hierarchical multi-agent framework for last-mile delivery disruptions",
+      "tags": {
+        "use_case": [
+          "#supply-chain"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2412.05449": {
+      "id": "2412.05449",
+      "name": "Effective GenAI Multi-Agent Collaboration",
+      "focus": "Enterprise coordination/routing with 90% success rates",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2505.00753": {
+      "id": "2505.00753",
+      "name": "LLM-Based Human-Agent Collaboration",
+      "focus": "First comprehensive survey of LLM-HAS systems",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2410.12532": {
+      "id": "2410.12532",
+      "name": "MedAide",
+      "focus": "Medical multi-agent collaboration with intent-aware fusion",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#healthcare"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2502.05986": {
+      "id": "2502.05986",
+      "name": "Preventing Rogue Agents",
+      "focus": "Monitoring protocol with up to 20% performance gain",
+      "tags": {
+        "use_case": [
+          "#safety"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.25595": {
+      "id": "2510.25595",
+      "name": "Communication Verification under Info Asymmetry",
+      "focus": "Environment-based verifier for Einstein Puzzles",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#verification"
+        ],
+        "technical": [
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2509.05882": {
+      "id": "2509.05882",
+      "name": "Collaborate, Deliberate, Evaluate",
+      "focus": "LLM alignment effects on coordinated multi-agent outcomes",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2508.08487": {
+      "id": "2508.08487",
+      "name": "MAViS",
+      "focus": "Multi-agent long-sequence video storytelling with 3E principle",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2505.13523": {
+      "id": "2505.13523",
+      "name": "ACPs (Agent Collaboration Protocols)",
+      "focus": "Internet of Agents protocol suite with registration/discovery/interaction",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#scientific-discovery"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2508.00007": {
+      "id": "2508.00007",
+      "name": "Agent Network Protocol (ANP)",
+      "focus": "AI-native 3-layer system for agent internet communication",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.16392": {
+      "id": "2601.16392",
+      "name": "Agentic Software Project Management",
+      "focus": "Junior PM multi-agent system for Software Engineering 3.0",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2404.04289": {
+      "id": "2404.04289",
+      "name": "Designing for Human-Agent Alignment",
+      "focus": "6 dimensions of alignment between humans and agents",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2201.13448": {
+      "id": "2201.13448",
+      "name": "Warmth/Competence in Agent Cooperation",
+      "focus": "Social perception predicts human-agent collaboration preferences",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.15790": {
+      "id": "2512.15790",
+      "name": "XAMT Memory Security",
+      "focus": "Bilevel optimization for covert memory poisoning defense",
+      "tags": {
+        "use_case": [
+          "#memory",
+          "#safety"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2403.10433": {
+      "id": "2403.10433",
+      "name": "AI-enhanced Collective Intelligence",
+      "focus": "Multilayer representation for human-AI collectives (cognition/physical/info layers)",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2203.08975": {
+      "id": "2203.08975",
+      "name": "Survey of Multi-Agent Deep RL with Communication",
+      "focus": "34-page survey on Comm-MADRL frameworks",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey",
+          "#theoretical"
+        ]
+      }
+    },
+    "2501.01140": {
+      "id": "2501.01140",
+      "name": "Communicating Unexpectedness for OOD MARL",
+      "focus": "Agents communicate environment surprise for adaptation",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2106.06828": {
+      "id": "2106.06828",
+      "name": "Game-Theoretic MARL Trust Region",
+      "focus": "MATRL for stable multi-agent learning optimization",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2507.16853": {
+      "id": "2507.16853",
+      "name": "MobileUse: Hierarchical GUI Agent",
+      "focus": "Multi-temporal reflection for mobile automation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.24957": {
+      "id": "2512.24957",
+      "name": "AMAP Agentic Planning",
+      "focus": "Spatio-temporal planning with hierarchical data curation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2501.06554": {
+      "id": "2501.06554",
+      "name": "Hierarchical RL for Agent Grouping",
+      "focus": "Optimal team formation with permutation-invariant networks",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "1709.02018": {
+      "id": "1709.02018",
+      "name": "Normative MAS from Kelsenian Perspective",
+      "focus": "Formal normative logic with contrary-to-duty support",
+      "tags": {
+        "use_case": [
+          "#governance",
+          "#verification"
+        ],
+        "technical": [
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2401.12275": {
+      "id": "2401.12275",
+      "name": "Multi-Agent Dynamic Relational Reasoning",
+      "focus": "Hyperedge inference for group-wise social intelligence",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.18179": {
+      "id": "2510.18179",
+      "name": "Adaptive Coopetition for Resilient Reasoning",
+      "focus": "UCB-based coopetition with verifier signals",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2402.13273": {
+      "id": "2402.13273",
+      "name": "Operational Collective Intelligence",
+      "focus": "Aggregative crowdsourced forecasting for coordinated decision-making",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2304.05147": {
+      "id": "2304.05147",
+      "name": "Artificial Collective Intelligence Engineering",
+      "focus": "34-page comprehensive survey on engineering computational collectives",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2301.01609": {
+      "id": "2301.01609",
+      "name": "Emergent Collective Intelligence",
+      "focus": "Massive-agent cooperation/competition via Lux environment (self-play emergence)",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-large",
+          "#scale-massive"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.13865": {
+      "id": "2601.13865",
+      "name": "Understanding HMAT Formation",
+      "focus": "Human-Multi-Agent Team formation for creative work orchestration",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2505.17115": {
+      "id": "2505.17115",
+      "name": "SIER",
+      "focus": "Swarm Intelligence Enhanced Reasoning for LLM multi-agent optimization",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.20465": {
+      "id": "2601.20465",
+      "name": "BMAM",
+      "focus": "Brain-inspired multi-agent memory with episodic/semantic/salience components",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2507.07957": {
+      "id": "2507.07957",
+      "name": "MIRIX",
+      "focus": "6-type memory system (Core/Episodic/Semantic/Procedural/Resource/Knowledge Vault)",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03036": {
+      "id": "2602.03036",
+      "name": "LatentMem",
+      "focus": "Learnable agent-specific latent memories via experience bank and composer",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2507.17134": {
+      "id": "2507.17134",
+      "name": "Resilient Multi-Agent Negotiation",
+      "focus": "LLM+Blockchain for medical supply chain transparency and coordination",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#supply-chain"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#supply-chain-logistics",
+          "#healthcare"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2511.23366": {
+      "id": "2511.23366",
+      "name": "Agentic Inventory Replenishment",
+      "focus": "Demand forecasting, supplier selection, and multi-agent negotiation for retail",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#supply-chain"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2503.12349": {
+      "id": "2503.12349",
+      "name": "SPIN-Bench",
+      "focus": "Strategic Planning, Interaction, and Negotiation benchmark for social reasoning",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#planning",
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2010.10380": {
+      "id": "2010.10380",
+      "name": "Negotiating Team Formation",
+      "focus": "Deep RL for self-interested team formation and joint plan agreement",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2503.03800": {
+      "id": "2503.03800",
+      "name": "Multi-Agent LLM Swarm Applications",
+      "focus": "LLM-driven agents for ant colony foraging and bird flocking simulation",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#applied"
+        ]
+      }
+    },
+    "2507.17695": {
+      "id": "2507.17695",
+      "name": "Symbiotic Agents",
+      "focus": "Trustworthy AGI-driven networks with RAN optimizers and SLA negotiators",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2410.07553": {
+      "id": "2410.07553",
+      "name": "COMMA",
+      "focus": "Communicative multimodal multi-agent benchmark with language collaboration",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2412.05255": {
+      "id": "2412.05255",
+      "name": "TeamCraft",
+      "focus": "55,000 Minecraft task variants for multi-modal multi-agent collaboration",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "1902.07497": {
+      "id": "1902.07497",
+      "name": "Analyzing Action-Value Networks",
+      "focus": "Network architecture analysis for cooperative MARL",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2107.13252": {
+      "id": "2107.13252",
+      "name": "ML Uncertainty in Manufacturing",
+      "focus": "Probabilistic multi-agent system for cyber-physical manufacturing",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#formal-methods"
+        ],
+        "application": [
+          "#manufacturing-ops",
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2309.10007": {
+      "id": "2309.10007",
+      "name": "Autonomous Vehicles MARL",
+      "focus": "Multi-agent deep RL for cooperative/competitive autonomous vehicles",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2306.07542": {
+      "id": "2306.07542",
+      "name": "MABIM Inventory Benchmark",
+      "focus": "Multi-echelon multi-commodity inventory management simulator",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#supply-chain"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.18586": {
+      "id": "2510.18586",
+      "name": "Tokencake Serving Framework",
+      "focus": "KV-Cache optimization for LLM multi-agent applications",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical",
+          "#applied"
+        ]
+      }
+    },
+    "2511.03348": {
+      "id": "2511.03348",
+      "name": "Learning Communication Skills (MCS)",
+      "focus": "Multi-task communication with Transformer encoder",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2008.07871": {
+      "id": "2008.07871",
+      "name": "Fast Agent-Based Simulation",
+      "focus": "Financial markets agent simulation framework",
+      "tags": {
+        "use_case": [
+          "#economic"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#finance-trading"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2108.13296": {
+      "id": "2108.13296",
+      "name": "Behavior Discovery Simulation (ACE0)",
+      "focus": "Operations research AI behavior simulation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#scientific-discovery"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2205.06011": {
+      "id": "2205.06011",
+      "name": "Mobility-Aware mmWave Allocation",
+      "focus": "MARL for wireless network resource allocation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2507.00875": {
+      "id": "2507.00875",
+      "name": "TransLaw Legal Translation",
+      "focus": "Specialized agents for professional legal translation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2501.18138": {
+      "id": "2501.18138",
+      "name": "B3C Offline MARL",
+      "focus": "Minimalist offline multi-agent reinforcement learning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2412.11761": {
+      "id": "2412.11761",
+      "name": "HIVE",
+      "focus": "LLM-driven multi-agent control framework for scaling to 2000+ agents",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium",
+          "#scale-large",
+          "#scale-massive"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2404.02289": {
+      "id": "2404.02289",
+      "name": "Federated Multi-Agent Mapping",
+      "focus": "Implicit neural mapping for planetary exploration with 93.8% data reduction",
+      "tags": {
+        "use_case": [
+          "#federated"
+        ],
+        "technical": [
+          "#deep-learning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2406.07383": {
+      "id": "2406.07383",
+      "name": "Federated Multi-Agent DRL for 6G",
+      "focus": "F-MADDQN and F-MADPPO for radio resource management in industrial 6G",
+      "tags": {
+        "use_case": [
+          "#federated"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2506.17342": {
+      "id": "2506.17342",
+      "name": "Adaptive Social Metaverse Streaming",
+      "focus": "F-MAPPO for 14% UX improvement while preserving local privacy",
+      "tags": {
+        "use_case": [
+          "#federated",
+          "#verification"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2407.05800": {
+      "id": "2407.05800",
+      "name": "FedMRL for Medical Imaging",
+      "focus": "Multi-agent DRL with SOM for data heterogeneity-aware federated learning",
+      "tags": {
+        "use_case": [
+          "#federated"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#healthcare"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2512.21623": {
+      "id": "2512.21623",
+      "name": "OrchestRA Drug Discovery",
+      "focus": "Orchestrated knowledge-driven multi-agent team with Biologist/Chemist/Pharmacologist",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#scientific-discovery"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "1906.01202": {
+      "id": "1906.01202",
+      "name": "Learning Transferable Cooperative Behavior",
+      "focus": "Agent-entity graph message passing with permutation invariance",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2207.08279": {
+      "id": "2207.08279",
+      "name": "Task Allocation with Load Management",
+      "focus": "Decentralized RL for multi-agent teams managing unexpected task loads",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#task-allocation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2203.12955": {
+      "id": "2203.12955",
+      "name": "Onto4MAT",
+      "focus": "Swarm shepherding ontology for human-swarm team semantic understanding",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#memory",
+          "#large-scale",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2410.02958": {
+      "id": "2410.02958",
+      "name": "AutoML-Agent",
+      "focus": "Full-pipeline AutoML with retrieval-augmented planning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2503.21460": {
+      "id": "2503.21460",
+      "name": "LLM Agent Survey",
+      "focus": "329-paper survey on methodology, applications, challenges",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey",
+          "#applied"
+        ]
+      }
+    },
+    "2411.04867": {
+      "id": "2411.04867",
+      "name": "SMARL",
+      "focus": "Shielded Multi-Agent RL with probabilistic logic",
+      "tags": {
+        "use_case": [
+          "#safety",
+          "#verification"
+        ],
+        "technical": [
+          "#marl",
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2402.06938": {
+      "id": "2402.06938",
+      "name": "Resource Scheduling Negotiation",
+      "focus": "Agent-based fuzzy logic negotiation for cloud infrastructure",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#task-allocation",
+          "#verification"
+        ],
+        "technical": [
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2206.08468": {
+      "id": "2206.08468",
+      "name": "BDI Cloud Marketplace",
+      "focus": "Belief-Desire-Intention agents for cloud resource trading",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#economic"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#finance-trading"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2003.13668": {
+      "id": "2003.13668",
+      "name": "ACOP Protocol",
+      "focus": "Alternating Constrained Offers Protocol for efficient network-edge negotiation",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2104.15085": {
+      "id": "2104.15085",
+      "name": "MF-MARL Bandwidth",
+      "focus": "Mean field MARL for 1000-device spectrum sharing negotiation",
+      "tags": {
+        "use_case": [
+          "#negotiation",
+          "#large-scale"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-large"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2511.19175": {
+      "id": "2511.19175",
+      "name": "LLN-Based 6G Negotiation",
+      "focus": "CVaR-aware agentic negotiation for 6G network slicing",
+      "tags": {
+        "use_case": [
+          "#negotiation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2101.00671": {
+      "id": "2101.00671",
+      "name": "Swarm Robotics Survey",
+      "focus": "Comprehensive survey: past, present, future of swarm robotics",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#survey"
+        ]
+      }
+    },
+    "2403.17147": {
+      "id": "2403.17147",
+      "name": "Spectral Swarm Robotics",
+      "focus": "Laplacian-based arena shape identification via emergent consensus",
+      "tags": {
+        "use_case": [
+          "#large-scale"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#robotics"
+        ],
+        "scalability": [
+          "#scale-medium",
+          "#scale-massive"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2012.08630": {
+      "id": "2012.08630",
+      "name": "Open Problems in Cooperative AI",
+      "focus": "Foundational framework for multi-agent cooperation research",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2111.13872": {
+      "id": "2111.13872",
+      "name": "Normative Disagreement in Cooperative AI",
+      "focus": "Norm-adaptive policies for bargaining problems",
+      "tags": {
+        "use_case": [
+          "#governance",
+          "#negotiation"
+        ],
+        "technical": [
+          "#game-theory"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2306.03034": {
+      "id": "2306.03034",
+      "name": "Cooperative Open-ended Learning (COLE)",
+      "focus": "Graph theory-based cooperative capacity evaluation",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2311.07815": {
+      "id": "2311.07815",
+      "name": "Cooperative AI via Decentralized Commitments",
+      "focus": "Blockchain-based commitment devices for coordination",
+      "tags": {
+        "use_case": [
+          "#governance",
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2601.20487": {
+      "id": "2601.20487",
+      "name": "Normative Equivalence Human-AI",
+      "focus": "Behavior not identity drives mixed-agent group cooperation",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#governance",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2104.14089": {
+      "id": "2104.14089",
+      "name": "Collaborative Human-Agent Planning for Resilience",
+      "focus": "LTL-based human knowledge injection for planning agents",
+      "tags": {
+        "use_case": [
+          "#verification",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#planning",
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2404.17438": {
+      "id": "2404.17438",
+      "name": "Hierarchical Uncertainty-Aware Planning",
+      "focus": "Real-world deployment with multi-level robust planning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#planning"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#applied"
+        ]
+      }
+    },
+    "2405.16510": {
+      "id": "2405.16510",
+      "name": "Planning with Multi-Constraints LLM Agents",
+      "focus": "PMC framework for complex task decomposition",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#planning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2501.16689": {
+      "id": "2501.16689",
+      "name": "MACI Collaborative Intelligence",
+      "focus": "Meta-planner with dependency graph and runtime monitoring",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2108.11597": {
+      "id": "2108.11597",
+      "name": "Temporal Logic Collaborative Planning",
+      "focus": "Individual and collaborative specifications with privacy-preserved communication",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#federated",
+          "#verification"
+        ],
+        "technical": [
+          "#planning",
+          "#formal-methods"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2405.00839": {
+      "id": "2405.00839",
+      "name": "ComDML",
+      "focus": "WC-optimized workload balancing with decentralized pairing",
+      "tags": {
+        "use_case": [
+          "#task-allocation"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2502.14143": {
+      "id": "2502.14143",
+      "name": "Multi-Agent Risks from Advanced AI",
+      "focus": "Taxonomy: miscoordination, conflict, collusion failure modes",
+      "tags": {
+        "use_case": [
+          "#safety"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2502.15425": {
+      "id": "2502.15425",
+      "name": "TAG (TAME Agent Framework)",
+      "focus": "LevelEnv abstraction for arbitrary-depth decentralized HRL",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2311.16542": {
+      "id": "2311.16542",
+      "name": "OKR-Agent",
+      "focus": "Objectives and Key Results driven with self-collaboration",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2410.10934": {
+      "id": "2410.10934",
+      "name": "Agent-as-a-Judge",
+      "focus": "Agentic evaluation framework with intermediate feedback",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.04518": {
+      "id": "2602.04518",
+      "name": "Learning Value Systems of Agents",
+      "focus": "Preference-based and inverse RL for moral value grounding",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05765": {
+      "id": "2602.05765",
+      "name": "RL-VLA³",
+      "focus": "Full asynchronism: 59-127% throughput improvement",
+      "tags": {
+        "use_case": [
+          "#verification"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01982": {
+      "id": "2602.01982",
+      "name": "S3-CoT",
+      "focus": "Succinct Chain-of-Thought with System 1/2 cognitive",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03921": {
+      "id": "2602.03921",
+      "name": "SpecMD",
+      "focus": "MoE caching with Least-Stale eviction",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05848": {
+      "id": "2602.05848",
+      "name": "DARWIN",
+      "focus": "Self-improving evolutionary GPT",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05014": {
+      "id": "2602.05014",
+      "name": "DeepRead",
+      "focus": "Structure-aware agentic document QA",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03955": {
+      "id": "2602.03955",
+      "name": "AgentArk",
+      "focus": "Distills multi-agent intelligence into single model",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04396": {
+      "id": "2602.04396",
+      "name": "LoRDO",
+      "focus": "Distributed low-rank optimization (~10× comm reduction)",
+      "tags": {
+        "use_case": [
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04416": {
+      "id": "2602.04416",
+      "name": "Med-MMFL",
+      "focus": "Multimodal federated learning benchmark",
+      "tags": {
+        "use_case": [
+          "#federated"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04384": {
+      "id": "2602.04384",
+      "name": "Blockchain FL",
+      "focus": "Blockchain FL for retail forecasting",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03019": {
+      "id": "2602.03019",
+      "name": "FedKRSO",
+      "focus": "Communication/memory efficient FL fine-tuning",
+      "tags": {
+        "use_case": [
+          "#communication",
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04361": {
+      "id": "2602.04361",
+      "name": "SparVAR",
+      "focus": "Training-free sparse attention (>5× faster)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.03359": {
+      "id": "2602.03359",
+      "name": "MeKi",
+      "focus": "Memory-based expert knowledge injection",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02599": {
+      "id": "2602.02599",
+      "name": "RAP",
+      "focus": "KV-Cache compression via RoPE-aligned pruning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02051": {
+      "id": "2602.02051",
+      "name": "SIDiffAgent",
+      "focus": "Self-improving diffusion agent with memory database",
+      "tags": {
+        "use_case": [
+          "#memory"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02035": {
+      "id": "2602.02035",
+      "name": "Bandwidth-Efficient Multi-Agent Comm",
+      "focus": "Information bottleneck + vector quantization",
+      "tags": {
+        "use_case": [
+          "#team-formation",
+          "#communication"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01935": {
+      "id": "2602.01935",
+      "name": "COLT",
+      "focus": "Lightweight multi-LLM collaboration via shared MCTS",
+      "tags": {
+        "use_case": [
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.01665": {
+      "id": "2602.01665",
+      "name": "TABX",
+      "focus": "High-throughput sandbox battle simulator",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2504.16408": {
+      "id": "2504.16408",
+      "name": "Less is More",
+      "focus": "Quality-guided distillation for structured reasoning",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2510.18699": {
+      "id": "2510.18699",
+      "name": "Fetch.ai Architecture",
+      "focus": "Multi-layer system with blockchain foundation & agent-native LLM",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm"
+        ],
+        "application": [
+          "#supply-chain-logistics"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2412.05838": {
+      "id": "2412.05838",
+      "name": "Collaborative Multi-Agent RAG",
+      "focus": "Specialized agents for diverse data sources (SQL/NoSQL/docs)",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2511.13158": {
+      "id": "2511.13158",
+      "name": "Agent-Oriented Visual Programming",
+      "focus": "Visual development environment for agents with WoT integration",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2508.04556": {
+      "id": "2508.04556",
+      "name": "CONVERGE",
+      "focus": "Multi-agent vision-radio architecture for 5G/6G RAN xApps",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#telecom"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2208.01769": {
+      "id": "2208.01769",
+      "name": "Deep Reinforcement Learning for Multi-Agent Interaction",
+      "focus": "Research portfolio overview on MARL coordination",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2506.20039": {
+      "id": "2506.20039",
+      "name": "Learning Bilateral Team Formation",
+      "focus": "Two-sided team formation in dynamic MARL populations",
+      "tags": {
+        "use_case": [
+          "#team-formation"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-small"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2004.08883": {
+      "id": "2004.08883",
+      "name": "Variational Policy Propagation (VPP)",
+      "focus": "Collaborative MARL learning joint policy via interactions",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#marl"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04358": {
+      "id": "2602.04358",
+      "name": "LLM Risk Assessment",
+      "focus": "Systems Engineering classification framework",
+      "tags": {
+        "use_case": [
+          "#safety"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.05424": {
+      "id": "2602.05424",
+      "name": "THOR",
+      "focus": "Inductive link prediction for hyper-relational KGs",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.04105": {
+      "id": "2602.04105",
+      "name": "MoE Expert Selection Attack",
+      "focus": "Security vulnerability in MoE routing",
+      "tags": {
+        "use_case": [
+          "#safety"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.05110": {
+      "id": "2602.05110",
+      "name": "Understanding LLM Evaluators",
+      "focus": "Multi-evaluator framework with bias metrics",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#deep-learning",
+          "#llm",
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.02475": {
+      "id": "2602.02475",
+      "name": "AgentRx",
+      "focus": "Agent failure diagnosis from execution trajectories",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02455": {
+      "id": "2602.02455",
+      "name": "Drift-Bench",
+      "focus": "Cooperative breakdown diagnosis under input faults",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2602.02138": {
+      "id": "2602.02138",
+      "name": "CAM",
+      "focus": "Causality-based analysis for code generation systems",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.01942": {
+      "id": "2602.01942",
+      "name": "4C Framework",
+      "focus": "Human society-inspired agentic security framework",
+      "tags": {
+        "use_case": [
+          "#safety",
+          "#human-in-loop"
+        ],
+        "technical": [
+          "#simulation"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    },
+    "2602.01725": {
+      "id": "2602.01725",
+      "name": "SafePred",
+      "focus": "Predictive guardrail via world models",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#general"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium"
+        ],
+        "maturity": [
+          "#experimental"
+        ]
+      }
+    },
+    "2506.03053": {
+      "id": "2506.03053",
+      "name": "MAEBE",
+      "focus": "Multi-agent emergent behavior evaluation framework",
+      "tags": {
+        "use_case": [
+          "#general"
+        ],
+        "technical": [
+          "#simulation",
+          "#benchmark"
+        ],
+        "application": [
+          "#general"
+        ],
+        "scalability": [
+          "#scale-medium",
+          "#scale-massive"
+        ],
+        "maturity": [
+          "#theoretical"
+        ]
+      }
+    }
+  }
+}
