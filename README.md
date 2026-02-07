@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **227 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **230 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -76,6 +76,9 @@ Total papers analyzed: **227 multi-agent systems** from arXiv cs.AI
 - mmWave resource coordination (MARL for dense 5G/6G deployment)
 - Legal specialization (TransLaw domain-specific translation with specialized agents)
 - Offline MADRL constraints (B3C BC+critic-clipping for safe multi-agent learning)
+- Action-value network factorizations (network architecture analysis for cooperative MARL design)
+- Uncertainty-aware manufacturing (probabilistic multi-agent systems for cyber-physical production)
+- Autonomous vehicle cooperation/cooperation (multi-agent deep RL for intersection traversal and racing)
 - Privacy-preserved multi-robot coordination (independent specs with global collaborative specs)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
@@ -261,6 +264,9 @@ Total papers analyzed: **227 multi-agent systems** from arXiv cs.AI
 | Symbiotic Agents | 2507.17695 | Trustworthy AGI-driven networks with RAN optimizers and SLA negotiators |
 | COMMA | 2410.07553 | Communicative multimodal multi-agent benchmark with language collaboration |
 | TeamCraft | 2412.05255 | Minecraft multi-modal multi-agent benchmark for collaborative tasks |
+| Analyzing Action-Value Networks | 1902.07497 | Network architecture analysis for cooperative MARL |
+| ML Uncertainty in Manufacturing | 2107.13252 | Probabilistic multi-agent system for cyber-physical manufacturing |
+| Autonomous Vehicles MARL | 2309.10007 | Multi-agent deep RL for cooperative/competitive autonomous vehicles |
 | MABIM Inventory Benchmark | 2306.07542 | Multi-echelon multi-commodity inventory management simulator |
 | Tokencake Serving Framework | 2510.18586 | KV-Cache optimization for LLM multi-agent applications |
 | Learning Communication Skills (MCS) | 2511.03348 | Multi-task communication with Transformer encoder |
@@ -1832,6 +1838,28 @@ Total papers analyzed: **227 multi-agent systems** from arXiv cs.AI
 **Key:** Behavior cloning regularization with critic clipping for offline MADRL
 **Approach:** Behavior Cloning regularization with Critic Clipping (B3C) addressing overestimation in offline multi-agent reinforcement learning by clipping target critic based on maximum returns in dataset pushing RL objective weight limit over BC regularization integrating non-linear value factorization often understudied in offline settings
 **Impact:** Enables virtual organizations to train safe multi-agent policies from historical datasets without online exploration applicable to sensitive domains requiring offline training
+
+---
+
+## Batch 22: Cooperative Systems & Applications Papers
+
+### Analyzing Factorizations of Action-Value Networks for Cooperative Multi-Agent Reinforcement Learning
+**ID:** 1902.07497
+**Key:** Network architecture analysis for cooperative MARL design
+**Approach:** Empirical investigation of learning power of various network architectures on one-shot games capturing crucial multi-agent problems like exponential joint actions and lack of coordination mechanisms; extends previous analysis quantifying how well approaches represent requisite value functions identifying impediments like value sparsity and tight coordination requirements
+**Impact:** Provides theoretical guidance for designing neural architectures in virtual organizations building cooperative multi-agent systems
+
+### Multi Agent System for Machine Learning Under Uncertainty in Cyber Physical Manufacturing System
+**ID:** 2107.13252
+**Key:** Probabilistic multi-agent system for cyber-physical manufacturing
+**Approach:** Identifies uncertainty sources in machine learning establishing success criteria for ML systems under uncertainty in CPMS scenarios; proposes multi-agent system architecture leveraging probabilistic machine learning with Bayesian Neural Networks for multi-task classification on hydraulic system monitoring dataset; evaluates prediction accuracy probability given uncertainty
+**Impact:** Enables virtual manufacturing organizations to deploy AI systems with explicit uncertainty quantification for reliable decision-making under uncertain conditions
+
+### Multi-Agent Deep Reinforcement Learning for Cooperative and Competitive Autonomous Vehicles
+**ID:** 2309.10007
+**Key:** Multi-agent deep RL for cooperative/competitive autonomous vehicles
+**Approach:** Modular parallelizable multi-agent deep reinforcement learning framework imbibing cooperative and competitive behaviors using AutoDRIVE Ecosystem creating digital twins of Nigel and F1TENTH autonomous vehicles; investigates intersection traversal with cooperative vehicles sharing limited state information and adversarial head-to-head racing; adopts decentralized learning architecture for robust training in stochastic environments with sparse observation spaces and constrained safety requirements
+**Impact:** Provides template for virtual organizations operating fleets of autonomous vehicles requiring both cooperative and competitive coordination patterns
 
 ---
 
