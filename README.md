@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -28,6 +28,11 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 - Framework benchmarking (MAFBench unified evaluation)
 - Process verification (MAS-ProVe cross-paradigm study)
 - Division of labor patterns (Analyzer-Reasoner-Executor for time series)
+- Synthetic data generation (Socratic-Geo autonomous data-model coupling)
+- Traffic coordination (MADT graph attention for intersection coordination)
+- Multi-turn interaction strategies (MedSAM-Agent clinical fidelity rewards)
+- Security task automation (CVE-Factory expert-level CVE task generation)
+- Memory-based scaling (MeKi ROM-based knowledge injection with zero latency)
 
 ---
 
@@ -78,6 +83,8 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 | Understanding Multi-Agent LLM Frameworks | 2602.03128 | MAFBench unified evaluation for framework choices |
 | MAS-ProVe | 2602.03053 | Process verification across paradigms and contexts |
 | Visual Reasoning over Time Series (MAS4TS) | 2602.03026 | Analyzer-Reasoner-Executor paradigm |
+| Socratic-Geo | 2602.03414 | Synthetic data generation via multi-agent interaction |
+| MADT (Spatiotemporal Decision Transformer) | 2602.02903 | Multi-agent traffic coordination via sequence modeling |
 
 ### Efficiency & Infrastructure
 
@@ -104,12 +111,15 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 | Structured Context Engineering | 2602.05447 | File-native agentic systems (9,649 experiments) |
 | Capture the Flags | 2602.05523 | Agentic LLM evaluation via semantic transformations |
 | Tinker Tales | 2602.04109 | Child-AI co-creative storytelling with educational scaffolding |
+| MedSAM-Agent | 2602.03320 | Multi-turn RL for interactive medical segmentation |
+| CVE-Factory | 2602.03012 | Multi-agent CVE task generation for code security |
 
 ### Efficiency & Infrastructure
 
 | Paper | ID | Focus |
 |-------|-----|-------|
 | SparVAR | 2602.04361 | Training-free sparse attention (>5× faster than FlashAttention) |
+| MeKi | 2602.03359 | Memory-based expert knowledge injection for zero-latency scaling |
 
 ### Methodology & Safety
 
@@ -438,12 +448,35 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 **Results:** 10-child study shows children treat AI as attentive collaborator; scaffolding supports narrative coherence without diminishing agency
 **Impact:** Model for child-AI co-creation beyond instructional settings; educational scaffolding design
 
+### MedSAM-Agent: Multi-Turn Agentic RL for Medical Segmentation
+**ID:** 2602.03320
+**Key:** Multi-turn autonomous decision-making for interactive medical image segmentation
+**Approach:** Hybrid prompting strategy for expert-curated trajectory generation; two-stage training pipeline with multi-turn end-to-end outcome verification and clinical-fidelity process reward design; promotes interaction parsimony and decision efficiency
+**Results:** State-of-the-art performance across 6 medical modalities and 21 datasets
+**Impact:** Bridges gap between single-turn rigid interaction and dynamic interactive potential
+
+### CVE-Factory: Scaling Expert-Level Agentic Tasks for Code Security
+**ID:** 2602.03012
+**Key:** Multi-agent framework for automatic CVE task generation
+**Approach:** Transforms sparse CVE metadata into fully executable agentic tasks through multi-agent collaboration
+**Results:** 95% solution correctness, 96% environment fidelity vs human experts; 66.2% verified success on latest realistic vulnerabilities; LiveCVEBench: 190 tasks across 14 languages; Fine-tuned Qwen3-32B: 5.3%→35.8%, surpassing Claude 4.5 Sonnet
+**Impact:** First large-scale scaling (1,000+ environments); continuous benchmarking of emerging threats including AI-tooling vulnerabilities
+
+---
+
 ### SparVAR: Training-Free Sparse Visual Autoregressive
 **ID:** 2602.04361
 **Key:** Exploits VAR attention properties for acceleration
 **Approach:** Dynamically predicts sparse attention pattern from sparse decision scale; cross-scale local sparse attention with block-wise efficient kernel
 **Results:** >5× faster than FlashAttention; 1.57× speed-up while preserving details; 8B model generates 1024×1024 in ~1s; up to 2.28× with scale-skipping
 **Impact:** Training-free acceleration enables high-resolution image generation without last-scale skipping
+
+### MeKi: Memory-based Expert Knowledge Injection
+**ID:** 2602.03359
+**Key:** Storage-based LLM scaling with zero inference latency overhead
+**Approach:** Equips each Transformer layer with token-level memory experts injecting pre-stored semantic knowledge; re-parameterization folds training parameters into compact static lookup table; offloads knowledge to ROM
+**Results:** Significantly outperforms dense LLM baselines with identical inference speed
+**Impact:** Decouples model capacity from computational cost; enables on-device LLM scaling via ROM instead of FLOPs
 
 ### Understanding Agent Scaling in LLM-Based MAS via Diversity
 **ID:** 2602.03794
@@ -522,6 +555,20 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 **Results:** Effective on visual reasoning benchmarks with time series data
 **Impact:** Demonstrates multi-agent division of labor for complex temporal reasoning
 
+### Socratic-Geo: Synthetic Data Generation and Geometric Reasoning
+**ID:** 2602.03414
+**Key:** Multi-agent interaction for autonomous geometric reasoning data synthesis
+**Approach:** Teacher agent generates parameterized Python scripts with reflective feedback (Reflect for solvability, RePI for visual validity); Solver optimizes reasoning via preference learning; Generator distills programmatic drawing into visual generation; dynamic coupling of data synthesis with model learning
+**Results:** Socratic-Solver achieves 49.11 on six benchmarks using 25% of baseline data; Socratic-Generator achieves 42.4% on GenExam (SOTA for open-source, approaching Gemini-2.5-Flash-Image at 43.1%); starting from only 108 seed problems
+**Impact:** Fully autonomous framework addressing extreme scarcity of high-quality geometric reasoning image-text pairs; establishes new SOTA for open-source geometric reasoning models
+
+### MADT: Multi-Agent Decision Transformer for Traffic Coordination
+**ID:** 2602.02903
+**Key:** Spatiotemporal sequence modeling for multi-intersection traffic coordination
+**Approach:** Extends Decision Transformer to multi-agent settings: (1) graph attention for spatial dependencies between intersections, (2) temporal transformer encoder for traffic dynamics, (3) return-to-go conditioning for target performance; reformulates traffic control as sequence modeling problem
+**Results:** Reduces average travel time by 5-6% compared to strongest baseline; superior coordination among adjacent intersections on synthetic and real-world scenarios
+**Impact:** Enables offline learning from historical traffic data; sample-efficient alternative to RL for multi-agent traffic coordination
+
 ---
 
 ## Cross-Cutting Trends
@@ -585,6 +632,6 @@ Total papers analyzed: **68 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
 - **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-500 of 1,516 total
+- **Scan status:** Entries 1-600 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
