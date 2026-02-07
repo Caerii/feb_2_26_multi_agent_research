@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **191 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -48,6 +48,12 @@ Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 - Hierarchical agentic reasoning (multi-strategy coordination for science)
 - Interpretable alignment (rubric-based reward models for long-horizon tasks)
 - FSM-based orchestration (finite-state machine routing for desktop automation)
+- Distributed negotiation protocols (fuzzy logic scheduling, BDI cloud marketplace, ACOP edge negotiation)
+- Mean field MARL coordination (1000-device spectrum sharing with sparse feedback)
+- Trustworthy high-stakes negotiation (CVaR-aware 6G resource allocation with tail risk awareness)
+- Spectral swarm consensus (Laplacian-based arena shape identification)
+- Tiny-system runtime (BittyBuzz 2KB RAM swarm coordination)
+- Standardized swarm platforms (SwarmUS UWB localization and Buzz coordination)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
 - PDDL-LLM coordination (separated team-level and robot-level planning)
@@ -97,6 +103,14 @@ Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 - Symbiotic AGI networks (input/output optimizers, 99.9% GPU reduction, 82ms loops)
 - Communicative multimodal benchmark (COMMA reveals GPT-4o communication weaknesses)
 - Large-scale agent control (HIVE framework for 2000+ agent coordination)
+- Federated multi-agent mapping (implicit neural mapping with 93.8% data reduction)
+- Privacy-preserving streaming (F-MAPPO for metaverse with local data retention)
+- Heterogeneous federated learning (FedMRL with MARL for non-IID awareness)
+- Specialized agent orchestration (OrchestRA Biologist/Chemist/Pharmacologist drug discovery)
+- Graph-based cooperative behaviors (agent-entity graph message passing with permutation invariance)
+- Load management frameworks (decentralized RL for unexpected task overload handling)
+- Human-swarm semantics (Onto4MAT shepherd ontology for bi-directional transparency)
+- Public problem AI synthesis (Policy Synth for Smarter Crowdsourcing acceleration)
 
 ---
 
@@ -212,9 +226,26 @@ Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 | COMMA | 2410.07553 | Communicative multimodal multi-agent benchmark with language collaboration |
 | TeamCraft | 2412.05255 | Minecraft multi-modal multi-agent benchmark for collaborative tasks |
 | HIVE | 2412.11761 | LLM-driven multi-agent control framework for scaling to 2000+ agents |
+| Federated Multi-Agent Mapping | 2404.02289 | Implicit neural mapping for planetary exploration with 93.8% data reduction |
+| Federated Multi-Agent DRL for 6G | 2406.07383 | F-MADDQN and F-MADPPO for radio resource management in industrial 6G |
+| Adaptive Social Metaverse Streaming | 2506.17342 | F-MAPPO for 14% UX improvement while preserving local privacy |
+| FedMRL for Medical Imaging | 2407.05800 | Multi-agent DRL with SOM for data heterogeneity-aware federated learning |
+| OrchestRA Drug Discovery | 2512.21623 | Orchestrated knowledge-driven multi-agent team with Biologist/Chemist/Pharmacologist |
+| TeamCraft | 2412.05255 | 55,000 Minecraft task variants for multi-modal multi-agent collaboration |
+| Learning Transferable Cooperative Behavior | 1906.01202 | Agent-entity graph message passing with permutation invariance |
+| Task Allocation with Load Management | 2207.08279 | Decentralized RL for multi-agent teams managing unexpected task loads |
+| Onto4MAT | 2203.12955 | Swarm shepherding ontology for human-swarm team semantic understanding |
+| Policy Synth | 2407.13960 | Smarter Crowdsourcing with AI agents for public problem-solving acceleration
 | AutoML-Agent | 2410.02958 | Full-pipeline AutoML with retrieval-augmented planning |
 | LLM Agent Survey | 2503.21460 | 329-paper survey on methodology, applications, challenges |
 | SMARL | 2411.04867 | Shielded Multi-Agent RL with probabilistic logic |
+| Resource Scheduling Negotiation | 2402.06938 | Agent-based fuzzy logic negotiation for cloud infrastructure |
+| BDI Cloud Marketplace | 2206.08468 | Belief-Desire-Intention agents for cloud resource trading |
+| ACOP Protocol | 2003.13668 | Alternating Constrained Offers Protocol for efficient network-edge negotiation |
+| MF-MARL Bandwidth | 2104.15085 | Mean field MARL for 1000-device spectrum sharing negotiation |
+| LLN-Based 6G Negotiation | 2511.19175 | CVaR-aware agentic negotiation for 6G network slicing |
+| Swarm Robotics Survey | 2101.00671 | Comprehensive survey: past, present, future of swarm robotics |
+| Spectral Swarm Robotics | 2403.17147 | Laplacian-based arena shape identification via emergent consensus |
 | ComDML | 2405.00839 | Communication-efficient workload balancing for DML |
 | Multi-Agent Risks from Advanced AI | 2502.14143 | Taxonomy: miscoordination, conflict, collusion failure modes |
 | Tackling Cooperative Incompatibility | 2306.03034 | COLE framework for zero-shot human-AI coordination |
@@ -1216,6 +1247,70 @@ Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 
 ---
 
+## Batch 16: Federated Learning & Scalable Operations Papers
+
+### Federated Multi-Agent Mapping for Planetary Exploration
+**ID:** 2404.02289
+**Key:** Joint global map training without raw data transmission
+**Approach:** Leverages implicit neural mapping for parsimonious, adaptable representations; enhances with meta-initialization on Earth-based traversability datasets for faster convergence
+**Impact:** Reduces data transmission by 93.8% compared to raw maps; 80% reduction in iterations; 0.95 F1 score for path planning, enabling bandwidth-constrained virtual org operations
+
+### Federated Multi-Agent DRL for Radio Resource Management in 6G
+**ID:** 2406.07383
+**Key:** F-MADDQN and F-MADPPO for industrial in-X subnetworks
+**Approach:** Client-to-server horizontal federated RL framework; shares only local model weights with centralized gNB for aggregation; preserves local data privacy and security
+**Impact:** Achieves slightly better performance than baselines with significantly reduced signaling overhead; better robustness and generalization to deployment density changes
+
+### Adaptive Social Metaverse Streaming (ASMS)
+**ID:** 2506.17342
+**Key:** F-MAPPO for privacy-preserving adaptive streaming
+**Approach:** Integrates federated learning and deep RL to dynamically adjust streaming bit rates; ensures high-quality low-latency streaming while keeping sensitive user data on local devices
+**Impact:** Improves user experience by at least 14% compared to existing streaming methods; enables seamless immersive streaming in dynamic resource-constrained networks
+
+### FedMRL: Data Heterogeneity Awareness for Medical Imaging
+**ID:** 2407.05800
+**Key:** Multi-agent DRL framework addressing non-IID data challenges
+**Approach:** Incorporates novel loss function for client fairness; uses MARL to calculate proximal term for personalized local objective; adaptive weight adjustment with Self-organizing map on server side
+**Impact:** Significantly outperforms state-of-the-art techniques; demonstrates efficacy in addressing data heterogeneity for federated learning in virtual medical orgs
+
+### OrchestRA: Orchestrated Multi-Agent Drug Discovery Platform
+**ID:** 2512.21623
+**Key:** Biologist/Chemist/Pharmacologist agents with knowledge graph reasoning
+**Approach:** Orchestrator governs Biologist Agent using knowledge graph (>10M associations) for target identification; Chemist Agent performs structural pocket detection and de novo design; Pharmacologist Agent evaluates candidates via PBPK simulations
+**Impact:** Dynamic feedback loop where PK/toxicity profiles trigger structural reoptimization; democratizes therapeutic design by transforming from stochastic search to programmable evidence-based engineering
+
+### TeamCraft: Multi-Modal Multi-Agent Minecraft Benchmark
+**ID:** 2412.05255
+**Key:** 55,000 collaborative task variants for generalizable agents
+**Approach:** Built on Minecraft with procedurally-generated expert demonstrations; features multi-modal task specifications and protocols evaluating model generalization to novel goals, scenes, and agent counts
+**Impact:** Existing models face significant challenges in generalization; underscores need for further research in multi-modal collaboration for virtual work environments
+
+### Learning Transferable Cooperative Behavior in Multi-Agent Teams
+**ID:** 1906.01202
+**Key:** Agent-entity graph message passing with permutation invariance
+**Approach:** Shared agent-entity graph where agents and environmental entities form vertices; agents learn cooperation by exchanging messages along graph edges; fully decentralized framework invariant to agent/entity count and permutations
+**Impact:** State-of-the-art coverage, formation, and line control tasks; learned policies transfer to different team sizes with strong zero-shot generalization; enables real-world deployment without prior knowledge or unbounded communication
+
+### Task Allocation with Load Management in Multi-Agent Teams
+**ID:** 2207.08279
+**Key:** Decentralized RL for managing unexpected task loads
+**Approach:** Decision-making framework learning task allocation with load management consideration; encourages idling and avoids unnecessary resource usage to mitigate overloaded agent risks
+**Impact:** Enables efficient operation of multi-agent teams from homogeneous robot swarms to heterogeneous human-autonomy teams facing unexpected events
+
+### Onto4MAT: Swarm Shepherding Ontology for Generalized Multi-Agent Teaming
+**ID:** 2203.12955
+**Key:** Bi-directional transparency and semantic understanding for human-swarm teams
+**Approach:** Formal knowledge representation enabling swarm AI to reason about environment and system; biologically-inspired shepherding approach for effective teaming between humans and teams
+**Impact:** Addresses open research challenge of human-swarm teaming by enabling shared semantic understanding beyond functional communication solutions
+
+### Policy Synth: Accelerating Collective Intelligence
+**ID:** 2407.13960
+**Key:** Smarter Crowdsourcing with Policy Synth AI agents
+**Approach:** Proven collective intelligence method Smarter Crowdsourcing channels expert wisdom into actionable solutions; Policy Synth toolkit leverages AI to make problem-solving more scalable, effective, and efficient
+**Impact:** Human-centric approach recognizing AI as tool to enhance human intelligence; AI synthesizes findings from engagements with research to develop evidence-based solutions; effective model for integrating collective wisdom with computational power
+
+---
+
 ## Cross-Cutting Trends
 
 ### 1. Communication Protocols
@@ -1377,6 +1472,70 @@ Total papers analyzed: **171 multi-agent systems** from arXiv cs.AI
 **Key:** Framework enabling control of up to 2000+ agents
 **Approach:** Scalable LLM-driven multi-agent control framework supporting large-scale agent populations for complex simulation and coordination tasks
 **Impact:** Enables virtual AI organizations to scale agent coordination to thousands of agents, essential for large-scale autonomous operations
+
+---
+
+## Batch 17: Distributed Negotiation & Swarm Coordination Papers
+
+### Efficient Resource Scheduling Using Negotiation Capabilities
+**ID:** 2402.06938
+**Key:** Agent-based fuzzy logic negotiation for cloud infrastructure scheduling
+**Approach:** Introduces bargaining game for resource scheduling between cloud providers and clients; uses fuzzy logic-based agent auto-negotiation system generating optimal offers for both parties; trains ML models to replace fuzzy system for improved processing speed
+**Impact:** Provides interpretable, highly flexible framework for virtual AI organizations managing their own cloud infrastructure and negotiating with external providers
+
+### Belief-Desire-Intention Multi-Agent System for Cloud Marketplace Negotiation
+**ID:** 2206.08468
+**Key:** BDI agents for autonomous cloud resource buying and selling
+**Approach:** Full-fledged framework with each party supporting BDI agent for autonomous decision-making and negotiation; agents from same enterprise consult via Master Negotiation Clearing House to minimize overall cost while competing for same resources; augmented with behavior norms and reputation indices for trust
+**Impact:** Enables virtual AI companies to participate in dynamic cloud marketplaces with autonomous, trust-based resource trading
+
+### Alternating Constrained Offers Protocol (ACOP) for Network Edge Negotiation
+**ID:** 2003.13668
+**Key:** Expressing constraints to enable efficient edge-network negotiation
+**Approach:** Extends Alternating Offers Protocol by allowing agents to express constraints beyond counter-offers; enables more efficient search of possibility space and faster recognition of impossible situations; significantly reduces number of messages when agreement not possible
+**Impact:** Critical for virtual organizations with edge-computing operations where bandwidth is precious and negotiation efficiency matters
+
+### Mean Field MARL Bandwidth Negotiation for Massive Devices
+**ID:** 2104.15085
+**Key:** 1000-device spectrum sharing via distributed decision-making
+**Approach:** Bandwidth negotiation mechanism where individual device negotiates locally with neighbors while achieving globally optimal spectrum utilization via distributed decision-making; Mean Field MARL algorithm leverages only neighborhood observation; sparse feedback reduces signaling overhead
+**Impact:** Enables virtual organizations managing large fleets of IoT or edge devices to achieve coordinated resource allocation without centralized control
+
+### LLM-Based Agentic Negotiation for 6G with Tail-Event Risk
+**ID:** 2511.19175
+**Key:** CVaR-aware unbiased negotiation addressing uncertainty neglect bias
+**Approach:** Agents leverage Digital Twins predicting full latency distributions evaluated with Conditional Value-at-Risk; fundamentallly shifts from mean-based to tail-based reasoning; agents quantify epistemic uncertainty and propagate meta-verification; eliminates SLA violations with 11% latency reduction
+**Impact:** Provides trustworthy negotiation framework for virtual autonomous organizations operating in high-stakes domains with tail risk (telecom, finance, autonomous systems)
+
+### Past, Present, and Future of Swarm Robotics
+**ID:** 2101.00671
+**Key:** Comprehensive survey on scalable, flexible, robust multi-robot systems
+**Approach:** Reviews swarm robotics from history to future; covers basic ideas, key features (self-organization, autonomy, cooperation, coordination), simulators, projects, real-life applications; emphasizes low cost and design complexity similar to natural swarms
+**Impact:** Essential reading for virtual organizations designing large-scale autonomous fleets where individual simplicity enables emergent collective intelligence
+
+### Spectral Swarm Robotics: Hearing the Shape of an Arena
+**ID:** 2403.17147
+**Key:** Laplacian-based emergent consensus for arena shape identification
+**Approach:** Robots diffuse information to neighbors emulating Laplacian operator; geometry reconstructed from eigenspectrum of Laplacian; reveals universal scaling linking optimal number of robots with optimal interaction radius; one-shot classification of arena shapes using sparse swarm
+**Impact:** Provides mathematical framework for virtual organizations building consensus about environment shape from局部 interactions, applicable to terrain adaptation, division of labor, quorum sensing
+
+### SwarmUS: Open Hardware Platform for Swarm Robotics Development
+**ID:** 2203.02643
+**Key:** Standardized on-board platform with distributed localization and coordination
+**Approach:** Open-source hardware/software stack addable to existing robots providing swarm features; includes Ultra-Wideband distributed relative localization, Wi-Fi local communication, Buzz-based distributed coordination; human-swarm interaction mobile app and ROS emulation
+**Impact:** Provides practical blueprint for virtual companies building standardized agent platforms enabling fleet of diverse agents to coordinate as cohesive system
+
+### BittyBuzz: Swarm Robotics Runtime for Tiny Systems
+**ID:** 2307.06912
+**Key:** Domain-specific language runtime with 2KB RAM footprint
+**Approach:** Allows Buzz DSL to run on microcontrollers with dynamic memory management; fits in 32KB flash with usable script space and works with as little as 2KB RAM; integrated with three robotic platforms with minimal memory footprint
+**Impact:** Enables virtual organizations deploying large fleets of cost-constrained edge agents with coordinated runtime behavior
+
+### Optimal Virtual Tube Planning and Control for Swarm Robotics
+**ID:** 2304.11407
+**Key:** Hierarchical virtual tube approach reducing computation to O(nt)
+**Approach:** Defines optimal virtual tube including infinite optimal trajectories; under certain conditions any optimal trajectory expressible as convex combination of finite number of optimal trajectories with O(nt) complexity; hierarchical planning with distributed model predictive control
+**Impact:** Provides scalable trajectory planning framework enabling virtual organizations to coordinate large autonomous fleets through cluttered environments with real-time computation
 
 ---
 
