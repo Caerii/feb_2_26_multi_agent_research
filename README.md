@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **191 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **200 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -54,6 +54,11 @@ Total papers analyzed: **191 multi-agent systems** from arXiv cs.AI
 - Spectral swarm consensus (Laplacian-based arena shape identification)
 - Tiny-system runtime (BittyBuzz 2KB RAM swarm coordination)
 - Standardized swarm platforms (SwarmUS UWB localization and Buzz coordination)
+- Cooperative AI frameworks (normative disagreement resolution, zero-shot coordination)
+- Decentralized commitment mechanisms (blockchain-based coordination without mediation)
+- Hierarchical uncertainty-aware planning (multi-level robustness for real-world deployment)
+- Constraint-driven collaborative planning (PMC decomposition, MACI meta-planning)
+- Privacy-preserved multi-robot coordination (independent specs with global collaborative specs)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
 - PDDL-LLM coordination (separated team-level and robot-level planning)
@@ -246,6 +251,16 @@ Total papers analyzed: **191 multi-agent systems** from arXiv cs.AI
 | LLN-Based 6G Negotiation | 2511.19175 | CVaR-aware agentic negotiation for 6G network slicing |
 | Swarm Robotics Survey | 2101.00671 | Comprehensive survey: past, present, future of swarm robotics |
 | Spectral Swarm Robotics | 2403.17147 | Laplacian-based arena shape identification via emergent consensus |
+| Open Problems in Cooperative AI | 2012.08630 | Foundational framework for multi-agent cooperation research |
+| Normative Disagreement in Cooperative AI | 2111.13872 | Bargaining problems and multiple Pareto-optimal equilibria |
+| Cooperative Incompatibility ZSC | 2306.03034 | COLE framework for zero-shot human-AI coordination |
+| Cooperative AI via Crypto Commitments | 2311.07815 | Decentralized commitment devices for open environment coordination |
+| Normative Equivalence Human-AI | 2601.20487 | Behavior not identity drives mixed-agent group cooperation |
+| Collaborative Human-Agent Planning for Resilience | 2104.14089 | LTL-based human knowledge injection for planning agents |
+| Hierarchical Uncertainty-Aware Planning | 2404.17438 | Real-world deployment with multi-level robust planning |
+| Planning with Multi-Constraints LLM Agents | 2405.16510 | PMC framework for complex task decomposition |
+| MACI Collaborative Intelligence | 2501.16689 | Meta-planner with dependency graph and runtime monitoring |
+| Temporal Logic Collaborative Planning | 2108.11597 | Individual and collaborative specifications with privacy-preserved communication |
 | ComDML | 2405.00839 | Communication-efficient workload balancing for DML |
 | Multi-Agent Risks from Advanced AI | 2502.14143 | Taxonomy: miscoordination, conflict, collusion failure modes |
 | Tackling Cooperative Incompatibility | 2306.03034 | COLE framework for zero-shot human-AI coordination |
@@ -1536,6 +1551,70 @@ Total papers analyzed: **191 multi-agent systems** from arXiv cs.AI
 **Key:** Hierarchical virtual tube approach reducing computation to O(nt)
 **Approach:** Defines optimal virtual tube including infinite optimal trajectories; under certain conditions any optimal trajectory expressible as convex combination of finite number of optimal trajectories with O(nt) complexity; hierarchical planning with distributed model predictive control
 **Impact:** Provides scalable trajectory planning framework enabling virtual organizations to coordinate large autonomous fleets through cluttered environments with real-time computation
+
+---
+
+## Batch 18: Cooperative AI & Collaborative Planning Papers
+
+### Open Problems in Cooperative AI
+**ID:** 2012.08630
+**Key:** Foundational framework defining Cooperative AI research direction
+**Approach:** Defines Cooperative AI as explicit focus on problems of cooperation requiring agents to jointly improve welfare; identifies central goals: building cooperative agents, fostering cooperation tools, AI research for cooperation insights; integrates multi-agent systems, game theory, human-machine interaction, alignment, NLP, social platforms
+**Impact:** Provides conceptual foundation for virtual organizations designing cooperative multi-agent systems that can coordinate across competing interests
+
+### Normative Disagreement as a Challenge for Cooperative AI
+**ID:** 2111.13872
+**Key:** Addressing bargaining problems with multiple Pareto-optimal equilibria
+**Approach:** Identifies that real-world multi-agent environments are bargaining problems with several Pareto-optimal payoff profiles over which agents have conflicting preferences; introduces norm-adaptive policies enabling agents to behave according to different norms in different circumstances; creates opportunities for resolving normative disagreement
+**Impact:** Essential for virtual organizations where agents must negotiate among multiple acceptable outcomes with distributed preferences
+
+### Tackling Cooperative Incompatibility for Zero-Shot Human-AI Coordination
+**ID:** 2306.03034
+**Key:** COLE framework for coordination without prior partner familiarity
+**Approach:** Addresses cooperative incompatibility where AI agents fail to synchronize with unfamiliar partners; introduces Cooperative Open-ended LEarning (COLE) framework formulating open-ended objectives in cooperative games using graph theory to evaluate cooperative capacity; presents algorithms incorporating game theory and graph theory insights
+**Impact:** Enables virtual organizations where agents must coordinate with new, previously unencountered agents or human partners without prior adaptation
+
+### Cooperative AI via Decentralized Commitment Devices
+**ID:** 2311.07815
+**Key:** Blockchain-based commitment devices for open environment coordination
+**Approach:** Addresses limitations of existing commitment mechanisms (privacy, integrity, mediator strategic behavior); uses Maximal Extractable Value (MEV) literature to illustrate security issues in cooperative AI; proposes decentralized commitment devices utilizing cryptography for robust multi-agent coordination with economic incentives
+**Impact:** Provides template for virtual organizations implementing trustworthy coordination mechanisms without centralized mediation
+
+### Normative Equivalence in Human-AI Cooperation
+**ID:** 2601.20487
+**Key:** Behavior not identity drives cooperation in mixed-agent groups
+**Approach:** Online experiment with four-player Public Goods Game where groups had three humans and one bot framed as either human or AI with different decision strategies; found reciprocal group dynamics and behavioral inertia drive cooperation identically across conditions; no evidence of differences in normative perceptions
+**Impact:** Suggests virtual organizations can integrate AI agents into human teams without special accommodation if cooperative norms are properly designed
+
+### Collaborative Human-Agent Planning for Resilience
+**ID:** 2104.14089
+**Key:** Humans provide LTL constraints to augment incomplete agent planning
+**Approach**: Investigates whether humans can collaborate with agents by providing knowledge via linear temporal logic at run-time without changing agent's domain model; presented baseline plans with limitations to 24 participants who provided workarounds encoded as LTL constraints; achieved 10% expected return improvement over baseline
+**Impact:** Enables virtual organizations where human experts can inject domain knowledge into autonomous planners during operation for handling edge cases
+
+### Real-World Deployment of Hierarchical Uncertainty-Aware Collaborative Multiagent Planning System
+**ID:** 2404.17438
+**Key:** Multi-level planner robustness handling real-world uncertainty
+**Approach:**部署hierarchical planner with uncertainty-aware planning for collaborative multiagent navigation at long length scales; developed robustness at every level enabling task completion despite imperfect planning abstractions; deployed on Clearpath Husky-Jackal team in structured outdoor environment
+**Impact:** Demonstrates practical deployment patterns for virtual organizations requiring reliable multi-agent coordination in uncertain real-world environments
+
+### Planning with Multi-Constraints via Collaborative Language Agents
+**ID:** 2405.16510
+**Key:** PMC framework decomposing complex tasks into subordinate tasks
+**Approach:** Introduces Planning with Multi-Constraints (PMC) zero-shot methodology for collaborative LLM-based multi-agent systems; simplifies complex planning with fine-grained constraints by decomposing into hierarchy of subordinate tasks mapped to executable actions; achieved 42.68% success on TravelPlanner vs GPT-4's 2.92%
+**Impact:** Provides pattern for virtual organizations breaking down complex multi-constraint organizational tasks into coordinated agent workflows
+
+### MACI: Multi-Agent Collaborative Intelligence for Adaptive Reasoning and Temporal Planning
+**ID:** 2501.16689
+**Key:** Meta-planner with dependency graph and runtime monitoring
+**Approach:** Framework comprising meta-planner identifying/refining roles and constraints while generating dependency graph with common-sense augmentation; collection of agents facilitating planning and addressing task-specific requirements; run-time monitor managing plan adjustments; decouples planning from validation
+**Impact:** Offers architecture for virtual organizations where dedicated meta-planning layer coordinates specialized agents while monitoring execution
+
+### Multi-Robot Task Planning under Individual and Collaborative Temporal Logic Specifications
+**ID:** 2108.11597
+**Key:** Private individual specs plus global collaborative specifications
+**Approach:** Investigates task coordination where each robot has private individual temporal logic task specification and must jointly satisfy globally given collaborative temporal logic specification; proposes hierarchical framework with central server allocating collaborative tasks then independent decentralized synthesis; execution plan adjusting mechanism via privacy-preserved inter-agent communication
+**Impact:** Provides model for virtual organizations balancing individual agent objectives with collective organizational goals while maintaining privacy
 
 ---
 
