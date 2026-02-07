@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2JddFyrfWwUZHPSp4aYyFNYV884</id>
+  <title>arXiv Query: search_query=all:team OR all:coordination AND all:LLM&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:53:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:team+OR+(all:coordination+AND+all:LLM)&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>14215</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.0191v2</id>
+    <title>A quantitative perspective on ethics in large team science</title>
+    <updated>2014-07-02T09:43:18Z</updated>
+    <link href="https://arxiv.org/abs/1404.0191v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.0191v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The gradual crowding out of singleton and small team science by large team endeavors is challenging key features of research culture. It is therefore important for the future of scientific practice to reflect upon the individual scientist's ethical responsibilities within teams. To facilitate this reflection we show labor force trends in the US revealing a skewed growth in academic ranks and increased levels of competition for promotion within the system; we analyze teaming trends across disciplines and national borders demonstrating why it is becoming difficult to distribute credit and to avoid conflicts of interest; and we use more than a century of Nobel prize data to show how science is outgrowing its old institutions of singleton awards. Of particular concern within the large team environment is the weakening of the mentor-mentee relation, which undermines the cultivation of virtue ethics across scientific generations. These trends and emerging organizational complexities call for a universal set of behavioral norms that transcend team heterogeneity and hierarchy. To this end, our expository analysis provides a survey of ethical issues in team settings to inform science ethics education and science policy.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-01T10:43:36Z</published>
+    <arxiv:comment>13 pages, 5 figures, 1 table. Keywords: team ethics; team management; team evaluation; science of science</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <arxiv:journal_ref>Science &amp; Engineering Ethics 20, 923-945 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Alexander M. Petersen</name>
+    </author>
+    <author>
+      <name>Ioannis Pavlidis</name>
+    </author>
+    <author>
+      <name>Ioanna Semendeferi</name>
+    </author>
+    <arxiv:doi>10.1007/s11948-014-9562-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11948-014-9562-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.6946v1</id>
+    <title>The NUbots Team Description Paper 2014</title>
+    <updated>2014-03-27T08:22:09Z</updated>
+    <link href="https://arxiv.org/abs/1403.6946v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.6946v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The NUbots team, from The University of Newcastle, Australia, has had a strong record of success in the RoboCup Standard Platform League since first entering in 2002. The team has also competed within the RoboCup Humanoid Kid-Size League since 2012. The 2014 team brings a renewed focus on software architecture, modularity, and the ability to easily share code. This paper summarizes the history of the NUbots team, describes the roles and research of the team members, gives an overview of the NUbots' robots and software system, and addresses relevant research projects within the the Newcastle Robotics Laboratory.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-27T08:22:09Z</published>
+    <arxiv:comment>RoboCup 2014 humanoid league team description paper</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Josiah Walker</name>
+    </author>
+    <author>
+      <name>Trent Houliston</name>
+    </author>
+    <author>
+      <name>Brendan Annable</name>
+    </author>
+    <author>
+      <name>Alex Biddulph</name>
+    </author>
+    <author>
+      <name>Andrew Dabson</name>
+    </author>
+    <author>
+      <name>Jake Fountain</name>
+    </author>
+    <author>
+      <name>Taylor Johnson</name>
+    </author>
+    <author>
+      <name>Jordan Johnson</name>
+    </author>
+    <author>
+      <name>Mitchell Metcalfe</name>
+    </author>
+    <author>
+      <name>Anita Sugo</name>
+    </author>
+    <author>
+      <name>Stephan K. Chalup</name>
+    </author>
+    <author>
+      <name>Robert A. R. King</name>
+    </author>
+    <author>
+      <name>Alexandre Mendes</name>
+    </author>
+    <author>
+      <name>Peter Turner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22784v1</id>
+    <title>PIP-LLM: Integrating PDDL-Integer Programming with LLMs for Coordinating Multi-Robot Teams Using Natural Language</title>
+    <updated>2025-10-26T18:37:00Z</updated>
+    <link href="https://arxiv.org/abs/2510.22784v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22784v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enabling robot teams to execute natural language commands requires translating high-level instructions into feasible, efficient multi-robot plans. While Large Language Models (LLMs) combined with Planning Domain Description Language (PDDL) offer promise for single-robot scenarios, existing approaches struggle with multi-robot coordination due to brittle task decomposition, poor scalability, and low coordination efficiency.
+  We introduce PIP-LLM, a language-based coordination framework that consists of PDDL-based team-level planning and Integer Programming (IP) based robot-level planning. PIP-LLMs first decomposes the command by translating the command into a team-level PDDL problem and solves it to obtain a team-level plan, abstracting away robot assignment. Each team-level action represents a subtask to be finished by the team. Next, this plan is translated into a dependency graph representing the subtasks' dependency structure. Such a dependency graph is then used to guide the robot-level planning, in which each subtask node will be formulated as an IP-based task allocation problem, explicitly optimizing travel costs and workload while respecting robot capabilities and user-defined constraints. This separation of planning from assignment allows PIP-LLM to avoid the pitfalls of syntax-based decomposition and scale to larger teams. Experiments across diverse tasks show that PIP-LLM improves plan success rate, reduces maximum and average travel costs, and achieves better load balancing compared to state-of-the-art baselines.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-26T18:37:00Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Guangyao Shi</name>
+    </author>
+    <author>
+      <name>Yuwei Wu</name>
+    </author>
+    <author>
+      <name>Vijay Kumar</name>
+    </author>
+    <author>
+      <name>Gaurav S. Sukhatme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03203v1</id>
+    <title>The NUbots Team Description Paper 2015</title>
+    <updated>2015-02-11T07:05:51Z</updated>
+    <link href="https://arxiv.org/abs/1502.03203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.03203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The NUbots are an interdisciplinary RoboCup team from The University of Newcastle, Australia. The team has a history of strong contributions in the areas of machine learning and computer vision. The NUbots have participated in RoboCup leagues since 2002, placing first several times in the past. In 2014 the NUbots also partnered with the University of Newcastle Mechatronics Laboratory to participate in the RobotX Marine Robotics Challenge, which resulted in several new ideas and improvements to the NUbots vision system for RoboCup. This paper summarizes the history of the NUbots team, describes the roles and research of the team members, gives an overview of the NUbots' robots, their software system, and several associated research projects.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-11T07:05:51Z</published>
+    <arxiv:comment>RoboCup 2015 team description paper. arXiv admin note: substantial text overlap with arXiv:1403.6946</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Josiah Walker</name>
+    </author>
+    <author>
+      <name>Trent Houliston</name>
+    </author>
+    <author>
+      <name>Brendan Annable</name>
+    </author>
+    <author>
+      <name>Alex Biddulph</name>
+    </author>
+    <author>
+      <name>Jake Fountain</name>
+    </author>
+    <author>
+      <name>Mitchell Metcalfe</name>
+    </author>
+    <author>
+      <name>Anita Sugo</name>
+    </author>
+    <author>
+      <name>Monica Olejniczak</name>
+    </author>
+    <author>
+      <name>Stephan K. Chalup</name>
+    </author>
+    <author>
+      <name>Robert A. R. King</name>
+    </author>
+    <author>
+      <name>Alexandre Mendes</name>
+    </author>
+    <author>
+      <name>Peter Turner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05457v1</id>
+    <title>Hibikino-Musashi@Home 2017 Team Description Paper</title>
+    <updated>2017-11-15T08:55:11Z</updated>
+    <link href="https://arxiv.org/abs/1711.05457v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05457v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our team Hibikino-Musashi@Home was founded in 2010. It is based in Kitakyushu Science and Research Park, Japan. Since 2010, we have participated in the RoboCup@Home Japan open competition open-platform league every year. Currently, the Hibikino-Musashi@Home team has 24 members from seven different laboratories based in the Kyushu Institute of Technology. Our home-service robots are used as platforms for both education and implementation of our research outcomes. In this paper, we introduce our team and the technologies that we have implemented in our robots.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-15T08:55:11Z</published>
+    <arxiv:comment>8 pages; RoboCup 2017 @Home Open Platform League team description paper</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sansei Hori</name>
+    </author>
+    <author>
+      <name>Yutaro Ishida</name>
+    </author>
+    <author>
+      <name>Yuta Kiyama</name>
+    </author>
+    <author>
+      <name>Yuichiro Tanaka</name>
+    </author>
+    <author>
+      <name>Yuki Kuroda</name>
+    </author>
+    <author>
+      <name>Masataka Hisano</name>
+    </author>
+    <author>
+      <name>Yuto Imamura</name>
+    </author>
+    <author>
+      <name>Tomotaka Himaki</name>
+    </author>
+    <author>
+      <name>Yuma Yoshimoto</name>
+    </author>
+    <author>
+      <name>Yoshiya Aratani</name>
+    </author>
+    <author>
+      <name>Kouhei Hashimoto</name>
+    </author>
+    <author>
+      <name>Gouki Iwamoto</name>
+    </author>
+    <author>
+      <name>Hiroto Fujita</name>
+    </author>
+    <author>
+      <name>Takashi Morie</name>
+    </author>
+    <author>
+      <name>Hakaru Tamukoh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08741v1</id>
+    <title>UruBots Autonomous Car Team Two: Team Description Paper for FIRA 2024</title>
+    <updated>2024-06-13T02:02:16Z</updated>
+    <link href="https://arxiv.org/abs/2406.08741v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08741v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a mini autonomous car to be used by the team UruBots for the 2024 FIRA Autonomous Cars Race Challenge. The vehicle is proposed focusing on a low cost and light weight setup. Powered by a Raspberry PI4 and with a total weight of 1.15 Kilograms, we show that our vehicle manages to race a track of approximately 13 meters in 11 seconds at the best evaluation that was carried out, with an average speed of 1.2m/s in average. That performance was achieved after training a convolutional neural network with 1500 samples for a total amount of 60 epochs. Overall, we believe that our vehicle are suited to perform at the FIRA Autonomous Cars Race Challenge 2024, helping the development of the field of study and the category in the competition.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T02:02:16Z</published>
+    <arxiv:comment>Team Description Paper for the FIRA RoboWorld Cup 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>William Moraes</name>
+    </author>
+    <author>
+      <name>Juan Deniz</name>
+    </author>
+    <author>
+      <name>Pablo Moraes</name>
+    </author>
+    <author>
+      <name>Christopher Peters</name>
+    </author>
+    <author>
+      <name>Vincent Sandin</name>
+    </author>
+    <author>
+      <name>Gabriel da Silva</name>
+    </author>
+    <author>
+      <name>Franco Nunez</name>
+    </author>
+    <author>
+      <name>Maximo Retamar</name>
+    </author>
+    <author>
+      <name>Victoria Saravia</name>
+    </author>
+    <author>
+      <name>Hiago Sodre</name>
+    </author>
+    <author>
+      <name>Sebastian Barcelona</name>
+    </author>
+    <author>
+      <name>Anthony Scirgalea</name>
+    </author>
+    <author>
+      <name>Bruna Guterres</name>
+    </author>
+    <author>
+      <name>Andre Kelbouscas</name>
+    </author>
+    <author>
+      <name>Ricardo Grando</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.19094v6</id>
+    <title>Wonderful Team: Zero-Shot Physical Task Planning with Visual LLMs</title>
+    <updated>2025-02-04T00:18:00Z</updated>
+    <link href="https://arxiv.org/abs/2407.19094v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.19094v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Wonderful Team, a multi-agent Vision Large Language Model (VLLM) framework for executing high-level robotic planning in a zero-shot regime. In our context, zero-shot high-level planning means that for a novel environment, we provide a VLLM with an image of the robot's surroundings and a task description, and the VLLM outputs the sequence of actions necessary for the robot to complete the task. Unlike previous methods for high-level visual planning for robotic manipulation, our method uses VLLMs for the entire planning process, enabling a more tightly integrated loop between perception, control, and planning. As a result, Wonderful Team's performance on real-world semantic and physical planning tasks often exceeds methods that rely on separate vision systems. For example, we see an average 40% success rate improvement on VimaBench over prior methods such as NLaP, an average 30% improvement over Trajectory Generators on tasks from the Trajectory Generator paper, including drawing and wiping a plate, and an average 70% improvement over Trajectory Generators on a new set of semantic reasoning tasks including environment rearrangement with implicit linguistic constraints. We hope these results highlight the rapid improvements of VLLMs in the past year, and motivate the community to consider VLLMs as an option for some high-level robotic planning problems in the future.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-26T21:18:57Z</published>
+    <arxiv:comment>aka Wonderful Team</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zidan Wang</name>
+    </author>
+    <author>
+      <name>Rui Shen</name>
+    </author>
+    <author>
+      <name>Bradly Stadie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.01058v1</id>
+    <title>Associative Embedding for Game-Agnostic Team Discrimination</title>
+    <updated>2019-07-01T20:20:12Z</updated>
+    <link href="https://arxiv.org/abs/1907.01058v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.01058v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assigning team labels to players in a sport game is not a trivial task when no prior is known about the visual appearance of each team. Our work builds on a Convolutional Neural Network (CNN) to learn a descriptor, namely a pixel-wise embedding vector, that is similar for pixels depicting players from the same team, and dissimilar when pixels correspond to distinct teams. The advantage of this idea is that no per-game learning is needed, allowing efficient team discrimination as soon as the game starts. In principle, the approach follows the associative embedding framework introduced in arXiv:1611.05424 to differentiate instances of objects. Our work is however different in that it derives the embeddings from a lightweight segmentation network and, more fundamentally, because it considers the assignment of the same embedding to unconnected pixels, as required by pixels of distinct players from the same team. Excellent results, both in terms of team labelling accuracy and generalization to new games/arenas, have been achieved on panoramic views of a large variety of basketball games involving players interactions and occlusions. This makes our method a good candidate to integrate team separation in many CNN-based sport analytics pipelines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-01T20:20:12Z</published>
+    <arxiv:comment>Published in CVPR 2019 workshop Computer Vision in Sports, under the name "Associative Embedding for Team Discrimination" (http://openaccess.thecvf.com/content_CVPRW_2019/html/CVSports/Istasse_Associative_Embedding_for_Team_Discrimination_CVPRW_2019_paper.html)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2019</arxiv:journal_ref>
+    <author>
+      <name>Maxime Istasse</name>
+    </author>
+    <author>
+      <name>Julien Moreau</name>
+    </author>
+    <author>
+      <name>Christophe De Vleeschouwer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08753v1</id>
+    <title>UruBots UAV -- Air Emergency Service Indoor Team Description Paper for FIRA 2024</title>
+    <updated>2024-06-13T02:23:29Z</updated>
+    <link href="https://arxiv.org/abs/2406.08753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This document addresses the description of the corresponding "Urubots" Team for the 2024 Fira Air League, "Air Emergency Service (Indoor)." We introduce our team and an autonomous Unmanned Aerial Vehicle (UAV) that relies on computer vision for its flight control. This UAV has the capability to perform a wide variety of navigation tasks in indoor environments, without requiring the intervention of an external operator or any form of external processing, resulting in a significant decrease in workload and manual dependence. Additionally, our software has been designed to be compatible with the vehicle's structure and for its application to the competition circuit. In this paper, we detail additional aspects about the mechanical structure, software, and application to the FIRA competition.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T02:23:29Z</published>
+    <arxiv:comment>Team Description Paper for the FIRA RoboWorld Cup 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hiago Sodre</name>
+    </author>
+    <author>
+      <name>Sebastian Barcelona</name>
+    </author>
+    <author>
+      <name>Anthony Scirgalea</name>
+    </author>
+    <author>
+      <name>Brandon Macedo</name>
+    </author>
+    <author>
+      <name>Gabriel Sampson</name>
+    </author>
+    <author>
+      <name>Pablo Moraes</name>
+    </author>
+    <author>
+      <name>William Moraes</name>
+    </author>
+    <author>
+      <name>Victoria Saravia</name>
+    </author>
+    <author>
+      <name>Juan Deniz</name>
+    </author>
+    <author>
+      <name>Bruna Guterres</name>
+    </author>
+    <author>
+      <name>Andre Kelbouscas</name>
+    </author>
+    <author>
+      <name>Ricardo Grando</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15365v1</id>
+    <title>LISA and the LISA Science Team</title>
+    <updated>2026-01-21T15:31:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.15365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LISA, the Laser Interferometer Space Antenna, due to launch mid-2035, is a large class space mission by the European Space Agency (ESA). In partnership with NASA and ESA-member states, ESA is on track to launch what is expected to be the first space-based gravitational wave detector. By hosting detectors in space, one gains access to a lower frequency band of gravitational wave sources and with them, a plethora of new science. To maximise this scientific gain, ESA and NASA selected 20 scientists for the LISA Science Team, to carry out and/or lead necessary actions on the run up to LISA launch. We give a short overview and update of the LISA mission, some of its science objectives and related waveforms, as well as the work of the LISA Science Team as of December 2025.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T15:31:03Z</published>
+    <arxiv:comment>8 pages, written on behalf of the LISA Science Team and presented at Mathematical Methods for the General Relativistic Two-body Problem at NUS, Sinagpore</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Anna Heffernan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0312173v1</id>
+    <title>Rapid Growth of Massive Galaxies: A Paradox for Hierarchical Formation Models</title>
+    <updated>2003-12-05T21:02:19Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0312173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0312173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  On behalf of the survey teams I summarize the designs and results of the Las Campanas Infrared Survey and Gemini Deep Deep Survey, both of which were initiated to understand the nature of red galaxies and to study the history of stellar mass assembly. Our results from luminosity function analysis, ISM absorption line measurements, and spectral synthesis modeling show that near-infrared selected galaxies at 1&lt;z&lt;2 are not only massive and abundant but also old and metal enriched, indicating rapid formation of massive systems at higher redshifts.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-05T21:02:19Z</published>
+    <arxiv:comment>8 pages, 5 figures; to appear in the Proceedings of the ESO/USM/MPE Workshop on "Multiwavelength Mapping of Galaxy Formation and Evolution"</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Hsiao-Wen Chen</name>
+    </author>
+    <author>
+      <name>the LCIRS team</name>
+    </author>
+    <author>
+      <name>the GDDS team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.04115v2</id>
+    <title>BetaRun Soccer Simulation League Team: Variety, Complexity, and Learning</title>
+    <updated>2017-08-19T07:15:22Z</updated>
+    <link href="https://arxiv.org/abs/1703.04115v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.04115v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>RoboCup offers a set of benchmark problems for Artificial Intelligence in form of official world championships since 1997. The most tactical advanced and richest in terms of behavioural complexity of these is the 2D Soccer Simulation League, a simulated robotic soccer competition. BetaRun is a new attempt combining both machine learning and manual programming approaches, with the ultimate goal to arrive at a team that is trained entirely from observing and playing games, and a new development based on agent2D.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-12T13:17:08Z</published>
+    <arxiv:comment>A sketch for a new team for RoboCup 2D simulation league, currently planned for 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Olivia Michael</name>
+    </author>
+    <author>
+      <name>Oliver Obst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.09157v1</id>
+    <title>ZJUNlict Extended Team Description Paper for RoboCup 2019</title>
+    <updated>2019-05-22T14:15:16Z</updated>
+    <link href="https://arxiv.org/abs/1905.09157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.09157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the Small Size League of RoboCup 2018, Team ZJUNLict has won the champion and therefore, this paper thoroughly described the devotion which ZJUNLict has devoted and the effort that ZJUNLict has contributed. There are three mean optimizations for the mechanical part which accounted for most of our incredible goals, they are "Touching Point Optimization", "Damping System Optimization", and "Dribbler Optimization". For the electrical part, we realized "Direct Torque Control", "Efficient Radio Communication Protocol" which will be credited for stabilizing the dribbler and a more secure communication between robots and the computer. Our software group contributed as much as our hardware group with the effort of "Vision Lost Compensation" to predict the movement by kalman filter, and "Interception Prediction Algorithm" to achieve some skills and improve our ball possession rate.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-22T14:15:16Z</published>
+    <arxiv:comment>ZJUNlict Extended Team Description Paper for RoboCup 2019 Small Size League</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zheyuan Huang</name>
+    </author>
+    <author>
+      <name>Lingyun Chen</name>
+    </author>
+    <author>
+      <name>Jiacheng Li</name>
+    </author>
+    <author>
+      <name>Yunkai Wang</name>
+    </author>
+    <author>
+      <name>Zexi Chen</name>
+    </author>
+    <author>
+      <name>Licheng Wen</name>
+    </author>
+    <author>
+      <name>Jianyang Gu</name>
+    </author>
+    <author>
+      <name>Peng Hu</name>
+    </author>
+    <author>
+      <name>Rong Xiong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08745v1</id>
+    <title>UruBots Autonomous Cars Team One Description Paper for FIRA 2024</title>
+    <updated>2024-06-13T02:07:06Z</updated>
+    <link href="https://arxiv.org/abs/2406.08745v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08745v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This document presents the design of an autonomous car developed by the UruBots team for the 2024 FIRA Autonomous Cars Race Challenge. The project involves creating an RC-car sized electric vehicle capable of navigating race tracks with in an autonomous manner. It integrates mechanical and electronic systems alongside artificial intelligence based algorithms for the navigation and real-time decision-making. The core of our project include the utilization of an AI-based algorithm to learn information from a camera and act in the robot to perform the navigation. We show that by creating a dataset with more than five thousand samples and a five-layered CNN we managed to achieve promissing performance we our proposed hardware setup. Overall, this paper aims to demonstrate the autonomous capabilities of our car, highlighting its readiness for the 2024 FIRA challenge, helping to contribute to the field of autonomous vehicle research.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T02:07:06Z</published>
+    <arxiv:comment>Team Description Paper for the FIRA RoboWorld Cup 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Pablo Moraes</name>
+    </author>
+    <author>
+      <name>Christopher Peters</name>
+    </author>
+    <author>
+      <name>Any Da Rosa</name>
+    </author>
+    <author>
+      <name>Vinicio Melgar</name>
+    </author>
+    <author>
+      <name>Franco Nuñez</name>
+    </author>
+    <author>
+      <name>Maximo Retamar</name>
+    </author>
+    <author>
+      <name>William Moraes</name>
+    </author>
+    <author>
+      <name>Victoria Saravia</name>
+    </author>
+    <author>
+      <name>Hiago Sodre</name>
+    </author>
+    <author>
+      <name>Sebastian Barcelona</name>
+    </author>
+    <author>
+      <name>Anthony Scirgalea</name>
+    </author>
+    <author>
+      <name>Juan Deniz</name>
+    </author>
+    <author>
+      <name>Bruna Guterres</name>
+    </author>
+    <author>
+      <name>André Kelbouscas</name>
+    </author>
+    <author>
+      <name>Ricardo Grando</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0717v1</id>
+    <title>ASKAP and MeerKAT surveys of the Magellanic Clouds</title>
+    <updated>2010-09-03T16:29:38Z</updated>
+    <link href="https://arxiv.org/abs/1009.0717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Magellanic Clouds are a stepping stone from the overwhelming detail of the Milky Way in which we are immersed, to the global characteristics of galaxies both in the nearby and distant universe. They are interacting, gas-rich dwarf galaxies of sub-solar metallicity, not unlike the building blocks that assembled the large galaxies that dominate groups and clusters, and representative of the conditions at the height of cosmic star formation. The Square Kilometre Array (SKA) can make huge strides in understanding galactic metabolism and the ecological processes that govern star formation, by observations of the Magellanic Clouds and other, nearby Magellanic-type irregular galaxies. Two programmes with SKA Pathfinders attempt to pave the way: the approved Galactic ASKAP Spectral Line Survey (GASKAP) includes a deep survey in HI and OH of the Magellanic Clouds, whilst MagiKAT is proposed to perform more detailed studies of selected regions within the Magellanic Clouds - also including Faraday rotation measurements and observations at higher frequencies. These surveys also close the gap with the revolutionizing surveys at far-IR wavelengths with the Spitzer Space Telescope and Herschel Space Observatory.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-03T16:29:38Z</published>
+    <arxiv:comment>Accepted for publication in the refereed Proceedings of Science, "A New Golden Age in Astronomy", ISKAF 2010 Science Meeting, PoS(ISKAF2010)085. See the titlepage for a full list of GASKAP and MagiKAT Team members</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Jacco Th. van Loon</name>
+      <arxiv:affiliation>Keele University, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The GASKAP Team</name>
+    </author>
+    <author>
+      <name>The MagiKAT Team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.19192v3</id>
+    <title>TEAM: Topological Evolution-aware Framework for Traffic Forecasting--Extended Version</title>
+    <updated>2024-11-29T10:39:36Z</updated>
+    <link href="https://arxiv.org/abs/2410.19192v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.19192v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to the global trend towards urbanization, people increasingly move to and live in cities that then continue to grow. Traffic forecasting plays an important role in the intelligent transportation systems of cities as well as in spatio-temporal data mining. State-of-the-art forecasting is achieved by deep-learning approaches due to their ability to contend with complex spatio-temporal dynamics. However, existing methods assume the input is fixed-topology road networks and static traffic time series. These assumptions fail to align with urbanization, where time series are collected continuously and road networks evolve over time. In such settings, deep-learning models require frequent re-initialization and re-training, imposing high computational costs. To enable much more efficient training without jeopardizing model accuracy, we propose the Topological Evolution-aware Framework (TEAM) for traffic forecasting that incorporates convolution and attention. This combination of mechanisms enables better adaptation to newly collected time series, while being able to maintain learned knowledge from old time series. TEAM features a continual learning module based on the Wasserstein metric that acts as a buffer that can identify the most stable and the most changing network nodes. Then, only data related to stable nodes is employed for re-training when consolidating a model. Further, only data of new nodes and their adjacent nodes as well as data pertaining to changing nodes are used to re-train the model. Empirical studies with two real-world traffic datasets offer evidence that TEAM is capable of much lower re-training costs than existing methods are, without jeopardizing forecasting accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T22:50:21Z</published>
+    <arxiv:comment>16 pages. An extended version of "TEAM: Topological Evolution-aware Framework for Traffic Forecasting" accepted at PVLDB 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Duc Kieu</name>
+    </author>
+    <author>
+      <name>Tung Kieu</name>
+    </author>
+    <author>
+      <name>Peng Han</name>
+    </author>
+    <author>
+      <name>Bin Yang</name>
+    </author>
+    <author>
+      <name>Christian S. Jensen</name>
+    </author>
+    <author>
+      <name>Bac Le</name>
+    </author>
+    <arxiv:doi>10.14778/3705829.3705844</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.14778/3705829.3705844" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03903v3</id>
+    <title>LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models</title>
+    <updated>2025-04-28T20:21:54Z</updated>
+    <link href="https://arxiv.org/abs/2310.03903v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03903v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated emergent common-sense reasoning and Theory of Mind (ToM) capabilities, making them promising candidates for developing coordination agents. This study introduces the LLM-Coordination Benchmark, a novel benchmark for analyzing LLMs in the context of Pure Coordination Settings, where agents must cooperate to maximize gains. Our benchmark evaluates LLMs through two distinct tasks. The first is Agentic Coordination, where LLMs act as proactive participants in four pure coordination games. The second is Coordination Question Answering (CoordQA), which tests LLMs on 198 multiple-choice questions across these games to evaluate three key abilities: Environment Comprehension, ToM Reasoning, and Joint Planning. Results from Agentic Coordination experiments reveal that LLM-Agents excel in multi-agent coordination settings where decision-making primarily relies on environmental variables but face challenges in scenarios requiring active consideration of partners' beliefs and intentions. The CoordQA experiments further highlight significant room for improvement in LLMs' Theory of Mind reasoning and joint planning capabilities. Zero-Shot Coordination (ZSC) experiments in the Agentic Coordination setting demonstrate that LLM agents, unlike RL methods, exhibit robustness to unseen partners. These findings indicate the potential of LLMs as Agents in pure coordination setups and underscore areas for improvement. Code Available at https://github.com/eric-ai-lab/llm_coordination.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T21:18:15Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Saaket Agashe</name>
+    </author>
+    <author>
+      <name>Yue Fan</name>
+    </author>
+    <author>
+      <name>Anthony Reyna</name>
+    </author>
+    <author>
+      <name>Xin Eric Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.05399v2</id>
+    <title>XRISM Quick Reference</title>
+    <updated>2022-02-22T02:47:02Z</updated>
+    <link href="https://arxiv.org/abs/2202.05399v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.05399v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This document was prepared by the XRISM Science Team to introduce the XRISM mission, its onboard instruments, figures of merit, and examples of high-resolution X-ray spectroscopy to general astronomers and students.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-10T06:53:50Z</published>
+    <arxiv:comment>26 pages, 25 figures, minor revision</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name> XRISM Science Team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.08242v1</id>
+    <title>Simulating Teams with LLM Agents: Interactive 2D Environments for Studying Human-AI Dynamics</title>
+    <updated>2025-10-09T14:04:11Z</updated>
+    <link href="https://arxiv.org/abs/2510.08242v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.08242v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enabling users to create their own simulations offers a powerful way to study team dynamics and performance. We introduce VirTLab, a system that allows researchers and practitioners to design interactive, customizable simulations of team dynamics with LLM-based agents situated in 2D spatial environments. Unlike prior frameworks that restrict scenarios to predefined or static tasks, our approach enables users to build scenarios, assign roles, and observe how agents coordinate, move, and adapt over time. By bridging team cognition behaviors with scalable agent-based modeling, our system provides a testbed for investigating how environments influence coordination, collaboration, and emergent team behaviors. We demonstrate its utility by aligning simulated outcomes with empirical evaluations and a user study, underscoring the importance of customizable environments for advancing research on multi-agent simulations. This work contributes to making simulations accessible to both technical and non-technical users, supporting the design, execution, and analysis of complex multi-agent experiments.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-09T14:04:11Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Mohammed Almutairi</name>
+    </author>
+    <author>
+      <name>Charles Chiang</name>
+    </author>
+    <author>
+      <name>Haoze Guo</name>
+    </author>
+    <author>
+      <name>Matthew Belcher</name>
+    </author>
+    <author>
+      <name>Nandini Banerjee</name>
+    </author>
+    <author>
+      <name>Maria Milkowski</name>
+    </author>
+    <author>
+      <name>Svitlana Volkova</name>
+    </author>
+    <author>
+      <name>Daniel Nguyen</name>
+    </author>
+    <author>
+      <name>Tim Weninger</name>
+    </author>
+    <author>
+      <name>Michael Yankoski</name>
+    </author>
+    <author>
+      <name>Trenton W. Ford</name>
+    </author>
+    <author>
+      <name>Diego Gomez-Zara</name>
+    </author>
+  </entry>
+</feed>

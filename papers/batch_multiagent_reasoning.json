@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YCYgz4qs9mqOCkT/k4Roi0CPpmM</id>
+  <title>arXiv Query: search_query=all:multi-agent AND all:reasoning&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:53:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:multi-agent+AND+all:reasoning&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>3298</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13930v1</id>
+    <title>Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery</title>
+    <updated>2025-12-15T22:08:18Z</updated>
+    <link href="https://arxiv.org/abs/2512.13930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence is reshaping scientific exploration, but most methods automate procedural tasks without engaging in scientific reasoning, limiting autonomy in discovery. We introduce Materials Agents for Simulation and Theory in Electronic-structure Reasoning (MASTER), an active learning framework where large language models autonomously design, execute, and interpret atomistic simulations. In MASTER, a multimodal system translates natural language into density functional theory workflows, while higher-level reasoning agents guide discovery through a hierarchy of strategies, including a single agent baseline and three multi-agent approaches: peer review, triage-ranking, and triage-forms. Across two chemical applications, CO adsorption on Cu-surface transition metal (M) adatoms and on M-N-C catalysts, reasoning-driven exploration reduces required atomistic simulations by up to 90% relative to trial-and-error selection. Reasoning trajectories reveal chemically grounded decisions that cannot be explained by stochastic sampling or semantic bias. Altogether, multi-agent collaboration accelerates materials discovery and marks a new paradigm for autonomous scientific exploration.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T22:08:18Z</published>
+    <arxiv:comment>Keywords: Multi-agent reasoning; Large language models; Active learning; AI-driven simulation; Materials discovery; Density functional theory; Surface chemistry</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Samuel Rothfarb</name>
+    </author>
+    <author>
+      <name>Megan C. Davis</name>
+    </author>
+    <author>
+      <name>Ivana Matanovic</name>
+    </author>
+    <author>
+      <name>Baikun Li</name>
+    </author>
+    <author>
+      <name>Edward F. Holby</name>
+    </author>
+    <author>
+      <name>Wilton J. M. Kort-Kamp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.03053v2</id>
+    <title>MAEBE: Multi-Agent Emergent Behavior Framework</title>
+    <updated>2025-07-10T14:54:28Z</updated>
+    <link href="https://arxiv.org/abs/2506.03053v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.03053v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional AI safety evaluations on isolated LLMs are insufficient as multi-agent AI ensembles become prevalent, introducing novel emergent risks. This paper introduces the Multi-Agent Emergent Behavior Evaluation (MAEBE) framework to systematically assess such risks. Using MAEBE with the Greatest Good Benchmark (and a novel double-inversion question technique), we demonstrate that: (1) LLM moral preferences, particularly for Instrumental Harm, are surprisingly brittle and shift significantly with question framing, both in single agents and ensembles. (2) The moral reasoning of LLM ensembles is not directly predictable from isolated agent behavior due to emergent group dynamics. (3) Specifically, ensembles exhibit phenomena like peer pressure influencing convergence, even when guided by a supervisor, highlighting distinct safety and alignment challenges. Our findings underscore the necessity of evaluating AI systems in their interactive, multi-agent contexts.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-03T16:33:47Z</published>
+    <arxiv:comment>Preprint. This work has been submitted to the Multi-Agent Systems Workshop at ICML 2025 for review</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Sinem Erisken</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Timothy Gothard</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Leitgab</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ram Potham</name>
+      <arxiv:affiliation>Independent Researcher</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.01769v1</id>
+    <title>Deep Reinforcement Learning for Multi-Agent Interaction</title>
+    <updated>2022-08-02T21:55:56Z</updated>
+    <link href="https://arxiv.org/abs/2208.01769v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.01769v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of autonomous agents which can interact with other agents to accomplish a given task is a core area of research in artificial intelligence and machine learning. Towards this goal, the Autonomous Agents Research Group develops novel machine learning algorithms for autonomous systems control, with a specific focus on deep reinforcement learning and multi-agent reinforcement learning. Research problems include scalable learning of coordinated agent policies and inter-agent communication; reasoning about the behaviours, goals, and composition of other agents from limited observations; and sample-efficient learning based on intrinsic motivation, curriculum learning, causal inference, and representation learning. This article provides a broad overview of the ongoing research portfolio of the group and discusses open problems for future directions.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-02T21:55:56Z</published>
+    <arxiv:comment>Published in AI Communications Special Issue on Multi-Agent Systems Research in the UK</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ibrahim H. Ahmed</name>
+    </author>
+    <author>
+      <name>Cillian Brewitt</name>
+    </author>
+    <author>
+      <name>Ignacio Carlucho</name>
+    </author>
+    <author>
+      <name>Filippos Christianos</name>
+    </author>
+    <author>
+      <name>Mhairi Dunion</name>
+    </author>
+    <author>
+      <name>Elliot Fosong</name>
+    </author>
+    <author>
+      <name>Samuel Garcin</name>
+    </author>
+    <author>
+      <name>Shangmin Guo</name>
+    </author>
+    <author>
+      <name>Balint Gyevnar</name>
+    </author>
+    <author>
+      <name>Trevor McInroe</name>
+    </author>
+    <author>
+      <name>Georgios Papoudakis</name>
+    </author>
+    <author>
+      <name>Arrasy Rahman</name>
+    </author>
+    <author>
+      <name>Lukas Schäfer</name>
+    </author>
+    <author>
+      <name>Massimiliano Tamborski</name>
+    </author>
+    <author>
+      <name>Giuseppe Vecchio</name>
+    </author>
+    <author>
+      <name>Cheng Wang</name>
+    </author>
+    <author>
+      <name>Stefano V. Albrecht</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06196v1</id>
+    <title>ARCANE: A Multi-Agent Framework for Interpretable and Configurable Alignment</title>
+    <updated>2025-12-05T22:39:54Z</updated>
+    <link href="https://arxiv.org/abs/2512.06196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As agents based on large language models are increasingly deployed to long-horizon tasks, maintaining their alignment with stakeholder preferences becomes critical. Effective alignment in such settings requires reward models that are interpretable so that stakeholders can understand and audit model objectives. Moreover, reward models must be capable of steering agents at interaction time, allowing preference shifts to be incorporated without retraining. We introduce ARCANE, a framework that frames alignment as a multi-agent collaboration problem that dynamically represents stakeholder preferences as natural-language rubrics: weighted sets of verifiable criteria that can be generated on-the-fly from task context. Inspired by utility theory, we formulate rubric learning as a reconstruction problem and apply a regularized Group-Sequence Policy Optimization (GSPO) procedure that balances interpretability, faithfulness, and computational efficiency. Using a corpus of 219 labeled rubrics derived from the GDPVal benchmark, we evaluate ARCANE on challenging tasks requiring multi-step reasoning and tool use. The learned rubrics produce compact, legible evaluations and enable configurable trade-offs (e.g., correctness vs. conciseness) without retraining. Our results show that rubric-based reward models offer a promising path toward interpretable, test-time adaptive alignment for complex, long-horizon AI systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T22:39:54Z</published>
+    <arxiv:comment>Accepted to the AAAI 2026 LLAMAS Workshop (Large Language Model Agents for Multi-Agent Systems)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Charlie Masters</name>
+    </author>
+    <author>
+      <name>Marta Grześkiewicz</name>
+    </author>
+    <author>
+      <name>Stefano V. Albrecht</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.02018v2</id>
+    <title>Modeling Normative Multi-Agent Systems from a Kelsenian Perspective</title>
+    <updated>2018-03-26T16:40:01Z</updated>
+    <link href="https://arxiv.org/abs/1709.02018v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.02018v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Standard Deontic Logic (SDL) has been used as the underlying logic to model and reason over Multi-Agent Systems governed by norms (NorMAS). It is known that SDL is not able to represent contrary-to-duty (CTD) scenarios in a consistent way. That is the case, for example, of the so-called Chisholm paradox, which models a situation in which a conditional obligation that specifies what must be done when a primary obligation is violated holds. In SDL, the set of sentences that represent the Chisholm paradox derives inconsistent sentences. Due to the autonomy of the software agents of a NorMAS, norms may be violated and the underlying logic used to model the NorMAS should be able to represent violation scenarios. The contribution of this paper is threefold: (i) we present how Kelsenian thinking, from his jurisprudence in the context of legal ontologies, and Intuitionist Hybrid Logic can be adopted in the modeling of NorMAS, (ii) discuss how this approach overcomes limitations of the SDL and (iii) present a discussion about normative conflict identification according to Hill's functional taxonomy, that generalizes from standard identification by impossibility-of-joint-compliance test.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-06T22:25:45Z</published>
+    <arxiv:comment>(A revision of "Normative Multi-Agent Systems and Kelsenian Jurisprudence")</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Christiano Braga</name>
+    </author>
+    <author>
+      <name>Edward Hermann Haeusler</name>
+    </author>
+    <author>
+      <name>Jéssica S. Santos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07497v4</id>
+    <title>Analysing Factorizations of Action-Value Networks for Cooperative Multi-Agent Reinforcement Learning</title>
+    <updated>2023-11-09T13:40:49Z</updated>
+    <link href="https://arxiv.org/abs/1902.07497v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07497v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have seen the application of deep reinforcement learning techniques to cooperative multi-agent systems, with great empirical success. However, given the lack of theoretical insight, it remains unclear what the employed neural networks are learning, or how we should enhance their learning power to address the problems on which they fail. In this work, we empirically investigate the learning power of various network architectures on a series of one-shot games. Despite their simplicity, these games capture many of the crucial problems that arise in the multi-agent setting, such as an exponential number of joint actions or the lack of an explicit coordination mechanism. Our results extend those in [4] and quantify how well various approaches can represent the requisite value functions, and help us identify the reasons that can impede good performance, like sparsity of the values or too tight coordination requirements.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T10:47:19Z</published>
+    <arxiv:comment>This work as been accepted as an Extended Abstract in Proc. of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019), N. Agmon, M. E. Taylor, E. Elkind, M. Veloso (eds.), May 2019, Montreal, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Auton Agent Multi-Agent Syst 35, 25 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Jacopo Castellini</name>
+    </author>
+    <author>
+      <name>Frans A. Oliehoek</name>
+    </author>
+    <author>
+      <name>Rahul Savani</name>
+    </author>
+    <author>
+      <name>Shimon Whiteson</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-021-09506-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-021-09506-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.12538v1</id>
+    <title>Agentic Reasoning for Large Language Models</title>
+    <updated>2026-01-18T18:58:23Z</updated>
+    <link href="https://arxiv.org/abs/2601.12538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.12538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning is a fundamental cognitive process underlying inference, problem-solving, and decision-making. While large language models (LLMs) demonstrate strong reasoning capabilities in closed-world settings, they struggle in open-ended and dynamic environments. Agentic reasoning marks a paradigm shift by reframing LLMs as autonomous agents that plan, act, and learn through continual interaction. In this survey, we organize agentic reasoning along three complementary dimensions. First, we characterize environmental dynamics through three layers: foundational agentic reasoning, which establishes core single-agent capabilities including planning, tool use, and search in stable environments; self-evolving agentic reasoning, which studies how agents refine these capabilities through feedback, memory, and adaptation; and collective multi-agent reasoning, which extends intelligence to collaborative settings involving coordination, knowledge sharing, and shared goals. Across these layers, we distinguish in-context reasoning, which scales test-time interaction through structured orchestration, from post-training reasoning, which optimizes behaviors via reinforcement learning and supervised fine-tuning. We further review representative agentic reasoning frameworks across real-world applications and benchmarks, including science, robotics, healthcare, autonomous research, and mathematics. This survey synthesizes agentic reasoning methods into a unified roadmap bridging thought and action, and outlines open challenges and future directions, including personalization, long-horizon interaction, world modeling, scalable multi-agent training, and governance for real-world deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-18T18:58:23Z</published>
+    <arxiv:comment>Project: https://github.com/weitianxin/Awesome-Agentic-Reasoning</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianxin Wei</name>
+    </author>
+    <author>
+      <name>Ting-Wei Li</name>
+    </author>
+    <author>
+      <name>Zhining Liu</name>
+    </author>
+    <author>
+      <name>Xuying Ning</name>
+    </author>
+    <author>
+      <name>Ze Yang</name>
+    </author>
+    <author>
+      <name>Jiaru Zou</name>
+    </author>
+    <author>
+      <name>Zhichen Zeng</name>
+    </author>
+    <author>
+      <name>Ruizhong Qiu</name>
+    </author>
+    <author>
+      <name>Xiao Lin</name>
+    </author>
+    <author>
+      <name>Dongqi Fu</name>
+    </author>
+    <author>
+      <name>Zihao Li</name>
+    </author>
+    <author>
+      <name>Mengting Ai</name>
+    </author>
+    <author>
+      <name>Duo Zhou</name>
+    </author>
+    <author>
+      <name>Wenxuan Bao</name>
+    </author>
+    <author>
+      <name>Yunzhe Li</name>
+    </author>
+    <author>
+      <name>Gaotang Li</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Xiangru Tang</name>
+    </author>
+    <author>
+      <name>Yin Xiao</name>
+    </author>
+    <author>
+      <name>Liri Fang</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+    <author>
+      <name>Xianfeng Tang</name>
+    </author>
+    <author>
+      <name>Yuji Zhang</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+    <author>
+      <name>Jingrui He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05528v1</id>
+    <title>SMAGDi: Socratic Multi Agent Interaction Graph Distillation for Efficient High Accuracy Reasoning</title>
+    <updated>2025-10-29T04:05:10Z</updated>
+    <link href="https://arxiv.org/abs/2511.05528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems (MAS) often achieve higher reasoning accuracy than single models, but their reliance on repeated debates across agents makes them computationally expensive. We introduce SMAGDi, a distillation framework that transfers the debate dynamics of a five-agent Llama-based MAS into a compact Socratic decomposer-solver student. SMAGDi represents debate traces as directed interaction graphs, where nodes encode intermediate reasoning steps with correctness labels and edges capture continuity and cross-agent influence. The student is trained with a composite objective combining language modeling, graph-based supervision, contrastive reasoning, and embedding alignment to preserve both fluency and structured reasoning. On StrategyQA and MMLU, SMAGDi compresses a 40B multi-agent system into a 6B student while retaining 88% of its accuracy, substantially outperforming prior distillation methods such as MAGDi, standard KD, and fine-tuned baselines. These results highlight that explicitly modeling interaction graphs and Socratic decomposition enable small models to inherit the accuracy benefits of multi-agent debate while remaining efficient enough for real-world deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T04:05:10Z</published>
+    <arxiv:comment>Multi-Turn Interactions in Large Language Models (MTI-LLM) Workshop at NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aayush Aluru</name>
+    </author>
+    <author>
+      <name>Myra Malik</name>
+    </author>
+    <author>
+      <name>Samarth Patankar</name>
+    </author>
+    <author>
+      <name>Spencer Kim</name>
+    </author>
+    <author>
+      <name>Kevin Zhu</name>
+    </author>
+    <author>
+      <name>Sean O'Brien</name>
+    </author>
+    <author>
+      <name>Vasu Sharma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13278v1</id>
+    <title>AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning</title>
+    <updated>2025-12-15T12:38:04Z</updated>
+    <link href="https://arxiv.org/abs/2512.13278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic reinforcement learning has advanced large language models (LLMs) to reason through long chain-of-thought trajectories while interleaving external tool use. Existing approaches assume a fixed inventory of tools, limiting LLM agents' adaptability to new or evolving toolsets. We present AutoTool, a framework that equips LLM agents with dynamic tool-selection capabilities throughout their reasoning trajectories. We first construct a 200k dataset with explicit tool-selection rationales across 1,000+ tools and 100+ tasks spanning mathematics, science, code generation, and multimodal reasoning. Building on this data foundation, AutoTool employs a dual-phase optimization pipeline: (i) supervised and RL-based trajectory stabilization for coherent reasoning, and (ii) KL-regularized Plackett-Luce ranking to refine consistent multi-step tool selection. Across ten diverse benchmarks, we train two base models, Qwen3-8B and Qwen2.5-VL-7B, with AutoTool. With fewer parameters, AutoTool consistently outperforms advanced LLM agents and tool-integration methods, yielding average gains of 6.4% in math &amp; science reasoning, 4.5% in search-based QA, 7.7% in code generation, and 6.9% in multimodal understanding. In addition, AutoTool exhibits stronger generalization by dynamically leveraging unseen tools from evolving toolsets during inference.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T12:38:04Z</published>
+    <arxiv:comment>Best Paper Award at ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiaru Zou</name>
+    </author>
+    <author>
+      <name>Ling Yang</name>
+    </author>
+    <author>
+      <name>Yunzhe Qi</name>
+    </author>
+    <author>
+      <name>Sirui Chen</name>
+    </author>
+    <author>
+      <name>Mengting Ai</name>
+    </author>
+    <author>
+      <name>Ke Shen</name>
+    </author>
+    <author>
+      <name>Jingrui He</name>
+    </author>
+    <author>
+      <name>Mengdi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07977v1</id>
+    <title>Thinking Fast and Laterally: Multi-Agentic Approach for Reasoning about Uncertain Emerging Events</title>
+    <updated>2024-12-10T23:29:11Z</updated>
+    <link href="https://arxiv.org/abs/2412.07977v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07977v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces lateral thinking to implement System-2 reasoning capabilities in AI systems, focusing on anticipatory and causal reasoning under uncertainty. We present a framework for systematic generation and modeling of lateral thinking queries and evaluation datasets. We introduce Streaming Agentic Lateral Thinking (SALT), a multi-agent framework designed to process complex, low-specificity queries in streaming data environments. SALT implements lateral thinking-inspired System-2 reasoning through a dynamic communication structure between specialized agents. Our key insight is that lateral information flow across long-distance agent interactions, combined with fine-grained belief management, yields richer information contexts and enhanced reasoning. Preliminary quantitative and qualitative evaluations indicate SALT's potential to outperform single-agent systems in handling complex lateral reasoning tasks in a streaming environment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T23:29:11Z</published>
+    <arxiv:comment>Presented in The 1st Workshop on System-2 Reasoning at Scale (NeurIPS 2024), Vancouver, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Stefan Dernbach</name>
+    </author>
+    <author>
+      <name>Alejandro Michel</name>
+    </author>
+    <author>
+      <name>Khushbu Agarwal</name>
+    </author>
+    <author>
+      <name>Christopher Brissette</name>
+    </author>
+    <author>
+      <name>Geetika Gupta</name>
+    </author>
+    <author>
+      <name>Sutanay Choudhury</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.12275v2</id>
+    <title>Multi-Agent Dynamic Relational Reasoning for Social Robot Navigation</title>
+    <updated>2024-11-11T18:59:07Z</updated>
+    <link href="https://arxiv.org/abs/2401.12275v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.12275v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Social robot navigation can be helpful in various contexts of daily life but requires safe human-robot interactions and efficient trajectory planning. While modeling pairwise relations has been widely studied in multi-agent interacting systems, the ability to capture larger-scale group-wise activities is limited. In this paper, we propose a systematic relational reasoning approach with explicit inference of the underlying dynamically evolving relational structures, and we demonstrate its effectiveness for multi-agent trajectory prediction and social robot navigation. In addition to the edges between pairs of nodes (i.e., agents), we propose to infer hyperedges that adaptively connect multiple nodes to enable group-wise reasoning in an unsupervised manner. Our approach infers dynamically evolving relation graphs and hypergraphs to capture the evolution of relations, which the trajectory predictor employs to generate future states. Meanwhile, we propose to regularize the sharpness and sparsity of the learned relations and the smoothness of the relation evolution, which proves to enhance training stability and model performance. The proposed approach is validated on synthetic crowd simulations and real-world benchmark datasets. Experiments demonstrate that the approach infers reasonable relations and achieves state-of-the-art prediction performance. In addition, we present a deep reinforcement learning (DRL) framework for social robot navigation, which incorporates relational reasoning and trajectory prediction systematically. In a group-based crowd simulation, our method outperforms the strongest baseline by a significant margin in terms of safety, efficiency, and social compliance in dense, interactive scenarios. We also demonstrate the practical applicability of our method with real-world robot experiments. The code and videos can be found at https://relational-reasoning-nav.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-22T18:58:22Z</published>
+    <arxiv:comment>Project website: https://relational-reasoning-nav.github.io/; 20 pages, 9 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiachen Li</name>
+    </author>
+    <author>
+      <name>Chuanbo Hua</name>
+    </author>
+    <author>
+      <name>Jianpeng Yao</name>
+    </author>
+    <author>
+      <name>Hengbo Ma</name>
+    </author>
+    <author>
+      <name>Jinkyoo Park</name>
+    </author>
+    <author>
+      <name>Victoria Dax</name>
+    </author>
+    <author>
+      <name>Mykel J. Kochenderfer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18179v2</id>
+    <title>Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning</title>
+    <updated>2025-10-22T05:04:06Z</updated>
+    <link href="https://arxiv.org/abs/2510.18179v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18179v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inference-time computation is a critical yet challenging paradigm for enhancing the reasoning performance of large language models (LLMs). While existing strategies improve reasoning stability and consistency, they suffer from notable limitations: self-correction often reinforces the model's initial biases, and Multi-Agent Collaboration (MAC) often fails due to the lack of efficient coordination mechanisms, leading to collective errors. Although high-performing verifiers can detect reasoning errors, making them reliable requires substantial training. To address these challenges, we introduce a novel inference-time framework, Adaptive Coopetition (AdCo), in which LLM agents utilize an adaptive, UCB-based "coopetition" mechanism. At each round, agents leverage coarse verifier signals to determine whether to collaborate or compete, and iteratively refine their reasoning based on peer feedback. Without relying on high-performance verifiers, our adaptive strategy achieves significant performance gains on mathematical reasoning benchmarks, yielding a 20% relative improvement over baselines on the more challenging dataset. Our approach remains robust and consistent in terms of accuracy under different sample sizes and configurations. This adaptive, signal-guided "coopetition" framework enhances reasoning robustness by leveraging both model knowledge diversity and reasoning trace measures, while also promoting uncertainty-driven exploration, especially when participants have comparable capabilities. From this perspective, our work offers a fresh lens on inference-time computation and paves the way for more resilient multi-agent LLM systems. Our code is available at: https://github.com/AdCo-Research/adaptive-coopetition.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T00:07:52Z</published>
+    <arxiv:comment>13 pages, 8 figures. Accepted for presentation at the 5th Workshop on Mathematical Reasoning and AI at NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Rui Jerry Huang</name>
+    </author>
+    <author>
+      <name>Wendy Liu</name>
+    </author>
+    <author>
+      <name>Anastasia Miin</name>
+    </author>
+    <author>
+      <name>Lei Ding</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.12532v3</id>
+    <title>MedAide: Information Fusion and Anatomy of Medical Intents via LLM-based Agent Collaboration</title>
+    <updated>2025-07-03T13:02:30Z</updated>
+    <link href="https://arxiv.org/abs/2410.12532v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.12532v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In healthcare intelligence, the ability to fuse heterogeneous, multi-intent information from diverse clinical sources is fundamental to building reliable decision-making systems. Large Language Model (LLM)-driven information interaction systems currently showing potential promise in the healthcare domain. Nevertheless, they often suffer from information redundancy and coupling when dealing with complex medical intents, leading to severe hallucinations and performance bottlenecks. To this end, we propose MedAide, an LLM-based medical multi-agent collaboration framework designed to enable intent-aware information fusion and coordinated reasoning across specialized healthcare domains. Specifically, we introduce a regularization-guided module that combines syntactic constraints with retrieval augmented generation to decompose complex queries into structured representations, facilitating fine-grained clinical information fusion and intent resolution. Additionally, a dynamic intent prototype matching module is proposed to utilize dynamic prototype representation with a semantic similarity matching mechanism to achieve adaptive recognition and updating of the agent's intent in multi-round healthcare dialogues. Ultimately, we design a rotation agent collaboration mechanism that introduces dynamic role rotation and decision-level information fusion across specialized medical agents. Extensive experiments are conducted on four medical benchmarks with composite intents. Experimental results from automated metrics and expert doctor evaluations show that MedAide outperforms current LLMs and improves their medical proficiency and strategic reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-16T13:10:27Z</published>
+    <arxiv:comment>LLM-based Multi-Agent Collaboration for Medical Applications</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dingkang Yang</name>
+    </author>
+    <author>
+      <name>Jinjie Wei</name>
+    </author>
+    <author>
+      <name>Mingcheng Li</name>
+    </author>
+    <author>
+      <name>Jiyao Liu</name>
+    </author>
+    <author>
+      <name>Lihao Liu</name>
+    </author>
+    <author>
+      <name>Ming Hu</name>
+    </author>
+    <author>
+      <name>Junjun He</name>
+    </author>
+    <author>
+      <name>Yakun Ju</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Lihua Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2632v1</id>
+    <title>Evaluation of a Conversation Management Toolkit for Multi Agent Programming</title>
+    <updated>2014-10-09T21:24:05Z</updated>
+    <link href="https://arxiv.org/abs/1410.2632v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.2632v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Agent Conversation Reasoning Engine (ACRE) is intended to aid agent developers to improve the management and reliability of agent communication. To evaluate its effectiveness, a problem scenario was created that could be used to compare code written with and without the use of ACRE by groups of test subjects.
+  This paper describes the requirements that the evaluation scenario was intended to meet and how these motivated the design of the problem. Two experiments were conducted with two separate sets of students and their solutions were analysed using a combination of simple objective metrics and subjective analysis. The analysis suggested that ACRE by default prevents some common problems arising that would limit the reliability and extensibility of conversation-handling code.
+  As ACRE has to date been integrated only with the Agent Factory multi agent framework, it was necessary to verify that the problems identified are not unique to that platform. Thus a comparison was made with best practice communication code written for the Jason platform, in order to demonstrate the wider applicability of a system such as ACRE.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-09T21:24:05Z</published>
+    <arxiv:comment>appears as Programming Multi-Agent Systems - 10th International Workshop, ProMAS 2012, Valencia, Spain, June 5, 2012, Revised Selected Papers</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>David Lillis</name>
+    </author>
+    <author>
+      <name>Rem W. Collier</name>
+    </author>
+    <author>
+      <name>Howell R. Jordan</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-38700-5_6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-38700-5_6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.08307v2</id>
+    <title>Coordinating Fully-Cooperative Agents Using Hierarchical Learning Anticipation</title>
+    <updated>2023-04-02T18:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.08307v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.08307v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning anticipation is a reasoning paradigm in multi-agent reinforcement learning, where agents, during learning, consider the anticipated learning of other agents. There has been substantial research into the role of learning anticipation in improving cooperation among self-interested agents in general-sum games. Two primary examples are Learning with Opponent-Learning Awareness (LOLA), which anticipates and shapes the opponent's learning process to ensure cooperation among self-interested agents in various games such as iterated prisoner's dilemma, and Look-Ahead (LA), which uses learning anticipation to guarantee convergence in games with cyclic behaviors. So far, the effectiveness of applying learning anticipation to fully-cooperative games has not been explored. In this study, we aim to research the influence of learning anticipation on coordination among common-interested agents. We first illustrate that both LOLA and LA, when applied to fully-cooperative games, degrade coordination among agents, causing worst-case outcomes. Subsequently, to overcome this miscoordination behavior, we propose Hierarchical Learning Anticipation (HLA), where agents anticipate the learning of other agents in a hierarchical fashion. Specifically, HLA assigns agents to several hierarchy levels to properly regulate their reasonings. Our theoretical and empirical findings confirm that HLA can significantly improve coordination among common-interested agents in fully-cooperative normal-form games. With HLA, to the best of our knowledge, we are the first to unlock the benefits of learning anticipation for fully-cooperative games.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-15T01:41:20Z</published>
+    <arxiv:comment>AAMAS 2023 Workshop on Optimization and Learning in Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ariyan Bighashdel</name>
+    </author>
+    <author>
+      <name>Daan de Geus</name>
+    </author>
+    <author>
+      <name>Pavol Jancura</name>
+    </author>
+    <author>
+      <name>Gijs Dubbelman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03278v2</id>
+    <title>Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases</title>
+    <updated>2026-01-05T20:44:14Z</updated>
+    <link href="https://arxiv.org/abs/2512.03278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In today's age, it is becoming increasingly difficult to decipher truth from lies. Every day, politicians, media outlets, and public figures make conflicting claims -- often about topics that can, in principle, be verified against structured data. For instance, statements about crime rates, economic growth or healthcare can all be verified against official public records and structured datasets. Building a system that can automatically do that would have sounded like science fiction just a few years ago. Yet, with the extraordinary progress in LLMs and agentic AI, this is now within reach. Still, there remains a striking gap between what is technically possible and what is being demonstrated by recent work. Most existing verification systems operate only on small, single-table databases -- typically a few hundred rows -- that conveniently fit within an LLM's context window.
+  In this paper we report our progress on Thucy, the first cross-database, cross-table multi-agent claim verification system that also provides concrete evidence for each verification verdict. Thucy remains completely agnostic to the underlying data sources before deployment and must therefore autonomously discover, inspect, and reason over all available relational databases to verify claims. Importantly, Thucy also reports the exact SQL queries that support its verdict (whether the claim is accurate or not) offering full transparency to expert users familiar with SQL. When evaluated on the TabFact dataset -- the standard benchmark for fact verification over structured data -- Thucy surpasses the previous state of the art by 5.6 percentage points in accuracy (94.3% vs. 88.7%).</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T22:35:48Z</published>
+    <arxiv:comment>Accepted at AAAI 2026 Workshop on LLM-based Multi-Agent Systems (LaMAS)</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Michael Theologitis</name>
+    </author>
+    <author>
+      <name>Dan Suciu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16408v2</id>
+    <title>LLMSR@XLLM25: Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation</title>
+    <updated>2025-05-13T07:12:49Z</updated>
+    <link href="https://arxiv.org/abs/2504.16408v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16408v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The LLMSR@XLLM25 formulates a low-resource structural reasoning task that challenges LLMs to generate interpretable, step-by-step rationales with minimal labeled data. We present Less is More, the third-place winning approach in the LLMSR@XLLM25, which focuses on structured reasoning from only 24 labeled examples. Our approach leverages a multi-agent framework with reverse-prompt induction, retrieval-augmented reasoning synthesis via GPT-4o, and dual-stage reward-guided filtering to distill high-quality supervision across three subtasks: question parsing, CoT parsing, and step-level verification. All modules are fine-tuned from Meta-Llama-3-8B-Instruct under a unified LoRA+ setup. By combining structure validation with reward filtering across few-shot and zero-shot prompts, our pipeline consistently improves structure reasoning quality. These results underscore the value of controllable data distillation in enhancing structured inference under low-resource constraints. Our code is available at https://github.com/JhCircle/Less-is-More.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-23T04:19:52Z</published>
+    <arxiv:comment>XLLM @ ACL 2025 Shared Task-III: LLM for Structural Reasoning (LLM-SR)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiahao Yuan</name>
+    </author>
+    <author>
+      <name>Xingzhe Sun</name>
+    </author>
+    <author>
+      <name>Xing Yu</name>
+    </author>
+    <author>
+      <name>Jingwen Wang</name>
+    </author>
+    <author>
+      <name>Dehui Du</name>
+    </author>
+    <author>
+      <name>Zhiqing Cui</name>
+    </author>
+    <author>
+      <name>Zixiang Di</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.02361v1</id>
+    <title>Verification &amp; Validation of Agent Based Simulations using the VOMAS (Virtual Overlay Multi-agent System) approach</title>
+    <updated>2017-08-08T03:07:41Z</updated>
+    <link href="https://arxiv.org/abs/1708.02361v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.02361v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent Based Models are very popular in a number of different areas. For example, they have been used in a range of domains ranging from modeling of tumor growth, immune systems, molecules to models of social networks, crowds and computer and mobile self-organizing networks. One reason for their success is their intuitiveness and similarity to human cognition. However, with this power of abstraction, in spite of being easily applicable to such a wide number of domains, it is hard to validate agent-based models. In addition, building valid and credible simulations is not just a challenging task but also a crucial exercise to ensure that what we are modeling is, at some level of abstraction, a model of our conceptual system; the system that we have in mind. In this paper, we address this important area of validation of agent based models by presenting a novel technique which has broad applicability and can be applied to all kinds of agent-based models. We present a framework, where a virtual overlay multi-agent system can be used to validate simulation models. In addition, since agent-based models have been typically growing, in parallel, in multiple domains, to cater for all of these, we present a new single validation technique applicable to all agent based models. Our technique, which allows for the validation of agent based simulations uses VOMAS: a Virtual Overlay Multi-agent System. This overlay multi-agent system can comprise various types of agents, which form an overlay on top of the agent based simulation model that needs to be validated. Other than being able to watch and log, each of these agents contains clearly defined constraints, which, if violated, can be logged in real time. To demonstrate its effectiveness, we show its broad applicability in a wide variety of simulation models ranging from social sciences to computer networks in spatial and non-spatial conceptual models.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-08T03:07:41Z</published>
+    <arxiv:comment>7 pages, 5 figures, cite as Muaz Niazi, Amir Hussain and Mario Kolberg , Verification and Validation of Agent-Based Simulation using the VOMAS approach, Proceedings of the Third Workshop on Multi-Agent Systems and Simulation'09 (MASS '09), as part of MALLOW 09, Sep 7-11, 2009, Torino, Italy</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Muaz A. Niazi</name>
+    </author>
+    <author>
+      <name>Amir Hussain</name>
+    </author>
+    <author>
+      <name>Mario Kolberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.18228v2</id>
+    <title>Implementing Agents in JavaScript</title>
+    <updated>2025-10-02T17:25:59Z</updated>
+    <link href="https://arxiv.org/abs/2505.18228v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.18228v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This chapter gives an introduction to agent-oriented programming in JavaScript. It provides an example-based walk-through of how to implement abstractions for reasoning loop agents in vanilla JavaScript. The initial example is used as a stepping stone for explaining how to implement slightly more advanced agents and multi-agent systems using JS-son, a JavaScript library for agent-oriented programming. In this context, the chapter also explains how to integrate reasoning loop agents with generative AI technologies--specifically, large language models. Finally, application scenarios in several technology ecosystems and future research directions are sketched.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-23T12:13:16Z</published>
+    <arxiv:comment>This chapter will eventually by published in the book "Agents and Multi-Agent Systems Development -- Platforms, Toolkits, Technologies", edited by Collier, Mascardi, and Ricci</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Timotheus Kampik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.02685v1</id>
+    <title>Augmenting Agent Platforms to Facilitate Conversation Reasoning</title>
+    <updated>2015-08-11T18:48:39Z</updated>
+    <link href="https://arxiv.org/abs/1508.02685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.02685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Within Multi Agent Systems, communication by means of Agent Communication Languages (ACLs) has a key role to play in the co-operation, co-ordination and knowledge-sharing between agents. Despite this, complex reasoning about agent messaging, and specifically about conversations between agents, tends not to have widespread support amongst general-purpose agent programming languages.
+  ACRE (Agent Communication Reasoning Engine) aims to complement the existing logical reasoning capabilities of agent programming languages with the capability of reasoning about complex interaction protocols in order to facilitate conversations between agents. This paper outlines the aims of the ACRE project and gives details of the functioning of a prototype implementation within the Agent Factory multi agent framework.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-11T18:48:39Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>In Languages, Methodologies, and Development Tools for Multi-Agent Systems - Third International Workshop, LADS 2010, Revised Selected Papers, Lecture Notes in Computer Science vol. 6822, pp. 56--75. Springer Berlin Heidelberg, 2011</arxiv:journal_ref>
+    <author>
+      <name>David Lillis</name>
+    </author>
+    <author>
+      <name>Rem W. Collier`</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-22723-3_4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-22723-3_4" title="doi"/>
+  </entry>
+</feed>

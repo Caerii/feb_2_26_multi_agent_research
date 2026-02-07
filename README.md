@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **158 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -53,6 +53,34 @@ Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
 - PDDL-LLM coordination (separated team-level and robot-level planning)
 - LLM coordination benchmark (pure coordination settings with ToM evaluation)
 - Linguistic negotiation effects (language choice shifts agent outcomes)
+- Financial trading firm simulation (specialized analyst agent roles)
+- Hierarchical delivery disruption resolution (strategic supervisor + tactical workers)
+- Framework benchmarking impact (100× latency, 30% accuracy variation across architectures)
+- Enterprise coordination modes (parallel communication vs routing for efficiency)
+- Human-agent collaboration survey (LLM-HAS systematic overview)
+- Medical intent-aware fusion (regularized query decomposition with rotation agents)
+- Rogue agent prevention (monitoring protocol with 17.4-20% gains)
+- Information asymmetry collaboration (environment verifier for rule comprehension)
+- Alignment in multi-party settings (modified-action MDP for intervention agents)
+- Long-sequence video storytelling (multi-agent stage pipeline with 3E principle)
+- Internet of Agents protocols (registration/discovery/interaction/tooling)
+- Agent internet communication (AI-native 3-layer ANP system)
+- Full-pipeline AutoML (retrieval-augmented planning with parallel sub-task agents)
+- Agentic survey (329 papers unified taxonomy)
+- Probabilistic logic shields (PLTD update for safe MARL)
+- Decentralized workload balancing (local-loss split training for straggler mitigation)
+- Advanced AI risks taxonomy (miscoordination, conflict, collusion failure modes)
+- Zero-shot coordination (open-ended objectives with graph theory evaluation)
+- Blockchain commitment devices (decentralized coordination for open environments)
+- Arbitrary-depth hierarchical RL (LevelEnv abstraction for loose coupling)
+- OKR-driven self-collaboration (hierarchical objectives with multi-level evaluation)
+- Agent-as-a-Judge evaluation (intermediate feedback for agentic systems)
+| Value system learning (preference/inverse RL for moral grounding)
+- Norm-adaptive policies (bargaining problem resolution)
+- Multi-agent blockchain architecture (decentralized identity/discovery/transactions)
+- Collaborative RAG for diverse data (specialized agents per data source type)
+- Visual programming interfaces (blocks-based environment for non-programmers)
+- Vision-radio fusion (real-time radio+video sensing for O-RAN xApps)
 
 ---
 
@@ -138,6 +166,31 @@ Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
 | LLM-Coordination | 2310.03903 | Benchmark for LLM multi-agent coordination |
 | VirTLab | 2510.08242 | Interactive 2D environments for team dynamics |
 | The Language of Bargaining | 2601.04387 | Linguistic effects in LLM negotiations |
+| TradingAgents | 2412.20138 | LLM-powered financial trading with specialized agent roles |
+| Project Synapse | 2601.08156 | Hierarchical multi-agent framework for last-mile delivery disruptions |
+| Multi-Agent LLM Frameworks (MAFBench) | 2602.03128 | Unified benchmark exposing 100× latency, 30% accuracy variation |
+| Effective GenAI Multi-Agent Collaboration | 2412.05449 | Enterprise coordination/routing with 90% success rates |
+| LLM-Based Human-Agent Collaboration | 2505.00753 | First comprehensive survey of LLM-HAS systems |
+| MedAide | 2410.12532 | Medical multi-agent collaboration with intent-aware fusion |
+| Preventing Rogue Agents | 2502.05986 | Monitoring protocol with up to 20% performance gain |
+| Communication/Verification under Info Asymmetry | 2510.25595 | Environment-based verifier for Einstein Puzzles |
+| Collaborate, Deliberate, Evaluate | 2509.05882 | LLM alignment effects on coordinated multi-agent outcomes |
+| MAViS | 2508.08487 | Multi-agent long-sequence video storytelling with 3E principle |
+| ACPs (Agent Collaboration Protocols) | 2505.13523 | Internet of Agents protocol suite with registration/discovery/interaction |
+| Agent Network Protocol (ANP) | 2508.00007 | AI-native 3-layer system for agent internet communication |
+| AutoML-Agent | 2410.02958 | Full-pipeline AutoML with retrieval-augmented planning |
+| LLM Agent Survey | 2503.21460 | 329-paper survey on methodology, applications, challenges |
+| SMARL | 2411.04867 | Shielded Multi-Agent RL with probabilistic logic |
+| ComDML | 2405.00839 | Communication-efficient workload balancing for DML |
+| Multi-Agent Risks from Advanced AI | 2502.14143 | Taxonomy: miscoordination, conflict, collusion failure modes |
+| Tackling Cooperative Incompatibility | 2306.03034 | COLE framework for zero-shot human-AI coordination |
+| Cooperative AI via Decentralized Commitments | 2311.07815 | Blockchain-based commitment devices for coordination |
+| TAG (TAME Agent Framework) | 2502.15425 | Decentralized hierarchical MARL with arbitrary depth |
+| OKR-Agent | 2311.16542 | Objectives and Key Results driven with self-collaboration |
+| Agent-as-a-Judge | 2410.10934 | Agentic evaluation framework with intermediate feedback |
+| Learning Value Systems of Agents | 2602.04518 | Preference-based and inverse RL for moral value grounding |
+| Normative Disagreement in Cooperative AI | 2111.13872 | Norm-adaptive policies for bargaining problems |
+| Cooperative Open-ended Learning (COLE) | 2306.03034 | Graph theory-based cooperative capacity evaluation |
 
 ### Efficiency & Infrastructure
 
@@ -161,6 +214,15 @@ Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
 | COLT | 2602.01935 | Lightweight multi-LLM collaboration via shared MCTS |
 | TABX | 2602.01665 | High-throughput sandbox battle simulator |
 | Less is More | 2504.16408 | Quality-guided distillation for structured reasoning |
+| Fetch.ai Architecture | 2510.18699 | Multi-layer system with blockchain foundation & agent-native LLM |
+| Collaborative Multi-Agent RAG | 2412.05838 | Specialized agents for diverse data sources (SQL/NoSQL/docs) |
+| Agent-Oriented Visual Programming | 2511.13158 | Visual development environment for agents with WoT integration |
+| CONVERGE | 2508.04556 | Multi-agent vision-radio architecture for 5G/6G RAN xApps |
+| ComDML | 2405.00839 | WC-optimized workload balancing with decentralized pairing |
+| TAG (TAME Agent Framework) | 2502.15425 | LevelEnv abstraction for arbitrary-depth decentralized HRL |
+| Deep Reinforcement Learning for Multi-Agent Interaction | 2208.01769 | Research portfolio overview on MARL coordination |
+| Learning Bilateral Team Formation | 2506.20039 | Two-sided team formation in dynamic MARL populations |
+| Variational Policy Propagation (VPP) | 2004.08883 | Collaborative MARL learning joint policy via interactions |
 
 ### Methodology & Safety
 
@@ -963,6 +1025,160 @@ Total papers analyzed: **132 multi-agent systems** from arXiv cs.AI
 **Approach:** Multi-Agent Emergent Behavior Evaluation using Greatest Good Benchmark and novel double-inversion question technique; evaluates moral preferences and emergent group dynamics including peer pressure and convergence behavior
 **Results:** Ensembles exhibit phenomena like peer pressure influencing convergence even when guided by supervisor; moral reasoning not directly predictable from isolated agent behavior due to emergent group dynamics
 **Impact:** Necessity of evaluating AI systems in interactive, multi-agent contexts; reveals novel emergent risks beyond single-agent safety
+
+### TradingAgents: Multi-Agent LLM Financial Trading Framework
+**ID:** 2412.20138
+**Key:** Trading firm simulation with specialized analyst agents
+**Approach:** LLM-powered agents as fundamental/sentiment/technical analysts and traders, with Bull/Bear researchers and risk management team; simulates collaborative trading environment
+**Results:** Improved cumulative returns, Sharpe ratio, and reduced maximum drawdown vs baseline models
+**Impact:** Demonstrates potential of multi-agent collaboration in financial trading through firm-like organization
+
+### Project Synapse: Hierarchical Multi-Agent Framework
+**ID:** 2601.08156
+**Key:** Last-mile delivery disruption resolution
+**Approach:** Central Resolution Supervisor performs strategic task decomposition, delegates to specialized worker agents using LangGraph orchestration with hybrid memory
+**Results:** Evaluated on 30 complex disruption scenarios from 6,000+ real-world reviews using LLM-as-a-Judge with bias mitigation
+**Impact:** Provides blueprint for hierarchical agentic systems in logistics with long-horizon planning
+
+### Effective GenAI Multi-Agent Collaboration
+**ID:** 2412.05449
+**Key:** Enterprise coordination and routing modes
+**Approach:** Coordination mode for parallel communication with payload referencing; routing mode for efficient message forwarding between agents
+**Results:** 90% end-to-end goal success, 70% improvement over single-agent approaches, 23% code-intense task gains via payload referencing
+**Impact:** Provides enterprise-ready patterns for multi-agent collaboration with latency optimization
+
+### LLM-Based Human-Agent Collaboration Survey
+**ID:** 2505.00753
+**Key:** First comprehensive LLM-HAS survey
+**Approach:** Systematic taxonomy covering environment/profiling, human feedback, interaction types, orchestration/communication
+**Results:** Organizes 350+ papers across design dimensions, applications, challenges
+**Impact:** Foundation for human-AI collaboration research with structured overview and emerging directions
+
+### MedAide: Medical Multi-Agent Collaboration
+**ID:** 2410.12532
+**Key:** Intent-aware medical information fusion
+**Approach:** Regularization-guided module decomposes complex queries; dynamic intent prototype matching; rotation agent collaboration mechanism
+**Results:** Outperforms current LLMs on four medical benchmarks with composite intents via expert evaluation
+**Impact:** Addresses information redundancy and hallucinations in multi-intent medical reasoning
+
+### Preventing Rogue Agents
+**ID:** 2502.05986
+**Key:** Monitoring protocol to prevent agent errors
+**Approach:** Real-time monitoring during action prediction with intervention when error likely; WhoDunitEnv benchmark
+**Results:** 17.4% WhoDunitEnv improvement, 2.5% code generation gain, 20% GovSim resource sustainability gain
+**Impact:** Critical for reliable multi-agent systems where single agent failure cascades
+
+### ACPs: Agent Collaboration Protocols
+**ID:** 2505.13523
+**Key:** Internet of Agents protocol suite
+**Approach:** Four-tier system: registration, discovery, interaction, tooling protocols supporting trustable access, capability orchestration, workflow construction
+**Results:** Demonstrated in collaborative restaurant booking scenario
+**Impact:** Foundation for secure, open, scalable agent internet infrastructure addressing MCP/A2A/ANP fragmentation
+
+### AutoML-Agent: Full-Pipeline AutoML
+**ID:** 2410.02958
+**Key:** End-to-end automated ML from data to deployment
+**Approach:** Retrieval-augmented planning instead of single plan; decomposes plans into sub-tasks solved by specialized parallel agents; multi-stage verification
+**Results:** Higher success rate automating full AutoML process across seven tasks on fourteen datasets
+**Impact:** Natural language interface for non-experts to build complete data-driven solutions
+
+### SMARL: Shielded Multi-Agent RL
+**ID:** 2411.04867
+**Key:** Probabilistic Logic Temporal Difference update
+**Approach:** PLTD for shielded independent Q-learning; probabilistic logic policy gradient for shielded PPO with formal safety guarantees
+**Results:** Fewer constraint violations and significantly better cooperation under normative constraints
+**Impact:** Equilibrium selection mechanism for safer, socially aligned multi-agent systems
+
+### TAG (TAME Agent Framework)
+**ID:** 2502.15425
+**Key:** Decentralized hierarchical MARL with arbitrary depth
+**Approach:** LevelEnv abstraction treats each hierarchy level as environment for agents above it; standardizes information flow while preserving loose coupling
+**Results:** Improved performance over baselines with enhanced learning speed and final performance
+**Impact:** Enables fully decentralized hierarchical multi-agent systems of arbitrary depth
+
+### Learning Bilateral Team Formation
+**ID:** 2506.20039
+**Key:** Two-sided team formation in dynamic MARL populations
+**Approach:** Studies algorithmic properties in bilateral grouping choices affecting policy performance and generalization
+**Results:** Competitive performance and improved generalization in most scenarios
+**Impact:** Addresses gap of dynamic two-sided grouping in MARL beyond unilateral or fixed teams
+
+### Multi-Agent Risks from Advanced AI
+**ID:** 2502.14143
+**Key:** Taxonomy of multi-agent failure modes
+**Approach:** Three failure modes (miscoordination, conflict, collusion) and seven risk factors (information asymmetries, network effects, selection pressures, destabilizing dynamics, commitment problems, emergent agency, multi-agent security)
+**Results:** Structured analysis with real-world examples identifying novel risks for advanced AI coordination
+**Impact:** Critical framework for multi-agent system safety, governance, and ethics
+
+### Tackling Cooperative Incompatibility
+**ID:** 2306.03034
+**Key:** Zero-shot human-AI coordination
+**Approach:** COLE framework formulates open-ended objectives via graph theory evaluating cooperative capacity; COLE platform with 130 human participants
+**Results:** Preferred over SOTA methods on subjective metrics; outperforms baselines with unseen AI agents and human proxies in Overcooked
+**Impact:** Addresses cooperative incompatibility in learning where certain strategies become non-cooperative with specific partners
+
+### Cooperative AI via Decentralized Commitments
+**ID:** 2311.07815
+**Key:** Blockchain commitment devices for coordination
+**Approach:** Uses Maximal Extractable Value (MEV) literature to illustrate security issues; calls for decentralized commitment research for secure coordination in open environments
+**Results:** Demonstrates cooperative AI techniques are vulnerable to real-world incentives and attack vectors
+**Impact:** Advocates for empirical testing frameworks and decentralized commitment research for open environment coordination
+
+### OKR-Agent: Objectives and Key Results System
+**ID:** 2311.16542
+**Key:** Self-collaboration with hierarchical OKR generation
+**Approach:** Hierarchical OKR generation decomposes Objectives into sub-Objects; assigns new agents based on key results and agent responsibilities; multi-level evaluation module refines solution
+**Results:** Outperforms previous methods on several tasks
+**Impact:** Aligns hierarchical execution structure with task solving through strategic planning and detailed execution
+
+### Agent-as-a-Judge
+**ID:** 2410.10934
+**Key:** Agentic evaluation with intermediate feedback
+**Approach:** Agent-as-a-Judge framework provides rich intermediate feedback; DevAI benchmark with 55 realistic AI development tasks and 365 hierarchical user requirements
+**Results:** Dramatically outperforms LLM-as-a-Judge and is as reliable as human evaluation baseline
+**Impact:** Marks concrete step forward for modern agentic systems by providing rich reward signals for self-improvement
+
+### Learning Value Systems of Agents
+**ID:** 2602.04518
+**Key:** Preference-based and inverse RL for moral grounding
+**Approach:** Value system learning formalized as multi-objective MDP; preference-based and IR algorithms to infer value grounding functions from observations and human demonstrations
+**Results:** Illustrated with two simulated use cases; published in Autonomous Agents and Multi-Agent Systems
+**Impact:** Automatically learns value systems from observations enabling ethical alignment in multi-agent agreement technologies
+
+### Normative Disagreement in Cooperative AI
+**ID:** 2111.13872
+**Key:** Norm-adaptive policies for bargaining
+**Approach:** Identifies normative disagreement in bargaining problems with multiple Pareto-optimal payoff profiles; develops norm-adaptive policies that behave according to different norms in different circumstances
+**Results:** Significantly increases cooperation in bargaining scenarios where typical algorithms fail
+**Impact:** Addresses residual bargaining failure from tradeoff between exploitability and cooperative robustness
+
+### Agent Network Protocol
+**ID:** 2508.00007
+**Key:** AI-native 3-layer protocol for Agentic Web
+**Approach:** Identity/encryption layer, meta-protocol negotiation layer, application protocol layer with modular composable architecture enabling rapid deployment
+**Results:** Enables universal agent interconnection with compatibility to existing internet protocols
+**Impact:** Addresses data silos and high collaboration costs in agent-to-agent communication for large-scale agent ecosystems
+
+### LLM Agent Survey: Methodology and Applications
+**ID:** 2503.21460
+**Key:** 329-paper unified survey with methodology-centered taxonomy
+**Approach:** Links architectural foundations, collaboration mechanisms, evolutionary pathways; covers evaluation, tools, challenges, applications
+**Results:** Organizes field into construction, collaboration, evolution; identifies promising future research directions
+**Impact:** Provides unified architectural perspective for understanding LLM agents and advancing agentic AI toward AGI
+
+### Collaborative Multi-Agent RAG
+**ID:** 2412.05838
+**Key:** Specialized agents for diverse data sources
+**Approach:** Specialized agents optimized for relational, NoSQL, and document-based systems collaborate within modular framework with unified query execution environment
+**Results:** Enhanced query efficiency, reduced token overhead, improved response accuracy across heterogeneous data
+**Impact:** Enables efficient, robust solution for complex heterogeneous data environments in generative AI workflows
+
+### Agent-Oriented Visual Programming
+**ID:** 2511.13158
+**Key:** Visual development with blocks-based environment
+**Approach:** User study verifies novice users can create multi-agent systems for simple automation; built on JaCaMo platform with belief-desire-intention architecture
+**Results:** Enables individuals without programming experience to design autonomous software using agent abstractions
+**Impact:** Makes agent-oriented programming accessible through visual development integrated with Web of Things
 
 ---
 

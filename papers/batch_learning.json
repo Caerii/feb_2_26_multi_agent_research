@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I4HbtAf4apFsdClr4vw5xec649s</id>
+  <title>arXiv Query: search_query=all:multi-agent OR all:learning&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:55:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:multi-agent+OR+all:learning&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>454630</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08975v2</id>
+    <title>A Survey of Multi-Agent Deep Reinforcement Learning with Communication</title>
+    <updated>2024-10-18T10:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2203.08975v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08975v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by communication. Agents can communicate various types of messages, either to all agents or to specific agent groups, or conditioned on specific constraints. With the growing body of research work in MADRL with communication (Comm-MADRL), there is a lack of a systematic and structural approach to distinguish and classify existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL field and consider various aspects of communication that can play a role in designing and developing multi-agent reinforcement learning systems. With these aspects in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed, developed, and compared. By projecting existing works into the multi-dimensional space, we discover interesting trends. We also propose some novel directions for designing future Comm-MADRL systems through exploring possible combinations of the dimensions.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T22:39:46Z</published>
+    <arxiv:comment>34 pages, 5 figures, 13 tables; published on Autonomous Agents and Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Auton. Agents Multi Agent Syst. 38(1): 4 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Changxi Zhu</name>
+    </author>
+    <author>
+      <name>Mehdi Dastani</name>
+    </author>
+    <author>
+      <name>Shihan Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13343v1</id>
+    <title>AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions</title>
+    <updated>2025-10-15T09:29:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.13343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent reinforcement learning focuses on training the behaviors of multiple learning agents that coexist in a shared environment. Recently, MARL models, such as the Multi-Agent Transformer (MAT) and ACtion dEpendent deep Q-learning (ACE), have significantly improved performance by leveraging sequential decision-making processes. Although these models can enhance performance, they do not explicitly consider the importance of the order in which agents make decisions. In this paper, we propose an Agent Order of Action Decisions-MAT (AOAD-MAT), a novel MAT model that considers the order in which agents make decisions. The proposed model explicitly incorporates the sequence of action decisions into the learning process, allowing the model to learn and predict the optimal order of agent actions. The AOAD-MAT model leverages a Transformer-based actor-critic architecture that dynamically adjusts the sequence of agent actions. To achieve this, we introduce a novel MARL architecture that cooperates with a subtask focused on predicting the next agent to act, integrated into a Proximal Policy Optimization based loss function to synergistically maximize the advantage of the sequential decision-making. The proposed method was validated through extensive experiments on the StarCraft Multi-Agent Challenge and Multi-Agent MuJoCo benchmarks. The experimental results show that the proposed AOAD-MAT model outperforms existing MAT and other baseline models, demonstrating the effectiveness of adjusting the AOAD order in MARL.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T09:29:36Z</published>
+    <arxiv:comment>This manuscript is an extended version of the work accepted as a short paper at the 26th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2025). The Version of Record of this contribution is published in Springer's Lecture Notes in Artificial Intelligence series (LNCS/LNAI)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>PRIMA 2025: Principles and Practice of Multi-Agent Systems, LNCS 16366, pp. 303-310 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Shota Takayama</name>
+    </author>
+    <author>
+      <name>Katsuhide Fujita</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-032-13562-9_23</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-032-13562-9_23" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.5108v1</id>
+    <title>A Methodology to Engineer and Validate Dynamic Multi-level Multi-agent Based Simulations</title>
+    <updated>2013-11-20T15:44:26Z</updated>
+    <link href="https://arxiv.org/abs/1311.5108v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.5108v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article proposes a methodology to model and simulate complex systems, based on IRM4MLS, a generic agent-based meta-model able to deal with multi-level systems. This methodology permits the engineering of dynamic multi-level agent-based models, to represent complex systems over several scales and domains of interest. Its goal is to simulate a phenomenon using dynamically the lightest representation to save computer resources without loss of information. This methodology is based on two mechanisms: (1) the activation or deactivation of agents representing different domain parts of the same phenomenon and (2) the aggregation or disaggregation of agents representing the same phenomenon at different scales.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-20T15:44:26Z</published>
+    <arxiv:comment>Presented at 3th International Workshop on Multi-Agent Based Simulation, Valencia, Spain, 5th June 2012</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Multi-Agent-Based Simulation XIII LNCS 7838 p 130-142, 2013</arxiv:journal_ref>
+    <author>
+      <name>Jean-Baptiste Soyez</name>
+    </author>
+    <author>
+      <name>Gildas Morvan</name>
+    </author>
+    <author>
+      <name>Daniel Dupont</name>
+    </author>
+    <author>
+      <name>Rochdi Merzouki</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-642-38859-0_10</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-642-38859-0_10" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08883v4</id>
+    <title>Variational Policy Propagation for Multi-agent Reinforcement Learning</title>
+    <updated>2022-01-29T11:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2004.08883v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08883v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a \emph{collaborative} multi-agent reinforcement learning algorithm named variational policy propagation (VPP) to learn a \emph{joint} policy through the interactions over agents. We prove that the joint policy is a Markov Random Field under some mild conditions, which in turn reduces the policy space effectively. We integrate the variational inference as special differentiable layers in policy such that the actions can be efficiently sampled from the Markov Random Field and the overall policy is differentiable. We evaluate our algorithm on several large scale challenging tasks and demonstrate that it outperforms previous state-of-the-arts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-19T15:42:55Z</published>
+    <arxiv:comment>The title of previous version was "Intention Propagation for Multi-agent Reinforcement Learning"</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chao Qu</name>
+    </author>
+    <author>
+      <name>Hui Li</name>
+    </author>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Junwu Xiong</name>
+    </author>
+    <author>
+      <name>James Zhang</name>
+    </author>
+    <author>
+      <name>Wei Chu</name>
+    </author>
+    <author>
+      <name>Weiqiang Wang</name>
+    </author>
+    <author>
+      <name>Yuan Qi</name>
+    </author>
+    <author>
+      <name>Le Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.06333v3</id>
+    <title>Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi</title>
+    <updated>2025-05-24T12:49:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.06333v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.06333v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The card game Hanabi is considered a strong medium for the testing and development of multi-agent reinforcement learning (MARL) algorithms, due to its cooperative nature, partial observability, limited communication and remarkable complexity. Previous research efforts have explored the capabilities of MARL algorithms within Hanabi, focusing largely on advanced architecture design and algorithmic manipulations to achieve state-of-the-art performance for various number of cooperators. However, this often leads to complex solution strategies with high computational cost and requiring large amounts of training data. For humans to solve the Hanabi game effectively, they require the use of conventions, which often allows for a means to implicitly convey ideas or knowledge based on a predefined, and mutually agreed upon, set of "rules" or principles. Multi-agent problems containing partial observability, especially when limited communication is present, can benefit greatly from the use of implicit knowledge sharing. In this paper, we propose a novel approach to augmenting an agent's action space using conventions, which act as a sequence of special cooperative actions that span over and include multiple time steps and multiple agents, requiring agents to actively opt in for it to reach fruition. These conventions are based on existing human conventions, and result in a significant improvement on the performance of existing techniques for self-play and cross-play for various number of cooperators within Hanabi.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-09T09:34:40Z</published>
+    <arxiv:comment>This paper is accepted and published in the journal of autonomous agents and multi-agent systems (JAAMAS). The updated manuscript is the revised version after the final round of peer revision</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Autonomous Agents and Multi-agent Systems, vol. 39, no. 28, (2025)</arxiv:journal_ref>
+    <author>
+      <name>F. Bredell</name>
+    </author>
+    <author>
+      <name>H. A. Engelbrecht</name>
+    </author>
+    <author>
+      <name>J. C. Schoeman</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-025-09709-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-025-09709-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04518v1</id>
+    <title>Learning the Value Systems of Agents with Preference-based and Inverse Reinforcement Learning</title>
+    <updated>2026-02-04T13:07:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.04518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agreement Technologies refer to open computer systems in which autonomous software agents interact with one another, typically on behalf of humans, in order to come to mutually acceptable agreements. With the advance of AI systems in recent years, it has become apparent that such agreements, in order to be acceptable to the involved parties, must remain aligned with ethical principles and moral values. However, this is notoriously difficult to ensure, especially as different human users (and their software agents) may hold different value systems, i.e. they may differently weigh the importance of individual moral values. Furthermore, it is often hard to specify the precise meaning of a value in a particular context in a computational manner. Methods to estimate value systems based on human-engineered specifications, e.g. based on value surveys, are limited in scale due to the need for intense human moderation. In this article, we propose a novel method to automatically \emph{learn} value systems from observations and human demonstrations. In particular, we propose a formal model of the \emph{value system learning} problem, its instantiation to sequential decision-making domains based on multi-objective Markov decision processes, as well as tailored preference-based and inverse reinforcement learning algorithms to infer value grounding functions and value systems. The approach is illustrated and evaluated by two simulated use cases.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T13:07:15Z</published>
+    <arxiv:comment>42 pages, 5 figures. Published in Journal of Autonomous Agents and Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>Holgado-Sánchez, A., Billhardt, H., Fernández, A., Ossowski, S. Learning the value systems of agents with preference-based and inverse reinforcement learning. Autonomous Agents Multi-Agent Systems 40, 4 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Andrés Holgado-Sánchez</name>
+    </author>
+    <author>
+      <name>Holger Billhardt</name>
+    </author>
+    <author>
+      <name>Alberto Fernández</name>
+    </author>
+    <author>
+      <name>Sascha Ossowski</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-026-09732-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-026-09732-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20039v1</id>
+    <title>Learning Bilateral Team Formation in Cooperative Multi-Agent Reinforcement Learning</title>
+    <updated>2025-06-24T22:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2506.20039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Team formation and the dynamics of team-based learning have drawn significant interest in the context of Multi-Agent Reinforcement Learning (MARL). However, existing studies primarily focus on unilateral groupings, predefined teams, or fixed-population settings, leaving the effects of algorithmic bilateral grouping choices in dynamic populations underexplored. To address this gap, we introduce a framework for learning two-sided team formation in dynamic multi-agent systems. Through this study, we gain insight into what algorithmic properties in bilateral team formation influence policy performance and generalization. We validate our approach using widely adopted multi-agent scenarios, demonstrating competitive performance and improved generalization in most scenarios.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-24T22:40:05Z</published>
+    <arxiv:comment>Accepted to the 2nd Coordination and Cooperation in Multi-Agent Reinforcement Learning (CoCoMARL) Workshop at RLC 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Koorosh Moslemi</name>
+    </author>
+    <author>
+      <name>Chi-Guhn Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01839v1</id>
+    <title>SocialGFs: Learning Social Gradient Fields for Multi-Agent Reinforcement Learning</title>
+    <updated>2024-05-03T04:12:19Z</updated>
+    <link href="https://arxiv.org/abs/2405.01839v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01839v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems (MAS) need to adaptively cope with dynamic environments, changing agent populations, and diverse tasks. However, most of the multi-agent systems cannot easily handle them, due to the complexity of the state and task space. The social impact theory regards the complex influencing factors as forces acting on an agent, emanating from the environment, other agents, and the agent's intrinsic motivation, referring to the social force. Inspired by this concept, we propose a novel gradient-based state representation for multi-agent reinforcement learning. To non-trivially model the social forces, we further introduce a data-driven method, where we employ denoising score matching to learn the social gradient fields (SocialGFs) from offline samples, e.g., the attractive or repulsive outcomes of each force. During interactions, the agents take actions based on the multi-dimensional gradients to maximize their own rewards. In practice, we integrate SocialGFs into the widely used multi-agent reinforcement learning algorithms, e.g., MAPPO. The empirical results reveal that SocialGFs offer four advantages for multi-agent systems: 1) they can be learned without requiring online interaction, 2) they demonstrate transferability across diverse tasks, 3) they facilitate credit assignment in challenging reward settings, and 4) they are scalable with the increasing number of agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-03T04:12:19Z</published>
+    <arxiv:comment>AAAI 2024 Cooperative Multi-Agent Systems Decision-Making and Learning (CMASDL) Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qian Long</name>
+    </author>
+    <author>
+      <name>Fangwei Zhong</name>
+    </author>
+    <author>
+      <name>Mingdong Wu</name>
+    </author>
+    <author>
+      <name>Yizhou Wang</name>
+    </author>
+    <author>
+      <name>Song-Chun Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00662v2</id>
+    <title>Multi-Agent Training for Pommerman: Curriculum Learning and Population-based Self-Play Approach</title>
+    <updated>2025-01-08T07:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2407.00662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pommerman is a multi-agent environment that has received considerable attention from researchers in recent years. This environment is an ideal benchmark for multi-agent training, providing a battleground for two teams with communication capabilities among allied agents. Pommerman presents significant challenges for model-free reinforcement learning due to delayed action effects, sparse rewards, and false positives, where opponent players can lose due to their own mistakes. This study introduces a system designed to train multi-agent systems to play Pommerman using a combination of curriculum learning and population-based self-play. We also tackle two challenging problems when deploying the multi-agent training system for competitive games: sparse reward and suitable matchmaking mechanism. Specifically, we propose an adaptive annealing factor based on agents' performance to adjust the dense exploration reward during training dynamically. Additionally, we implement a matchmaking mechanism utilizing the Elo rating system to pair agents effectively. Our experimental results demonstrate that our trained agent can outperform top learning agents without requiring communication among allied agents.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-30T11:14:29Z</published>
+    <arxiv:comment>Accepted at The First Workshop on Game AI Algorithms and Multi-Agent Learning - IJCAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Nhat-Minh Huynh</name>
+    </author>
+    <author>
+      <name>Hoang-Giang Cao</name>
+    </author>
+    <author>
+      <name>I-Chen Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.14061v4</id>
+    <title>Learning Reward Machines in Cooperative Multi-Agent Tasks</title>
+    <updated>2023-05-24T07:20:20Z</updated>
+    <link href="https://arxiv.org/abs/2303.14061v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.14061v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to Multi-Agent Reinforcement Learning (MARL) that combines cooperative task decomposition with the learning of reward machines (RMs) encoding the structure of the sub-tasks. The proposed method helps deal with the non-Markovian nature of the rewards in partially observable environments and improves the interpretability of the learnt policies required to complete the cooperative task. The RMs associated with each sub-task are learnt in a decentralised manner and then used to guide the behaviour of each agent. By doing so, the complexity of a cooperative multi-agent problem is reduced, allowing for more effective learning. The results suggest that our approach is a promising direction for future research in MARL, especially in complex environments with large state spaces and multiple agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-24T15:12:28Z</published>
+    <arxiv:comment>Neuro-symbolic AI for Agent and Multi-Agent Systems Workshop at AAMAS'23</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Leo Ardon</name>
+    </author>
+    <author>
+      <name>Daniel Furelos-Blanco</name>
+    </author>
+    <author>
+      <name>Alessandra Russo</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-56255-6_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-56255-6_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.01769v1</id>
+    <title>Deep Reinforcement Learning for Multi-Agent Interaction</title>
+    <updated>2022-08-02T21:55:56Z</updated>
+    <link href="https://arxiv.org/abs/2208.01769v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.01769v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of autonomous agents which can interact with other agents to accomplish a given task is a core area of research in artificial intelligence and machine learning. Towards this goal, the Autonomous Agents Research Group develops novel machine learning algorithms for autonomous systems control, with a specific focus on deep reinforcement learning and multi-agent reinforcement learning. Research problems include scalable learning of coordinated agent policies and inter-agent communication; reasoning about the behaviours, goals, and composition of other agents from limited observations; and sample-efficient learning based on intrinsic motivation, curriculum learning, causal inference, and representation learning. This article provides a broad overview of the ongoing research portfolio of the group and discusses open problems for future directions.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-02T21:55:56Z</published>
+    <arxiv:comment>Published in AI Communications Special Issue on Multi-Agent Systems Research in the UK</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ibrahim H. Ahmed</name>
+    </author>
+    <author>
+      <name>Cillian Brewitt</name>
+    </author>
+    <author>
+      <name>Ignacio Carlucho</name>
+    </author>
+    <author>
+      <name>Filippos Christianos</name>
+    </author>
+    <author>
+      <name>Mhairi Dunion</name>
+    </author>
+    <author>
+      <name>Elliot Fosong</name>
+    </author>
+    <author>
+      <name>Samuel Garcin</name>
+    </author>
+    <author>
+      <name>Shangmin Guo</name>
+    </author>
+    <author>
+      <name>Balint Gyevnar</name>
+    </author>
+    <author>
+      <name>Trevor McInroe</name>
+    </author>
+    <author>
+      <name>Georgios Papoudakis</name>
+    </author>
+    <author>
+      <name>Arrasy Rahman</name>
+    </author>
+    <author>
+      <name>Lukas Schäfer</name>
+    </author>
+    <author>
+      <name>Massimiliano Tamborski</name>
+    </author>
+    <author>
+      <name>Giuseppe Vecchio</name>
+    </author>
+    <author>
+      <name>Cheng Wang</name>
+    </author>
+    <author>
+      <name>Stefano V. Albrecht</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08370v2</id>
+    <title>Quantifying the effects of environment and population diversity in multi-agent reinforcement learning</title>
+    <updated>2022-03-04T15:38:34Z</updated>
+    <link href="https://arxiv.org/abs/2102.08370v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.08370v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalization is a major challenge for multi-agent reinforcement learning. How well does an agent perform when placed in novel environments and in interactions with new co-players? In this paper, we investigate and quantify the relationship between generalization and diversity in the multi-agent domain. Across the range of multi-agent environments considered here, procedurally generating training levels significantly improves agent performance on held-out levels. However, agent performance on the specific levels used in training sometimes declines as a result. To better understand the effects of co-player variation, our experiments introduce a new environment-agnostic measure of behavioral diversity. Results demonstrate that population size and intrinsic motivation are both effective methods of generating greater population diversity. In turn, training with a diverse set of co-players strengthens agent performance in some (but not all) cases.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-16T18:54:39Z</published>
+    <arxiv:comment>Accepted at Autonomous Agents and Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Kevin R. McKee</name>
+    </author>
+    <author>
+      <name>Joel Z. Leibo</name>
+    </author>
+    <author>
+      <name>Charlie Beattie</name>
+    </author>
+    <author>
+      <name>Richard Everett</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-022-09548-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-022-09548-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.04722v1</id>
+    <title>Re-conceptualising the Language Game Paradigm in the Framework of Multi-Agent Reinforcement Learning</title>
+    <updated>2020-04-09T17:55:15Z</updated>
+    <link href="https://arxiv.org/abs/2004.04722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.04722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we formulate the challenge of re-conceptualising the language game experimental paradigm in the framework of multi-agent reinforcement learning (MARL). If successful, future language game experiments will benefit from the rapid and promising methodological advances in the MARL community, while future MARL experiments on learning emergent communication will benefit from the insights and results gained from language game experiments. We strongly believe that this cross-pollination has the potential to lead to major breakthroughs in the modelling of how human-like languages can emerge and evolve in multi-agent systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-09T17:55:15Z</published>
+    <arxiv:comment>This paper was accepted for presentation at the 2020 AAAI Spring Symposium `Challenges and Opportunities for Multi-Agent Reinforcement Learning' after a double-blind reviewing process</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Paul Van Eecke</name>
+      <arxiv:affiliation>Artificial Intelligence Laboratory, Vrije Universiteit Brussel, Brussels, Belgium</arxiv:affiliation>
+      <arxiv:affiliation>ITEC, imec research group at KU Leuven, Kortrijk, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katrien Beuls</name>
+      <arxiv:affiliation>Artificial Intelligence Laboratory, Vrije Universiteit Brussel, Brussels, Belgium</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03235v3</id>
+    <title>ACCNet: Actor-Coordinator-Critic Net for "Learning-to-Communicate" with Deep Multi-agent Reinforcement Learning</title>
+    <updated>2017-10-29T05:09:39Z</updated>
+    <link href="https://arxiv.org/abs/1706.03235v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03235v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Communication is a critical factor for the big multi-agent world to stay organized and productive. Typically, most previous multi-agent "learning-to-communicate" studies try to predefine the communication protocols or use technologies such as tabular reinforcement learning and evolutionary algorithm, which can not generalize to changing environment or large collection of agents.
+  In this paper, we propose an Actor-Coordinator-Critic Net (ACCNet) framework for solving "learning-to-communicate" problem. The ACCNet naturally combines the powerful actor-critic reinforcement learning technology with deep learning technology. It can efficiently learn the communication protocols even from scratch under partially observable environment. We demonstrate that the ACCNet can achieve better results than several baselines under both continuous and discrete action space environments. We also analyse the learned protocols and discuss some design considerations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-10T13:50:23Z</published>
+    <arxiv:comment>V3 of original submission. Actor-Critic Method for Multi-agent Learning-to-Communicate based on Deep Reinforcement Learning, It is suitable for both continuous and discrete action space environments</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hangyu Mao</name>
+    </author>
+    <author>
+      <name>Zhibo Gong</name>
+    </author>
+    <author>
+      <name>Yan Ni</name>
+    </author>
+    <author>
+      <name>Zhen Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00839v1</id>
+    <title>Communication-Efficient Training Workload Balancing for Decentralized Multi-Agent Learning</title>
+    <updated>2024-05-01T20:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2405.00839v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00839v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decentralized Multi-agent Learning (DML) enables collaborative model training while preserving data privacy. However, inherent heterogeneity in agents' resources (computation, communication, and task size) may lead to substantial variations in training time. This heterogeneity creates a bottleneck, lengthening the overall training time due to straggler effects and potentially wasting spare resources of faster agents. To minimize training time in heterogeneous environments, we present a Communication-Efficient Training Workload Balancing for Decentralized Multi-Agent Learning (ComDML), which balances the workload among agents through a decentralized approach. Leveraging local-loss split training, ComDML enables parallel updates, where slower agents offload part of their workload to faster agents. To minimize the overall training time, ComDML optimizes the workload balancing by jointly considering the communication and computation capacities of agents, which hinges upon integer programming. A dynamic decentralized pairing scheduler is developed to efficiently pair agents and determine optimal offloading amounts. We prove that in ComDML, both slower and faster agents' models converge, for convex and non-convex functions. Furthermore, extensive experimental results on popular datasets (CIFAR-10, CIFAR-100, and CINIC-10) and their non-I.I.D. variants, with large models such as ResNet-56 and ResNet-110, demonstrate that ComDML can significantly reduce the overall training time while maintaining model accuracy, compared to state-of-the-art methods. ComDML demonstrates robustness in heterogeneous environments, and privacy measures can be seamlessly integrated for enhanced data protection.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-01T20:03:37Z</published>
+    <arxiv:comment>This paper has been accepted for presentation at ICDCS (44th IEEE International Conference on Distributed Computing Systems). Keywords: decentralized multi-agent learning, federated learning, edge computing, heterogeneous agents, workload balancing, and communication-efficient training )</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>2024 IEEE 44th International Conference on Distributed Computing Systems (ICDCS)</arxiv:journal_ref>
+    <author>
+      <name>Seyed Mahmoud Sajjadi Mohammadabadi</name>
+    </author>
+    <author>
+      <name>Lei Yang</name>
+    </author>
+    <author>
+      <name>Feng Yan</name>
+    </author>
+    <author>
+      <name>Junshan Zhang</name>
+    </author>
+    <arxiv:doi>10.1109/ICDCS60910.2024.00069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICDCS60910.2024.00069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.08307v2</id>
+    <title>Coordinating Fully-Cooperative Agents Using Hierarchical Learning Anticipation</title>
+    <updated>2023-04-02T18:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.08307v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.08307v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning anticipation is a reasoning paradigm in multi-agent reinforcement learning, where agents, during learning, consider the anticipated learning of other agents. There has been substantial research into the role of learning anticipation in improving cooperation among self-interested agents in general-sum games. Two primary examples are Learning with Opponent-Learning Awareness (LOLA), which anticipates and shapes the opponent's learning process to ensure cooperation among self-interested agents in various games such as iterated prisoner's dilemma, and Look-Ahead (LA), which uses learning anticipation to guarantee convergence in games with cyclic behaviors. So far, the effectiveness of applying learning anticipation to fully-cooperative games has not been explored. In this study, we aim to research the influence of learning anticipation on coordination among common-interested agents. We first illustrate that both LOLA and LA, when applied to fully-cooperative games, degrade coordination among agents, causing worst-case outcomes. Subsequently, to overcome this miscoordination behavior, we propose Hierarchical Learning Anticipation (HLA), where agents anticipate the learning of other agents in a hierarchical fashion. Specifically, HLA assigns agents to several hierarchy levels to properly regulate their reasonings. Our theoretical and empirical findings confirm that HLA can significantly improve coordination among common-interested agents in fully-cooperative normal-form games. With HLA, to the best of our knowledge, we are the first to unlock the benefits of learning anticipation for fully-cooperative games.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-15T01:41:20Z</published>
+    <arxiv:comment>AAMAS 2023 Workshop on Optimization and Learning in Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ariyan Bighashdel</name>
+    </author>
+    <author>
+      <name>Daan de Geus</name>
+    </author>
+    <author>
+      <name>Pavol Jancura</name>
+    </author>
+    <author>
+      <name>Gijs Dubbelman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04867v3</id>
+    <title>Think Smart, Act SMARL! Analyzing Probabilistic Logic Shields for Multi-Agent Reinforcement Learning</title>
+    <updated>2025-08-26T20:53:24Z</updated>
+    <link href="https://arxiv.org/abs/2411.04867v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04867v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safe reinforcement learning (RL) is crucial for real-world applications, and multi-agent interactions introduce additional safety challenges. While Probabilistic Logic Shields (PLS) has been a powerful proposal to enforce safety in single-agent RL, their generalizability to multi-agent settings remains unexplored. In this paper, we address this gap by conducting extensive analyses of PLS within decentralized, multi-agent environments, and in doing so, propose $\textbf{Shielded Multi-Agent Reinforcement Learning (SMARL)}$ as a general framework for steering MARL towards norm-compliant outcomes. Our key contributions are: (1) a novel Probabilistic Logic Temporal Difference (PLTD) update for shielded, independent Q-learning, which incorporates probabilistic constraints directly into the value update process; (2) a probabilistic logic policy gradient method for shielded PPO with formal safety guarantees for MARL; and (3) comprehensive evaluation across symmetric and asymmetrically shielded $n$-player game-theoretic benchmarks, demonstrating fewer constraint violations and significantly better cooperation under normative constraints. These results position SMARL as an effective mechanism for equilibrium selection, paving the way toward safer, socially aligned multi-agent systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-07T16:59:32Z</published>
+    <arxiv:comment>Accepted to the 28th European Conference on Artificial Intelligence (ECAI 2025) --- 21 pages, 15 figures, Earlier title: "Analyzing Probabilistic Logic Driven Safety in Multi-Agent Reinforcement Learning" (changed for specificity and clarity)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Satchit Chatterji</name>
+    </author>
+    <author>
+      <name>Erman Acar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.04612v1</id>
+    <title>Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning</title>
+    <updated>2022-01-12T18:35:46Z</updated>
+    <link href="https://arxiv.org/abs/2201.04612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.04612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers multi-agent reinforcement learning (MARL) tasks where agents receive a shared global reward at the end of an episode. The delayed nature of this reward affects the ability of the agents to assess the quality of their actions at intermediate time-steps. This paper focuses on developing methods to learn a temporal redistribution of the episodic reward to obtain a dense reward signal. Solving such MARL problems requires addressing two challenges: identifying (1) relative importance of states along the length of an episode (along time), and (2) relative importance of individual agents' states at any single time-step (among agents). In this paper, we introduce Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning (AREL) to address these two challenges. AREL uses attention mechanisms to characterize the influence of actions on state transitions along trajectories (temporal attention), and how each agent is affected by other agents at each time-step (agent attention). The redistributed rewards predicted by AREL are dense, and can be integrated with any given MARL algorithm. We evaluate AREL on challenging tasks from the Particle World environment and the StarCraft Multi-Agent Challenge. AREL results in higher rewards in Particle World, and improved win rates in StarCraft compared to three state-of-the-art reward redistribution methods. Our code is available at https://github.com/baicenxiao/AREL.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-12T18:35:46Z</published>
+    <arxiv:comment>Extended version of paper accepted for Oral Presentation at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Baicen Xiao</name>
+    </author>
+    <author>
+      <name>Bhaskar Ramasubramanian</name>
+    </author>
+    <author>
+      <name>Radha Poovendran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.01140v1</id>
+    <title>Communicating Unexpectedness for Out-of-Distribution Multi-Agent Reinforcement Learning</title>
+    <updated>2025-01-02T08:47:12Z</updated>
+    <link href="https://arxiv.org/abs/2501.01140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.01140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Applying multi-agent reinforcement learning methods to realistic settings is challenging as it may require the agents to quickly adapt to unexpected situations that are rarely or never encountered in training. Recent methods for generalization to such out-of-distribution settings are limited to more specific, restricted instances of distribution shifts. To tackle adaptation to distribution shifts, we propose Unexpected Encoding Scheme, a novel decentralized multi-agent reinforcement learning algorithm where agents communicate "unexpectedness," the aspects of the environment that are surprising. In addition to a message yielded by the original reward-driven communication, each agent predicts the next observation based on previous experience, measures the discrepancy between the prediction and the actually encountered observation, and encodes this discrepancy as a message. Experiments on multi-robot warehouse environment support that our proposed method adapts robustly to dynamically changing training environments as well as out-of-distribution environment.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-02T08:47:12Z</published>
+    <arxiv:comment>7 pages, 3 figures, Published in AAAI 2024 Workshop (Cooperative Multi-Agent Systems Decision-Making and Learning: From Individual Needs to Swarm Intelligence)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Min Whoo Lee</name>
+    </author>
+    <author>
+      <name>Kibeom Kim</name>
+    </author>
+    <author>
+      <name>Soo Wung Shin</name>
+    </author>
+    <author>
+      <name>Minsu Lee</name>
+    </author>
+    <author>
+      <name>Byoung-Tak Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06828v1</id>
+    <title>A Game-Theoretic Approach to Multi-Agent Trust Region Optimization</title>
+    <updated>2021-06-12T18:21:26Z</updated>
+    <link href="https://arxiv.org/abs/2106.06828v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.06828v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trust region methods are widely applied in single-agent reinforcement learning problems due to their monotonic performance-improvement guarantee at every iteration. Nonetheless, when applied in multi-agent settings, the guarantee of trust region methods no longer holds because an agent's payoff is also affected by other agents' adaptive behaviors. To tackle this problem, we conduct a game-theoretical analysis in the policy space, and propose a multi-agent trust region learning method (MATRL), which enables trust region optimization for multi-agent learning. Specifically, MATRL finds a stable improvement direction that is guided by the solution concept of Nash equilibrium at the meta-game level. We derive the monotonic improvement guarantee in multi-agent settings and empirically show the local convergence of MATRL to stable fixed points in the two-player rotational differential game. To test our method, we evaluate MATRL in both discrete and continuous multiplayer general-sum games including checker and switch grid worlds, multi-agent MuJoCo, and Atari games. Results suggest that MATRL significantly outperforms strong multi-agent reinforcement learning baselines.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-12T18:21:26Z</published>
+    <arxiv:comment>A Multi-Agent Trust Region Learning (MATRL) algorithm that augments the single-agent trust region policy optimization with a weak stable fixed point approximated by the policy-space meta-game</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ying Wen</name>
+    </author>
+    <author>
+      <name>Hui Chen</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+    <author>
+      <name>Zheng Tian</name>
+    </author>
+    <author>
+      <name>Minne Li</name>
+    </author>
+    <author>
+      <name>Xu Chen</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+</feed>

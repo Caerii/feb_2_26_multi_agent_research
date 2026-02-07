@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pNegv9RvFfy0rgzYHQQ6P/5fPDE</id>
+  <title>arXiv Query: search_query=all:collaborative AND all:planning&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:53:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:collaborative+AND+all:planning&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>2018</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.01800v1</id>
+    <title>Collaborative Neural Painting</title>
+    <updated>2023-12-04T10:45:12Z</updated>
+    <link href="https://arxiv.org/abs/2312.01800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.01800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The process of painting fosters creativity and rational planning. However, existing generative AI mostly focuses on producing visually pleasant artworks, without emphasizing the painting process. We introduce a novel task, Collaborative Neural Painting (CNP), to facilitate collaborative art painting generation between humans and machines. Given any number of user-input brushstrokes as the context or just the desired object class, CNP should produce a sequence of strokes supporting the completion of a coherent painting. Importantly, the process can be gradual and iterative, so allowing users' modifications at any phase until the completion. Moreover, we propose to solve this task using a painting representation based on a sequence of parametrized strokes, which makes it easy both editing and composition operations. These parametrized strokes are processed by a Transformer-based architecture with a novel attention mechanism to model the relationship between the input strokes and the strokes to complete. We also propose a new masking scheme to reflect the interactive nature of CNP and adopt diffusion models as the basic learning process for its effectiveness and diversity in the generative field. Finally, to develop and validate methods on the novel task, we introduce a new dataset of painted objects and an evaluation protocol to benchmark CNP both quantitatively and qualitatively. We demonstrate the effectiveness of our approach and the potential of the CNP task as a promising avenue for future research.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-04T10:45:12Z</published>
+    <arxiv:comment>Submitted to Computer Vision and Image Understanding, project website at https://fodark.github.io/collaborative-neural-painting/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Nicola Dall'Asen</name>
+    </author>
+    <author>
+      <name>Willi Menapace</name>
+    </author>
+    <author>
+      <name>Elia Peruzzo</name>
+    </author>
+    <author>
+      <name>Enver Sangineto</name>
+    </author>
+    <author>
+      <name>Yiming Wang</name>
+    </author>
+    <author>
+      <name>Elisa Ricci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01483v2</id>
+    <title>To Lead or to Follow? Adaptive Robot Task Planning in Human-Robot Collaboration</title>
+    <updated>2025-07-20T07:13:34Z</updated>
+    <link href="https://arxiv.org/abs/2401.01483v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01483v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adaptive task planning is fundamental to ensuring effective and seamless human-robot collaboration. This paper introduces a robot task planning framework that takes into account both human leading/following preferences and performance, specifically focusing on task allocation and scheduling in collaborative settings. We present a proactive task allocation approach with three primary objectives: enhancing team performance, incorporating human preferences, and upholding a positive human perception of the robot and the collaborative experience. Through a user study, involving an autonomous mobile manipulator robot working alongside participants in a collaborative scenario, we confirm that the task planning framework successfully attains all three intended goals, thereby contributing to the advancement of adaptive task planning in human-robot collaboration. This paper mainly focuses on the first two objectives, and we discuss the third objective, participants' perception of the robot, tasks, and collaboration in a companion paper.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-03T01:15:55Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>IEEE Transactions on Robotics, vol. 41, pp. 4215-4235, 2025</arxiv:journal_ref>
+    <author>
+      <name>Ali Noormohammadi-Asl</name>
+    </author>
+    <author>
+      <name>Stephen L. Smith</name>
+    </author>
+    <author>
+      <name>Kerstin Dautenhahn</name>
+    </author>
+    <arxiv:doi>10.1109/TRO.2025.3582816</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TRO.2025.3582816" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.14089v1</id>
+    <title>Collaborative Human-Agent Planning for Resilience</title>
+    <updated>2021-04-29T03:21:31Z</updated>
+    <link href="https://arxiv.org/abs/2104.14089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.14089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent agents powered by AI planning assist people in complex scenarios, such as managing teams of semi-autonomous vehicles. However, AI planning models may be incomplete, leading to plans that do not adequately meet the stated objectives, especially in unpredicted situations. Humans, who are apt at identifying and adapting to unusual situations, may be able to assist planning agents in these situations by encoding their knowledge into a planner at run-time. We investigate whether people can collaborate with agents by providing their knowledge to an agent using linear temporal logic (LTL) at run-time without changing the agent's domain model. We presented 24 participants with baseline plans for situations in which a planner had limitations, and asked the participants for workarounds for these limitations. We encoded these workarounds as LTL constraints. Results show that participants' constraints improved the expected return of the plans by 10% ($p &lt; 0.05$) relative to baseline plans, demonstrating that human insight can be used in collaborative planning for resilience. However, participants used more declarative than control constraints over time, but declarative constraints produced plans less similar to the expectation of the participants, which could lead to potential trust issues.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-29T03:21:31Z</published>
+    <arxiv:comment>International Workshop on Coordination, Organizations, Institutions, Norms and Ethics for Governance of Multi-Agent Systems (COINE), co-located with AAMAS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ronal Singh</name>
+    </author>
+    <author>
+      <name>Tim Miller</name>
+    </author>
+    <author>
+      <name>Darryn Reid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.17438v1</id>
+    <title>Real-World Deployment of a Hierarchical Uncertainty-Aware Collaborative Multiagent Planning System</title>
+    <updated>2024-04-26T14:22:50Z</updated>
+    <link href="https://arxiv.org/abs/2404.17438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.17438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We would like to enable a collaborative multiagent team to navigate at long length scales and under uncertainty in real-world environments. In practice, planning complexity scales with the number of agents in the team, with the length scale of the environment, and with environmental uncertainty. Enabling tractable planning requires developing abstract models that can represent complex, high-quality plans. However, such models often abstract away information needed to generate directly-executable plans for real-world agents in real-world environments, as planning in such detail, especially in the presence of real-world uncertainty, would be computationally intractable. In this paper, we describe the deployment of a planning system that used a hierarchy of planners to execute collaborative multiagent navigation tasks in real-world, unknown environments. By developing a planning system that was robust to failures at every level of the planning hierarchy, we enabled the team to complete collaborative navigation tasks, even in the presence of imperfect planning abstractions and real-world uncertainty. We deployed our approach on a Clearpath Husky-Jackal team navigating in a structured outdoor environment, and demonstrated that the system enabled the agents to successfully execute collaborative plans.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-26T14:22:50Z</published>
+    <arxiv:comment>Accepted to the IEEE ICRA Workshop on Field Robotics 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Martina Stadler Kurtz</name>
+    </author>
+    <author>
+      <name>Samuel Prentice</name>
+    </author>
+    <author>
+      <name>Yasmin Veys</name>
+    </author>
+    <author>
+      <name>Long Quang</name>
+    </author>
+    <author>
+      <name>Carlos Nieto-Granda</name>
+    </author>
+    <author>
+      <name>Michael Novitzky</name>
+    </author>
+    <author>
+      <name>Ethan Stump</name>
+    </author>
+    <author>
+      <name>Nicholas Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.03496v1</id>
+    <title>Human Robot Collaborative Assembly Planning: An Answer Set Programming Approach</title>
+    <updated>2020-08-08T11:31:36Z</updated>
+    <link href="https://arxiv.org/abs/2008.03496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.03496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For planning an assembly of a product from a given set of parts, robots necessitate certain cognitive skills: high-level planning is needed to decide the order of actuation actions, while geometric reasoning is needed to check the feasibility of these actions. For collaborative assembly tasks with humans, robots require further cognitive capabilities, such as commonsense reasoning, sensing, and communication skills, not only to cope with the uncertainty caused by incomplete knowledge about the humans' behaviors but also to ensure safer collaborations. We propose a novel method for collaborative assembly planning under uncertainty, that utilizes hybrid conditional planning extended with commonsense reasoning and a rich set of communication actions for collaborative tasks. Our method is based on answer set programming. We show the applicability of our approach in a real-world assembly domain, where a bi-manual Baxter robot collaborates with a human teammate to assemble furniture. This manuscript is under consideration for acceptance in TPLP.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-08T11:31:36Z</published>
+    <arxiv:comment>36th International Conference on Logic Programming (ICLP 2020), University Of Calabria, Rende (CS), Italy, September 2020, 15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Momina Rizwan</name>
+    </author>
+    <author>
+      <name>Volkan Patoglu</name>
+    </author>
+    <author>
+      <name>Esra Erdem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19303v1</id>
+    <title>A Collaborative Extended Reality Prototype for 3D Surgical Planning and Visualization</title>
+    <updated>2026-01-27T07:42:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.19303v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19303v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a collaborative extended reality (XR) prototype for 3D surgical planning and visualization. Our system consists of three key modules: XR-based immersive surgical planning, cloud-based data management, and coordinated stereoscopic 3D displays for interactive visualization. We describe the overall workflow, core functionalities, implementations and setups. By conducting user studies on a liver resection surgical planning case, we demonstrate the effectiveness of our prototype and provide practical insights to inspire future advances in medical XR collaboration.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T07:42:51Z</published>
+    <arxiv:comment>IEEE VR 2026 Posters</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Shi Qiu</name>
+    </author>
+    <author>
+      <name>Ruiyang Li</name>
+    </author>
+    <author>
+      <name>Qixuan Liu</name>
+    </author>
+    <author>
+      <name>Yuqi Tong</name>
+    </author>
+    <author>
+      <name>Yue Qiu</name>
+    </author>
+    <author>
+      <name>Yinqiao Wang</name>
+    </author>
+    <author>
+      <name>Yan Li</name>
+    </author>
+    <author>
+      <name>Chi-Wing Fu</name>
+    </author>
+    <author>
+      <name>Pheng-Ann Heng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08802v1</id>
+    <title>Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks</title>
+    <updated>2023-10-13T01:20:17Z</updated>
+    <link href="https://arxiv.org/abs/2310.08802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address multi-robot geometric task-and-motion planning (MR-GTAMP) problems in synchronous, monotone setups. The goal of the MR-GTAMP problem is to move objects with multiple robots to goal regions in the presence of other movable objects. We focus on collaborative manipulation tasks where the robots have to adopt intelligent collaboration strategies to be successful and effective, i.e., decide which robot should move which objects to which positions, and perform collaborative actions, such as handovers. To endow robots with these collaboration capabilities, we propose to first collect occlusion and reachability information for each robot by calling motion-planning algorithms. We then propose a method that uses the collected information to build a graph structure which captures the precedence of the manipulations of different objects and supports the implementation of a mixed-integer program to guide the search for highly effective collaborative task-and-motion plans. The search process for collaborative task-and-motion plans is based on a Monte-Carlo Tree Search (MCTS) exploration strategy to achieve exploration-exploitation balance. We evaluate our framework in two challenging MR-GTAMP domains and show that it outperforms two state-of-the-art baselines with respect to the planning time, the resulting plan length and the number of objects moved. We also show that our framework can be applied to underground mining operations where a robotic arm needs to coordinate with an autonomous roof bolter. We demonstrate plan execution in two roof-bolting scenarios both in simulation and on robots.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-13T01:20:17Z</published>
+    <arxiv:comment>25 pages, 12 figures, accepted at Autonomous Robots (AURO). arXiv admin note: substantial text overlap with arXiv:2210.08005</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hejia Zhang</name>
+    </author>
+    <author>
+      <name>Shao-Hung Chan</name>
+    </author>
+    <author>
+      <name>Jie Zhong</name>
+    </author>
+    <author>
+      <name>Jiaoyang Li</name>
+    </author>
+    <author>
+      <name>Peter Kolapo</name>
+    </author>
+    <author>
+      <name>Sven Koenig</name>
+    </author>
+    <author>
+      <name>Zach Agioutantis</name>
+    </author>
+    <author>
+      <name>Steven Schafrik</name>
+    </author>
+    <author>
+      <name>Stefanos Nikolaidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.07100v1</id>
+    <title>Collaborative Planning for Catching and Transporting Objects in Unstructured Environments</title>
+    <updated>2023-11-13T06:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2311.07100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.07100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-robot teams have attracted attention from industry and academia for their ability to perform collaborative tasks in unstructured environments, such as wilderness rescue and collaborative transportation.In this paper, we propose a trajectory planning method for a non-holonomic robotic team with collaboration in unstructured environments.For the adaptive state collaboration of a robot team to catch and transport targets to be rescued using a net, we model the process of catching the falling target with a net in a continuous and differentiable form.This enables the robot team to fully exploit the kinematic potential, thereby adaptively catching the target in an appropriate state.Furthermore, the size safety and topological safety of the net, resulting from the collaborative support of the robots, are guaranteed through geometric constraints.We integrate our algorithm on a car-like robot team and test it in simulations and real-world experiments to validate our performance.Our method is compared to state-of-the-art multi-vehicle trajectory planning methods, demonstrating significant performance in efficiency and trajectory quality.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-13T06:20:11Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Liuao Pei</name>
+    </author>
+    <author>
+      <name>Junxiao Lin</name>
+    </author>
+    <author>
+      <name>Zhichao Han</name>
+    </author>
+    <author>
+      <name>Lun Quan</name>
+    </author>
+    <author>
+      <name>Yanjun Cao</name>
+    </author>
+    <author>
+      <name>Chao Xu</name>
+    </author>
+    <author>
+      <name>Fei Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.1665v1</id>
+    <title>Why Mass Media Matter to Planning Research: The Case of Megaprojects</title>
+    <updated>2013-04-05T10:17:42Z</updated>
+    <link href="https://arxiv.org/abs/1304.1665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.1665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article asks how planning scholarship may effectively gain impact in planning practice through media exposure. In liberal democracies the public sphere is dominated by mass media. Therefore, working with such media is a prerequisite for effective public impact of planning research. Using the example of megaproject planning, it is illustrated how so-called "phronetic planning research," which explicitly incorporates in its methodology active and strategic collaboration with media, may be helpful in generating change in planning practice via the public sphere. Main lessons learned are: (1) Working with mass media is an extremely cost-effective way to increase the impact of planning scholarship on practice; (2) Recent developments in information technology and social media have made impact via mass media even more effective; (3) Research on "tension points," i.e., points of potential conflict, are particularly interesting to media and the public, and are especially likely to generate change in practice; and (4) Tension points bite back; planning researchers should be prepared for, but not afraid of, this.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-05T10:17:42Z</published>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <arxiv:journal_ref>Journal of Planning Education and Research, vol. 32, no. 2, June 2012, 169-181</arxiv:journal_ref>
+    <author>
+      <name>Bent Flyvbjerg</name>
+    </author>
+    <arxiv:doi>10.1177/0739456X12441950</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/0739456X12441950" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.11597v2</id>
+    <title>Multi-Robot Task Planning under Individual and Collaborative Temporal Logic Specifications</title>
+    <updated>2021-08-27T08:00:15Z</updated>
+    <link href="https://arxiv.org/abs/2108.11597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.11597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the task coordination of multi-robot where each robot has a private individual temporal logic task specification; and also has to jointly satisfy a globally given collaborative temporal logic task specification. To efficiently generate feasible and optimized task execution plans for the robots, we propose a hierarchical multi-robot temporal task planning framework, in which a central server allocates the collaborative tasks to the robots, and then individual robots can independently synthesize their task execution plans in a decentralized manner. Furthermore, we propose an execution plan adjusting mechanism that allows the robots to iteratively modify their execution plans via privacy-preserved inter-agent communication, to improve the expected actual execution performance by reducing waiting time in collaborations for the robots. The correctness and efficiency of the proposed method are analyzed and also verified by extensive simulation experiments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-26T06:26:54Z</published>
+    <arxiv:comment>8 pages, 4 figures, to be presented at 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2021)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ruofei Bai</name>
+    </author>
+    <author>
+      <name>Ronghao Zheng</name>
+    </author>
+    <author>
+      <name>Meiqin Liu</name>
+    </author>
+    <author>
+      <name>Senlin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.08534v1</id>
+    <title>An Optimal Task Planning and Agent-aware Allocation Algorithm in Collaborative Tasks Combining with PDDL and POPF</title>
+    <updated>2024-07-11T14:21:38Z</updated>
+    <link href="https://arxiv.org/abs/2407.08534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.08534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Industry 4.0 proposes the integration of artificial intelligence (AI) into manufacturing and other industries to create smart collaborative systems which enhance efficiency. The aim of this paper is to develop a flexible and adaptive framework to generate optimal plans for collaborative robots and human workers to replace rigid, hard-coded production line plans in industrial scenarios. This will be achieved by integrating the Planning Domain Definition Language (PDDL), Partial Order Planning Forwards (POPF) task planner, and a task allocation algorithm. The task allocation algorithm proposed in this paper generates a cost function for general actions in the industrial scenario, such as PICK, PLACE, and MOVE, by considering practical factors such as feasibility, reachability, safety, and cooperation level for both robots and human agents. The actions and costs will then be translated into a language understandable by the planning system using PDDL and fed into POPF solver to generate an optimal action plan. In the end, experiments are conducted where assembly tasks are executed by a collaborative system with two manipulators and a human worker to test the feasibility of the theory proposed in this paper.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-11T14:21:38Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Qiguang Chen</name>
+    </author>
+    <author>
+      <name>Ya-Jun Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.09936v1</id>
+    <title>Collaborative planning of integrated hydrogen energy chain multi-energy systems: A review</title>
+    <updated>2024-05-16T09:41:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.09936v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.09936v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most planning of the traditional hydrogen energy supply chain (HSC) focuses on the storage and transportation links between production and consumption ends. It ignores the energy flows and interactions between each link, making it unsuitable for energy system planning analysis. Therefore, we propose the concept of a hydrogen energy chain (HEC) based on the HSC, which emphasizes the interactions between different types of energy flows in the production, compression, storage, transportation, and application links of hydrogen. The HEC plays a crucial role in mitigating fluctuations of renewable energy and facilitating the optimal allocation of heterogeneous energy sources across time and space. Effective collaborative planning models that consider HEC are essential for the optimal configuration of multi-energy systems (MESs), which guarantees high-efficiency operation and the economic and environmental friendliness of the system. This paper presents a systematic review of recent articles on collaborative planning of integrated hydrogen energy chain multi-energy systems (HEC-MESs). First, we introduce the basic framework of HEC-MES, focusing on the current research status of the production, compression, storage, transportation, and application links in HEC. Furthermore, we review technology types of hydrogen energy for planning and summarize the typical forms of HEC in MESs. Then, the following sections outline the models and methods for collaborative planning of HEC-MES. They include detailed analyses of covered sector types, spatial and temporal scopes of planning, uncertainties, model formulations, and solution methods. Finally, the paper concludes by summarizing the research gaps identified in current articles and outlining directions for future research.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T09:41:27Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xinning Yia</name>
+    </author>
+    <author>
+      <name>Tianguang Lua</name>
+    </author>
+    <author>
+      <name>Jing Li</name>
+    </author>
+    <author>
+      <name>Shaocong Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11618v3</id>
+    <title>Distributing Collaborative Multi-Robot Planning with Gaussian Belief Propagation</title>
+    <updated>2023-01-26T10:57:28Z</updated>
+    <link href="https://arxiv.org/abs/2203.11618v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.11618v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Precise coordinated planning over a forward time window enables safe and highly efficient motion when many robots must work together in tight spaces, but this would normally require centralised control of all devices which is difficult to scale. We demonstrate GBP Planning, a new purely distributed technique based on Gaussian Belief Propagation for multi-robot planning problems, formulated by a generic factor graph defining dynamics and collision constraints over a forward time window. In simulations, we show that our method allows high performance collaborative planning where robots are able to cross each other in busy, intricate scenarios. They maintain shorter, quicker and smoother trajectories than alternative distributed planning techniques even in cases of communication failure. We encourage the reader to view the accompanying video demonstration at https://youtu.be/8VSrEUjH610.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-22T11:13:36Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>IEEE Robotics and Automation Letters, vol. 8, no. 2, pp. 552-559, Feb. 2023</arxiv:journal_ref>
+    <author>
+      <name>Aalok Patwardhan</name>
+    </author>
+    <author>
+      <name>Riku Murai</name>
+    </author>
+    <author>
+      <name>Andrew J. Davison</name>
+    </author>
+    <arxiv:doi>10.1109/LRA.2022.3227858</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/LRA.2022.3227858" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.05773v2</id>
+    <title>Approximate Computing for Robotic path planning -- Experimentation, Case Study and Practical Implications</title>
+    <updated>2021-08-27T16:10:08Z</updated>
+    <link href="https://arxiv.org/abs/2104.05773v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.05773v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate computing is a computation domain which can be used to trade time and energy with quality and therefore is useful in embedded systems. Energy is the prime resource in battery-driven embedded systems, like robots. Approximate computing can be used as a technique to generate approximate version of the control functionalities of a robot, enabling it to ration energy for computation at the cost of degraded quality. Usually, the programmer of the function specifies the extent of degradation that is safe for the overall safety of the system. However, in a collaborative environment, where several sub-systems co-exist and some of the functionality of each of them have been approximated, the safety of the overall system may be compromised. In this paper, we consider multiple identical robots operate in a warehouse, and the path planning function of the robot is approximated. Although the planned paths are safe for individual robots (i.e. they do not collide with the racks), we show that this leads to a collision among the robots. So, a controlled approximation needs to be carried out in such situations to harness the full power of this new paradigm if it needs to be a mainstream paradigm in future.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-12T19:03:48Z</published>
+    <arxiv:comment>Approximate Computing, Multi-robot Systems, Multi-agent Systems, Good Enough Computing, Green Computing, Robot Path Planning, Energy-Efficient Computing</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hrishav Bakul Barua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.10440v1</id>
+    <title>HybridCollab: Unifying In-Person and Remote Collaboration for Cardiovascular Surgical Planning in Mobile Augmented Reality</title>
+    <updated>2025-04-14T17:31:35Z</updated>
+    <link href="https://arxiv.org/abs/2504.10440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.10440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surgical planning for congenital heart disease traditionally relies on collaborative group examinations of a patient's 3D-printed heart model, a process that lacks flexibility and accessibility. While mobile augmented reality (AR) offers a promising alternative with its portability and familiar interaction gestures, existing solutions limit collaboration to users in the same physical space. We developed HybridCollab, the first iOS AR application that introduces a novel paradigm that enables both in-person and remote medical teams to interact with a shared AR heart model in a single surgical planning session. For example, a team of two doctors in one hospital room can collaborate in real time with another team in a different hospital.Our approach is the first to leverage Apple's GameKit service for surgical planning, ensuring an identical collaborative experience for all participants, regardless of location. Additionally, co-located users can interact with the same anchored heart model in their shared physical space. By bridging the gap between remote and in-person collaboration across medical teams, HybridCollab has the potential for significant real-world impact, streamlining communication and enhancing the effectiveness of surgical planning. Watch the demo: https://youtu.be/hElqJYDuvLM.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T17:31:35Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Pratham Darrpan Mehta</name>
+    </author>
+    <author>
+      <name>Rahul Ozhur Narayanan</name>
+    </author>
+    <author>
+      <name>Vidhi Kulkarni</name>
+    </author>
+    <author>
+      <name>Timothy Slesnick</name>
+    </author>
+    <author>
+      <name>Fawwaz Shaw</name>
+    </author>
+    <author>
+      <name>Duen Horng Chau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.11280v1</id>
+    <title>Human-in-the-loop Robotic Manipulation Planning for Collaborative Assembly</title>
+    <updated>2019-09-25T04:21:34Z</updated>
+    <link href="https://arxiv.org/abs/1909.11280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.11280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper develops a robotic manipulation planner for human-robot collaborative assembly. Unlike previous methods which study an independent and fully AI-equipped autonomous system, this paper explores the subtask distribution between a robot and a human and studies a human-in-the-loop robotic system for collaborative assembly. The system distributes the subtasks of an assembly to robots and humans by exploiting their advantages and avoiding their disadvantages. The robot in the system will work on pick-and-place tasks and provide workpieces to humans. The human collaborator will work on fine operations like aligning, fixing, screwing, etc. A constraint based incremental manipulation planning method is proposed to generate the motion for the robots. The performance of the proposed system is demonstrated by asking a human and the dual-arm robot to collaboratively assemble a cabinet. The results showed that the proposed system and planner are effective, efficient, and can assist humans in finishing the assembly task comfortably.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-25T04:21:34Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Mohamed Raessa</name>
+    </author>
+    <author>
+      <name>Jimmy Chi Yin Chen</name>
+    </author>
+    <author>
+      <name>Weiwei Wan</name>
+    </author>
+    <author>
+      <name>Kensuke Harada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.16510v4</id>
+    <title>Planning with Multi-Constraints via Collaborative Language Agents</title>
+    <updated>2024-12-16T02:27:55Z</updated>
+    <link href="https://arxiv.org/abs/2405.16510v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.16510v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid advancement of neural language models has sparked a new surge of intelligent agent research. Unlike traditional agents, large language model-based agents (LLM agents) have emerged as a promising paradigm for achieving artificial general intelligence (AGI) due to their superior reasoning and generalization capabilities. Effective planning is crucial for the success of LLM agents in real-world tasks, making it a highly pursued topic in the community. Current planning methods typically translate tasks into executable action sequences. However, determining a feasible or optimal sequence for complex tasks with multiple constraints at fine granularity, which often requires compositing long chains of heterogeneous actions, remains challenging. This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning with constraints by decomposing it into a hierarchy of subordinate tasks. Each subtask is then mapped into executable actions. PMC was assessed on two constraint-intensive benchmarks, TravelPlanner and API-Bank. Notably, PMC achieved an average 42.68% success rate on TravelPlanner, significantly higher than GPT-4 (2.92%), and outperforming GPT-4 with ReAct on API-Bank by 13.64%, showing the immense potential of integrating LLM with multi-agent systems. We also show that PMC works with small LLM as the planning core, e.g., LLaMA-3.1-8B.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-26T10:33:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Cong Zhang</name>
+    </author>
+    <author>
+      <name>Derrick Goh Xin Deik</name>
+    </author>
+    <author>
+      <name>Dexun Li</name>
+    </author>
+    <author>
+      <name>Hao Zhang</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02550v1</id>
+    <title>Collaborative Planning for Mixed-Autonomy Lane Merging</title>
+    <updated>2018-08-07T20:50:56Z</updated>
+    <link href="https://arxiv.org/abs/1808.02550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.02550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Driving is a social activity: drivers often indicate their intent to change lanes via motion cues. We consider mixed-autonomy traffic where a Human-driven Vehicle (HV) and an Autonomous Vehicle (AV) drive together. We propose a planning framework where the degree to which the AV considers the other agent's reward is controlled by a selfishness factor. We test our approach on a simulated two-lane highway where the AV and HV merge into each other's lanes. In a user study with 21 subjects and 6 different selfishness factors, we found that our planning approach was sound and that both agents had less merging times when a factor that balances the rewards for the two agents was chosen. Our results on double lane merging suggest it to be a non-zero-sum game and encourage further investigation on collaborative decision making algorithms for mixed-autonomy traffic.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-07T20:50:56Z</published>
+    <arxiv:comment>To appear at the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shray Bansal</name>
+    </author>
+    <author>
+      <name>Akansel Cosgun</name>
+    </author>
+    <author>
+      <name>Alireza Nakhaei</name>
+    </author>
+    <author>
+      <name>Kikuo Fujimura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.16689v2</id>
+    <title>MACI: Multi-Agent Collaborative Intelligence for Adaptive Reasoning and Temporal Planning</title>
+    <updated>2025-01-29T07:23:47Z</updated>
+    <link href="https://arxiv.org/abs/2501.16689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.16689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence requires deliberate reasoning, temporal awareness, and effective constraint management, capabilities traditional LLMs often lack due to their reliance on pattern matching, limited self-verification, and inconsistent constraint handling. We introduce Multi-Agent Collaborative Intelligence (MACI), a framework comprising three key components: 1) a meta-planner (MP) that identifies, formulates, and refines all roles and constraints of a task (e.g., wedding planning) while generating a dependency graph, with common-sense augmentation to ensure realistic and practical constraints; 2) a collection of agents to facilitate planning and address task-specific requirements; and 3) a run-time monitor that manages plan adjustments as needed. By decoupling planning from validation, maintaining minimal agent context, and integrating common-sense reasoning, MACI overcomes the aforementioned limitations and demonstrates robust performance in two scheduling problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-28T03:57:22Z</published>
+    <arxiv:comment>21 pages, 19 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Stanford University InfoLab Technical Report, 2025</arxiv:journal_ref>
+    <author>
+      <name>Edward Y. Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08983v2</id>
+    <title>Edge Accelerated Robot Navigation With Collaborative Motion Planning</title>
+    <updated>2024-06-25T08:23:05Z</updated>
+    <link href="https://arxiv.org/abs/2311.08983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-cost distributed robots suffer from limited onboard computing power, resulting in excessive computation time when navigating in cluttered environments. This paper presents Edge Accelerated Robot Navigation (EARN), to achieve real-time collision avoidance by adopting collaborative motion planning (CMP). As such, each robot can dynamically switch between a conservative motion planner executed locally to guarantee safety (e.g., path-following) and an aggressive motion planner executed non-locally to guarantee efficiency (e.g., overtaking). In contrast to existing motion planning approaches that ignore the interdependency between low-level motion planning and high-level resource allocation, EARN adopts model predictive switching (MPS) that maximizes the expected switching gain with respect to robot states and actions under computation and communication resource constraints. The MPS problem is solved by a tightly-coupled decision making and motion planning framework based on bilevel mixed-integer nonlinear programming and penalty dual decomposition. We validate the performance of EARN in indoor simulation, outdoor simulation, and real-world environments. Experiments show that EARN achieves significantly smaller navigation time and higher success rates than state-of-the-art navigation approaches.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-15T14:16:42Z</published>
+    <arxiv:comment>12 pages, 13 figures, 3 tables, to appear in IEEE/ASME Transactions on Mechatronics</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Guoliang Li</name>
+    </author>
+    <author>
+      <name>Ruihua Han</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+    <author>
+      <name>Fei Gao</name>
+    </author>
+    <author>
+      <name>Yonina C. Eldar</name>
+    </author>
+    <author>
+      <name>Chengzhong Xu</name>
+    </author>
+  </entry>
+</feed>

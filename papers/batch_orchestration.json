@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/x30e+YzPcXX0XJagQwfLamsJ5fo</id>
+  <title>arXiv Query: search_query=all:orchestration AND all:system&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:53:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:orchestration+AND+all:system&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>1702</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.08866v2</id>
+    <title>Container Orchestration on HPC Systems</title>
+    <updated>2021-01-13T16:23:54Z</updated>
+    <link href="https://arxiv.org/abs/2012.08866v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.08866v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Containerisation demonstrates its efficiency in application deployment in cloud computing. Containers can encapsulate complex programs with their dependencies in isolated environments, hence are being adopted in HPC clusters. HPC workload managers lack micro-services support and deeply integrated container management, as opposed to container orchestrators (e.g. Kubernetes). We introduce Torque-Operator (a plugin) which serves as a bridge between HPC workload managers and container Orchestrators.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-16T11:14:14Z</published>
+    <arxiv:comment>Zhou N, Georgiou Y, Zhong L, Zhou H, Pospieszny M. Container Orchestration on HPC Systems. Inproceedings: 2020 IEEE International Conference on Cloud Computing (CLOUD); 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Naweiluo Zhou</name>
+    </author>
+    <author>
+      <name>Yiannis Georgiou</name>
+    </author>
+    <author>
+      <name>Li Zhong</name>
+    </author>
+    <author>
+      <name>Huan Zhou</name>
+    </author>
+    <author>
+      <name>Marcin Pospieszny</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04404v2</id>
+    <title>Next-Generation Event-Driven Architectures: Performance, Scalability, and Intelligent Orchestration Across Messaging Frameworks</title>
+    <updated>2025-10-22T23:44:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.04404v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04404v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern distributed systems demand low-latency, fault-tolerant event processing that exceeds traditional messaging architecture limits. While frameworks including Apache Kafka, RabbitMQ, Apache Pulsar, NATS JetStream, and serverless event buses have matured significantly, no unified comparative study evaluates them holistically under standardized conditions. This paper presents the first comprehensive benchmarking framework evaluating 12 messaging systems across three representative workloads: e-commerce transactions, IoT telemetry ingestion, and AI inference pipelines. We introduce AIEO (AI-Enhanced Event Orchestration), employing machine learning-driven predictive scaling, reinforcement learning for dynamic resource allocation, and multi-objective optimization. Our evaluation reveals fundamental trade-offs: Apache Kafka achieves peak throughput (1.2M messages/sec, 18ms p95 latency) but requires substantial operational expertise; Apache Pulsar provides balanced performance (950K messages/sec, 22ms p95) with superior multi-tenancy; serverless solutions offer elastic scaling for variable workloads despite higher baseline latency (80-120ms p95). AIEO demonstrates 34\% average latency reduction, 28\% resource utilization improvement, and 42% cost optimization across all platforms. We contribute standardized benchmarking methodologies, open-source intelligent orchestration, and evidence-based decision guidelines. The evaluation encompasses 2,400+ experimental configurations with rigorous statistical analysis, providing comprehensive performance characterization and establishing foundations for next-generation distributed system design.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T00:25:22Z</published>
+    <arxiv:comment>45 pages, 8 tables, 1 figure. Comprehensive evaluation of 12 messaging frameworks with AI-enhanced orchestration system</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Jahidul Arafat</name>
+    </author>
+    <author>
+      <name>Fariha Tasmin</name>
+    </author>
+    <author>
+      <name>Sanjaya Poudel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.05513v3</id>
+    <title>Timed Orchestration for Component-based Systems</title>
+    <updated>2016-05-20T11:55:40Z</updated>
+    <link href="https://arxiv.org/abs/1504.05513v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.05513v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Individual machines in flexible production lines explicitly expose capabilities at their interfaces by means of parametric skills. Given such a set of configurable machines, a line integrator is faced with the problem of finding and tuning parameters for each machine such that the overall production line implements given safety and temporal requirements in an optimized and robust fashion. We formalize this problem of configuring and orchestrating flexible production lines as a parameter synthesis problem for systems of parametric timed automata, where interactions are based on skills. Parameter synthesis problems for interaction-level LTL properties are translated to parameter synthesis problems for state-based safety properties. For safety properties, synthesis problems are solved by checking satisfiability of $\exists\forall$SMT constraints. For constraint generation, we provide a set of computationally cheap over-approximations of the set of reachable states, together with fence constructions as sufficient conditions for safety formulas. We demonstrate the feasibility of our approach by solving typical machine configuration problems as encountered in industrial automation.</summary>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-21T17:14:37Z</published>
+    <arxiv:comment>Timestamp of the work, with evaluation added by creating MES orchestration examples. (v3): typo fix and bring back definition and citation in en^t as in v1</arxiv:comment>
+    <arxiv:primary_category term="cs.FL"/>
+    <author>
+      <name>Chih-Hong Cheng</name>
+    </author>
+    <author>
+      <name>Lacramioara Astefanoaei</name>
+    </author>
+    <author>
+      <name>Harald Ruess</name>
+    </author>
+    <author>
+      <name>Souha Ben Rayana</name>
+    </author>
+    <author>
+      <name>Saddek Bensalem</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.06041v1</id>
+    <title>Extending the Control Plane of Container Orchestrators for I/O Virtualization</title>
+    <updated>2025-05-09T13:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2505.06041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.06041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single Root Input/Output Virtualization (SR-IOV) is a standard technology for forking a single PCI express device and providing it to applications while ensuring performance isolation. It enables container orchestrators to share a limited number of physical network interfaces without incurring significant virtualization overhead. The allocation of virtualized network devices to containers, however, needs to be more configurable based on the bandwidth needs of running applications. Moreover, container orchestrators' network control over the virtualized interfaces is limited by the abilities of SR-IOV. We explore the design considerations for a system with controlled SR-IOV virtualization and present ConRDMA, a novel architecture that enables fine control of RDMA virtualization for containers. Our evaluation shows that ConRDMA enables containers to use RDMA allocated bandwidth more efficiently and to select best-suited nodes to meet their varying communication requirements.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-09T13:39:42Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <arxiv:journal_ref>2020 IEEE/ACM International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)</arxiv:journal_ref>
+    <author>
+      <name>Garegin Grigoryan</name>
+    </author>
+    <author>
+      <name>Minseok Kwon</name>
+    </author>
+    <author>
+      <name>M. Mustafa Rafique</name>
+    </author>
+    <arxiv:doi>10.1109/CANOPIEHPC51917.2020.00006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CANOPIEHPC51917.2020.00006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.01203v2</id>
+    <title>Live Orchestral Piano, a system for real-time orchestral music generation</title>
+    <updated>2017-05-18T14:15:30Z</updated>
+    <link href="https://arxiv.org/abs/1609.01203v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.01203v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces the first system for performing automatic orchestration based on a real-time piano input. We believe that it is possible to learn the underlying regularities existing between piano scores and their orchestrations by notorious composers, in order to automatically perform this task on novel piano inputs. To that end, we investigate a class of statistical inference models called conditional Restricted Boltzmann Machine (cRBM). We introduce a specific evaluation framework for orchestral generation based on a prediction task in order to assess the quality of different models. As prediction and creation are two widely different endeavours, we discuss the potential biases in evaluating temporal generative models through prediction tasks and their impact on a creative system. Finally, we introduce an implementation of the proposed model called Live Orchestral Piano (LOP), which allows to perform real-time projective orchestration of a MIDI keyboard input.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-05T15:58:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Léopold Crestel</name>
+    </author>
+    <author>
+      <name>Philippe Esling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.15314v1</id>
+    <title>Orchestration of Music by Grammar Systems</title>
+    <updated>2025-07-21T07:15:00Z</updated>
+    <link href="https://arxiv.org/abs/2507.15314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.15314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This application-oriented study concerns computational musicology, which makes use of grammar systems. We define multi-generative rule-synchronized scattered-context grammar systems (without erasing rules) and demonstrates how to simultaneously make the arrangement of a musical composition for performance by a whole orchestra, consisting of several instruments. Primarily, an orchestration like this is illustrated by examples in terms of classical music. In addition, the orchestration of jazz compositions is sketched as well. The study concludes its discussion by suggesting five open problem areas related to this way of orchestration.</summary>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T07:15:00Z</published>
+    <arxiv:comment>In Proceedings NCMA 2025, arXiv:2507.14082</arxiv:comment>
+    <arxiv:primary_category term="cs.FL"/>
+    <arxiv:journal_ref>EPTCS 422, 2025, pp. 45-58</arxiv:journal_ref>
+    <author>
+      <name>Jozef Makiš</name>
+      <arxiv:affiliation>Faculty of Information Technology, Brno University of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Meduna</name>
+      <arxiv:affiliation>Faculty of Information Technology, Brno University of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zbyněk Křivka</name>
+      <arxiv:affiliation>Faculty of Information Technology, Brno University of Technology</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.4204/EPTCS.422.4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4204/EPTCS.422.4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.21899v1</id>
+    <title>Joint$λ$: Orchestrating Serverless Workflows on Jointcloud FaaS Systems</title>
+    <updated>2025-05-28T02:24:12Z</updated>
+    <link href="https://arxiv.org/abs/2505.21899v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.21899v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing serverless workflow orchestration systems are predominantly designed for a single-cloud FaaS system, leading to vendor lock-in. This restricts performance optimization, cost reduction, and availability of applications. However, orchestrating serverless workflows on Jointcloud FaaS systems faces two main challenges: 1) Additional overhead caused by centralized cross-cloud orchestration; and 2) A lack of reliable failover and fault-tolerant mechanisms for cross-cloud serverless workflows. To address these challenges, we propose Joint$λ$, a distributed runtime system designed to orchestrate serverless workflows on multiple FaaS systems without relying on a centralized orchestrator. Joint$λ$ introduces a compatibility layer, Backend-Shim, leveraging inter-cloud heterogeneity to optimize makespan and reduce costs with on-demand billing. By using function-side orchestration instead of centralized nodes, it enables independent function invocations and data transfers, reducing cross-cloud communication overhead. For high availability, it ensures exactly-once execution via datastores and failover mechanisms for serverless workflows on Jointcloud FaaS systems. We validate Joint$λ$ on two heterogeneous FaaS systems, AWS and ALiYun, with four workflows. Compared to the most advanced commercial orchestration services for single-cloud serverless workflows, Joint$λ$ reduces up to 3.3$\times$ latency, saving up to 65\% cost. Joint$λ$ is also faster than the state-of-the-art orchestrators for cross-cloud serverless workflows up to 4.0$\times$, reducing up to 4.5$\times$ cost and providing strong execution guarantees.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T02:24:12Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Jianfei Liu</name>
+    </author>
+    <author>
+      <name>Rui Li</name>
+    </author>
+    <author>
+      <name>Zhilin Yang</name>
+    </author>
+    <author>
+      <name>Peichang Shi</name>
+    </author>
+    <author>
+      <name>Guodong Yi</name>
+    </author>
+    <author>
+      <name>Huaimin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.03997v1</id>
+    <title>Dynamic Resource Provisioning of a Scalable E2E Network Slicing Orchestration System</title>
+    <updated>2022-01-05T08:55:48Z</updated>
+    <link href="https://arxiv.org/abs/2201.03997v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.03997v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Network slicing allows different applications and network services to be deployed on virtualized resources running on a common underlying physical infrastructure. Developing a scalable system for the orchestration of end-to-end (E2E) mobile network slices requires careful planning and very reliable algorithms. In this paper, we propose a novel E2E Network Slicing Orchestration System (NSOS) and a Dynamic Auto- Scaling Algorithm (DASA) for it. Our NSOS relies strongly on the foundation of a hierarchical architecture that incorporates dedicated entities per domain to manage every segment of the mobile network from the access, to the transport and core network part for a scalable orchestration of federated network slices. The DASA enables the NSOS to autonomously adapt its resources to changes in the demand for slice orchestration requests (SORs) while enforcing a given mean overall time taken by the NSOS to process any SOR. The proposed DASA includes both proactive and reactive resource provisioning techniques). The proposed resource dimensioning heuristic algorithm of the DASA is based on a queuing model for the NSOS, which consists of an open network of G/G/m queues. Finally, we validate the proper operation and evaluate the performance of our DASA solution for the NSOS by means of system-level simulations.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-05T08:55:48Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>I. Afolabi</name>
+    </author>
+    <author>
+      <name>J. P. Garzon</name>
+    </author>
+    <author>
+      <name>M. Bagaa</name>
+    </author>
+    <author>
+      <name>T. Taleb</name>
+    </author>
+    <author>
+      <name>P. Ameigeiras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.11067v2</id>
+    <title>Agentic Lybic: Multi-Agent Execution System with Tiered Reasoning and Orchestration</title>
+    <updated>2025-09-16T02:49:53Z</updated>
+    <link href="https://arxiv.org/abs/2509.11067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.11067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents for desktop automation struggle with complex multi-step tasks due to poor coordination and inadequate quality control. We introduce Agentic Lybic, a novel multi-agent system where the entire architecture operates as a finite-state machine (FSM). This core innovation enables dynamic orchestration. Our system comprises four components: a Controller, a Manager, three Workers (Technician for code-based operations, Operator for GUI interactions, and Analyst for decision support), and an Evaluator. The critical mechanism is the FSM-based routing between these components, which provides flexibility and generalization by dynamically selecting the optimal execution strategy for each subtask. This principled orchestration, combined with robust quality gating, enables adaptive replanning and error recovery. Evaluated officially on the OSWorld benchmark, Agentic Lybic achieves a state-of-the-art 57.07% success rate in 50 steps, substantially outperforming existing methods. Results demonstrate that principled multi-agent orchestration with continuous quality control provides superior reliability for generalized desktop automation in complex computing environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-14T03:22:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Liangxuan Guo</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+    <author>
+      <name>Qingqian Tao</name>
+    </author>
+    <author>
+      <name>Kangning Liu</name>
+    </author>
+    <author>
+      <name>Xun Zhao</name>
+    </author>
+    <author>
+      <name>Xianzhe Qin</name>
+    </author>
+    <author>
+      <name>Jin Gao</name>
+    </author>
+    <author>
+      <name>Guangfu Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13671v1</id>
+    <title>The Orchestration of Multi-Agent Systems: Architectures, Protocols, and Enterprise Adoption</title>
+    <updated>2026-01-20T07:13:53Z</updated>
+    <link href="https://arxiv.org/abs/2601.13671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Orchestrated multi-agent systems represent the next stage in the evolution of artificial intelligence, where autonomous agents collaborate through structured coordination and communication to achieve complex, shared objectives. This paper consolidates and formalizes the technical composition of such systems, presenting a unified architectural framework that integrates planning, policy enforcement, state management, and quality operations into a coherent orchestration layer. Another primary contribution of this work is the in-depth technical delineation of two complementary communication protocols - the Model Context Protocol, which standardizes how agents access external tools and contextual data, and the Agent2Agent protocol, which governs peer coordination, negotiation, and delegation. Together, these protocols establish an interoperable communication substrate that enables scalable, auditable, and policy-compliant reasoning across distributed agent collectives. Beyond protocol design, the paper details how orchestration logic, governance frameworks, and observability mechanisms collectively sustain system coherence, transparency, and accountability. By synthesizing these elements into a cohesive technical blueprint, this paper provides comprehensive treatments of orchestrated multi-agent systems - bridging conceptual architectures with implementation-ready design principles for enterprise-scale AI ecosystems.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T07:13:53Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Apoorva Adimulam</name>
+    </author>
+    <author>
+      <name>Rajesh Gupta</name>
+    </author>
+    <author>
+      <name>Sumit Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24902v1</id>
+    <title>Adaptive Resource Orchestration for Distributed Quantum Computing Systems</title>
+    <updated>2025-12-31T14:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2512.24902v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24902v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling quantum computing beyond a single device requires networking many quantum processing units (QPUs) into a coherent quantum-HPC system. We propose the Modular Entanglement Hub (ModEn-Hub) architecture: a hub-and-spoke photonic interconnect paired with a real-time quantum network orchestrator. ModEn-Hub centralizes entanglement sources and shared quantum memory to deliver on-demand, high-fidelity Bell pairs across heterogeneous QPUs, while the control plane schedules teleportation-based non-local gates, launches parallel entanglement attempts, and maintains a small ebit cache. To quantify benefits, we implement a lightweight, reproducible Monte Carlo study under realistic loss and tight round budgets, comparing a naive sequential baseline to an orchestrated policy with logarithmically scaled parallelism and opportunistic caching. Across 1-128 QPUs and 2,500 trials per point, ModEn-Hub-style orchestration sustains about 90% teleportation success while the baseline degrades toward about 30%, at the cost of higher average entanglement attempts (about 10-12 versus about 3). These results provide clear, high-level evidence that adaptive resource orchestration in the ModEn-Hub enables scalable and efficient quantum-HPC operation on near-term hardware.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T14:58:05Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kuan-Cheng Chen</name>
+    </author>
+    <author>
+      <name>Felix Burt</name>
+    </author>
+    <author>
+      <name>Nitish K. Panigrahy</name>
+    </author>
+    <author>
+      <name>Kin K. Leung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14040v1</id>
+    <title>Intelligent Transportation Systems' Orchestration: Lessons Learned &amp; Potential Opportunities</title>
+    <updated>2022-05-05T15:41:43Z</updated>
+    <link href="https://arxiv.org/abs/2205.14040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.14040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing deployment efforts of 5G networks globally has led to the acceleration of the businesses/services' digital transformation. This growth has led to the need for new communication technologies that will promote this transformation. 6G is being proposed as the set of technologies and architectures that will achieve this target. Among the main use cases that have emerged for 5G networks and will continue to play a pivotal role in 6G networks is that of Intelligent Transportation Systems (ITSs). With all the projected benefits of developing and deploying efficient and effective ITSs comes a group of unique challenges that need to be addressed. One prominent challenge is ITS orchestration due to the various supporting technologies and heterogeneous networks used to offer the desired ITS applications/services. To that end, this paper focuses on the ITS orchestration challenge in detail by highlighting the related previous works from the literature and listing the lessons learned from current ITS deployment orchestration efforts. It also presents multiple potential data-driven research opportunities in which paradigms such as reinforcement learning and federated learning can be deployed to offer effective and efficient ITS orchestration.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-05T15:41:43Z</published>
+    <arxiv:comment>6 pages, 3 figures, accepted and presented in 1320th International Conference on Recent Innovations in Engineering and Technology (ICRIET-2022)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Abdallah Moubayed</name>
+    </author>
+    <author>
+      <name>Abdallah Shami</name>
+    </author>
+    <author>
+      <name>Abbas Ibrahim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.11248v2</id>
+    <title>Comparison of FaaS Orchestration Systems</title>
+    <updated>2019-01-25T09:27:57Z</updated>
+    <link href="https://arxiv.org/abs/1807.11248v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.11248v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the appearance of Amazon Lambda in 2014, all major cloud providers have embraced the Function as a Service (FaaS) model, because of its enormous potential for a wide variety of applications. As expected (and also desired), the competition is fierce in the serverless world, and includes aspects such as the run-time support for the orchestration of serverless functions. In this regard, the three major production services are currently Amazon Step Functions (December 2016), Azure Durable Functions (June 2017), and IBM Composer (October 2017), still young and experimental projects with a long way ahead. In this article, we will compare and analyze these three serverless orchestration systems under a common evaluation framework. We will study their architectures, programming and billing models, and their effective support for parallel execution, among others. Through a series of experiments, we will also evaluate the run-time overhead of the different infrastructures for different types of workflows.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-30T09:23:09Z</published>
+    <arxiv:comment>6 pages, 2 figures, title changed, 4th International Workshop on Serverless Computing (UCC Companion 2018)</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Pedro García López</name>
+    </author>
+    <author>
+      <name>Marc Sánchez-Artigas</name>
+    </author>
+    <author>
+      <name>Gerard París</name>
+    </author>
+    <author>
+      <name>Daniel Barcelona Pons</name>
+    </author>
+    <author>
+      <name>Álvaro Ruiz Ollobarren</name>
+    </author>
+    <author>
+      <name>David Arroyo Pinto</name>
+    </author>
+    <arxiv:doi>10.1109/UCC-Companion.2018.00049</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/UCC-Companion.2018.00049" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.19599v1</id>
+    <title>Knowledge Base-Aware Orchestration: A Dynamic, Privacy-Preserving Method for Multi-Agent Systems</title>
+    <updated>2025-09-23T21:46:38Z</updated>
+    <link href="https://arxiv.org/abs/2509.19599v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.19599v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems (MAS) are increasingly tasked with solving complex, knowledge-intensive problems where effective agent orchestration is critical. Conventional orchestration methods rely on static agent descriptions, which often become outdated or incomplete. This limitation leads to inefficient task routing, particularly in dynamic environments where agent capabilities continuously evolve. We introduce Knowledge Base-Aware (KBA) Orchestration, a novel approach that augments static descriptions with dynamic, privacy-preserving relevance signals derived from each agent's internal knowledge base (KB). In the proposed framework, when static descriptions are insufficient for a clear routing decision, the orchestrator prompts the subagents in parallel. Each agent then assesses the task's relevance against its private KB, returning a lightweight ACK signal without exposing the underlying data. These collected signals populate a shared semantic cache, providing dynamic indicators of agent suitability for future queries. By combining this novel mechanism with static descriptions, our method achieves more accurate and adaptive task routing preserving agent autonomy and data confidentiality. Benchmarks show that our KBA Orchestration significantly outperforms static description-driven methods in routing precision and overall system efficiency, making it suitable for large-scale systems that require higher accuracy than standard description-driven routing.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-23T21:46:38Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Danilo Trombino</name>
+    </author>
+    <author>
+      <name>Vincenzo Pecorella</name>
+    </author>
+    <author>
+      <name>Alessandro de Giulii</name>
+    </author>
+    <author>
+      <name>Davide Tresoldi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.03365v1</id>
+    <title>NFV Orchestrator Placement for Geo-Distributed Systems</title>
+    <updated>2017-11-09T13:26:39Z</updated>
+    <link href="https://arxiv.org/abs/1711.03365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.03365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The European Telecommunications Standards Institute (ETSI) developed Network Functions Virtualization (NFV) Management and Orchestration (MANO) framework. Within that framework, NFV orchestrator (NFVO) and Virtualized Network Function (VNF) Manager (VNFM) functional blocks are responsible for managing the lifecycle of network services and their associated VNFs. However, they face significant scalability and performance challenges in large-scale and geo-distributed NFV systems. Their number and location have major implications for the number of VNFs that can be accommodated and also for the overall system performance. NFVO and VNFM placement is therefore a key challenge due to its potential impact on the system scalability and performance. In this paper, we address the placement of NFVO and VNFM in large-scale and geo-distributed NFV infrastructure. We provide an integer linear programming formulation of the problem and propose a two-step placement algorithm to solve it. We also conduct a set of experiments to evaluate the proposed algorithm.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-09T13:26:39Z</published>
+    <arxiv:comment>This paper has been accepted for presentation in 16th IEEE International Symposium on Network Computing and Applications (IEEE NCA 2017)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Mohammad Abu-Lebdeh</name>
+    </author>
+    <author>
+      <name>Diala Naboulsi</name>
+    </author>
+    <author>
+      <name>Roch Glitho</name>
+    </author>
+    <author>
+      <name>Constant Wette Tchouati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10753v1</id>
+    <title>Reinforcement Learning in Computing and Network Convergence Orchestration</title>
+    <updated>2022-09-22T03:10:45Z</updated>
+    <link href="https://arxiv.org/abs/2209.10753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As computing power is becoming the core productivity of the digital economy era, the concept of Computing and Network Convergence (CNC), under which network and computing resources can be dynamically scheduled and allocated according to users' needs, has been proposed and attracted wide attention. Based on the tasks' properties, the network orchestration plane needs to flexibly deploy tasks to appropriate computing nodes and arrange paths to the computing nodes. This is a orchestration problem that involves resource scheduling and path arrangement. Since CNC is relatively new, in this paper, we review some researches and applications on CNC. Then, we design a CNC orchestration method using reinforcement learning (RL), which is the first attempt, that can flexibly allocate and schedule computing resources and network resources. Which aims at high profit and low latency. Meanwhile, we use multi-factors to determine the optimization objective so that the orchestration strategy is optimized in terms of total performance from different aspects, such as cost, profit, latency and system overload in our experiment. The experiments shows that the proposed RL-based method can achieve higher profit and lower latency than the greedy method, random selection and balanced-resource method. We demonstrate RL is suitable for CNC orchestration. This paper enlightens the RL application on CNC orchestration.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T03:10:45Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Aidong Yang</name>
+    </author>
+    <author>
+      <name>Mohan Wu</name>
+    </author>
+    <author>
+      <name>Boquan Cheng</name>
+    </author>
+    <author>
+      <name>Xiaozhou Ye</name>
+    </author>
+    <author>
+      <name>Ye Ouyang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02307v1</id>
+    <title>z-TORCH: An Automated NFV Orchestration and Monitoring Solution</title>
+    <updated>2018-07-06T08:17:21Z</updated>
+    <link href="https://arxiv.org/abs/1807.02307v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.02307v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous management and orchestration (MANO) of virtualized resources and services, especially in large-scale Network Function Virtualization (NFV) environments, is a big challenge owing to the stringent delay and performance requirements expected of a variety of network services. The Quality-of-Decisions (QoD) of a Management and Orchestration (MANO) system depends on the quality and timeliness of the information received from the underlying monitoring system. The data generated by monitoring systems is a significant contributor to the network and processing load of MANO systems, impacting thus their performance. This raises a unique challenge: how to jointly optimize the QoD of MANO systems while at the same minimizing their monitoring loads at runtime? This is the main focus of this paper.
+  In this context, we propose a novel automated NFV orchestration solution, namely z-TORCH (zero Touch Orchestration) that jointly optimizes the orchestration and monitoring processes by exploiting machine-learning-based techniques. The objective is to enhance the QoD of MANO systems achieving a near-optimal placement of Virtualized Network Functions (VNFs) at minimum monitoring costs.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-06T08:17:21Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Network and Service Management, 14 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Vincenzo Sciancalepore</name>
+    </author>
+    <author>
+      <name>Faqir Zarrar Yousaf</name>
+    </author>
+    <author>
+      <name>Xavier Costa-Perez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09851v1</id>
+    <title>QONNECT: A QoS-Aware Orchestration System for Distributed Kubernetes Clusters</title>
+    <updated>2025-10-10T20:27:28Z</updated>
+    <link href="https://arxiv.org/abs/2510.09851v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09851v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern applications increasingly span across cloud, fog, and edge environments, demanding orchestration systems that can adapt to diverse deployment contexts while meeting Quality-of-Service (QoS) requirements. Standard Kubernetes schedulers do not account for user-defined objectives such as energy efficiency, cost optimization, and global performance, often leaving operators to make manual, cluster-by-cluster placement decisions. To address this need, we present QONNECT, a vendor-agnostic orchestration framework that enables declarative, QoS-driven application deployment across heterogeneous Kubernetes and K3s clusters. QONNECT introduces a distributed architecture composed of a central Knowledge Base, Raft-replicated Resource Lead Agents, and lightweight Resource Agents in each cluster. Through a minimal YAML-based interface, users specify high-level QoS goals, which the system translates into concrete placement and migration actions. Our implementation is evaluated on a federated testbed of up to nine cloud-fog-edge clusters using the Istio Bookinfo microservice application. The system demonstrates dynamic, policy-driven microservice placement, automated failover, QoS-compliant rescheduling, and leader re-election after node failure, all without manual intervention. By bridging the gap between declarative deployment models and operational QoS goals, QONNECT transforms the cloud-edge continuum into a unified, self-optimizing platform.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T20:27:28Z</published>
+    <arxiv:comment>Accepted at the International Conference on Service-Oriented Computing (ICSOC) 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Haci Ismail Aslan</name>
+    </author>
+    <author>
+      <name>Syed Muhammad Mahmudul Haque</name>
+    </author>
+    <author>
+      <name>Joel Witzke</name>
+    </author>
+    <author>
+      <name>Odej Kao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.09384v1</id>
+    <title>A Bandit Approach to Posterior Dialog Orchestration Under a Budget</title>
+    <updated>2019-06-22T04:02:26Z</updated>
+    <link href="https://arxiv.org/abs/1906.09384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.09384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building multi-domain AI agents is a challenging task and an open problem in the area of AI. Within the domain of dialog, the ability to orchestrate multiple independently trained dialog agents, or skills, to create a unified system is of particular significance. In this work, we study the task of online posterior dialog orchestration, where we define posterior orchestration as the task of selecting a subset of skills which most appropriately answer a user input using features extracted from both the user input and the individual skills. To account for the various costs associated with extracting skill features, we consider online posterior orchestration under a skill execution budget. We formalize this setting as Context Attentive Bandit with Observations (CABO), a variant of context attentive bandits, and evaluate it on simulated non-conversational and proprietary conversational datasets.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-22T04:02:26Z</published>
+    <arxiv:comment>2nd Conversational AI Workshop, NeurIPS 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sohini Upadhyay</name>
+    </author>
+    <author>
+      <name>Mayank Agarwal</name>
+    </author>
+    <author>
+      <name>Djallel Bounneffouf</name>
+    </author>
+    <author>
+      <name>Yasaman Khazaeni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.06538v1</id>
+    <title>Intelligent Data-Driven Architectural Features Orchestration for Network Slicing</title>
+    <updated>2024-01-12T12:32:36Z</updated>
+    <link href="https://arxiv.org/abs/2401.06538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.06538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Network slicing is a crucial enabler and a trend for the Next Generation Mobile Network (NGMN) and various other new systems like the Internet of Vehicles (IoV) and Industrial IoT (IIoT). Orchestration and machine learning are key elements with a crucial role in the network-slicing processes since the NS process needs to orchestrate resources and functionalities, and machine learning can potentially optimize the orchestration process. However, existing network-slicing architectures lack the ability to define intelligent approaches to orchestrate features and resources in the slicing process. This paper discusses machine learning-based orchestration of features and capabilities in network slicing architectures. Initially, the slice resource orchestration and allocation in the slicing planning, configuration, commissioning, and operation phases are analyzed. In sequence, we highlight the need for optimized architectural feature orchestration and recommend using ML-embed agents, federated learning intrinsic mechanisms for knowledge acquisition, and a data-driven approach embedded in the network slicing architecture. We further develop an architectural features orchestration case embedded in the SFI2 network slicing architecture. An attack prevention security mechanism is developed for the SFI2 architecture using distributed embedded and cooperating ML agents. The case presented illustrates the architectural feature's orchestration process and benefits, highlighting its importance for the network slicing process.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-12T12:32:36Z</published>
+    <arxiv:comment>12 pages, 6 figures, Conference ADVANCE 24 - International Workshop on ADVANCEs in ICT Infrastructures and Services - February 26--29, 2024 - Hanoi, Vietnam</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Rodrigo Moreira</name>
+    </author>
+    <author>
+      <name>Flavio de Oliveira Silva</name>
+    </author>
+    <author>
+      <name>Tereza Cristina Melo de Brito Carvalho</name>
+    </author>
+    <author>
+      <name>Joberto S. B. Martins</name>
+    </author>
+    <arxiv:doi>10.5281/zenodo.10479965</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5281/zenodo.10479965" title="doi"/>
+  </entry>
+</feed>

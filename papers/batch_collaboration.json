@@ -1,0 +1,842 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WQbFrMm2LIwFk2GHdC8E/Xinm3o</id>
+  <title>arXiv Query: search_query=all:agent AND all:collaboration&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:55:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:agent+AND+all:collaboration&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>4393</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05449v1</id>
+    <title>Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications</title>
+    <updated>2024-12-06T22:14:17Z</updated>
+    <link href="https://arxiv.org/abs/2412.05449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents powered by large language models (LLMs) have shown strong capabilities in problem solving. Through combining many intelligent agents, multi-agent collaboration has emerged as a promising approach to tackle complex, multi-faceted problems that exceed the capabilities of single AI agents. However, designing the collaboration protocols and evaluating the effectiveness of these systems remains a significant challenge, especially for enterprise applications. This report addresses these challenges by presenting a comprehensive evaluation of coordination and routing capabilities in a novel multi-agent collaboration framework. We evaluate two key operational modes: (1) a coordination mode enabling complex task completion through parallel communication and payload referencing, and (2) a routing mode for efficient message forwarding between agents. We benchmark on a set of handcrafted scenarios from three enterprise domains, which are publicly released with the report. For coordination capabilities, we demonstrate the effectiveness of inter-agent communication and payload referencing mechanisms, achieving end-to-end goal success rates of 90%. Our analysis yields several key findings: multi-agent collaboration enhances goal success rates by up to 70% compared to single-agent approaches in our benchmarks; payload referencing improves performance on code-intensive tasks by 23%; latency can be substantially reduced with a routing mechanism that selectively bypasses agent orchestration. These findings offer valuable guidance for enterprise deployments of multi-agent systems and advance the development of scalable, efficient multi-agent collaboration frameworks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T22:14:17Z</published>
+    <arxiv:comment>Technical report for multi-agent collaboration on AWS Bedrock Agents</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Raphael Shu</name>
+    </author>
+    <author>
+      <name>Nilaksh Das</name>
+    </author>
+    <author>
+      <name>Michelle Yuan</name>
+    </author>
+    <author>
+      <name>Monica Sunkara</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.12532v3</id>
+    <title>MedAide: Information Fusion and Anatomy of Medical Intents via LLM-based Agent Collaboration</title>
+    <updated>2025-07-03T13:02:30Z</updated>
+    <link href="https://arxiv.org/abs/2410.12532v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.12532v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In healthcare intelligence, the ability to fuse heterogeneous, multi-intent information from diverse clinical sources is fundamental to building reliable decision-making systems. Large Language Model (LLM)-driven information interaction systems currently showing potential promise in the healthcare domain. Nevertheless, they often suffer from information redundancy and coupling when dealing with complex medical intents, leading to severe hallucinations and performance bottlenecks. To this end, we propose MedAide, an LLM-based medical multi-agent collaboration framework designed to enable intent-aware information fusion and coordinated reasoning across specialized healthcare domains. Specifically, we introduce a regularization-guided module that combines syntactic constraints with retrieval augmented generation to decompose complex queries into structured representations, facilitating fine-grained clinical information fusion and intent resolution. Additionally, a dynamic intent prototype matching module is proposed to utilize dynamic prototype representation with a semantic similarity matching mechanism to achieve adaptive recognition and updating of the agent's intent in multi-round healthcare dialogues. Ultimately, we design a rotation agent collaboration mechanism that introduces dynamic role rotation and decision-level information fusion across specialized medical agents. Extensive experiments are conducted on four medical benchmarks with composite intents. Experimental results from automated metrics and expert doctor evaluations show that MedAide outperforms current LLMs and improves their medical proficiency and strategic reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-16T13:10:27Z</published>
+    <arxiv:comment>LLM-based Multi-Agent Collaboration for Medical Applications</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dingkang Yang</name>
+    </author>
+    <author>
+      <name>Jinjie Wei</name>
+    </author>
+    <author>
+      <name>Mingcheng Li</name>
+    </author>
+    <author>
+      <name>Jiyao Liu</name>
+    </author>
+    <author>
+      <name>Lihao Liu</name>
+    </author>
+    <author>
+      <name>Ming Hu</name>
+    </author>
+    <author>
+      <name>Junjun He</name>
+    </author>
+    <author>
+      <name>Yakun Ju</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Lihua Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00753v4</id>
+    <title>LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey</title>
+    <updated>2025-06-26T12:53:30Z</updated>
+    <link href="https://arxiv.org/abs/2505.00753v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00753v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have sparked growing interest in building fully autonomous agents. However, fully autonomous LLM-based agents still face significant challenges, including limited reliability due to hallucinations, difficulty in handling complex tasks, and substantial safety and ethical risks, all of which limit their feasibility and trustworthiness in real-world applications. To overcome these limitations, LLM-based human-agent systems (LLM-HAS) incorporate human-provided information, feedback, or control into the agent system to enhance system performance, reliability and safety. These human-agent collaboration systems enable humans and LLM-based agents to collaborate effectively by leveraging their complementary strengths. This paper provides the first comprehensive and structured survey of LLM-HAS. It clarifies fundamental concepts, systematically presents core components shaping these systems, including environment &amp; profiling, human feedback, interaction types, orchestration and communication, explores emerging applications, and discusses unique challenges and opportunities arising from human-AI collaboration. By consolidating current knowledge and offering a structured overview, we aim to foster further research and innovation in this rapidly evolving interdisciplinary field. Paper lists and resources are available at https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-01T08:29:26Z</published>
+    <arxiv:comment>Paper lists and resources are available at https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Wei-Chieh Huang</name>
+    </author>
+    <author>
+      <name>Yaozu Wu</name>
+    </author>
+    <author>
+      <name>Yankai Chen</name>
+    </author>
+    <author>
+      <name>Chunyu Miao</name>
+    </author>
+    <author>
+      <name>Hoang Nguyen</name>
+    </author>
+    <author>
+      <name>Yue Zhou</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Liancheng Fang</name>
+    </author>
+    <author>
+      <name>Langzhou He</name>
+    </author>
+    <author>
+      <name>Yangning Li</name>
+    </author>
+    <author>
+      <name>Dongyuan Li</name>
+    </author>
+    <author>
+      <name>Renhe Jiang</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08975v2</id>
+    <title>A Survey of Multi-Agent Deep Reinforcement Learning with Communication</title>
+    <updated>2024-10-18T10:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2203.08975v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08975v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Communication is an effective mechanism for coordinating the behaviors of multiple agents, broadening their views of the environment, and to support their collaborations. In the field of multi-agent deep reinforcement learning (MADRL), agents can improve the overall learning performance and achieve their objectives by communication. Agents can communicate various types of messages, either to all agents or to specific agent groups, or conditioned on specific constraints. With the growing body of research work in MADRL with communication (Comm-MADRL), there is a lack of a systematic and structural approach to distinguish and classify existing Comm-MADRL approaches. In this paper, we survey recent works in the Comm-MADRL field and consider various aspects of communication that can play a role in designing and developing multi-agent reinforcement learning systems. With these aspects in mind, we propose 9 dimensions along which Comm-MADRL approaches can be analyzed, developed, and compared. By projecting existing works into the multi-dimensional space, we discover interesting trends. We also propose some novel directions for designing future Comm-MADRL systems through exploring possible combinations of the dimensions.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T22:39:46Z</published>
+    <arxiv:comment>34 pages, 5 figures, 13 tables; published on Autonomous Agents and Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Auton. Agents Multi Agent Syst. 38(1): 4 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Changxi Zhu</name>
+    </author>
+    <author>
+      <name>Mehdi Dastani</name>
+    </author>
+    <author>
+      <name>Shihan Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05986v2</id>
+    <title>Preventing Rogue Agents Improves Multi-Agent Collaboration</title>
+    <updated>2025-07-21T13:51:31Z</updated>
+    <link href="https://arxiv.org/abs/2502.05986v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05986v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems, where specialized agents collaborate to solve a shared task hold great potential, from increased modularity to simulating complex environments. However, they also have a major caveat -- a single agent can cause the entire system to fail. Consider a simple game where the knowledge to solve the task is distributed between agents, which share information in a communication channel. At each round, any of the agents can terminate the game and make the final prediction, even if they are uncertain about the outcome of their action. Detection of such rogue agents before they act may prevent the system's failure. In this work, we propose to monitor agents during action prediction and intervene when a future error is likely to occur. To test our approach, we introduce WhoDunitEnv, a multi-agent collaboration environment that allows modular control over task complexity and communication structure. Experiments on WhoDunitEnv, code generation tasks and the GovSim environment for resource sustainability show that our approach leads to substantial performance gains up to 17.4%, 2.5% and 20%, respectively. Thorough analysis shows that our monitors successfully identify critical points of agent confusion and our interventions effectively stop agent errors from propagating.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T18:35:08Z</published>
+    <arxiv:comment>Accepted as a spotlight to REALM (First Workshop for Research on Agent Language Models) at ACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ohav Barbi</name>
+    </author>
+    <author>
+      <name>Ori Yoran</name>
+    </author>
+    <author>
+      <name>Mor Geva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14235v1</id>
+    <title>Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration</title>
+    <updated>2026-01-20T18:46:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.14235v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14235v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) will produce unprecedented volumes of heterogeneous astronomical data (images, catalogs, and alerts) that challenge traditional analysis pipelines. The LSST Dark Energy Science Collaboration (DESC) aims to derive robust constraints on dark energy and dark matter from these data, requiring methods that are statistically powerful, scalable, and operationally reliable. Artificial intelligence and machine learning (AI/ML) are already embedded across DESC science workflows, from photometric redshifts and transient classification to weak lensing inference and cosmological simulations. Yet their utility for precision cosmology hinges on trustworthy uncertainty quantification, robustness to covariate shift and model misspecification, and reproducible integration within scientific pipelines. This white paper surveys the current landscape of AI/ML across DESC's primary cosmological probes and cross-cutting analyses, revealing that the same core methodologies and fundamental challenges recur across disparate science cases. Since progress on these cross-cutting challenges would benefit multiple probes simultaneously, we identify key methodological research priorities, including Bayesian inference at scale, physics-informed methods, validation frameworks, and active learning for discovery. With an eye on emerging techniques, we also explore the potential of the latest foundation model methodologies and LLM-driven agentic AI systems to reshape DESC workflows, provided their deployment is coupled with rigorous evaluation and governance. Finally, we discuss critical software, computing, data infrastructure, and human capital requirements for the successful deployment of these new methodologies, and consider associated risks and opportunities for broader coordination with external actors.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T18:46:42Z</published>
+    <arxiv:comment>84 pages. This is v1.0 of the DESC's white paper on AI/ML, a collaboration document that is being made public but which is not planned for submission to a journal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name> LSST Dark Energy Science Collaboration</name>
+    </author>
+    <author>
+      <name>Eric Aubourg</name>
+    </author>
+    <author>
+      <name>Camille Avestruz</name>
+    </author>
+    <author>
+      <name>Matthew R. Becker</name>
+    </author>
+    <author>
+      <name>Biswajit Biswas</name>
+    </author>
+    <author>
+      <name>Rahul Biswas</name>
+    </author>
+    <author>
+      <name>Boris Bolliet</name>
+    </author>
+    <author>
+      <name>Adam S. Bolton</name>
+    </author>
+    <author>
+      <name>Clecio R. Bom</name>
+    </author>
+    <author>
+      <name>Raphaël Bonnet-Guerrini</name>
+    </author>
+    <author>
+      <name>Alexandre Boucaud</name>
+    </author>
+    <author>
+      <name>Jean-Eric Campagne</name>
+    </author>
+    <author>
+      <name>Chihway Chang</name>
+    </author>
+    <author>
+      <name>Aleksandra Ćiprijanović</name>
+    </author>
+    <author>
+      <name>Johann Cohen-Tanugi</name>
+    </author>
+    <author>
+      <name>Michael W. Coughlin</name>
+    </author>
+    <author>
+      <name>John Franklin Crenshaw</name>
+    </author>
+    <author>
+      <name>Juan C. Cuevas-Tello</name>
+    </author>
+    <author>
+      <name>Juan de Vicente</name>
+    </author>
+    <author>
+      <name>Seth W. Digel</name>
+    </author>
+    <author>
+      <name>Steven Dillmann</name>
+    </author>
+    <author>
+      <name>Mariano Javier de León Dominguez Romero</name>
+    </author>
+    <author>
+      <name>Alex Drlica-Wagner</name>
+    </author>
+    <author>
+      <name>Sydney Erickson</name>
+    </author>
+    <author>
+      <name>Alexander T. Gagliano</name>
+    </author>
+    <author>
+      <name>Christos Georgiou</name>
+    </author>
+    <author>
+      <name>Aritra Ghosh</name>
+    </author>
+    <author>
+      <name>Matthew Grayling</name>
+    </author>
+    <author>
+      <name>Kirill A. Grishin</name>
+    </author>
+    <author>
+      <name>Alan Heavens</name>
+    </author>
+    <author>
+      <name>Lindsay R. House</name>
+    </author>
+    <author>
+      <name>Mustapha Ishak</name>
+    </author>
+    <author>
+      <name>Wassim Kabalan</name>
+    </author>
+    <author>
+      <name>Arun Kannawadi</name>
+    </author>
+    <author>
+      <name>François Lanusse</name>
+    </author>
+    <author>
+      <name>C. Danielle Leonard</name>
+    </author>
+    <author>
+      <name>Pierre-François Léget</name>
+    </author>
+    <author>
+      <name>Michelle Lochner</name>
+    </author>
+    <author>
+      <name>Yao-Yuan Mao</name>
+    </author>
+    <author>
+      <name>Peter Melchior</name>
+    </author>
+    <author>
+      <name>Grant Merz</name>
+    </author>
+    <author>
+      <name>Martin Millon</name>
+    </author>
+    <author>
+      <name>Anais Möller</name>
+    </author>
+    <author>
+      <name>Gautham Narayan</name>
+    </author>
+    <author>
+      <name>Yuuki Omori</name>
+    </author>
+    <author>
+      <name>Hiranya Peiris</name>
+    </author>
+    <author>
+      <name>Laurence Perreault-Levasseur</name>
+    </author>
+    <author>
+      <name>Andrés A. Plazas Malagón</name>
+    </author>
+    <author>
+      <name>Nesar Ramachandra</name>
+    </author>
+    <author>
+      <name>Benjamin Remy</name>
+    </author>
+    <author>
+      <name>Cécile Roucelle</name>
+    </author>
+    <author>
+      <name>Jaime Ruiz-Zapatero</name>
+    </author>
+    <author>
+      <name>Stefan Schuldt</name>
+    </author>
+    <author>
+      <name>Ignacio Sevilla-Noarbe</name>
+    </author>
+    <author>
+      <name>Ved G. Shah</name>
+    </author>
+    <author>
+      <name>Tjitske Starkenburg</name>
+    </author>
+    <author>
+      <name>Stephen Thorp</name>
+    </author>
+    <author>
+      <name>Laura Toribio San Cipriano</name>
+    </author>
+    <author>
+      <name>Tilman Tröster</name>
+    </author>
+    <author>
+      <name>Roberto Trotta</name>
+    </author>
+    <author>
+      <name>Padma Venkatraman</name>
+    </author>
+    <author>
+      <name>Amanda Wasserman</name>
+    </author>
+    <author>
+      <name>Tim White</name>
+    </author>
+    <author>
+      <name>Justine Zeghal</name>
+    </author>
+    <author>
+      <name>Tianqing Zhang</name>
+    </author>
+    <author>
+      <name>Yuanyuan Zhang</name>
+    </author>
+    <arxiv:doi>10.5281/zenodo.18319953</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5281/zenodo.18319953" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25595v1</id>
+    <title>Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry</title>
+    <updated>2025-10-29T15:03:53Z</updated>
+    <link href="https://arxiv.org/abs/2510.25595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Model (LLM) agents are often approached from the angle of action planning/generation to accomplish a goal (e.g., given by language descriptions), their abilities to collaborate with each other to achieve a joint goal are not well explored. To address this limitation, this paper studies LLM agents in task collaboration, particularly under the condition of information asymmetry, where agents have disparities in their knowledge and skills and need to work together to complete a shared task. We extend Einstein Puzzles, a classical symbolic puzzle, to a table-top game. In this game, two LLM agents must reason, communicate, and act to satisfy spatial and relational constraints required to solve the puzzle. We apply a fine-tuning-plus-verifier framework in which LLM agents are equipped with various communication strategies and verification signals from the environment. Empirical results highlight the critical importance of aligned communication, especially when agents possess both information-seeking and -providing capabilities. Interestingly, agents without communication can still achieve high task performance; however, further analysis reveals a lack of true rule understanding and lower trust from human evaluators. Instead, by integrating an environment-based verifier, we enhance agents' ability to comprehend task rules and complete tasks, promoting both safer and more interpretable collaboration in AI systems. https://github.com/Roihn/EinsteinPuzzles</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T15:03:53Z</published>
+    <arxiv:comment>Workshop on Multi-Agent System @ ICML 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Run Peng</name>
+    </author>
+    <author>
+      <name>Ziqiao Ma</name>
+    </author>
+    <author>
+      <name>Amy Pang</name>
+    </author>
+    <author>
+      <name>Sikai Li</name>
+    </author>
+    <author>
+      <name>Zhang Xi-Jia</name>
+    </author>
+    <author>
+      <name>Yingzhuo Yu</name>
+    </author>
+    <author>
+      <name>Cristian-Paul Bara</name>
+    </author>
+    <author>
+      <name>Joyce Chai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.14089v1</id>
+    <title>Collaborative Human-Agent Planning for Resilience</title>
+    <updated>2021-04-29T03:21:31Z</updated>
+    <link href="https://arxiv.org/abs/2104.14089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.14089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent agents powered by AI planning assist people in complex scenarios, such as managing teams of semi-autonomous vehicles. However, AI planning models may be incomplete, leading to plans that do not adequately meet the stated objectives, especially in unpredicted situations. Humans, who are apt at identifying and adapting to unusual situations, may be able to assist planning agents in these situations by encoding their knowledge into a planner at run-time. We investigate whether people can collaborate with agents by providing their knowledge to an agent using linear temporal logic (LTL) at run-time without changing the agent's domain model. We presented 24 participants with baseline plans for situations in which a planner had limitations, and asked the participants for workarounds for these limitations. We encoded these workarounds as LTL constraints. Results show that participants' constraints improved the expected return of the plans by 10% ($p &lt; 0.05$) relative to baseline plans, demonstrating that human insight can be used in collaborative planning for resilience. However, participants used more declarative than control constraints over time, but declarative constraints produced plans less similar to the expectation of the participants, which could lead to potential trust issues.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-29T03:21:31Z</published>
+    <arxiv:comment>International Workshop on Coordination, Organizations, Institutions, Norms and Ethics for Governance of Multi-Agent Systems (COINE), co-located with AAMAS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ronal Singh</name>
+    </author>
+    <author>
+      <name>Tim Miller</name>
+    </author>
+    <author>
+      <name>Darryn Reid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.05882v2</id>
+    <title>Collaborate, Deliberate, Evaluate: How LLM Alignment Affects Coordinated Multi-Agent Outcomes</title>
+    <updated>2026-01-21T21:29:06Z</updated>
+    <link href="https://arxiv.org/abs/2509.05882v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.05882v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) get integrated into diverse workflows, they are increasingly being regarded as "collaborators" with humans, and required to work in coordination with other AI systems. If such AI collaborators are to reliably coordinate their actions and behaviors with humans or other AIs, their properties and behaviors over multi-turn interactions must be known and predictable. This paper examines how different alignment methods affect LLM agents' effectiveness as partners in multi-turn, multi-party collaborations. We study this question through the lens of intervention agents that insert themselves into group dialogues not to provide answers, but to encourage the collaborative group to slow down and reflect upon their reasoning for deliberative decision-making. Common alignment techniques are typically developed under simplified single-user settings and assume the optimality of the underlying token MDP. Using the theoretical lens of the modified-action MDP, we show how they do not account for the dynamics of long-horizon multi-party interactions. We present a novel roleplay simulation methodology, where we align LLMs according to different methods and then deploy them in collaborative task dialogues to quantify how interventions affect the trajectory of group collaboration, belief alignment, and coordination. Our results show that an intervention agent that is robust to action modification significantly outperforms common alignment baselines in supporting correct task outcomes.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-07T00:58:10Z</published>
+    <arxiv:comment>This submission is a new version of arXiv:2509.05882v1. with a substantially revised experimental pipeline and new metrics. In particular, collaborator agents are now instantiated independently via separate API calls, rather than generated autoregressively by a single agent. All experimental results are new. Accepted as an extended abstract at AAMAS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abhijnan Nath</name>
+    </author>
+    <author>
+      <name>Carine Graff</name>
+    </author>
+    <author>
+      <name>Nikhil Krishnaswamy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.16250v1</id>
+    <title>It Takes a Village: Multidisciplinarity and Collaboration for the Development of Embodied Conversational Agents</title>
+    <updated>2023-08-30T18:14:30Z</updated>
+    <link href="https://arxiv.org/abs/2308.16250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.16250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied conversational agent (ECA) development is a time-consuming and costly process that calls for knowledge in a plethora of different and not necessarily adjacent disciplines. Engaging in activities outside of one's core research to acquire peripheral skills can impede innovation and potentially restrict the outcomes within the boundaries of those acquired skills. A proposal to tackle this challenge is creating collaborative communities of experts from the contributing disciplines to the field of ECAs that via clearly defined roles, expectations and communication channels can help extend the field of ECA research.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-30T18:14:30Z</published>
+    <arxiv:comment>5 pages, 1 figure, ACM CUI 2023: Proceedings of the 5th Conference on Conversational User Interfaces - Is CUI ready yet?, This paper discusses the challenges of ECA development and how they can be tackled via multidisciplinary collaboration</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Danai Korre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.13448v4</id>
+    <title>Warmth and competence in human-agent cooperation</title>
+    <updated>2024-05-09T03:02:50Z</updated>
+    <link href="https://arxiv.org/abs/2201.13448v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.13448v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interaction and cooperation with humans are overarching aspirations of artificial intelligence (AI) research. Recent studies demonstrate that AI agents trained with deep reinforcement learning are capable of collaborating with humans. These studies primarily evaluate human compatibility through "objective" metrics such as task performance, obscuring potential variation in the levels of trust and subjective preference that different agents garner. To better understand the factors shaping subjective preferences in human-agent cooperation, we train deep reinforcement learning agents in Coins, a two-player social dilemma. We recruit $N = 501$ participants for a human-agent cooperation study and measure their impressions of the agents they encounter. Participants' perceptions of warmth and competence predict their stated preferences for different agents, above and beyond objective performance metrics. Drawing inspiration from social science and biology research, we subsequently implement a new ``partner choice'' framework to elicit revealed preferences: after playing an episode with an agent, participants are asked whether they would like to play the next episode with the same agent or to play alone. As with stated preferences, social perception better predicts participants' revealed preferences than does objective performance. Given these results, we recommend human-agent interaction researchers routinely incorporate the measurement of social perception and subjective preferences into their studies.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-31T18:57:08Z</published>
+    <arxiv:comment>Accepted at Autonomous Agents and Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Kevin R. McKee</name>
+    </author>
+    <author>
+      <name>Xuechunzi Bai</name>
+    </author>
+    <author>
+      <name>Susan T. Fiske</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-024-09649-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-024-09649-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08487v5</id>
+    <title>MAViS: A Multi-Agent Framework for Long-Sequence Video Storytelling</title>
+    <updated>2026-01-24T02:16:57Z</updated>
+    <link href="https://arxiv.org/abs/2508.08487v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08487v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent advances, long-sequence video generation frameworks still suffer from significant limitations: poor assistive capability, suboptimal visual quality, and limited expressiveness. To mitigate these limitations, we propose MAViS, a multi-agent collaborative framework designed to assist in long-sequence video storytelling by efficiently translating ideas into visual narratives. MAViS orchestrates specialized agents across multiple stages, including script writing, shot designing, character modeling, keyframe generation, video animation, and audio generation. In each stage, agents operate under the 3E Principle -- Explore, Examine, and Enhance -- to ensure the completeness of intermediate outputs. Considering the capability limitations of current generative models, we propose the Script Writing Guidelines to optimize compatibility between scripts and generative tools. Experimental results demonstrate that MAViS achieves state-of-the-art performance in assistive capability, visual quality, and video expressiveness. Its modular framework further enables scalability with diverse generative models and tools. With just a brief idea description, MAViS enables users to rapidly explore diverse visual storytelling and creative directions for sequential video generation by efficiently producing high-quality, complete long-sequence videos. To the best of our knowledge, MAViS is the only framework that provides multimodal design output -- videos with narratives and background music.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T21:42:41Z</published>
+    <arxiv:comment>Video Generation Agent</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Ziqi Huang</name>
+    </author>
+    <author>
+      <name>Ruoxi Jia</name>
+    </author>
+    <author>
+      <name>Paul Debevec</name>
+    </author>
+    <author>
+      <name>Ning Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.21460v1</id>
+    <title>Large Language Model Agent: A Survey on Methodology, Applications and Challenges</title>
+    <updated>2025-03-27T12:50:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.21460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.21460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The era of intelligent agents is upon us, driven by revolutionary advancements in large language models. Large Language Model (LLM) agents, with goal-driven behaviors and dynamic adaptation capabilities, potentially represent a critical pathway toward artificial general intelligence. This survey systematically deconstructs LLM agent systems through a methodology-centered taxonomy, linking architectural foundations, collaboration mechanisms, and evolutionary pathways. We unify fragmented research threads by revealing fundamental connections between agent design principles and their emergent behaviors in complex environments. Our work provides a unified architectural perspective, examining how agents are constructed, how they collaborate, and how they evolve over time, while also addressing evaluation methodologies, tool applications, practical challenges, and diverse application domains. By surveying the latest developments in this rapidly evolving field, we offer researchers a structured taxonomy for understanding LLM agents and identify promising directions for future research. The collection is available at https://github.com/luo-junyu/Awesome-Agent-Papers.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-27T12:50:17Z</published>
+    <arxiv:comment>329 papers surveyed, resources are at https://github.com/luo-junyu/Awesome-Agent-Papers</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junyu Luo</name>
+    </author>
+    <author>
+      <name>Weizhi Zhang</name>
+    </author>
+    <author>
+      <name>Ye Yuan</name>
+    </author>
+    <author>
+      <name>Yusheng Zhao</name>
+    </author>
+    <author>
+      <name>Junwei Yang</name>
+    </author>
+    <author>
+      <name>Yiyang Gu</name>
+    </author>
+    <author>
+      <name>Bohan Wu</name>
+    </author>
+    <author>
+      <name>Binqi Chen</name>
+    </author>
+    <author>
+      <name>Ziyue Qiao</name>
+    </author>
+    <author>
+      <name>Qingqing Long</name>
+    </author>
+    <author>
+      <name>Rongcheng Tu</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Wei Ju</name>
+    </author>
+    <author>
+      <name>Zhiping Xiao</name>
+    </author>
+    <author>
+      <name>Yifan Wang</name>
+    </author>
+    <author>
+      <name>Meng Xiao</name>
+    </author>
+    <author>
+      <name>Chenwu Liu</name>
+    </author>
+    <author>
+      <name>Jingyang Yuan</name>
+    </author>
+    <author>
+      <name>Shichang Zhang</name>
+    </author>
+    <author>
+      <name>Yiqiao Jin</name>
+    </author>
+    <author>
+      <name>Fan Zhang</name>
+    </author>
+    <author>
+      <name>Xian Wu</name>
+    </author>
+    <author>
+      <name>Hanqing Zhao</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Ming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.00007v1</id>
+    <title>Agent Network Protocol Technical White Paper</title>
+    <updated>2025-07-18T05:04:43Z</updated>
+    <link href="https://arxiv.org/abs/2508.00007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.00007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the development of large models and autonomous decision-making AI, agents are rapidly becoming the new entities of the internet, following mobile apps. However, existing internet infrastructure is primarily designed for human interaction, creating data silos, unfriendly interfaces, and high collaboration costs among agents, making it difficult to support the needs for large-scale agent interconnection and collaboration. The internet is undergoing a profound transformation, showing four core trends: agents replacing traditional software, universal agent interconnection, native protocol-based connections, and autonomous agent organization and collaboration. To align with these trends, Agent Network Protocol (ANP) proposes a new generation of communication protocols for the Agentic Web. ANP adheres to AI-native design, maintains compatibility with existing internet protocols, adopts a modular composable architecture, follows minimalist yet extensible principles, and enables rapid deployment based on existing infrastructure. Through a three-layer protocol system--identity and encrypted communication layer, meta-protocol negotiation layer, and application protocol layer--ANP. systematically solves the problems of agent identity authentication, dynamic negotiation, and capability discovery interoperability.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-18T05:04:43Z</published>
+    <arxiv:comment>This white paper is a reformatted version of the open-source community edition previously released by the ANP Open Source Technology Community(https://github.com/agent-network-protocol)</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Gaowei Chang</name>
+    </author>
+    <author>
+      <name>Eidan Lin</name>
+    </author>
+    <author>
+      <name>Chengxuan Yuan</name>
+    </author>
+    <author>
+      <name>Rizhao Cai</name>
+    </author>
+    <author>
+      <name>Binbin Chen</name>
+    </author>
+    <author>
+      <name>Xuan Xie</name>
+    </author>
+    <author>
+      <name>Yin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.04289v1</id>
+    <title>Designing for Human-Agent Alignment: Understanding what humans want from their agents</title>
+    <updated>2024-04-04T03:01:57Z</updated>
+    <link href="https://arxiv.org/abs/2404.04289v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.04289v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our ability to build autonomous agents that leverage Generative AI continues to increase by the day. As builders and users of such agents it is unclear what parameters we need to align on before the agents start performing tasks on our behalf. To discover these parameters, we ran a qualitative empirical research study about designing agents that can negotiate during a fictional yet relatable task of selling a camera online. We found that for an agent to perform the task successfully, humans/users and agents need to align over 6 dimensions: 1) Knowledge Schema Alignment 2) Autonomy and Agency Alignment 3) Operational Alignment and Training 4) Reputational Heuristics Alignment 5) Ethics Alignment and 6) Human Engagement Alignment. These empirical findings expand previous work related to process and specification alignment and the need for values and safety in Human-AI interactions. Subsequently we discuss three design directions for designers who are imagining a world filled with Human-Agent collaborations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-04T03:01:57Z</published>
+    <arxiv:comment>Human-AI Alignment, Human-Agent Alignment, Agents, Generative AI, Large Language Models</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nitesh Goyal</name>
+    </author>
+    <author>
+      <name>Minsuk Chang</name>
+    </author>
+    <author>
+      <name>Michael Terry</name>
+    </author>
+    <arxiv:doi>10.1145/3613905.3650948</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3613905.3650948" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16392v1</id>
+    <title>Toward Agentic Software Project Management: A Vision and Roadmap</title>
+    <updated>2026-01-23T01:45:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.16392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advent of agentic AI, Software Engineering is transforming to a new era dubbed Software Engineering 3.0. Software project management (SPM) must also evolve with such transformations to boost successful project completion, while keeping humans at the heart of it. Building on our preliminary ideas of "agentic SPM", and supporting literature, we present our vision of an "Agentic Project Manager (PM)" as a multi-agent system for SPM 3.0. They will work like a "junior project manager", or an "intern project manager" collaboratively with software teams. We introduce four working modes, with varying autonomy levels to choose from, based on the SPM task. This addresses concerns with ethics, accountability, and trust related to agentic PMs. We also share insights on human PM role evolution and new skill requirements as a "strategic leader" and a "coach" for humans and agents. While creating the foundation for agentic SPM research, we present a research agenda for the wider research community.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T01:45:08Z</published>
+    <arxiv:comment>This version is the author's preprint of the article accepted for AGENT workshop at ICSE 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Lakshana Iruni Assalaarachchi</name>
+    </author>
+    <author>
+      <name>Zainab Masood</name>
+    </author>
+    <author>
+      <name>Rashina Hoda</name>
+    </author>
+    <author>
+      <name>John Grundy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.02958v2</id>
+    <title>AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML</title>
+    <updated>2025-06-06T10:13:12Z</updated>
+    <link href="https://arxiv.org/abs/2410.02958v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.02958v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated machine learning (AutoML) accelerates AI development by automating tasks in the development pipeline, such as optimal model search and hyperparameter tuning. Existing AutoML systems often require technical expertise to set up complex tools, which is in general time-consuming and requires a large amount of human effort. Therefore, recent works have started exploiting large language models (LLM) to lessen such burden and increase the usability of AutoML frameworks via a natural language interface, allowing non-expert users to build their data-driven solutions. These methods, however, are usually designed only for a particular process in the AI development pipeline and do not efficiently use the inherent capacity of the LLMs. This paper proposes AutoML-Agent, a novel multi-agent framework tailored for full-pipeline AutoML, i.e., from data retrieval to model deployment. AutoML-Agent takes user's task descriptions, facilitates collaboration between specialized LLM agents, and delivers deployment-ready models. Unlike existing work, instead of devising a single plan, we introduce a retrieval-augmented planning strategy to enhance exploration to search for more optimal plans. We also decompose each plan into sub-tasks (e.g., data preprocessing and neural network design) each of which is solved by a specialized agent we build via prompting executing in parallel, making the search process more efficient. Moreover, we propose a multi-stage verification to verify executed results and guide the code generation LLM in implementing successful solutions. Extensive experiments on seven downstream tasks using fourteen datasets show that AutoML-Agent achieves a higher success rate in automating the full AutoML process, yielding systems with good performance throughout the diverse domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-03T20:01:09Z</published>
+    <arxiv:comment>ICML 2025, Project Page: https://deepauto-ai.github.io/automl-agent</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Patara Trirat</name>
+    </author>
+    <author>
+      <name>Wonyong Jeong</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.13523v1</id>
+    <title>ACPs: Agent Collaboration Protocols for the Internet of Agents</title>
+    <updated>2025-05-18T00:54:27Z</updated>
+    <link href="https://arxiv.org/abs/2505.13523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.13523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid advancement of artificial intelligence, the proliferation of autonomous agents has introduced new challenges in interoperability, scalability, and coordination. The Internet of Agents (IoA) aims to interconnect heterogeneous agents through standardized communication protocols, enabling seamless collaboration and intelligent task execution. However, existing agent communication protocols such as MCP, A2A, and ANP remain fragmented and scenario-specific. To address this gap, we propose Agent Collaboration Protocols (ACPs), a comprehensive protocol suite for the IoA. ACPs include registration, discovery, interaction, and tooling protocols to support trustable access, capability orchestration, and workflow construction. We present the architecture, key technologies, and application workflows of ACPs, and demonstrate its effectiveness in a collaborative restaurant booking scenario. ACPs lay the foundation for building a secure, open, and scalable agent internet infrastructure.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-18T00:54:27Z</published>
+    <arxiv:comment>7 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Jun Liu</name>
+    </author>
+    <author>
+      <name>Ke Yu</name>
+    </author>
+    <author>
+      <name>Keliang Chen</name>
+    </author>
+    <author>
+      <name>Ke Li</name>
+    </author>
+    <author>
+      <name>Yuxinyue Qian</name>
+    </author>
+    <author>
+      <name>Xiaolian Guo</name>
+    </author>
+    <author>
+      <name>Haozhe Song</name>
+    </author>
+    <author>
+      <name>Yinming Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18413v3</id>
+    <title>Multi-Agent Collaborative Filtering: Orchestrating Users and Items for Agentic Recommendations</title>
+    <updated>2026-01-26T05:57:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.18413v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18413v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic recommendations cast recommenders as large language model (LLM) agents that can plan, reason, use tools, and interact with users of varying preferences in web applications. However, most existing agentic recommender systems focus on generic single-agent plan-execute workflows or multi-agent task decomposition pipelines. Without recommendation-oriented design, they often underuse the collaborative signals in the user-item interaction history, leading to unsatisfying recommendation results. To address this, we propose the Multi-Agent Collaborative Filtering (MACF) framework for agentic recommendations, drawing an analogy between traditional collaborative filtering algorithms and LLM-based multi-agent collaboration. Specifically, given a target user and query, we instantiate similar users and relevant items as LLM agents with unique profiles. Each agent is able to call retrieval tools, suggest candidate items, and interact with other agents. Different from the static preference aggregation in traditional collaborative filtering, MACF employs a central orchestrator agent to adaptively manage the collaboration between user and item agents via dynamic agent recruitment and personalized collaboration instruction. Experimental results on datasets from three different domains show the advantages of our MACF framework compared to strong agentic recommendation baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-23T11:57:10Z</published>
+    <arxiv:comment>WWW 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yu Xia</name>
+    </author>
+    <author>
+      <name>Sungchul Kim</name>
+    </author>
+    <author>
+      <name>Tong Yu</name>
+    </author>
+    <author>
+      <name>Ryan A. Rossi</name>
+    </author>
+    <author>
+      <name>Julian McAuley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.07165v1</id>
+    <title>Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification</title>
+    <updated>2025-02-11T01:10:13Z</updated>
+    <link href="https://arxiv.org/abs/2502.07165v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.07165v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present PRINCIPLE-BASED PROMPTING, a simple but effective multi-agent prompting strategy for text classification. It first asks multiple LLM agents to independently generate candidate principles based on analysis of demonstration samples with or without labels, consolidates them into final principles via a finalizer agent, and then sends them to a classifier agent to perform downstream classification tasks. Extensive experiments on binary and multi-class classification datasets with different sizes of LLMs show that our approach not only achieves substantial performance gains (1.55% - 19.37%) over zero-shot prompting on macro-F1 score but also outperforms other strong baselines (CoT and stepback prompting). Principles generated by our approach help LLMs perform better on classification tasks than human crafted principles on two private datasets. Our multi-agent PRINCIPLE-BASED PROMPTING approach also shows on-par or better performance compared to demonstration-based few-shot prompting approaches, yet with substantially lower inference costs. Ablation studies show that label information and the multi-agent cooperative LLM framework play an important role in generating high-quality principles to facilitate downstream classification tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-11T01:10:13Z</published>
+    <arxiv:comment>To be published in AAAI 2025 Workshop on Advancing LLM-Based Multi-Agent Collaboration</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peipei Wei</name>
+    </author>
+    <author>
+      <name>Dimitris Dimitriadis</name>
+    </author>
+    <author>
+      <name>Yan Xu</name>
+    </author>
+    <author>
+      <name>Mingwei Shen</name>
+    </author>
+  </entry>
+</feed>

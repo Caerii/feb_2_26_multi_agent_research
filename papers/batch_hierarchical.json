@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GPOGJ4AuXKJKVLTF8tLLWj7Vmm8</id>
+  <title>arXiv Query: search_query=all:hierarchical AND all:agent&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:55:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hierarchical+AND+all:agent&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>2006</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06604v2</id>
+    <title>Model-Free Optimal Control of Linear Multi-Agent Systems via Decomposition and Hierarchical Approximation</title>
+    <updated>2021-03-17T00:47:57Z</updated>
+    <link href="https://arxiv.org/abs/2008.06604v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06604v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing the optimal linear quadratic regulator (LQR) for a large-scale multi-agent system (MAS) is time-consuming since it involves solving a large-size matrix Riccati equation. The situation is further exasperated when the design needs to be done in a model-free way using schemes such as reinforcement learning (RL). To reduce this computational complexity, we decompose the large-scale LQR design problem into multiple smaller-size LQR design problems. We consider the objective function to be specified over an undirected graph, and cast the decomposition as a graph clustering problem. The graph is decomposed into two parts, one consisting of independent clusters of connected components, and the other containing edges that connect different clusters. Accordingly, the resulting controller has a hierarchical structure, consisting of two components. The first component optimizes the performance of each independent cluster by solving the smaller-size LQR design problem in a model-free way using an RL algorithm. The second component accounts for the objective coupling different clusters, which is achieved by solving a least squares problem in one shot. Although suboptimal, the hierarchical controller adheres to a particular structure as specified by inter-agent couplings in the objective function and by the decomposition strategy. Mathematical formulations are established to find a decomposition that minimizes the number of required communication links or reduces the optimality gap. Numerical simulations are provided to highlight the pros and cons of the proposed designs.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-14T23:39:22Z</published>
+    <arxiv:comment>This paper proposes a hierarchical learning and control framework for model-free LQR of heterogeneous linear multi-agent systems</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Gangshan Jing</name>
+    </author>
+    <author>
+      <name>He Bai</name>
+    </author>
+    <author>
+      <name>Jemin George</name>
+    </author>
+    <author>
+      <name>Aranya Chakrabortty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08266v1</id>
+    <title>Federated Control with Hierarchical Multi-Agent Deep Reinforcement Learning</title>
+    <updated>2017-12-22T00:54:48Z</updated>
+    <link href="https://arxiv.org/abs/1712.08266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a framework combining hierarchical and multi-agent deep reinforcement learning approaches to solve coordination problems among a multitude of agents using a semi-decentralized model. The framework extends the multi-agent learning setup by introducing a meta-controller that guides the communication between agent pairs, enabling agents to focus on communicating with only one other agent at any step. This hierarchical decomposition of the task allows for efficient exploration to learn policies that identify globally optimal solutions even as the number of collaborating agents increases. We show promising initial experimental results on a simulated distributed scheduling problem.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-22T00:54:48Z</published>
+    <arxiv:comment>Hierarchical Reinforcement Learning Workshop at the 31st Conference on Neural Information Processing Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Saurabh Kumar</name>
+    </author>
+    <author>
+      <name>Pararth Shah</name>
+    </author>
+    <author>
+      <name>Dilek Hakkani-Tur</name>
+    </author>
+    <author>
+      <name>Larry Heck</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16853v1</id>
+    <title>MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation</title>
+    <updated>2025-07-21T09:37:05Z</updated>
+    <link href="https://arxiv.org/abs/2507.16853v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16853v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Multimodal Large Language Models (MLLMs) have enabled the development of mobile agents that can understand visual inputs and follow user instructions, unlocking new possibilities for automating complex tasks on mobile devices. However, applying these models to real-world mobile scenarios remains a significant challenge due to the long-horizon task execution, difficulty in error recovery, and the cold-start problem in unfamiliar environments. To address these challenges, we propose MobileUse, a GUI agent designed for robust and adaptive mobile task execution. To improve resilience in long-horizon tasks and dynamic environments, we introduce a hierarchical reflection architecture that enables the agent to self-monitor, detect, and recover from errors across multiple temporal scales-ranging from individual actions to overall task completion-while maintaining efficiency through a reflection-on-demand strategy. To tackle cold-start issues, we further introduce a proactive exploration module, which enriches the agent's understanding of the environment through self-planned exploration. Evaluations on AndroidWorld and AndroidLab benchmarks demonstrate that MobileUse establishes new state-of-the-art performance, achieving success rates of 62.9% and 44.2%, respectively. To facilitate real-world applications, we release an out-of-the-box toolkit for automated task execution on physical mobile devices, which is available at https://github.com/MadeAgents/mobile-use.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T09:37:05Z</published>
+    <arxiv:comment>A technical report on a GUI agent based on multi-agent systems</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ning Li</name>
+    </author>
+    <author>
+      <name>Xiangmou Qu</name>
+    </author>
+    <author>
+      <name>Jiamu Zhou</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Muning Wen</name>
+    </author>
+    <author>
+      <name>Kounianhua Du</name>
+    </author>
+    <author>
+      <name>Xingyu Lou</name>
+    </author>
+    <author>
+      <name>Qiuying Peng</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08156v1</id>
+    <title>Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions</title>
+    <updated>2026-01-13T02:38:27Z</updated>
+    <link href="https://arxiv.org/abs/2601.08156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces Project Synapse, a novel agentic framework designed for the autonomous resolution of last-mile delivery disruptions. Synapse employs a hierarchical multi-agent architecture in which a central Resolution Supervisor agent performs strategic task decomposition and delegates subtasks to specialized worker agents responsible for tactical execution. The system is orchestrated using LangGraph to manage complex and cyclical workflows. To validate the framework, a benchmark dataset of 30 complex disruption scenarios was curated from a qualitative analysis of over 6,000 real-world user reviews. System performance is evaluated using an LLM-as-a-Judge protocol with explicit bias mitigation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T02:38:27Z</published>
+    <arxiv:comment>We propose and evaluate a hierarchical LLM-driven multi-agent framework for adaptive disruption management in last-mile logistics, integrating planning, coordination, and natural-language reasoning. The system is validated through simulation-based experiments and qualitative analysis. Includes figures and tables. 33 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Arin Gopalan Yadav</name>
+    </author>
+    <author>
+      <name>Varad Dherange</name>
+    </author>
+    <author>
+      <name>Kumar Shivam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24957v2</id>
+    <title>AMAP Agentic Planning Technical Report</title>
+    <updated>2026-01-08T14:15:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.24957v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24957v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present STAgent, an agentic large language model tailored for spatio-temporal understanding, designed to solve complex tasks such as constrained point-of-interest discovery and itinerary planning. STAgent is a specialized model capable of interacting with ten distinct tools within spatio-temporal scenarios, enabling it to explore, verify, and refine intermediate steps during complex reasoning. Notably, STAgent effectively preserves its general capabilities. We empower STAgent with these capabilities through three key contributions: (1) a stable tool environment that supports over ten domain-specific tools, enabling asynchronous rollout and training; (2) a hierarchical data curation framework that identifies high-quality data like a needle in a haystack, curating high-quality queries by retaining less than 1\% of the raw data, emphasizing both diversity and difficulty; and (3) a cascaded training recipe that starts with a seed SFT stage acting as a guardian to measure query difficulty, followed by a second SFT stage fine-tuned on queries with high certainty, and an ultimate RL stage that leverages data of low certainty. Initialized with Qwen3-30B-A3B to establish a strong SFT foundation and leverage insights into sample difficulty, STAgent yields promising performance on TravelBench while maintaining its general capabilities across a wide range of general benchmarks, thereby demonstrating the effectiveness of our proposed agentic model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T16:39:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name> AMAP AI Agent Team</name>
+    </author>
+    <author>
+      <name>Yulan Hu</name>
+    </author>
+    <author>
+      <name>Xiangwen Zhang</name>
+    </author>
+    <author>
+      <name>Sheng Ouyang</name>
+    </author>
+    <author>
+      <name>Hao Yi</name>
+    </author>
+    <author>
+      <name>Lu Xu</name>
+    </author>
+    <author>
+      <name>Qinglin Lang</name>
+    </author>
+    <author>
+      <name>Lide Tan</name>
+    </author>
+    <author>
+      <name>Xiang Cheng</name>
+    </author>
+    <author>
+      <name>Tianchen Ye</name>
+    </author>
+    <author>
+      <name>Zhicong Li</name>
+    </author>
+    <author>
+      <name>Ge Chen</name>
+    </author>
+    <author>
+      <name>Wenjin Yang</name>
+    </author>
+    <author>
+      <name>Zheng Pan</name>
+    </author>
+    <author>
+      <name>Shaopan Xiong</name>
+    </author>
+    <author>
+      <name>Siran Yang</name>
+    </author>
+    <author>
+      <name>Ju Huang</name>
+    </author>
+    <author>
+      <name>Yan Zhang</name>
+    </author>
+    <author>
+      <name>Jiamang Wang</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+    <author>
+      <name>Yinfeng Huang</name>
+    </author>
+    <author>
+      <name>Ning Wang</name>
+    </author>
+    <author>
+      <name>Tucheng Lin</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Ning Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.08307v2</id>
+    <title>Coordinating Fully-Cooperative Agents Using Hierarchical Learning Anticipation</title>
+    <updated>2023-04-02T18:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.08307v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.08307v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning anticipation is a reasoning paradigm in multi-agent reinforcement learning, where agents, during learning, consider the anticipated learning of other agents. There has been substantial research into the role of learning anticipation in improving cooperation among self-interested agents in general-sum games. Two primary examples are Learning with Opponent-Learning Awareness (LOLA), which anticipates and shapes the opponent's learning process to ensure cooperation among self-interested agents in various games such as iterated prisoner's dilemma, and Look-Ahead (LA), which uses learning anticipation to guarantee convergence in games with cyclic behaviors. So far, the effectiveness of applying learning anticipation to fully-cooperative games has not been explored. In this study, we aim to research the influence of learning anticipation on coordination among common-interested agents. We first illustrate that both LOLA and LA, when applied to fully-cooperative games, degrade coordination among agents, causing worst-case outcomes. Subsequently, to overcome this miscoordination behavior, we propose Hierarchical Learning Anticipation (HLA), where agents anticipate the learning of other agents in a hierarchical fashion. Specifically, HLA assigns agents to several hierarchy levels to properly regulate their reasonings. Our theoretical and empirical findings confirm that HLA can significantly improve coordination among common-interested agents in fully-cooperative normal-form games. With HLA, to the best of our knowledge, we are the first to unlock the benefits of learning anticipation for fully-cooperative games.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-15T01:41:20Z</published>
+    <arxiv:comment>AAMAS 2023 Workshop on Optimization and Learning in Multi-Agent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ariyan Bighashdel</name>
+    </author>
+    <author>
+      <name>Daan de Geus</name>
+    </author>
+    <author>
+      <name>Pavol Jancura</name>
+    </author>
+    <author>
+      <name>Gijs Dubbelman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.03059v1</id>
+    <title>Hierarchical Heuristic Learning towards Effcient Norm Emergence</title>
+    <updated>2018-03-08T12:14:49Z</updated>
+    <link href="https://arxiv.org/abs/1803.03059v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.03059v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Social norms serve as an important mechanism to regulate the behaviors of agents and to facilitate coordination among them in multiagent systems. One important research question is how a norm can rapidly emerge through repeated local interaction within an agent society under different environments when their coordination space becomes large. To address this problem, we propose a Hierarchically Heuristic Learning Strategy (HHLS) under the hierarchical social learning framework, in which subordinate agents report their information to their supervisors, while supervisors can generate instructions (rules and suggestions) based on the information collected from their subordinates. Subordinate agents heuristically update their strategies based on both their own experience and the instructions from their supervisors. Extensive experiment evaluations show that HHLS can support the emergence of desirable social norms more efficiently and is applicable in a much wider range of multiagent interaction scenarios compared with previous work. We also investigate the effectiveness of HHLS by separating out the different components of the HHLS and evaluating the relative importance of those components. The influence of key related factors (e.g., hierarchical factors, non-hierarchical factors, fixed-strategy agents) are investigated as well.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-08T12:14:49Z</published>
+    <arxiv:comment>This manuscript contains 31 pages, 21 figures. It is an extended version of the paper published in the proceedings of the 22nd European Conference on Artificial Intelligence (ECAI): Accelerating Norm Emergence Through Hierarchical Heuristic Learning. We have submitted the manuscript to Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS) in November 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Tianpei Yang</name>
+    </author>
+    <author>
+      <name>Jianye Hao</name>
+    </author>
+    <author>
+      <name>Zhaopeng Meng</name>
+    </author>
+    <author>
+      <name>Sandip Sen</name>
+    </author>
+    <author>
+      <name>Sheng Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.16641v1</id>
+    <title>A Hierarchical Game-Theoretic Decision-Making for Cooperative Multi-Agent Systems Under the Presence of Adversarial Agents</title>
+    <updated>2023-03-28T15:16:23Z</updated>
+    <link href="https://arxiv.org/abs/2303.16641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.16641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Underlying relationships among Multi-Agent Systems (MAS) in hazardous scenarios can be represented as Game-theoretic models. This paper proposes a new hierarchical network-based model called Game-theoretic Utility Tree (GUT), which decomposes high-level strategies into executable low-level actions for cooperative MAS decisions. It combines with a new payoff measure based on agent needs for real-time strategy games. We present an Explore game domain, where we measure the performance of MAS achieving tasks from the perspective of balancing the success probability and system costs. We evaluate the GUT approach against state-of-the-art methods that greedily rely on rewards of the composite actions. Conclusive results on extensive numerical simulations indicate that GUT can organize more complex relationships among MAS cooperation, helping the group achieve challenging tasks with lower costs and higher winning rates. Furthermore, we demonstrated the applicability of the GUT using the simulator-hardware testbed - Robotarium. The performances verified the effectiveness of the GUT in the real robot application and validated that the GUT could effectively organize MAS cooperation strategies, helping the group with fewer advantages achieve higher performance.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-28T15:16:23Z</published>
+    <arxiv:comment>This paper is accepted by the ACM Symposium on Applied Computing (SAC) 2023 Technical Track on Intelligent Robotics and Multi-Agent Systems (IRMAS)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Qin Yang</name>
+    </author>
+    <author>
+      <name>Ramviyas Parasuraman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.09676v1</id>
+    <title>Third-Person Visual Imitation Learning via Decoupled Hierarchical Controller</title>
+    <updated>2019-11-21T18:59:29Z</updated>
+    <link href="https://arxiv.org/abs/1911.09676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.09676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a generalized setup for learning from demonstration to build an agent that can manipulate novel objects in unseen scenarios by looking at only a single video of human demonstration from a third-person perspective. To accomplish this goal, our agent should not only learn to understand the intent of the demonstrated third-person video in its context but also perform the intended task in its environment configuration. Our central insight is to enforce this structure explicitly during learning by decoupling what to achieve (intended task) from how to perform it (controller). We propose a hierarchical setup where a high-level module learns to generate a series of first-person sub-goals conditioned on the third-person video demonstration, and a low-level controller predicts the actions to achieve those sub-goals. Our agent acts from raw image observations without any access to the full state information. We show results on a real robotic platform using Baxter for the manipulation tasks of pouring and placing objects in a box. Project video and code are at https://pathak22.github.io/hierarchical-imitation/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-21T18:59:29Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2019. Videos at https://pathak22.github.io/hierarchical-imitation/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pratyusha Sharma</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.17356v2</id>
+    <title>Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning</title>
+    <updated>2025-09-16T10:52:32Z</updated>
+    <link href="https://arxiv.org/abs/2504.17356v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.17356v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feature selection aims to preprocess the target dataset, find an optimal and most streamlined feature subset, and enhance the downstream machine learning task. Among filter, wrapper, and embedded-based approaches, the reinforcement learning (RL)-based subspace exploration strategy provides a novel objective optimization-directed perspective and promising performance. Nevertheless, even with improved performance, current reinforcement learning approaches face challenges similar to conventional methods when dealing with complex datasets. These challenges stem from the inefficient paradigm of using one agent per feature and the inherent complexities present in the datasets. This observation motivates us to investigate and address the above issue and propose a novel approach, namely HRLFS. Our methodology initially employs a Large Language Model (LLM)-based hybrid state extractor to capture each feature's mathematical and semantic characteristics. Based on this information, features are clustered, facilitating the construction of hierarchical agents for each cluster and sub-cluster. Extensive experiments demonstrate the efficiency, scalability, and robustness of our approach. Compared to contemporary or the one-feature-one-agent RL-based approaches, HRLFS improves the downstream ML performance with iterative feature subspace exploration while accelerating total run time by reducing the number of agents involved.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T08:16:36Z</published>
+    <arxiv:comment>20 pages, keywords: Automated Feature Engineering, Tabular Dataset, Multi-Agent Reinforcement Learning, Feature Selection</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Weiliang Zhang</name>
+    </author>
+    <author>
+      <name>Xiaohan Huang</name>
+    </author>
+    <author>
+      <name>Yi Du</name>
+    </author>
+    <author>
+      <name>Ziyue Qiao</name>
+    </author>
+    <author>
+      <name>Qingqing Long</name>
+    </author>
+    <author>
+      <name>Zhen Meng</name>
+    </author>
+    <author>
+      <name>Yuanchun Zhou</name>
+    </author>
+    <author>
+      <name>Meng Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.07008v1</id>
+    <title>Hierarchical Reinforcement Learning with Deep Nested Agents</title>
+    <updated>2018-05-18T01:06:36Z</updated>
+    <link href="https://arxiv.org/abs/1805.07008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.07008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep hierarchical reinforcement learning has gained a lot of attention in recent years due to its ability to produce state-of-the-art results in challenging environments where non-hierarchical frameworks fail to learn useful policies. However, as problem domains become more complex, deep hierarchical reinforcement learning can become inefficient, leading to longer convergence times and poor performance. We introduce the Deep Nested Agent framework, which is a variant of deep hierarchical reinforcement learning where information from the main agent is propagated to the low level $nested$ agent by incorporating this information into the nested agent's state. We demonstrate the effectiveness and performance of the Deep Nested Agent framework by applying it to three scenarios in Minecraft with comparisons to a deep non-hierarchical single agent framework, as well as, a deep hierarchical framework.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-18T01:06:36Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Marc Brittain</name>
+    </author>
+    <author>
+      <name>Peng Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10934v2</id>
+    <title>Agent-as-a-Judge: Evaluate Agents with Agents</title>
+    <updated>2024-10-16T17:54:12Z</updated>
+    <link href="https://arxiv.org/abs/2410.10934v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10934v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic systems are used to evaluate agentic systems. This is an organic extension of the LLM-as-a-Judge framework, incorporating agentic features that enable intermediate feedback for the entire task-solving process. We apply the Agent-as-a-Judge to the task of code generation. To overcome issues with existing benchmarks and provide a proof-of-concept testbed for Agent-as-a-Judge, we present DevAI, a new benchmark of 55 realistic automated AI development tasks. It includes rich manual annotations, like a total of 365 hierarchical user requirements. We benchmark three of the popular agentic systems using Agent-as-a-Judge and find it dramatically outperforms LLM-as-a-Judge and is as reliable as our human evaluation baseline. Altogether, we believe that Agent-as-a-Judge marks a concrete step forward for modern agentic systems -- by providing rich and reliable reward signals necessary for dynamic and scalable self-improvement.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T17:57:02Z</published>
+    <arxiv:comment>The project can be found at https://github.com/metauto-ai/agent-as-a-judge. The dataset is released at https://huggingface.co/DEVAI-benchmark</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Changsheng Zhao</name>
+    </author>
+    <author>
+      <name>Dylan Ashley</name>
+    </author>
+    <author>
+      <name>Wenyi Wang</name>
+    </author>
+    <author>
+      <name>Dmitrii Khizbullin</name>
+    </author>
+    <author>
+      <name>Yunyang Xiong</name>
+    </author>
+    <author>
+      <name>Zechun Liu</name>
+    </author>
+    <author>
+      <name>Ernie Chang</name>
+    </author>
+    <author>
+      <name>Raghuraman Krishnamoorthi</name>
+    </author>
+    <author>
+      <name>Yuandong Tian</name>
+    </author>
+    <author>
+      <name>Yangyang Shi</name>
+    </author>
+    <author>
+      <name>Vikas Chandra</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.06554v1</id>
+    <title>Hierarchical Reinforcement Learning for Optimal Agent Grouping in Cooperative Systems</title>
+    <updated>2025-01-11T14:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2501.06554v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.06554v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a hierarchical reinforcement learning (RL) approach to address the agent grouping or pairing problem in cooperative multi-agent systems. The goal is to simultaneously learn the optimal grouping and agent policy. By employing a hierarchical RL framework, we distinguish between high-level decisions of grouping and low-level agents' actions. Our approach utilizes the CTDE (Centralized Training with Decentralized Execution) paradigm, ensuring efficient learning and scalable execution. We incorporate permutation-invariant neural networks to handle the homogeneity and cooperation among agents, enabling effective coordination. The option-critic algorithm is adapted to manage the hierarchical decision-making process, allowing for dynamic and optimal policy adjustments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-11T14:22:10Z</published>
+    <arxiv:comment>9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Liyuan Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.03019v1</id>
+    <title>Addendum to: Summary Information for Reasoning About Hierarchical Plans</title>
+    <updated>2017-08-09T21:27:29Z</updated>
+    <link href="https://arxiv.org/abs/1708.03019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.03019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hierarchically structured agent plans are important for efficient planning and acting, and they also serve (among other things) to produce "richer" classical plans, composed not just of a sequence of primitive actions, but also "abstract" ones representing the supplied hierarchies. A crucial step for this and other approaches is deriving precondition and effect "summaries" from a given plan hierarchy. This paper provides mechanisms to do this for more pragmatic and conventional hierarchies than in the past. To this end, we formally define the notion of a precondition and an effect for a hierarchical plan; we present data structures and algorithms for automatically deriving this information; and we analyse the properties of the presented algorithms. We conclude the paper by detailing how our algorithms may be used together with a classical planner in order to obtain abstract plans.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-09T21:27:29Z</published>
+    <arxiv:comment>This paper is a more detailed version of the following publication: Lavindra de Silva, Sebastian Sardina, Lin Padgham: Summary Information for Reasoning About Hierarchical Plans. ECAI 2016: 1300-1308</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lavindra de Silva</name>
+    </author>
+    <author>
+      <name>Sebastian Sardina</name>
+    </author>
+    <author>
+      <name>Lin Padgham</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.15425v4</id>
+    <title>TAG: A Decentralized Framework for Multi-Agent Hierarchical Reinforcement Learning</title>
+    <updated>2025-03-05T10:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2502.15425v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.15425v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hierarchical organization is fundamental to biological systems and human societies, yet artificial intelligence systems often rely on monolithic architectures that limit adaptability and scalability. Current hierarchical reinforcement learning (HRL) approaches typically restrict hierarchies to two levels or require centralized training, which limits their practical applicability. We introduce TAME Agent Framework (TAG), a framework for constructing fully decentralized hierarchical multi-agent systems. TAG enables hierarchies of arbitrary depth through a novel LevelEnv concept, which abstracts each hierarchy level as the environment for the agents above it. This approach standardizes information flow between levels while preserving loose coupling, allowing for seamless integration of diverse agent types. We demonstrate the effectiveness of TAG by implementing hierarchical architectures that combine different RL agents across multiple levels, achieving improved performance over classical multi-agent RL baselines on standard benchmarks. Our results show that decentralized hierarchical organization enhances both learning speed and final performance, positioning TAG as a promising direction for scalable multi-agent systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-21T12:52:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Giuseppe Paolo</name>
+    </author>
+    <author>
+      <name>Abdelhakim Benechehab</name>
+    </author>
+    <author>
+      <name>Hamza Cherkaoui</name>
+    </author>
+    <author>
+      <name>Albert Thomas</name>
+    </author>
+    <author>
+      <name>Balázs Kégl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.17702v3</id>
+    <title>Episodic Memory Verbalization using Hierarchical Representations of Life-Long Robot Experience</title>
+    <updated>2025-08-14T14:53:25Z</updated>
+    <link href="https://arxiv.org/abs/2409.17702v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.17702v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Verbalization of robot experience, i.e., summarization of and question answering about a robot's past, is a crucial ability for improving human-robot interaction. Previous works applied rule-based systems or fine-tuned deep models to verbalize short (several-minute-long) streams of episodic data, limiting generalization and transferability. In our work, we apply large pretrained models to tackle this task with zero or few examples, and specifically focus on verbalizing life-long experiences. For this, we derive a tree-like data structure from episodic memory (EM), with lower levels representing raw perception and proprioception data, and higher levels abstracting events to natural language concepts. Given such a hierarchical representation built from the experience stream, we apply a large language model as an agent to interactively search the EM given a user's query, dynamically expanding (initially collapsed) tree nodes to find the relevant information. The approach keeps computational costs low even when scaling to months of robot experience data. We evaluate our method on simulated household robot data, human egocentric videos, and real-world robot recordings, demonstrating its flexibility and scalability.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-26T10:16:08Z</published>
+    <arxiv:comment>Humanoids 2025. Code, data and demo videos at https://hierarchical-emv.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Leonard Bärmann</name>
+    </author>
+    <author>
+      <name>Chad DeChant</name>
+    </author>
+    <author>
+      <name>Joana Plewnia</name>
+    </author>
+    <author>
+      <name>Fabian Peller-Konrad</name>
+    </author>
+    <author>
+      <name>Daniel Bauer</name>
+    </author>
+    <author>
+      <name>Tamim Asfour</name>
+    </author>
+    <author>
+      <name>Alex Waibel</name>
+    </author>
+    <arxiv:doi>10.1109/Humanoids65713.2025.11203101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/Humanoids65713.2025.11203101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.00044v1</id>
+    <title>Creating Hierarchical Dispositions of Needs in an Agent</title>
+    <updated>2024-11-23T06:41:54Z</updated>
+    <link href="https://arxiv.org/abs/2412.00044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.00044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel method for learning hierarchical abstractions that prioritize competing objectives, leading to improved global expected rewards. Our approach employs a secondary rewarding agent with multiple scalar outputs, each associated with a distinct level of abstraction. The traditional agent then learns to maximize these outputs in a hierarchical manner, conditioning each level on the maximization of the preceding level. We derive an equation that orders these scalar values and the global reward by priority, inducing a hierarchy of needs that informs goal formation. Experimental results on the Pendulum v1 environment demonstrate superior performance compared to a baseline implementation.We achieved state of the art results.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-23T06:41:54Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tofara Moyo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16542v1</id>
+    <title>Agents meet OKR: An Object and Key Results Driven Agent System with Hierarchical Self-Collaboration and Self-Evaluation</title>
+    <updated>2023-11-28T06:16:30Z</updated>
+    <link href="https://arxiv.org/abs/2311.16542v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16542v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we introduce the concept of OKR-Agent designed to enhance the capabilities of Large Language Models (LLMs) in task-solving. Our approach utilizes both self-collaboration and self-correction mechanism, facilitated by hierarchical agents, to address the inherent complexities in task-solving. Our key observations are two-fold: first, effective task-solving demands in-depth domain knowledge and intricate reasoning, for which deploying specialized agents for individual sub-tasks can markedly enhance LLM performance. Second, task-solving intrinsically adheres to a hierarchical execution structure, comprising both high-level strategic planning and detailed task execution. Towards this end, our OKR-Agent paradigm aligns closely with this hierarchical structure, promising enhanced efficacy and adaptability across a range of scenarios. Specifically, our framework includes two novel modules: hierarchical Objects and Key Results generation and multi-level evaluation, each contributing to more efficient and robust task-solving. In practical, hierarchical OKR generation decomposes Objects into multiple sub-Objects and assigns new agents based on key results and agent responsibilities. These agents subsequently elaborate on their designated tasks and may further decompose them as necessary. Such generation operates recursively and hierarchically, culminating in a comprehensive set of detailed solutions. The multi-level evaluation module of OKR-Agent refines solution by leveraging feedback from all associated agents, optimizing each step of the process. This ensures solution is accurate, practical, and effectively address intricate task requirements, enhancing the overall reliability and quality of the outcome. Experimental results also show our method outperforms the previous methods on several tasks. Code and demo are available at https://okr-agent.github.io/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-28T06:16:30Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yi Zheng</name>
+    </author>
+    <author>
+      <name>Chongyang Ma</name>
+    </author>
+    <author>
+      <name>Kanle Shi</name>
+    </author>
+    <author>
+      <name>Haibin Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.08003v1</id>
+    <title>Hierarchical Decentralized Deep Reinforcement Learning Architecture for a Simulated Four-Legged Agent</title>
+    <updated>2022-09-21T07:55:33Z</updated>
+    <link href="https://arxiv.org/abs/2210.08003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.08003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Legged locomotion is widespread in nature and has inspired the design of current robots. The controller of these legged robots is often realized as one centralized instance. However, in nature, control of movement happens in a hierarchical and decentralized fashion. Introducing these biological design principles into robotic control systems has motivated this work. We tackle the question whether decentralized and hierarchical control is beneficial for legged robots and present a novel decentral, hierarchical architecture to control a simulated legged agent. Three different tasks varying in complexity are designed to benchmark five architectures (centralized, decentralized, hierarchical and two different combinations of hierarchical decentralized architectures). The results demonstrate that decentralizing the different levels of the hierarchical architectures facilitates learning of the agent, ensures more energy efficient movements as well as robustness towards new unseen environments. Furthermore, this comparison sheds light on the importance of modularity in hierarchical architectures to solve complex goal-directed tasks. We provide an open-source code implementation of our architecture (https://github.com/wzaielamri/hddrl).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-21T07:55:33Z</published>
+    <arxiv:comment>Conference paper (LOD 2022), 15 pages, 8 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>W. Zai El Amri</name>
+    </author>
+    <author>
+      <name>L. Hermes</name>
+    </author>
+    <author>
+      <name>M. Schilling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.06967v1</id>
+    <title>Explaining Agent's Decision-making in a Hierarchical Reinforcement Learning Scenario</title>
+    <updated>2022-12-14T01:18:45Z</updated>
+    <link href="https://arxiv.org/abs/2212.06967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.06967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning is a machine learning approach based on behavioral psychology. It is focused on learning agents that can acquire knowledge and learn to carry out new tasks by interacting with the environment. However, a problem occurs when reinforcement learning is used in critical contexts where the users of the system need to have more information and reliability for the actions executed by an agent. In this regard, explainable reinforcement learning seeks to provide to an agent in training with methods in order to explain its behavior in such a way that users with no experience in machine learning could understand the agent's behavior. One of these is the memory-based explainable reinforcement learning method that is used to compute probabilities of success for each state-action pair using an episodic memory. In this work, we propose to make use of the memory-based explainable reinforcement learning method in a hierarchical environment composed of sub-tasks that need to be first addressed to solve a more complex task. The end goal is to verify if it is possible to provide to the agent the ability to explain its actions in the global task as well as in the sub-tasks. The results obtained showed that it is possible to use the memory-based method in hierarchical environments with high-level tasks and compute the probabilities of success to be used as a basis for explaining the agent's behavior.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-14T01:18:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hugo Muñoz</name>
+    </author>
+    <author>
+      <name>Ernesto Portugal</name>
+    </author>
+    <author>
+      <name>Angel Ayala</name>
+    </author>
+    <author>
+      <name>Bruno Fernandes</name>
+    </author>
+    <author>
+      <name>Francisco Cruz</name>
+    </author>
+  </entry>
+</feed>

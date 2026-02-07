@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oo+QyUa8L8D638ELzV2ATw2A4BA</id>
+  <title>arXiv Query: search_query=all:multi-agent AND all:architecture&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:55:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:multi-agent+AND+all:architecture&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>2596</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.06333v3</id>
+    <title>Augmenting the action space with conventions to improve multi-agent cooperation in Hanabi</title>
+    <updated>2025-05-24T12:49:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.06333v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.06333v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The card game Hanabi is considered a strong medium for the testing and development of multi-agent reinforcement learning (MARL) algorithms, due to its cooperative nature, partial observability, limited communication and remarkable complexity. Previous research efforts have explored the capabilities of MARL algorithms within Hanabi, focusing largely on advanced architecture design and algorithmic manipulations to achieve state-of-the-art performance for various number of cooperators. However, this often leads to complex solution strategies with high computational cost and requiring large amounts of training data. For humans to solve the Hanabi game effectively, they require the use of conventions, which often allows for a means to implicitly convey ideas or knowledge based on a predefined, and mutually agreed upon, set of "rules" or principles. Multi-agent problems containing partial observability, especially when limited communication is present, can benefit greatly from the use of implicit knowledge sharing. In this paper, we propose a novel approach to augmenting an agent's action space using conventions, which act as a sequence of special cooperative actions that span over and include multiple time steps and multiple agents, requiring agents to actively opt in for it to reach fruition. These conventions are based on existing human conventions, and result in a significant improvement on the performance of existing techniques for self-play and cross-play for various number of cooperators within Hanabi.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-09T09:34:40Z</published>
+    <arxiv:comment>This paper is accepted and published in the journal of autonomous agents and multi-agent systems (JAAMAS). The updated manuscript is the revised version after the final round of peer revision</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Autonomous Agents and Multi-agent Systems, vol. 39, no. 28, (2025)</arxiv:journal_ref>
+    <author>
+      <name>F. Bredell</name>
+    </author>
+    <author>
+      <name>H. A. Engelbrecht</name>
+    </author>
+    <author>
+      <name>J. C. Schoeman</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-025-09709-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-025-09709-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13343v1</id>
+    <title>AOAD-MAT: Transformer-based multi-agent deep reinforcement learning model considering agents' order of action decisions</title>
+    <updated>2025-10-15T09:29:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.13343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent reinforcement learning focuses on training the behaviors of multiple learning agents that coexist in a shared environment. Recently, MARL models, such as the Multi-Agent Transformer (MAT) and ACtion dEpendent deep Q-learning (ACE), have significantly improved performance by leveraging sequential decision-making processes. Although these models can enhance performance, they do not explicitly consider the importance of the order in which agents make decisions. In this paper, we propose an Agent Order of Action Decisions-MAT (AOAD-MAT), a novel MAT model that considers the order in which agents make decisions. The proposed model explicitly incorporates the sequence of action decisions into the learning process, allowing the model to learn and predict the optimal order of agent actions. The AOAD-MAT model leverages a Transformer-based actor-critic architecture that dynamically adjusts the sequence of agent actions. To achieve this, we introduce a novel MARL architecture that cooperates with a subtask focused on predicting the next agent to act, integrated into a Proximal Policy Optimization based loss function to synergistically maximize the advantage of the sequential decision-making. The proposed method was validated through extensive experiments on the StarCraft Multi-Agent Challenge and Multi-Agent MuJoCo benchmarks. The experimental results show that the proposed AOAD-MAT model outperforms existing MAT and other baseline models, demonstrating the effectiveness of adjusting the AOAD order in MARL.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T09:29:36Z</published>
+    <arxiv:comment>This manuscript is an extended version of the work accepted as a short paper at the 26th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2025). The Version of Record of this contribution is published in Springer's Lecture Notes in Artificial Intelligence series (LNCS/LNAI)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>PRIMA 2025: Principles and Practice of Multi-Agent Systems, LNCS 16366, pp. 303-310 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Shota Takayama</name>
+    </author>
+    <author>
+      <name>Katsuhide Fujita</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-032-13562-9_23</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-032-13562-9_23" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20138v7</id>
+    <title>TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
+    <updated>2025-06-03T05:45:06Z</updated>
+    <link href="https://arxiv.org/abs/2412.20138v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20138v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Significant progress has been made in automated problem-solving using societies of agents powered by large language models (LLMs). In finance, efforts have largely focused on single-agent systems handling specific tasks or multi-agent frameworks independently gathering data. However, the multi-agent systems' potential to replicate real-world trading firms' collaborative dynamics remains underexplored. TradingAgents proposes a novel stock trading framework inspired by trading firms, featuring LLM-powered agents in specialized roles such as fundamental analysts, sentiment analysts, technical analysts, and traders with varied risk profiles. The framework includes Bull and Bear researcher agents assessing market conditions, a risk management team monitoring exposure, and traders synthesizing insights from debates and historical data to make informed decisions. By simulating a dynamic, collaborative trading environment, this framework aims to improve trading performance. Detailed architecture and extensive experiments reveal its superiority over baseline models, with notable improvements in cumulative returns, Sharpe ratio, and maximum drawdown, highlighting the potential of multi-agent LLM frameworks in financial trading. TradingAgents is available at https://github.com/TauricResearch/TradingAgents.</summary>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-28T12:54:06Z</published>
+    <arxiv:comment>Tauric Research @ https://github.com/TauricResearch; Oral @ Multi-Agent AI in the Real World</arxiv:comment>
+    <arxiv:primary_category term="q-fin.TR"/>
+    <author>
+      <name>Yijia Xiao</name>
+    </author>
+    <author>
+      <name>Edward Sun</name>
+    </author>
+    <author>
+      <name>Di Luo</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15790v1</id>
+    <title>Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)</title>
+    <updated>2025-12-15T23:04:48Z</updated>
+    <link href="https://arxiv.org/abs/2512.15790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing operational reliance on complex Multi-Agent Systems (MAS) across safety-critical domains necessitates rigorous adversarial robustness assessment. Modern MAS are inherently heterogeneous, integrating conventional Multi-Agent Reinforcement Learning (MARL) with emerging Large Language Model (LLM) agent architectures utilizing Retrieval-Augmented Generation (RAG). A critical shared vulnerability is reliance on centralized memory components: the shared Experience Replay (ER) buffer in MARL and the external Knowledge Base (K) in RAG agents. This paper proposes XAMT (Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures), a novel framework that formalizes attack generation as a bilevel optimization problem. The Upper Level minimizes perturbation magnitude (delta) to enforce covertness while maximizing system behavior divergence toward an adversary-defined target (Lower Level). We provide rigorous mathematical instantiations for CTDE MARL algorithms and RAG-based LLM agents, demonstrating that bilevel optimization uniquely crafts stealthy, minimal-perturbation poisons evading detection heuristics. Comprehensive experimental protocols utilize SMAC and SafeRAG benchmarks to quantify effectiveness at sub-percent poison rates (less than or equal to 1 percent in MARL, less than or equal to 0.1 percent in RAG). XAMT defines a new unified class of training-time threats essential for developing intrinsically secure MAS, with implications for trust, formal verification, and defensive strategies prioritizing intrinsic safety over perimeter-based detection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T23:04:48Z</published>
+    <arxiv:comment>10 pages, 5 figures, 4 tables. Conference-style paper (IEEEtran). Proposes unified bilevel optimization framework for covert memory poisoning attacks in heterogeneous multi-agent systems (MARL + RAG)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Akhil Sharma</name>
+    </author>
+    <author>
+      <name>Shaikh Yaser Arafat</name>
+    </author>
+    <author>
+      <name>Jai Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Ken Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07497v4</id>
+    <title>Analysing Factorizations of Action-Value Networks for Cooperative Multi-Agent Reinforcement Learning</title>
+    <updated>2023-11-09T13:40:49Z</updated>
+    <link href="https://arxiv.org/abs/1902.07497v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07497v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have seen the application of deep reinforcement learning techniques to cooperative multi-agent systems, with great empirical success. However, given the lack of theoretical insight, it remains unclear what the employed neural networks are learning, or how we should enhance their learning power to address the problems on which they fail. In this work, we empirically investigate the learning power of various network architectures on a series of one-shot games. Despite their simplicity, these games capture many of the crucial problems that arise in the multi-agent setting, such as an exponential number of joint actions or the lack of an explicit coordination mechanism. Our results extend those in [4] and quantify how well various approaches can represent the requisite value functions, and help us identify the reasons that can impede good performance, like sparsity of the values or too tight coordination requirements.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T10:47:19Z</published>
+    <arxiv:comment>This work as been accepted as an Extended Abstract in Proc. of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019), N. Agmon, M. E. Taylor, E. Elkind, M. Veloso (eds.), May 2019, Montreal, Canada</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Auton Agent Multi-Agent Syst 35, 25 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Jacopo Castellini</name>
+    </author>
+    <author>
+      <name>Frans A. Oliehoek</name>
+    </author>
+    <author>
+      <name>Rahul Savani</name>
+    </author>
+    <author>
+      <name>Shimon Whiteson</name>
+    </author>
+    <arxiv:doi>10.1007/s10458-021-09506-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10458-021-09506-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.13252v1</id>
+    <title>Multi Agent System for Machine Learning Under Uncertainty in Cyber Physical Manufacturing System</title>
+    <updated>2021-07-28T10:28:05Z</updated>
+    <link href="https://arxiv.org/abs/2107.13252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.13252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in predictive machine learning has led to its application in various use cases in manufacturing. Most research focused on maximising predictive accuracy without addressing the uncertainty associated with it. While accuracy is important, focusing primarily on it poses an overfitting danger, exposing manufacturers to risk, ultimately hindering the adoption of these techniques. In this paper, we determine the sources of uncertainty in machine learning and establish the success criteria of a machine learning system to function well under uncertainty in a cyber-physical manufacturing system (CPMS) scenario. Then, we propose a multi-agent system architecture which leverages probabilistic machine learning as a means of achieving such criteria. We propose possible scenarios for which our proposed architecture is useful and discuss future work. Experimentally, we implement Bayesian Neural Networks for multi-tasks classification on a public dataset for the real-time condition monitoring of a hydraulic system and demonstrate the usefulness of the system by evaluating the probability of a prediction being accurate given its uncertainty. We deploy these models using our proposed agent-based framework and integrate web visualisation to demonstrate its real-time feasibility.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-28T10:28:05Z</published>
+    <arxiv:comment>International Workshop on Service Orientation in Holonic and Multi-Agent Manufacturing</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Bang Xiang Yong</name>
+    </author>
+    <author>
+      <name>Alexandra Brintrup</name>
+    </author>
+    <arxiv:doi>10.17863/CAM.51696</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17863/CAM.51696" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03128v1</id>
+    <title>Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis</title>
+    <updated>2026-02-03T05:37:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.03128v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03128v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent LLM frameworks are widely used to accelerate the development of agent systems powered by large language models (LLMs). These frameworks impose distinct architectural structures that govern how agents interact, store information, and coordinate tasks. However, their impact on system performance remains poorly understood. This gap is critical, as architectural choices alone can induce order-of-magnitude differences in latency and throughput, as well as substantial variation in accuracy and scalability. Addressing this challenge requires (i) jointly evaluating multiple capabilities, such as orchestration overhead, memory behavior, planning, specialization, and coordination, and (ii) conducting these evaluations under controlled, framework-level conditions to isolate architectural effects. Existing benchmarks focus on individual capabilities and lack standardized framework-level evaluation. We address these limitations by (i) introducing an architectural taxonomy for systematically comparing multi-agent LLM frameworks along fundamental dimensions, and (ii) developing MAFBench, a unified evaluation suite that integrates existing benchmarks under a standardized execution pipeline. Using MAFBench, we conduct a controlled empirical study across several widely used frameworks. Our results show that framework-level design choices alone can increase latency by over 100x, reduce planning accuracy by up to 30%, and lower coordination success from above 90% to below 30%. Finally, we translate our findings into concrete architectural design principles and framework selection guidance, and outline promising future research directions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T05:37:56Z</published>
+    <arxiv:comment>25 pages, 9 figures and 13 tables; introduces MAFBench unified multi-agent evaluation suite</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abdelghny Orogat</name>
+    </author>
+    <author>
+      <name>Ana Rostam</name>
+    </author>
+    <author>
+      <name>Essam Mansour</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.10007v2</id>
+    <title>Multi-Agent Deep Reinforcement Learning for Cooperative and Competitive Autonomous Vehicles using AutoDRIVE Ecosystem</title>
+    <updated>2023-09-30T08:33:37Z</updated>
+    <link href="https://arxiv.org/abs/2309.10007v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.10007v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a modular and parallelizable multi-agent deep reinforcement learning framework for imbibing cooperative as well as competitive behaviors within autonomous vehicles. We introduce AutoDRIVE Ecosystem as an enabler to develop physically accurate and graphically realistic digital twins of Nigel and F1TENTH, two scaled autonomous vehicle platforms with unique qualities and capabilities, and leverage this ecosystem to train and deploy multi-agent reinforcement learning policies. We first investigate an intersection traversal problem using a set of cooperative vehicles (Nigel) that share limited state information with each other in single as well as multi-agent learning settings using a common policy approach. We then investigate an adversarial head-to-head autonomous racing problem using a different set of vehicles (F1TENTH) in a multi-agent learning setting using an individual policy approach. In either set of experiments, a decentralized learning architecture was adopted, which allowed robust training and testing of the approaches in stochastic environments, since the agents were mutually independent and exhibited asynchronous motion behavior. The problems were further aggravated by providing the agents with sparse observation spaces and requiring them to sample control commands that implicitly satisfied the imposed kinodynamic as well as safety constraints. The experimental results for both problem statements are reported in terms of quantitative metrics and qualitative remarks for training as well as deployment phases.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T02:43:59Z</published>
+    <arxiv:comment>Accepted as Multi-Agent Dynamic Games (MAD-Games) Workshop Paper at IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tanmay Vilas Samak</name>
+    </author>
+    <author>
+      <name>Chinmay Vilas Samak</name>
+    </author>
+    <author>
+      <name>Venkat Krovi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.07871v3</id>
+    <title>Fast Agent-Based Simulation Framework with Applications to Reinforcement Learning and the Study of Trading Latency Effects</title>
+    <updated>2022-09-21T13:18:29Z</updated>
+    <link href="https://arxiv.org/abs/2008.07871v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.07871v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new software toolbox for agent-based simulation. Facilitating rapid prototyping by offering a user-friendly Python API, its core rests on an efficient C++ implementation to support simulation of large-scale multi-agent systems. Our software environment benefits from a versatile message-driven architecture. Originally developed to support research on financial markets, it offers the flexibility to simulate a wide-range of different (easily customisable) market rules and to study the effect of auxiliary factors, such as delays, on the market dynamics. As a simple illustration, we employ our toolbox to investigate the role of the order processing delay in normal trading and for the scenario of a significant price change. Owing to its general architecture, our toolbox can also be employed as a generic multi-agent system simulator. We provide an example of such a non-financial application by simulating a mechanism for the coordination of no-regret learning agents in a multi-agent network routing scenario previously proposed in the literature.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.TR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-18T11:37:34Z</published>
+    <arxiv:comment>Presented at the International Workshop on Multi-Agent Systems and Agent-Based Simulation (MABS@AAMAS) 2021, 12 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Peter Belcak</name>
+    </author>
+    <author>
+      <name>Jan-Peter Calliess</name>
+    </author>
+    <author>
+      <name>Stefan Zohren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.1581v1</id>
+    <title>A new approach of designing Multi-Agent Systems</title>
+    <updated>2012-04-07T00:10:33Z</updated>
+    <link href="https://arxiv.org/abs/1204.1581v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.1581v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent technology is a software paradigm that permits to implement large and complex distributed applications. In order to assist analyzing, conception and development or implementation phases of multi-agent systems, we've tried to present a practical application of a generic and scalable method of a MAS with a component-oriented architecture and agent-based approach that allows MDA to generate source code from a given model. We've designed on AUML the class diagrams as a class meta-model of different agents of a MAS. Then we generated the source code of the models developed using an open source tool called AndroMDA. This agent-based and evolutive approach enhances the modularity and genericity developments and promotes their reusability in future developments. This property distinguishes our design methodology of existing methodologies in that it is constrained by any particular agent-based model while providing a library of generic models</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-07T00:10:33Z</published>
+    <arxiv:comment>10 pages, 12 figures, A practical application of a method of designing multi-agent systems based on the AUML language and the MDA approach at "the 4th IEEE Workshop on Information Technologies and Communication (WOTIC'11)", Casablanca, 13 - 15 October 2011, International Journal of Advanced Computer Science and Applications(IJACSA) Volume 2 No. 11 November 2011</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Sara Maalal</name>
+    </author>
+    <author>
+      <name>Malika Addou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.06011v2</id>
+    <title>Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach</title>
+    <updated>2024-04-23T08:14:39Z</updated>
+    <link href="https://arxiv.org/abs/2205.06011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.06011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>MmWaves have been envisioned as a promising direction to provide Gbps wireless access. However, they are susceptible to high path losses and blockages, which directional antennas can only partially mitigate. That makes mmWave networks coverage-limited, thus requiring dense deployments. Integrated access and backhaul (IAB) architectures have emerged as a cost-effective solution for network densification. Resource allocation in mmWave IAB networks must face big challenges to cope with heavy temporal dynamics, such as intermittent links caused by user mobility and blockages from moving obstacles. This makes it extremely difficult to find optimal and adaptive solutions. In this article, exploiting the distributed structure of the problem, we propose a Multi-Agent Reinforcement Learning (MARL) framework to optimize user throughput via flow routing and link scheduling in mmWave IAB networks characterized by user mobility and link outages generated by moving obstacles. The proposed approach implicitly captures the environment dynamics, coordinates the interference, and manages the buffer levels of IAB relay nodes. We design different MARL components, considering full-duplex and half-duplex IAB-nodes. In addition, we provide a communication and coordination scheme for RL agents in an online training framework, addressing the feasibility issues of practical systems. Numerical results show the effectiveness of the proposed approach.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-12T10:46:30Z</published>
+    <arxiv:comment>B. Zhang, I. Filippini, "Mobility-Aware Resource Allocation for mmWave IAB Networks: A Multi-Agent Reinforcement Learning Approach", to appear on IEEE/ACM Transactions on Networking</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Bibo Zhang</name>
+    </author>
+    <author>
+      <name>Ilario Filippini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.0912v1</id>
+    <title>Multi-Agent System Interaction in Integrated SCM</title>
+    <updated>2009-11-04T19:11:06Z</updated>
+    <link href="https://arxiv.org/abs/0911.0912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.0912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Coordination between organizations on strategic, tactical and operation levels leads to more effective and efficient supply chains. Supply chain management is increasing day by day in modern enterprises. The environment is becoming competitive and many enterprises will find it difficult to survive if they do not make their sourcing, production and distribution more efficient. Multi-agent supply chain management has recognized as an effective methodology for supply chain management. Multi-agent systems (MAS) offer new methods compared to conventional, centrally organized architectures in the scope of supply chain management (SCM). Since necessary data are not available within the whole supply chain, an integrated approach for production planning and control taking into account all the partners involved is not feasible. In this study we show how MAS architecture interacts in the integrated SCM architecture with the help of various intelligent agents to highlight the above problem.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-04T19:11:06Z</published>
+    <arxiv:comment>International Journal of Computer Science Issues, IJCSI Volume 5, pp33-37, October 2009</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>R. Sindhu, A. W. and G.N.Purohit, "Multi-Agent System Interaction in Integrated SCM", International Journal of Computer Science Issues, IJCSI, Volume 5, pp33-37, October 2009</arxiv:journal_ref>
+    <author>
+      <name>Ritu Sindhu</name>
+    </author>
+    <author>
+      <name>Abdul Wahid</name>
+    </author>
+    <author>
+      <name>G. N. Purohit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.13296v1</id>
+    <title>Multi-Agent Simulation for AI Behaviour Discovery in Operations Research</title>
+    <updated>2021-08-30T15:14:06Z</updated>
+    <link href="https://arxiv.org/abs/2108.13296v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.13296v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe ACE0, a lightweight platform for evaluating the suitability and viability of AI methods for behaviour discovery in multiagent simulations. Specifically, ACE0 was designed to explore AI methods for multi-agent simulations used in operations research studies related to new technologies such as autonomous aircraft. Simulation environments used in production are often high-fidelity, complex, require significant domain knowledge and as a result have high R&amp;D costs. Minimal and lightweight simulation environments can help researchers and engineers evaluate the viability of new AI technologies for behaviour discovery in a more agile and potentially cost effective manner. In this paper we describe the motivation for the development of ACE0.We provide a technical overview of the system architecture, describe a case study of behaviour discovery in the aerospace domain, and provide a qualitative evaluation of the system. The evaluation includes a brief description of collaborative research projects with academic partners, exploring different AI behaviour discovery methods.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-30T15:14:06Z</published>
+    <arxiv:comment>14 pages, 7 figures. To be published in proceedings of the 22nd International Workshop on Multi-Agent-Based Simulation (MABS 2021) at AAMAS 2021. https://mabsworkshop.github.io/accepted/</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Michael Papasimeon</name>
+    </author>
+    <author>
+      <name>Lyndon Benke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0407024v1</id>
+    <title>An agent-based intelligent environmental monitoring system</title>
+    <updated>2004-07-10T11:06:57Z</updated>
+    <link href="https://arxiv.org/abs/cs/0407024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0407024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Fairly rapid environmental changes call for continuous surveillance and on-line decision making. There are two main areas where IT technologies can be valuable. In this paper we present a multi-agent system for monitoring and assessing air-quality attributes, which uses data coming from a meteorological station. A community of software agents is assigned to monitor and validate measurements coming from several sensors, to assess air-quality, and, finally, to fire alarms to appropriate recipients, when needed. Data mining techniques have been used for adding data-driven, customized intelligence into agents. The architecture of the developed system, its domain ontology, and typical agent interactions are presented. Finally, the deployment of a real-world test case is demonstrated.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-07-10T11:06:57Z</published>
+    <arxiv:comment>Multi-Agent Systems, Intelligent Applications, Data Mining, Inductive Agents, Air-Quality Monitoring</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Management of Environmental Quality, 15(3):238-249, May 2004</arxiv:journal_ref>
+    <author>
+      <name>Ioannis N Athanasiadis</name>
+    </author>
+    <author>
+      <name>Pericles A Mitkas</name>
+    </author>
+    <arxiv:doi>10.1108/14777830410531216</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1108/14777830410531216" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08156v1</id>
+    <title>Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions</title>
+    <updated>2026-01-13T02:38:27Z</updated>
+    <link href="https://arxiv.org/abs/2601.08156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces Project Synapse, a novel agentic framework designed for the autonomous resolution of last-mile delivery disruptions. Synapse employs a hierarchical multi-agent architecture in which a central Resolution Supervisor agent performs strategic task decomposition and delegates subtasks to specialized worker agents responsible for tactical execution. The system is orchestrated using LangGraph to manage complex and cyclical workflows. To validate the framework, a benchmark dataset of 30 complex disruption scenarios was curated from a qualitative analysis of over 6,000 real-world user reviews. System performance is evaluated using an LLM-as-a-Judge protocol with explicit bias mitigation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T02:38:27Z</published>
+    <arxiv:comment>We propose and evaluate a hierarchical LLM-driven multi-agent framework for adaptive disruption management in last-mile logistics, integrating planning, coordination, and natural-language reasoning. The system is validated through simulation-based experiments and qualitative analysis. Includes figures and tables. 33 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Arin Gopalan Yadav</name>
+    </author>
+    <author>
+      <name>Varad Dherange</name>
+    </author>
+    <author>
+      <name>Kumar Shivam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05838v1</id>
+    <title>A Collaborative Multi-Agent Approach to Retrieval-Augmented Generation Across Diverse Data</title>
+    <updated>2024-12-08T07:18:19Z</updated>
+    <link href="https://arxiv.org/abs/2412.05838v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05838v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by incorporating external, domain-specific data into the generative process. While LLMs are highly capable, they often rely on static, pre-trained datasets, limiting their ability to integrate dynamic or private data. Traditional RAG systems typically use a single-agent architecture to handle query generation, data retrieval, and response synthesis. However, this approach becomes inefficient when dealing with diverse data sources, such as relational databases, document stores, and graph databases, often leading to performance bottlenecks and reduced accuracy. This paper proposes a multi-agent RAG system to address these limitations. Specialized agents, each optimized for a specific data source, handle query generation for relational, NoSQL, and document-based systems. These agents collaborate within a modular framework, with query execution delegated to an environment designed for compatibility across various database types. This distributed approach enhances query efficiency, reduces token overhead, and improves response accuracy by ensuring that each agent focuses on its specialized task. The proposed system is scalable and adaptable, making it ideal for generative AI workflows that require integration with diverse, dynamic, or private data sources. By leveraging specialized agents and a modular execution environment, the system provides an efficient and robust solution for handling complex, heterogeneous data environments in generative AI applications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-08T07:18:19Z</published>
+    <arxiv:comment>16 pages, 3 figures. This preprint introduces a multi-agent framework for Retrieval-Augmented Generation (RAG), enhancing Large Language Models (LLMs) for efficient integration of diverse data sources. Relevant for researchers in AI, ML, generative AI, and database systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aniruddha Salve</name>
+    </author>
+    <author>
+      <name>Saba Attar</name>
+    </author>
+    <author>
+      <name>Mahesh Deshmukh</name>
+    </author>
+    <author>
+      <name>Sayali Shivpuje</name>
+    </author>
+    <author>
+      <name>Arnab Mitra Utsab</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.13158v1</id>
+    <title>Agent-Oriented Visual Programming for the Web of Things</title>
+    <updated>2025-11-17T09:06:00Z</updated>
+    <link href="https://arxiv.org/abs/2511.13158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.13158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce and discuss an approach for multi-agent-oriented visual programming. This aims at enabling individuals without programming experience but with knowledge in specific target domains to design and (re)configure autonomous software. We argue that, compared to procedural programming, it should be simpler for users to create programs when agent abstractions are employed. The underlying rationale is that these abstractions, and specifically the belief-desire-intention architecture that is aligned with human practical reasoning, match more closely with people's everyday experience in interacting with other agents and artifacts in the real world. On top of this, we designed and implemented a visual programming system for agents that hides the technicalities of agent-oriented programming using a blocks-based visual development environment that is built on the JaCaMo platform. To further validate the proposed solution, we integrate the Web of Things (WoT) to let users create autonomous behaviour on top of physical mashups of devices, following the trends in industrial end-user programming. Finally, we report on a pilot user study where we verified that novice users are indeed able to make use of this development environment to create multi-agent systems to solve simple automation tasks.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T09:06:00Z</published>
+    <arxiv:comment>Accepted and presented at the 10th International Workshop on Engineering Multi-Agent Systems (EMAS 2022), 9-10 May 2022, Auckland, New Zealand</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Samuele Burattini</name>
+    </author>
+    <author>
+      <name>Alessandro Ricci</name>
+    </author>
+    <author>
+      <name>Simon Mayer</name>
+    </author>
+    <author>
+      <name>Danai Vachtsevanou</name>
+    </author>
+    <author>
+      <name>Jeremy Lemee</name>
+    </author>
+    <author>
+      <name>Andrei Ciortea</name>
+    </author>
+    <author>
+      <name>Angelo Croatti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18699v1</id>
+    <title>Fetch.ai: An Architecture for Modern Multi-Agent Systems</title>
+    <updated>2025-10-21T14:53:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.18699v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18699v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent surges in LLM-driven intelligent systems largely overlook decades of foundational multi-agent systems (MAS) research, resulting in frameworks with critical limitations such as centralization and inadequate trust and communication protocols. This paper introduces the Fetch.ai architecture, an industrial-strength platform designed to bridge this gap by facilitating the integration of classical MAS principles with modern AI capabilities. We present a novel, multi-layered solution built on a decentralized foundation of on-chain blockchain services for verifiable identity, discovery, and transactions. This is complemented by a comprehensive development framework for creating secure, interoperable agents, a cloud-based platform for deployment, and an intelligent orchestration layer where an agent-native LLM translates high-level human goals into complex, multi-agent workflows. We demonstrate the deployed nature of this system through a decentralized logistics use case where autonomous agents dynamically discover, negotiate, and transact with one another securely. Ultimately, the Fetch.ai stack provides a principled architecture for moving beyond current agent implementations towards open, collaborative, and economically sustainable multi-agent ecosystems.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T14:53:56Z</published>
+    <arxiv:comment>26 pages, figures, code examples</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Michael J. Wooldridge</name>
+    </author>
+    <author>
+      <name>Attila Bagoly</name>
+    </author>
+    <author>
+      <name>Jonathan J. Ward</name>
+    </author>
+    <author>
+      <name>Emanuele La Malfa</name>
+    </author>
+    <author>
+      <name>Gabriel Paludo Licks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.04556v1</id>
+    <title>CONVERGE: A Multi-Agent Vision-Radio Architecture for xApps</title>
+    <updated>2025-08-06T15:40:52Z</updated>
+    <link href="https://arxiv.org/abs/2508.04556v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.04556v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Telecommunications and computer vision have evolved independently. With the emergence of high-frequency wireless links operating mostly in line-of-sight, visual data can help predict the channel dynamics by detecting obstacles and help overcoming them through beamforming or handover techniques.
+  This paper proposes a novel architecture for delivering real-time radio and video sensing information to O-RAN xApps through a multi-agent approach, and introduces a new video function capable of generating blockage information for xApps, enabling Integrated Sensing and Communications. Experimental results show that the delay of sensing information remains under 1\,ms and that an xApp can successfully use radio and video sensing information to control the 5G/6G RAN in real-time.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-06T15:40:52Z</published>
+    <arxiv:comment>7 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Filipe B. Teixeira</name>
+    </author>
+    <author>
+      <name>Carolina Simões</name>
+    </author>
+    <author>
+      <name>Paulo Fidalgo</name>
+    </author>
+    <author>
+      <name>Wagner Pedrosa</name>
+    </author>
+    <author>
+      <name>André Coelho</name>
+    </author>
+    <author>
+      <name>Manuel Ricardo</name>
+    </author>
+    <author>
+      <name>Luis M. Pessoa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.1865v1</id>
+    <title>Towards Participatory Design of Multi-agent Approach to Transport Demands</title>
+    <updated>2009-10-09T21:27:36Z</updated>
+    <link href="https://arxiv.org/abs/0910.1865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.1865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The design of multi-agent based simulations (MABS) is up to now mainly done in laboratories and based on designers' understanding of the activities to be simulated. Domain experts have little chance to directly validate agent behaviors. To fill this gap, we are investigating participatory methods of design, which allow users to participate in the design the pickup and delivery problem (PDP) in the taxi planning problem. In this paper, we present a participatory process for designing new socio-technical architectures to afford the taxi dispatch for this transportation system. The proposed dispatch architecture attempts to increase passenger satisfaction more globally, by concurrently dispatching multiple taxis to the same number of passengers in the same geographical region, and vis-avis human driver and dispatcher satisfaction.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-09T21:27:36Z</published>
+    <arxiv:comment>"International Journal of Computer Science Issues, IJCSI, Volume 4, Issue 1, pp10-15, September 2009"</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <arxiv:journal_ref>Y. M. Chen and B. Wang, "Towards Participatory Design of Multi-agent Approach to Transport Demands ", International Journal of Computer Science Issues, IJCSI, Volume 4, Issue 1, pp10-15, September 2009</arxiv:journal_ref>
+    <author>
+      <name>Yee Ming Chen</name>
+    </author>
+    <author>
+      <name>Bo-Yuan Wang</name>
+    </author>
+  </entry>
+</feed>

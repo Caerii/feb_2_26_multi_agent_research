@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ed8YxyP1nCb2hE4qJ7R3Viil5rU</id>
+  <title>arXiv Query: search_query=all:cooperative AND all:AI&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:55:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:cooperative+AND+all:AI&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>806</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13872v1</id>
+    <title>Normative Disagreement as a Challenge for Cooperative AI</title>
+    <updated>2021-11-27T11:37:42Z</updated>
+    <link href="https://arxiv.org/abs/2111.13872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.13872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooperation in settings where agents have both common and conflicting interests (mixed-motive environments) has recently received considerable attention in multi-agent learning. However, the mixed-motive environments typically studied have a single cooperative outcome on which all agents can agree. Many real-world multi-agent environments are instead bargaining problems (BPs): they have several Pareto-optimal payoff profiles over which agents have conflicting preferences. We argue that typical cooperation-inducing learning algorithms fail to cooperate in BPs when there is room for normative disagreement resulting in the existence of multiple competing cooperative equilibria, and illustrate this problem empirically. To remedy the issue, we introduce the notion of norm-adaptive policies. Norm-adaptive policies are capable of behaving according to different norms in different circumstances, creating opportunities for resolving normative disagreement. We develop a class of norm-adaptive policies and show in experiments that these significantly increase cooperation. However, norm-adaptiveness cannot address residual bargaining failure arising from a fundamental tradeoff between exploitability and cooperative robustness.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-27T11:37:42Z</published>
+    <arxiv:comment>Accepted at the Cooperative AI workshop and the Strategic ML workshop at NeurIPS 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Julian Stastny</name>
+    </author>
+    <author>
+      <name>Maxime Riché</name>
+    </author>
+    <author>
+      <name>Alexander Lyzhov</name>
+    </author>
+    <author>
+      <name>Johannes Treutlein</name>
+    </author>
+    <author>
+      <name>Allan Dafoe</name>
+    </author>
+    <author>
+      <name>Jesse Clifton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.14330v2</id>
+    <title>DLW-CI: A Dynamic Likelihood-Weighted Cooperative Infotaxis Approach for Multi-Source Search in Urban Environments Using Consumer Drone Networks</title>
+    <updated>2025-04-29T07:14:50Z</updated>
+    <link href="https://arxiv.org/abs/2504.14330v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.14330v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consumer-grade drones equipped with low-cost sensors have emerged as a cornerstone of Autonomous Intelligent Systems (AISs) for environmental monitoring and hazardous substance detection in urban environments. However, existing research primarily addresses single-source search problems, overlooking the complexities of real-world urban scenarios where both the location and quantity of hazardous sources remain unknown. To address this issue, we propose the Dynamic Likelihood-Weighted Cooperative Infotaxis (DLW-CI) approach for consumer drone networks. Our approach enhances multi-drone collaboration in AISs by combining infotaxis (a cognitive search strategy) with optimized source term estimation and an innovative cooperative mechanism. Specifically, we introduce a novel source term estimation method that utilizes multiple parallel particle filters, with each filter dedicated to estimating the parameters of a potentially unknown source within the search scene. Furthermore, we develop a cooperative mechanism based on dynamic likelihood weights to prevent multiple drones from simultaneously estimating and searching for the same source, thus optimizing the energy efficiency and search coverage of the consumer AIS. Experimental results demonstrate that the DLW-CI approach significantly outperforms baseline methods regarding success rate, accuracy, and root mean square error, particularly in scenarios with relatively few sources, regardless of the presence of obstacles. Also, the effectiveness of the proposed approach is verified in a diffusion scenario generated by the computational fluid dynamics (CFD) model. Research findings indicate that our approach could improve source estimation accuracy and search efficiency by consumer drone-based AISs, making a valuable contribution to environmental safety monitoring applications within smart city infrastructure.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-19T15:44:09Z</published>
+    <arxiv:comment>Errors found in the Methods section</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Xiaoran Zhang</name>
+    </author>
+    <author>
+      <name>Yatai Ji</name>
+    </author>
+    <author>
+      <name>Yong Zhao</name>
+    </author>
+    <author>
+      <name>Chuan Ai</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+    <author>
+      <name>Zhengqiu Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.14833v3</id>
+    <title>Adversarial Attacks in Cooperative AI</title>
+    <updated>2022-03-08T01:24:01Z</updated>
+    <link href="https://arxiv.org/abs/2111.14833v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.14833v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single-agent reinforcement learning algorithms in a multi-agent environment are inadequate for fostering cooperation. If intelligent agents are to interact and work together to solve complex problems, methods that counter non-cooperative behavior are needed to facilitate the training of multiple agents. This is the goal of cooperative AI. Recent research in adversarial machine learning, however, shows that models (e.g., image classifiers) can be easily deceived into making inferior decisions. Meanwhile, an important line of research in cooperative AI has focused on introducing algorithmic improvements that accelerate learning of optimally cooperative behavior. We argue that prominent methods of cooperative AI are exposed to weaknesses analogous to those studied in prior machine learning research. More specifically, we show that three algorithms inspired by human-like social intelligence are, in principle, vulnerable to attacks that exploit weaknesses introduced by cooperative AI's algorithmic improvements and report experimental findings that illustrate how these vulnerabilities can be exploited in practice.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-29T07:34:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ted Fujimoto</name>
+    </author>
+    <author>
+      <name>Arthur Paul Pedersen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.08630v1</id>
+    <title>Open Problems in Cooperative AI</title>
+    <updated>2020-12-15T21:39:50Z</updated>
+    <link href="https://arxiv.org/abs/2012.08630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.08630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Problems of cooperation--in which agents seek ways to jointly improve their welfare--are ubiquitous and important. They can be found at scales ranging from our daily routines--such as driving on highways, scheduling meetings, and working collaboratively--to our global challenges--such as peace, commerce, and pandemic preparedness. Arguably, the success of the human species is rooted in our ability to cooperate. Since machines powered by artificial intelligence are playing an ever greater role in our lives, it will be important to equip them with the capabilities necessary to cooperate and to foster cooperation.
+  We see an opportunity for the field of artificial intelligence to explicitly focus effort on this class of problems, which we term Cooperative AI. The objective of this research would be to study the many aspects of the problems of cooperation and to innovate in AI to contribute to solving these problems. Central goals include building machine agents with the capabilities needed for cooperation, building tools to foster cooperation in populations of (machine and/or human) agents, and otherwise conducting AI research for insight relevant to problems of cooperation. This research integrates ongoing work on multi-agent systems, game theory and social choice, human-machine interaction and alignment, natural-language processing, and the construction of social tools and platforms. However, Cooperative AI is not the union of these existing areas, but rather an independent bet about the productivity of specific kinds of conversations that involve these and other areas. We see opportunity to more explicitly focus on the problem of cooperation, to construct unified theory and vocabulary, and to build bridges with adjacent communities working on cooperation, including in the natural, social, and behavioural sciences.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-15T21:39:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Allan Dafoe</name>
+    </author>
+    <author>
+      <name>Edward Hughes</name>
+    </author>
+    <author>
+      <name>Yoram Bachrach</name>
+    </author>
+    <author>
+      <name>Tantum Collins</name>
+    </author>
+    <author>
+      <name>Kevin R. McKee</name>
+    </author>
+    <author>
+      <name>Joel Z. Leibo</name>
+    </author>
+    <author>
+      <name>Kate Larson</name>
+    </author>
+    <author>
+      <name>Thore Graepel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.09066v1</id>
+    <title>AI versus AI in Financial Crimes and Detection: GenAI Crime Waves to Co-Evolutionary AI</title>
+    <updated>2024-09-30T15:41:41Z</updated>
+    <link href="https://arxiv.org/abs/2410.09066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.09066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adoption of AI by criminal entities across traditional and emerging financial crime paradigms has been a disturbing recent trend. Particularly concerning is the proliferation of generative AI, which has empowered criminal activities ranging from sophisticated phishing schemes to the creation of hard-to-detect deep fakes, and to advanced spoofing attacks to biometric authentication systems. The exploitation of AI by criminal purposes continues to escalate, presenting an unprecedented challenge. AI adoption causes an increasingly complex landscape of fraud typologies intertwined with cybersecurity vulnerabilities.
+  Overall, GenAI has a transformative effect on financial crimes and fraud. According to some estimates, GenAI will quadruple the fraud losses by 2027 with a staggering annual growth rate of over 30% [27]. As crime patterns become more intricate, personalized, and elusive, deploying effective defensive AI strategies becomes indispensable. However, several challenges hinder the necessary progress of AI-based fincrime detection systems. This paper examines the latest trends in AI/ML-driven financial crimes and detection systems. It underscores the urgent need for developing agile AI defenses that can effectively counteract the rapidly emerging threats. It also aims to highlight the need for cooperation across the financial services industry to tackle the GenAI induced crime waves.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-30T15:41:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>ACM AI in Finance Conference ICAIF 2024</arxiv:journal_ref>
+    <author>
+      <name>Eren Kurshan</name>
+    </author>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <author>
+      <name>Bayan Bruss</name>
+    </author>
+    <author>
+      <name>Tucker Balch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14143v1</id>
+    <title>Multi-Agent Risks from Advanced AI</title>
+    <updated>2025-02-19T23:03:21Z</updated>
+    <link href="https://arxiv.org/abs/2502.14143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid development of advanced AI agents and the imminent deployment of many instances of these agents will give rise to multi-agent systems of unprecedented complexity. These systems pose novel and under-explored risks. In this report, we provide a structured taxonomy of these risks by identifying three key failure modes (miscoordination, conflict, and collusion) based on agents' incentives, as well as seven key risk factors (information asymmetries, network effects, selection pressures, destabilising dynamics, commitment problems, emergent agency, and multi-agent security) that can underpin them. We highlight several important instances of each risk, as well as promising directions to help mitigate them. By anchoring our analysis in a range of real-world examples and experimental evidence, we illustrate the distinct challenges posed by multi-agent systems and their implications for the safety, governance, and ethics of advanced AI.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T23:03:21Z</published>
+    <arxiv:comment>Cooperative AI Foundation, Technical Report #1</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Lewis Hammond</name>
+    </author>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Jesse Clifton</name>
+    </author>
+    <author>
+      <name>Jason Hoelscher-Obermaier</name>
+    </author>
+    <author>
+      <name>Akbir Khan</name>
+    </author>
+    <author>
+      <name>Euan McLean</name>
+    </author>
+    <author>
+      <name>Chandler Smith</name>
+    </author>
+    <author>
+      <name>Wolfram Barfuss</name>
+    </author>
+    <author>
+      <name>Jakob Foerster</name>
+    </author>
+    <author>
+      <name>Tomáš Gavenčiak</name>
+    </author>
+    <author>
+      <name>The Anh Han</name>
+    </author>
+    <author>
+      <name>Edward Hughes</name>
+    </author>
+    <author>
+      <name>Vojtěch Kovařík</name>
+    </author>
+    <author>
+      <name>Jan Kulveit</name>
+    </author>
+    <author>
+      <name>Joel Z. Leibo</name>
+    </author>
+    <author>
+      <name>Caspar Oesterheld</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Nisarg Shah</name>
+    </author>
+    <author>
+      <name>Michael Wellman</name>
+    </author>
+    <author>
+      <name>Paolo Bova</name>
+    </author>
+    <author>
+      <name>Theodor Cimpeanu</name>
+    </author>
+    <author>
+      <name>Carson Ezell</name>
+    </author>
+    <author>
+      <name>Quentin Feuillade-Montixi</name>
+    </author>
+    <author>
+      <name>Matija Franklin</name>
+    </author>
+    <author>
+      <name>Esben Kran</name>
+    </author>
+    <author>
+      <name>Igor Krawczuk</name>
+    </author>
+    <author>
+      <name>Max Lamparth</name>
+    </author>
+    <author>
+      <name>Niklas Lauffer</name>
+    </author>
+    <author>
+      <name>Alexander Meinke</name>
+    </author>
+    <author>
+      <name>Sumeet Motwani</name>
+    </author>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Vincent Conitzer</name>
+    </author>
+    <author>
+      <name>Michael Dennis</name>
+    </author>
+    <author>
+      <name>Iason Gabriel</name>
+    </author>
+    <author>
+      <name>Adam Gleave</name>
+    </author>
+    <author>
+      <name>Gillian Hadfield</name>
+    </author>
+    <author>
+      <name>Nika Haghtalab</name>
+    </author>
+    <author>
+      <name>Atoosa Kasirzadeh</name>
+    </author>
+    <author>
+      <name>Sébastien Krier</name>
+    </author>
+    <author>
+      <name>Kate Larson</name>
+    </author>
+    <author>
+      <name>Joel Lehman</name>
+    </author>
+    <author>
+      <name>David C. Parkes</name>
+    </author>
+    <author>
+      <name>Georgios Piliouras</name>
+    </author>
+    <author>
+      <name>Iyad Rahwan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.03216v1</id>
+    <title>AI Ethics for Systemic Issues: A Structural Approach</title>
+    <updated>2019-11-08T12:31:49Z</updated>
+    <link href="https://arxiv.org/abs/1911.03216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.03216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The debate on AI ethics largely focuses on technical improvements and stronger regulation to prevent accidents or misuse of AI, with solutions relying on holding individual actors accountable for responsible AI development. While useful and necessary, we argue that this "agency" approach disregards more indirect and complex risks resulting from AI's interaction with the socio-economic and political context. This paper calls for a "structural" approach to assessing AI's effects in order to understand and prevent such systemic risks where no individual can be held accountable for the broader negative impacts. This is particularly relevant for AI applied to systemic issues such as climate change and food security which require political solutions and global cooperation. To properly address the wide range of AI risks and ensure 'AI for social good', agency-focused policies must be complemented by policies informed by a structural approach.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-08T12:31:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>NeurIPS AI for Social Good 2019</arxiv:journal_ref>
+    <author>
+      <name>Agnes Schim van der Loeff</name>
+    </author>
+    <author>
+      <name>Iggy Bassi</name>
+    </author>
+    <author>
+      <name>Sachin Kapila</name>
+    </author>
+    <author>
+      <name>Jevgenij Gamper</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.11076v1</id>
+    <title>A Survey of the Potential Long-term Impacts of AI</title>
+    <updated>2022-06-22T13:42:28Z</updated>
+    <link href="https://arxiv.org/abs/2206.11076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.11076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is increasingly recognised that advances in artificial intelligence could have large and long-lasting impacts on society. However, what form those impacts will take, just how large and long-lasting they will be, and whether they will ultimately be positive or negative for humanity, is far from clear. Based on surveying literature on the societal impacts of AI, we identify and discuss five potential long-term impacts of AI: how AI could lead to long-term changes in science, cooperation, power, epistemics, and values. We review the state of existing research in each of these areas and highlight priority questions for future research.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-22T13:42:28Z</published>
+    <arxiv:comment>9 pages, to be published in Proceedings of 2022 AAAI/ACM Conference on AI, Ethics, and Society</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Sam Clarke</name>
+    </author>
+    <author>
+      <name>Jess Whittlestone</name>
+    </author>
+    <arxiv:doi>10.1145/3514094.3534131</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3514094.3534131" title="doi"/>
+    <arxiv:doi>10.1145/3514094.3534131</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3514094.3534131" title="doi"/>
+    <arxiv:doi>10.1145/3514094.3534131</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3514094.3534131" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20487v2</id>
+    <title>Normative Equivalence in Human-AI Cooperation: Behaviour, Not Identity, Drives Cooperation in Mixed-Agent Groups</title>
+    <updated>2026-01-29T12:58:00Z</updated>
+    <link href="https://arxiv.org/abs/2601.20487v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20487v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The introduction of artificial intelligence (AI) agents into human group settings raises essential questions about how these novel participants influence cooperative social norms. While previous studies on human-AI cooperation have primarily focused on dyadic interactions, little is known about how integrating AI agents affects the emergence and maintenance of cooperative norms in small groups. This study addresses this gap through an online experiment using a repeated four-player Public Goods Game (PGG). Each group consisted of three human participants and one bot, which was framed either as human or AI and followed one of three predefined decision strategies: unconditional cooperation, conditional cooperation, or free-riding. In our sample of 236 participants, we found that reciprocal group dynamics and behavioural inertia primarily drove cooperation. These normative mechanisms operated identically across conditions, resulting in cooperation levels that did not differ significantly between human and AI labels. Furthermore, we found no evidence of differences in norm persistence in a follow-up Prisoner's Dilemma, or in participants' normative perceptions. Participants' behaviour followed the same normative logic across human and AI conditions, indicating that cooperation depended on group behaviour rather than partner identity. This supports a pattern of normative equivalence, in which the mechanisms that sustain cooperation function similarly in mixed human-AI and all human groups. These findings suggest that cooperative norms are flexible enough to extend to artificial agents, blurring the boundary between humans and AI in collective decision-making.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T11:01:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nico Mutzner</name>
+    </author>
+    <author>
+      <name>Taha Yasseri</name>
+    </author>
+    <author>
+      <name>Heiko Rauhut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03034v2</id>
+    <title>Tackling Cooperative Incompatibility for Zero-Shot Human-AI Coordination</title>
+    <updated>2024-01-07T16:18:02Z</updated>
+    <link href="https://arxiv.org/abs/2306.03034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Securing coordination between AI agent and teammates (human players or AI agents) in contexts involving unfamiliar humans continues to pose a significant challenge in Zero-Shot Coordination. The issue of cooperative incompatibility becomes particularly prominent when an AI agent is unsuccessful in synchronizing with certain previously unknown partners. Traditional algorithms have aimed to collaborate with partners by optimizing fixed objectives within a population, fostering diversity in strategies and behaviors. However, these techniques may lead to learning loss and an inability to cooperate with specific strategies within the population, a phenomenon named cooperative incompatibility in learning. In order to solve cooperative incompatibility in learning and effectively address the problem in the context of ZSC, we introduce the Cooperative Open-ended LEarning (COLE) framework, which formulates open-ended objectives in cooperative games with two players using perspectives of graph theory to evaluate and pinpoint the cooperative capacity of each strategy. We present two practical algorithms, specifically \algo and \algoR, which incorporate insights from game theory and graph theory. We also show that COLE could effectively overcome the cooperative incompatibility from theoretical and empirical analysis. Subsequently, we created an online Overcooked human-AI experiment platform, the COLE platform, which enables easy customization of questionnaires, model weights, and other aspects. Utilizing the COLE platform, we enlist 130 participants for human experiments. Our findings reveal a preference for our approach over state-of-the-art methods using a variety of subjective metrics. Moreover, objective experimental outcomes in the Overcooked game environment indicate that our method surpasses existing ones when coordinating with previously unencountered AI agents and the human proxy model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T16:51:38Z</published>
+    <arxiv:comment>46 pages. arXiv admin note: substantial text overlap with arXiv:2302.04831</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Shao Zhang</name>
+    </author>
+    <author>
+      <name>Jichen Sun</name>
+    </author>
+    <author>
+      <name>Wenhao Zhang</name>
+    </author>
+    <author>
+      <name>Yali Du</name>
+    </author>
+    <author>
+      <name>Ying Wen</name>
+    </author>
+    <author>
+      <name>Xinbing Wang</name>
+    </author>
+    <author>
+      <name>Wei Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.00981v2</id>
+    <title>ELM-Based Distributed Cooperative Learning Over Networks</title>
+    <updated>2015-11-30T05:48:56Z</updated>
+    <link href="https://arxiv.org/abs/1504.00981v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.00981v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates distributed cooperative learning algorithms for data processing in a network setting. Specifically, the extreme learning machine (ELM) is introduced to train a set of data distributed across several components, and each component runs a program on a subset of the entire data. In this scheme, there is no requirement for a fusion center in the network due to e.g., practical limitations, security, or privacy reasons. We first reformulate the centralized ELM training problem into a separable form among nodes with consensus constraints. Then, we solve the equivalent problem using distributed optimization tools. A new distributed cooperative learning algorithm based on ELM, called DC-ELM, is proposed. The architecture of this algorithm differs from that of some existing parallel/distributed ELMs based on MapReduce or cloud computing. We also present an online version of the proposed algorithm that can learn data sequentially in a one-by-one or chunk-by-chunk mode. The novel algorithm is well suited for potential applications such as artificial intelligence, computational biology, finance, wireless sensor networks, and so on, involving datasets that are often extremely large, high-dimensional and located on distributed data sources. We show simulation results on both synthetic and real-world data sets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-04T04:40:48Z</published>
+    <arxiv:comment>This paper has been withdrawn by the authors due to the incorrect proof of Theorem 2</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wu Ai</name>
+    </author>
+    <author>
+      <name>Weisheng Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.07815v1</id>
+    <title>Cooperative AI via Decentralized Commitment Devices</title>
+    <updated>2023-11-14T00:23:21Z</updated>
+    <link href="https://arxiv.org/abs/2311.07815v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.07815v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Credible commitment devices have been a popular approach for robust multi-agent coordination. However, existing commitment mechanisms face limitations like privacy, integrity, and susceptibility to mediator or user strategic behavior. It is unclear if the cooperative AI techniques we study are robust to real-world incentives and attack vectors. However, decentralized commitment devices that utilize cryptography have been deployed in the wild, and numerous studies have shown their ability to coordinate algorithmic agents facing adversarial opponents with significant economic incentives, currently in the order of several million to billions of dollars. In this paper, we use examples in the decentralization and, in particular, Maximal Extractable Value (MEV) (arXiv:1904.05234) literature to illustrate the potential security issues in cooperative AI. We call for expanded research into decentralized commitments to advance cooperative AI capabilities for secure coordination in open environments and empirical testing frameworks to evaluate multi-agent coordination ability given real-world commitment constraints.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T00:23:21Z</published>
+    <arxiv:comment>NeurIPS 2023- Multi-Agent Security Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xinyuan Sun</name>
+    </author>
+    <author>
+      <name>Davide Crapis</name>
+    </author>
+    <author>
+      <name>Matt Stephenson</name>
+    </author>
+    <author>
+      <name>Barnabé Monnot</name>
+    </author>
+    <author>
+      <name>Thomas Thiery</name>
+    </author>
+    <author>
+      <name>Jonathan Passerat-Palmbach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.17990v1</id>
+    <title>Exploring Global Climate Cooperation through AI: An Assessment of the AI4GCC Framework by simulations</title>
+    <updated>2023-03-31T12:08:25Z</updated>
+    <link href="https://arxiv.org/abs/2303.17990v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.17990v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In scenarios where a single player cannot control other players, cooperative AI is a recent technology that takes advantage of deep learning to assess whether cooperation might occur. One main difficulty of this approach is that it requires a certain level of consensus on the protocol (actions and rules), at least from a majority of players. In our work, we study the simulations performed on the cooperative AI tool proposed in the context of AI for Global Climate Cooperation (AI4GCC) competition. We experimented simulations with and without the AI4GCC default negotiation, including with regions configured slightly differently in terms of labor and/or technology growth. These first results showed that the AI4GCC framework offers a promising cooperative framework to experiment with global warming mitigation. We also propose future work to strengthen this framework.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-31T12:08:25Z</published>
+    <arxiv:comment>14 pages, 5 tables, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Xavier Marjou</name>
+    </author>
+    <author>
+      <name>Arnaud Braud</name>
+    </author>
+    <author>
+      <name>Gaël Fromentoux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05214v1</id>
+    <title>AI's assigned gender affects human-AI cooperation</title>
+    <updated>2024-12-06T17:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2412.05214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooperation between humans and machines is increasingly vital as artificial intelligence (AI) becomes more integrated into daily life. Research indicates that people are often less willing to cooperate with AI agents than with humans, more readily exploiting AI for personal gain. While prior studies have shown that giving AI agents human-like features influences people's cooperation with them, the impact of AI's assigned gender remains underexplored. This study investigates how human cooperation varies based on gender labels assigned to AI agents with which they interact. In the Prisoner's Dilemma game, 402 participants interacted with partners labelled as AI (bot) or humans. The partners were also labelled male, female, non-binary, or gender-neutral. Results revealed that participants tended to exploit female-labelled and distrust male-labelled AI agents more than their human counterparts, reflecting gender biases similar to those in human-human interactions. These findings highlight the significance of gender biases in human-AI interactions that must be considered in future policy, design of interactive AI systems, and regulation of their use.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T17:46:35Z</published>
+    <arxiv:comment>Manuscript under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Sepideh Bazazi</name>
+    </author>
+    <author>
+      <name>Jurgis Karpus</name>
+    </author>
+    <author>
+      <name>Taha Yasseri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.04534v1</id>
+    <title>The Role of Cooperation in Responsible AI Development</title>
+    <updated>2019-07-10T06:51:04Z</updated>
+    <link href="https://arxiv.org/abs/1907.04534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.04534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we argue that competitive pressures could incentivize AI companies to underinvest in ensuring their systems are safe, secure, and have a positive social impact. Ensuring that AI systems are developed responsibly may therefore require preventing and solving collective action problems between companies. We note that there are several key factors that improve the prospects for cooperation in collective action problems. We use this to identify strategies to improve the prospects for industry cooperation on the responsible development of AI.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-10T06:51:04Z</published>
+    <arxiv:comment>23 pages, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Miles Brundage</name>
+    </author>
+    <author>
+      <name>Gillian Hadfield</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.07326v1</id>
+    <title>Progressing Towards Responsible AI</title>
+    <updated>2020-08-11T09:46:00Z</updated>
+    <link href="https://arxiv.org/abs/2008.07326v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.07326v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The field of Artificial Intelligence (AI) and, in particular, the Machine Learning area, counts on a wide range of performance metrics and benchmark data sets to assess the problem-solving effectiveness of its solutions. However, the appearance of research centres, projects or institutions addressing AI solutions from a multidisciplinary and multi-stakeholder perspective suggests a new approach to assessment comprising ethical guidelines, reports or tools and frameworks to help both academia and business to move towards a responsible conceptualisation of AI. They all highlight the relevance of three key aspects: (i) enhancing cooperation among the different stakeholders involved in the design, deployment and use of AI; (ii) promoting multidisciplinary dialogue, including different domains of expertise in this process; and (iii) fostering public engagement to maximise a trusted relation with new technologies and practitioners. In this paper, we introduce the Observatory on Society and Artificial Intelligence (OSAI), an initiative grew out of the project AI4EU aimed at stimulating reflection on a broad spectrum of issues of AI (ethical, legal, social, economic and cultural). In particular, we describe our work in progress around OSAI and suggest how this and similar initiatives can promote a wider appraisal of progress in AI. This will give us the opportunity to present our vision and our modus operandi to enhance the implementation of these three fundamental dimensions.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-11T09:46:00Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>1st International Workshop on Evaluating Progress in AI (EPAI) held in conjunction with ECAI 2020</arxiv:journal_ref>
+    <author>
+      <name>Teresa Scantamburlo</name>
+    </author>
+    <author>
+      <name>Atia Cortés</name>
+    </author>
+    <author>
+      <name>Marie Schacht</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.02383v1</id>
+    <title>The Future of the AI Summit Series</title>
+    <updated>2025-12-19T23:30:07Z</updated>
+    <link href="https://arxiv.org/abs/2601.02383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.02383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This policy memo examines the evolution of the international AI Summit series, initiated at Bletchley Park in 2023 and continued through Seoul in 2024 and Paris in 2025, as a forum for cooperation on the governance of advanced artificial intelligence. It analyzes the factors underpinning the series' early successes and assesses challenges related to scope, participation, continuity, and institutional design. Drawing on comparisons with existing international governance models, the memo evaluates options for hosting arrangements, secretariat formats, participant selection, agenda setting, and meeting frequency. It proposes a set of design recommendations aimed at preserving the series' focus on advanced AI governance while balancing inclusivity, effectiveness, and long-term sustainability.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-19T23:30:07Z</published>
+    <arxiv:comment>Policy memo, 39 pages, includes tables. Prepared by the Oxford Martin AI Governance Initiative</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Lucia Velasco</name>
+    </author>
+    <author>
+      <name>Charles Martinet</name>
+    </author>
+    <author>
+      <name>Henry de Zoete</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+    <author>
+      <name>Duncan Snidal</name>
+    </author>
+    <author>
+      <name>Ben Garfinkel</name>
+    </author>
+    <author>
+      <name>Kwan Yee Ng</name>
+    </author>
+    <author>
+      <name>Haydn Belfield</name>
+    </author>
+    <author>
+      <name>Don Wallace</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Benjamin Prud'homme</name>
+    </author>
+    <author>
+      <name>Brian Tse</name>
+    </author>
+    <author>
+      <name>Roxana Radu</name>
+    </author>
+    <author>
+      <name>Ranjit Lall</name>
+    </author>
+    <author>
+      <name>Ben Harack</name>
+    </author>
+    <author>
+      <name>Julia Morse</name>
+    </author>
+    <author>
+      <name>Nicolas Miailhe</name>
+    </author>
+    <author>
+      <name>Scott Singer</name>
+    </author>
+    <author>
+      <name>Matt Sheehan</name>
+    </author>
+    <author>
+      <name>Max Stauffer</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Joslyn Barnhart</name>
+    </author>
+    <author>
+      <name>Imane Bello</name>
+    </author>
+    <author>
+      <name>Xue Lan</name>
+    </author>
+    <author>
+      <name>Oliver Guest</name>
+    </author>
+    <author>
+      <name>Duncan Cass-Beggs</name>
+    </author>
+    <author>
+      <name>Lu Chuanying</name>
+    </author>
+    <author>
+      <name>Sumaya Nur Adan</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Claire Dennis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.12914v1</id>
+    <title>In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?</title>
+    <updated>2025-04-17T13:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2504.12914v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.12914v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>International cooperation is common in AI research, including between geopolitical rivals. While many experts advocate for greater international cooperation on AI safety to address shared global risks, some view cooperation on AI with suspicion, arguing that it can pose unacceptable risks to national security. However, the extent to which cooperation on AI safety poses such risks, as well as provides benefits, depends on the specific area of cooperation. In this paper, we consider technical factors that impact the risks of international cooperation on AI safety research, focusing on the degree to which such cooperation can advance dangerous capabilities, result in the sharing of sensitive information, or provide opportunities for harm. We begin by why nations historically cooperate on strategic technologies and analyse current US-China cooperation in AI as a case study. We further argue that existing frameworks for managing associated risks can be supplemented with consideration of key risks specific to cooperation on technical AI safety research. Through our analysis, we find that research into AI verification mechanisms and shared protocols may be suitable areas for such cooperation. Through this analysis we aim to help researchers and governments identify and mitigate the risks of international cooperation on AI safety research, so that the benefits of cooperation can be fully realised.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T13:03:56Z</published>
+    <arxiv:comment>Accepted to ACM Conference on Fairness, Accountability, and Transparency (FAccT 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Ben Bucknall</name>
+    </author>
+    <author>
+      <name>Saad Siddiqui</name>
+    </author>
+    <author>
+      <name>Lara Thurnherr</name>
+    </author>
+    <author>
+      <name>Conor McGurk</name>
+    </author>
+    <author>
+      <name>Ben Harack</name>
+    </author>
+    <author>
+      <name>Anka Reuel</name>
+    </author>
+    <author>
+      <name>Patricia Paskov</name>
+    </author>
+    <author>
+      <name>Casey Mahoney</name>
+    </author>
+    <author>
+      <name>Sören Mindermann</name>
+    </author>
+    <author>
+      <name>Scott Singer</name>
+    </author>
+    <author>
+      <name>Vinay Hiremath</name>
+    </author>
+    <author>
+      <name>Charbel-Raphaël Segerie</name>
+    </author>
+    <author>
+      <name>Oscar Delaney</name>
+    </author>
+    <author>
+      <name>Alessandro Abate</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+    <author>
+      <name>Michael K. Cohen</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Ferenc Huszár</name>
+    </author>
+    <author>
+      <name>Anisoara Calinescu</name>
+    </author>
+    <author>
+      <name>Gabriel Davis Jones</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Robert Trager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.11976v2</id>
+    <title>Coverage-Constrained Human-AI Cooperation with Multiple Experts</title>
+    <updated>2024-12-04T17:13:22Z</updated>
+    <link href="https://arxiv.org/abs/2411.11976v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.11976v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human-AI cooperative classification (HAI-CC) approaches aim to develop hybrid intelligent systems that enhance decision-making in various high-stakes real-world scenarios by leveraging both human expertise and AI capabilities. Current HAI-CC methods primarily focus on learning-to-defer (L2D), where decisions are deferred to human experts, and learning-to-complement (L2C), where AI and human experts make predictions cooperatively. However, a notable research gap remains in effectively exploring both L2D and L2C under diverse expert knowledge to improve decision-making, particularly when constrained by the cooperation cost required to achieve a target probability for AI-only selection (i.e., coverage). In this paper, we address this research gap by proposing the Coverage-constrained Learning to Defer and Complement with Specific Experts (CL2DC) method. CL2DC makes final decisions through either AI prediction alone or by deferring to or complementing a specific expert, depending on the input data. Furthermore, we propose a coverage-constrained optimisation to control the cooperation cost, ensuring it approximates a target probability for AI-only selection. This approach enables an effective assessment of system performance within a specified budget. Also, CL2DC is designed to address scenarios where training sets contain multiple noisy-label annotations without any clean-label references. Comprehensive evaluations on both synthetic and real-world datasets demonstrate that CL2DC achieves superior performance compared to state-of-the-art HAI-CC methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T19:06:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <author>
+      <name>Cuong Nguyen</name>
+    </author>
+    <author>
+      <name>Kevin Wells</name>
+    </author>
+    <author>
+      <name>Thanh-Toan Do</name>
+    </author>
+    <author>
+      <name>David Rosewarne</name>
+    </author>
+    <author>
+      <name>Gustavo Carneiro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05122v1</id>
+    <title>Evaluating Visual Conversational Agents via Cooperative Human-AI Games</title>
+    <updated>2017-08-17T03:27:53Z</updated>
+    <link href="https://arxiv.org/abs/1708.05122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI continues to advance, human-AI teams are inevitable. However, progress in AI is routinely measured in isolation, without a human in the loop. It is crucial to benchmark progress in AI, not just in isolation, but also in terms of how it translates to helping humans perform certain tasks, i.e., the performance of human-AI teams.
+  In this work, we design a cooperative game - GuessWhich - to measure human-AI team performance in the specific context of the AI being a visual conversational agent. GuessWhich involves live interaction between the human and the AI. The AI, which we call ALICE, is provided an image which is unseen by the human. Following a brief description of the image, the human questions ALICE about this secret image to identify it from a fixed pool of images.
+  We measure performance of the human-ALICE team by the number of guesses it takes the human to correctly identify the secret image after a fixed number of dialog rounds with ALICE. We compare performance of the human-ALICE teams for two versions of ALICE. Our human studies suggest a counterintuitive trend - that while AI literature shows that one version outperforms the other when paired with an AI questioner bot, we find that this improvement in AI-AI performance does not translate to improved human-AI performance. This suggests a mismatch between benchmarking of AI in isolation and in the context of human-AI teams.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-17T03:27:53Z</published>
+    <arxiv:comment>HCOMP 2017</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Prithvijit Chattopadhyay</name>
+    </author>
+    <author>
+      <name>Deshraj Yadav</name>
+    </author>
+    <author>
+      <name>Viraj Prabhu</name>
+    </author>
+    <author>
+      <name>Arjun Chandrasekaran</name>
+    </author>
+    <author>
+      <name>Abhishek Das</name>
+    </author>
+    <author>
+      <name>Stefan Lee</name>
+    </author>
+    <author>
+      <name>Dhruv Batra</name>
+    </author>
+    <author>
+      <name>Devi Parikh</name>
+    </author>
+  </entry>
+</feed>

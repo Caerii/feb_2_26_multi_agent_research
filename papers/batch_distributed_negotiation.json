@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ErAy9O7Kp1wAAZsARrGpbxCK0pE</id>
+  <title>arXiv Query: search_query=all:distributed AND all:negotiation&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-07T04:53:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:distributed+AND+all:negotiation&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>219</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.06938v2</id>
+    <title>Efficient Resource Scheduling for Distributed Infrastructures Using Negotiation Capabilities</title>
+    <updated>2024-02-13T15:58:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.06938v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.06938v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the past few decades, the rapid development of information and internet technologies has spawned massive amounts of data and information. The information explosion drives many enterprises or individuals to seek to rent cloud computing infrastructure to put their applications in the cloud. However, the agreements reached between cloud computing providers and clients are often not efficient. Many factors affect the efficiency, such as the idleness of the providers' cloud computing infrastructure, and the additional cost to the clients. One possible solution is to introduce a comprehensive, bargaining game (a type of negotiation), and schedule resources according to the negotiation results. We propose an agent-based auto-negotiation system for resource scheduling based on fuzzy logic. The proposed method can complete a one-to-one auto-negotiation process and generate optimal offers for the provider and client. We compare the impact of different member functions, fuzzy rule sets, and negotiation scenario cases on the offers to optimize the system. It can be concluded that our proposed method can utilize resources more efficiently and is interpretable, highly flexible, and customizable. We successfully train machine learning models to replace the fuzzy negotiation system to improve processing speed. The article also highlights possible future improvements to the proposed system and machine learning models. All the codes and data are available in the open-source repository.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-10T12:26:20Z</published>
+    <arxiv:comment>Accepted in IEEE CLOUD 2023. 13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Junjie Chu</name>
+    </author>
+    <author>
+      <name>Prashant Singh</name>
+    </author>
+    <author>
+      <name>Salman Toor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05137v4</id>
+    <title>Soundness in negotiations</title>
+    <updated>2018-01-15T11:27:36Z</updated>
+    <link href="https://arxiv.org/abs/1703.05137v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05137v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Negotiations are a formalism for describing multiparty distributed cooperation. Alternatively, they can be seen as a model of concurrency with synchronized choice as communication primitive. Well-designed negotiations must be sound, meaning that, whatever its current state, the negotiation can still be completed. In earlier work, Esparza and Desel have shown that deciding soundness of a negotiation is Pspace-complete, and in Ptime if the negotiation is deterministic. They have also extended their polynomial soundness algorithm to an intermediate class of acyclic, non-deterministic negotiations. However, they did not analyze the runtime of the extended algorithm, and also left open the complexity of the soundness problem for the intermediate class. In the first part of this paper we revisit the soundness problem for deterministic negotiations, and show that it is Nlogspace-complete, improving on the earlier algorithm, which requires linear space. In the second part we answer the question left open by Esparza and Desel. We prove that the soundness problem can be solved in polynomial time for acyclic, weakly non- deterministic negotiations, a more general class than the one considered by them. In the third and final part, we show that the techniques developed in the first two parts of the paper can be applied to analysis problems other than soundness, including the problem of detecting race conditions, and several classical static analysis problems. More specifically, we show that, while these problems are intractable for arbitrary acyclic deterministic negotiations, they become tractable in the sound case. So soundness is not only a desirable behavioral property in itself, but also helps to analyze other properties.</summary>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-15T13:15:48Z</published>
+    <arxiv:primary_category term="cs.FL"/>
+    <arxiv:journal_ref>Logical Methods in Computer Science, Volume 14, Issue 1, Concurrency theory (January 16, 2018) lmcs:3196</arxiv:journal_ref>
+    <author>
+      <name>Javier Esparza</name>
+    </author>
+    <author>
+      <name>Denis Kuperberg</name>
+    </author>
+    <author>
+      <name>Anca Muscholl</name>
+    </author>
+    <author>
+      <name>Igor Walukiewicz</name>
+    </author>
+    <arxiv:doi>10.23638/LMCS-14(1:4)2018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.23638/LMCS-14(1:4)2018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.08468v1</id>
+    <title>Belief-Desire-Intention (BDI) Multi-agent System for Cloud Marketplace Negotiation</title>
+    <updated>2022-06-16T22:36:45Z</updated>
+    <link href="https://arxiv.org/abs/2206.08468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.08468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the evolution of cloud computing, there has been a rise of large enterprises extending their infrastructure and workloads into the public cloud. This paper proposes a full-fledged framework for a Belief-Desire-Intention (BDI) multi-agent-based cloud marketplace system for cloud resources. Each party in the cloud marketplace system supports a BDI agent for autonomous decision making and negotiation to facilitate automated buying and selling of resources. Additionally, multiple BDI agents from an enterprise competing for the same cloud resource can consult with each other via Master Negotiation Clearing House to minimize the overall cost function for the enterprise while negotiating for a cloud resource. The cloud marketplace system is further augmented with assignments of behavior norm and reputation index to the agents to facilitate trust among them.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-16T22:36:45Z</published>
+    <arxiv:comment>19th International Conference on Distributed Computing and Artificial Intelligence</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Saurabh Deochake</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.00161v1</id>
+    <title>Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers' Unstructured Time and Attention Negotiation</title>
+    <updated>2024-03-29T21:35:15Z</updated>
+    <link href="https://arxiv.org/abs/2404.00161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.00161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While distributed workers rely on scheduled meetings for coordination and collaboration, these meetings can also challenge their ability to focus. Protecting worker focus has been addressed from a technical perspective, but companies are now attempting organizational interventions, such as meeting-free weeks. Recognizing distributed collaboration as a sociotechnical challenge, we first present an interview study with distributed workers participating in meeting-free weeks at an enterprise software company. We identify three orientations workers exhibit during these weeks: Focus, Collaborative, and Time-Bound, each with varying levels and use of unstructured time. These different orientations result in challenges in attention negotiation, which may be suited for technical interventions. This motivated a follow-up study investigating attention negotiation and the compensating mechanisms workers developed during meeting-free weeks. Our framework identified tensions between the attention-getting and attention-delegation strategies. We extend past work to show how workers adapt their virtual collaboration mechanisms in response to organizational interventions</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-29T21:35:15Z</published>
+    <arxiv:comment>Published at the ACM Conference on Human Factors in Computing Systems (CHI) 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Sharon Ferguson</name>
+    </author>
+    <author>
+      <name>Michael Massimi</name>
+    </author>
+    <arxiv:doi>10.1145/3613904.3642175</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3613904.3642175" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.02783v2</id>
+    <title>Active Learning for Sound Negotiations</title>
+    <updated>2022-05-06T18:57:43Z</updated>
+    <link href="https://arxiv.org/abs/2110.02783v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.02783v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present two active learning algorithms for sound deterministic negotiations. Sound deterministic negotiations are models of distributed systems, a kind of Petri nets or Zielonka automata with additional structure. We show that this additional structure allows to minimize such negotiations. The two active learning algorithms differ in the type of membership queries they use. Both have similar complexity to Angluin's L* algorithm, in particular, the number of queries is polynomial in the size of the negotiation, and not in the number of configurations.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T14:05:15Z</published>
+    <arxiv:comment>To appear in LICS'22</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Anca Muscholl</name>
+    </author>
+    <author>
+      <name>Igor Walukiewicz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.00913v1</id>
+    <title>Negotiation Strategies for Agents with Ordinal Preferences</title>
+    <updated>2018-05-02T17:18:20Z</updated>
+    <link href="https://arxiv.org/abs/1805.00913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.00913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Negotiation is a very common interaction between automated agents. Many common negotiation protocols work with cardinal utilities, even though ordinal preferences, which only rank the outcomes, are easier to elicit from humans. In this work we concentrate on negotiation with ordinal preferences over a finite set of outcomes. We study an intuitive protocol for bilateral negotiation, where the two parties make offers alternately. We analyze the negotiation protocol under different settings. First, we assume that each party has full information about the other party's preference order. We provide elegant strategies that specify a sub-game perfect equilibrium for the agents. We further show how the studied negotiation protocol almost completely implements a known bargaining rule. Finally, we analyze the no information setting. We study several solution concepts that are distribution-free, and analyze both the case where neither party knows the preference order of the other party, and the case where only one party is uninformed.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-02T17:18:20Z</published>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Sefi Erlich</name>
+    </author>
+    <author>
+      <name>Noam Hazon</name>
+    </author>
+    <author>
+      <name>Sarit Kraus</name>
+    </author>
+    <arxiv:doi>10.1016/j.artint.2023.104050</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.artint.2023.104050" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.14547v2</id>
+    <title>Incorporating forecasting and peer-to-peer negotiation frameworks into a distributed model predictive control approach for meshed electric networks</title>
+    <updated>2022-01-18T15:46:15Z</updated>
+    <link href="https://arxiv.org/abs/2105.14547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.14547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continuous integration of renewable energy sources into power networks is causing a paradigm shift in energy generation and distribution with regards to trading and control; the intermittent nature of renewable sources affects pricing of energy sold or purchased; the networks are subject to operational constraints, voltage limits at each node, rated capacities for the power electronic devices, current bounds for distribution lines. These economic and technical constraints coupled with intermittent renewable injection may pose a threat to system stability and performance. We propose a novel holistic approach to energy trading composed of a distributed predictive control framework to handle physical interactions, i,e., voltage constraints and power dispatch, together with a negotiation framework to determine pricing policies for energy transactions. We study the effect of forecasting generation and consumption on the overall network's performance and market behaviours. We provide a rigorous convergence analysis for both the negotiation framework and the distributed control. Lastly, we assess the impact of forecasting in the proposed system with the aid of testing scenarios.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-30T13:56:05Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Pablo R. Baldivieso Monasterios</name>
+    </author>
+    <author>
+      <name>Nandor Verba</name>
+    </author>
+    <author>
+      <name>Euan A Morris</name>
+    </author>
+    <author>
+      <name>Thomas Morstyn</name>
+    </author>
+    <author>
+      <name>George. C</name>
+    </author>
+    <author>
+      <name>. Konstantopoulos</name>
+    </author>
+    <author>
+      <name>Elena Gaura</name>
+    </author>
+    <author>
+      <name>Stephen McArthur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.3740v1</id>
+    <title>An Efficient Protocol for Negotiation over Combinatorial Domains with Incomplete Information</title>
+    <updated>2012-02-14T16:41:17Z</updated>
+    <link href="https://arxiv.org/abs/1202.3740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.3740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of agent-based negotiation in combinatorial domains. It is difficult to reach optimal agreements in bilateral or multi-lateral negotiations when the agents' preferences for the possible alternatives are not common knowledge. Self-interested agents often end up negotiating inefficient agreements in such situations. In this paper, we present a protocol for negotiation in combinatorial domains which can lead rational agents to reach optimal agreements under incomplete information setting. Our proposed protocol enables the negotiating agents to identify efficient solutions using distributed search that visits only a small subspace of the whole outcome space. Moreover, the proposed protocol is sufficiently general that it is applicable to most preference representation models in combinatorial domains. We also present results of experiments that demonstrate the feasibility and computational efficiency of our approach.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-14T16:41:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Minyi Li</name>
+    </author>
+    <author>
+      <name>Quoc Bao Vo</name>
+    </author>
+    <author>
+      <name>Ryszard Kowalczyk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.13668v1</id>
+    <title>Increasing negotiation performance at the edge of the network</title>
+    <updated>2020-03-30T17:52:59Z</updated>
+    <link href="https://arxiv.org/abs/2003.13668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.13668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated negotiation has been used in a variety of distributed settings, such as privacy in the Internet of Things (IoT) devices and power distribution in Smart Grids. The most common protocol under which these agents negotiate is the Alternating Offers Protocol (AOP). Under this protocol, agents cannot express any additional information to each other besides a counter offer. This can lead to unnecessarily long negotiations when, for example, negotiations are impossible, risking to waste bandwidth that is a precious resource at the edge of the network. While alternative protocols exist which alleviate this problem, these solutions are too complex for low power devices, such as IoT sensors operating at the edge of the network. To improve this bottleneck, we introduce an extension to AOP called Alternating Constrained Offers Protocol (ACOP), in which agents can also express constraints to each other. This allows agents to both search the possibility space more efficiently and recognise impossible situations sooner. We empirically show that agents using ACOP can significantly reduce the number of messages a negotiation takes, independently of the strategy agents choose. In particular, we show our method significantly reduces the number of messages when an agreement is not possible. Furthermore, when an agreement is possible it reaches this agreement sooner with no negative effect on the utility.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-30T17:52:59Z</published>
+    <arxiv:comment>Accepted for presentation at The 7th International Conference on Agreement Technologies (AT 2020)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sam Vente</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angelika Kimmig</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alun Preece</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Federico Cerutti</name>
+      <arxiv:affiliation>University of Brescia</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13140v3</id>
+    <title>A Mathematical Negotiation Mechanism for Distributed Procurement Problems and a Hybrid Algorithm for its Solution</title>
+    <updated>2021-12-18T00:27:35Z</updated>
+    <link href="https://arxiv.org/abs/2006.13140v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13140v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a mathematical negotiation mechanism is designed to minimize the negotiators' costs in a distributed procurement problem at two echelons of an automotive supply chain. The buyer's costs are procurement cost and shortage penalty in a one-period contract. On the other hand, the suppliers intend to solve a multi-period, multi-product production planning to minimize their costs. Such a mechanism provides an alignment among suppliers' production planning and order allocation, also supports the partnership with the valued suppliers by taking suppliers' capacities into account. Such a circumstance has been modeled via bi-level programming, in which the buyer acts as a leader, and the suppliers individually appear as followers in the lower level. To solve this nonlinear bi-level programming model, a hybrid algorithm by combining the particle swarm optimization (PSO) algorithm with a heuristic algorithm based on A search is proposed. The heuristic A algorithm is embedded to solve the mixed-integer nonlinear programming (MINLP) sub-problems for each supplier according to the received variable values determined by PSO system particles (buyer's request for quotations (RFQs)). The computational analyses have shown that the proposed hybrid algorithm called PSO-A outperforms PSO-SA and PSO-Greedy algorithms.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-12T21:05:16Z</published>
+    <arxiv:comment>26 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Zohreh Kaheh</name>
+    </author>
+    <author>
+      <name>Reza Baradaran Kazemzadeh</name>
+    </author>
+    <author>
+      <name>Ellips Masehian</name>
+    </author>
+    <author>
+      <name>Ali Husseinzadeh Kashan</name>
+    </author>
+    <arxiv:doi>10.24200/J65.2018.20035</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.24200/J65.2018.20035" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.15085v1</id>
+    <title>Mean Field MARL Based Bandwidth Negotiation Method for Massive Devices Spectrum Sharing</title>
+    <updated>2021-04-30T16:07:39Z</updated>
+    <link href="https://arxiv.org/abs/2104.15085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.15085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a novel bandwidth negotiation mechanism is proposed for massive devices wireless spectrum sharing, in which individual device locally negotiates bandwidth usage with neighbor devices and globally optimal spectrum utilization is achieved through distributed decision-making. Since only sparse feedback is needed, the proposed mechanism can greatly reduce the signaling overhead. In order to solve the distributed optimization problem when massive devices coexist, mean field multi-agent reinforcement learning (MF-MARL) based bandwidth decision algorithm is proposed, which allow device make globally optimal decision leveraging only neighborhood observation. In simulation, distributed bandwidth negotiation between 1000 devices is demonstrated and the spectrum utilization rate is above 95%. The proposed method is beneficial to reduce spectrum conflicts, increase spectrum utilization for massive devices spectrum sharing.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-30T16:07:39Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Tianhao Li</name>
+    </author>
+    <author>
+      <name>Yu Tian</name>
+    </author>
+    <author>
+      <name>Shuai Yuan</name>
+    </author>
+    <author>
+      <name>Naijin Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04387v1</id>
+    <title>The Language of Bargaining: Linguistic Effects in LLM Negotiations</title>
+    <updated>2026-01-07T20:49:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.04387v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04387v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Negotiation is a core component of social intelligence, requiring agents to balance strategic reasoning, cooperation, and social norms. Recent work shows that LLMs can engage in multi-turn negotiation, yet nearly all evaluations occur exclusively in English. Using controlled multi-agent simulations across Ultimatum, Buy-Sell, and Resource Exchange games, we systematically isolate language effects across English and four Indic framings (Hindi, Punjabi, Gujarati, Marwadi) by holding game rules, model parameters, and incentives constant across all conditions. We find that language choice can shift outcomes more strongly than changing models, reversing proposer advantages and reallocating surplus. Crucially, effects are task-contingent: Indic languages reduce stability in distributive games yet induce richer exploration in integrative settings. Our results demonstrate that evaluating LLM negotiation solely in English yields incomplete and potentially misleading conclusions. These findings caution against English-only evaluation of LLMs and suggest that culturally-aware evaluation is essential for fair deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T20:49:45Z</published>
+    <arxiv:comment>Under Review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Stuti Sinha</name>
+    </author>
+    <author>
+      <name>Himanshu Kumar</name>
+    </author>
+    <author>
+      <name>Aryan Raju Mandapati</name>
+    </author>
+    <author>
+      <name>Rakshit Sakhuja</name>
+    </author>
+    <author>
+      <name>Dhruv Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08868v1</id>
+    <title>A Survey on Bilateral Multi-Round Cloud-SLA Negotiation Strategies</title>
+    <updated>2025-07-09T16:34:16Z</updated>
+    <link href="https://arxiv.org/abs/2507.08868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Today, static cloud markets where consumers purchase services directly from providers are dominating. Thus, consumers neither negotiate the price nor the characteristics of the service. In recent years, providers have adopted more dynamic trading mechanisms, as e.g. Amazon's EC2 platform shows: In addition to the reservation marketspace and the on-demand marketspace, Amazon offers a spot marketspace where consumers can bid for virtual machines. This spot marketspace was extended with spot blocks, and recently Amazon reworked the bidding options. In addition, other cloud providers, such as Virtustream, adopt dynamic trading mechanisms. The scientific community envisions autonomous multi-round negotiations for realizing future cloud marketspaces. Consequently, consumers and providers exchange offers and counteroffers to reach an agreement. This helps providers increase the utilization of their datacenters, while consumers can purchase highly customized cloud services.
+  In the paper at hand, we present a survey on multi-round bilateral negotiation strategies for trading cloud resources. Thus, we analyzed peer-reviewed articles in order to identify trends, gaps, similarities, and the scope of such negotiation strategies. In addition, we surveyed the formalism that the scientific community uses to describe such strategies. Based on these findings, we derived recommendations for creating and documenting bilateral multi-round negotiation strategies to foster their implementation in the industry.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-09T16:34:16Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Benedikt Pittl</name>
+    </author>
+    <author>
+      <name>Werner Mach</name>
+    </author>
+    <author>
+      <name>Erich Schikuta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13109v1</id>
+    <title>An Agent-based Cloud Service Negotiation in Hybrid Cloud Computing</title>
+    <updated>2020-06-16T05:23:38Z</updated>
+    <link href="https://arxiv.org/abs/2006.13109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the advent of evolution of cloud computing, large organizations have been scaling the on-premise IT infrastructure to the cloud. Although this being a popular practice, it lacks comprehensive efforts to study the aspects of automated negotiation of resources among cloud customers and providers. This paper proposes a full-fledged framework for the multi-party, multi-issue negotiation system for cloud resources. It introduces a robust cloud marketplace system to buy and sell cloud resources. The Belief-Desire-Intention (BDI) model-based cloud customer and provider agents concurrently negotiate on multiple issues, pursuing a hybrid tactic of time and resource-based dynamic deadline algorithms to generate offers and counter-offers. The cloud marketplace-based system is further augmented with the assignment of behavior norm score and reputation index to the agents to establish trust among them.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-16T05:23:38Z</published>
+    <arxiv:comment>Fifth International Conference on ICT for Sustainable Development</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Saurabh Deochake</name>
+    </author>
+    <author>
+      <name>Debajyoti Mukhopadhyay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02614v2</id>
+    <title>The current state of automated negotiation theory: a literature review</title>
+    <updated>2020-04-27T10:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2004.02614v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.02614v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated negotiation can be an efficient method for resolving conflict and redistributing resources in a coalition setting. Automated negotiation has already seen increased usage in fields such as e-commerce and power distribution in smart girds, and recent advancements in opponent modelling have proven to deliver better outcomes. However, significant barriers to more widespread adoption remain, such as lack of predictable outcome over time and user trust. Additionally, there have been many recent advancements in the field of reasoning about uncertainty, which could help alleviate both those problems. As there is no recent survey on these two fields, and specifically not on their possible intersection we aim to provide such a survey here.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-30T20:27:20Z</published>
+    <arxiv:comment>pre-print. New version fixes mistake in title</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sam Vente</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angelika Kimmig</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alun Preece</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Federico Cerutti</name>
+      <arxiv:affiliation>University of Brescia</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10245v1</id>
+    <title>Reach-Avoid-Stay-Collision-Avoidance Negotiation Framework for Multi-Agent Systems via Spatiotemporal Tubes</title>
+    <updated>2025-03-13T10:45:34Z</updated>
+    <link href="https://arxiv.org/abs/2503.10245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study presents a multi-agent negotiation-based framework to obtain collision-free paths while performing prescribed-time reach-avoid-stay (RAS) tasks for agents with unknown dynamics and bounded disturbance. By employing spatiotemporal tubes to generate time-varying state constraints, we ensure that all agents adhere to RAS specifications using synthesized controllers. To prevent inter-agent collisions, a negotiation mechanism is proposed where successful negotiations result in spatiotemporal tubes for each agent fulfilling desired tasks. This approach results in a completely distributed, approximation-free control law for each agent. The effectiveness of this mechanism was validated through simulations of multi-agent robot navigation and drone navigation tasks involving prescribed-time RAS specifications and collision avoidance.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T10:45:34Z</published>
+    <arxiv:comment>Accepted in ECC 2025</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Mohd. Faizuddin Faruqui</name>
+    </author>
+    <author>
+      <name>Ratnangshu Das</name>
+    </author>
+    <author>
+      <name>Ravi Kumar L</name>
+    </author>
+    <author>
+      <name>Pushpak Jagtap</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04242v1</id>
+    <title>Strategic Adaptation Under Contextual Change: Insights from a Dyadic Negotiation Testbed for AI Coaching Technologies</title>
+    <updated>2026-02-04T06:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.04242v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04242v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strategic adaptation -- the ability to adjust interaction behavior in response to changing constraints and leverage -- is a central goal of negotiation training and an emerging target for AI coaching systems. However, adaptation is difficult to evaluate because adaptation-relevant moments arise unpredictably in typical tasks. We study a reusable dyadic negotiation testbed that employs a controlled midstream change in one party's outside alternative as a repeatable perturbation to stress-test adaptation. In a six-round chat-based negotiation study (N=100), the perturbation reliably reorganized interaction dynamics: transitions between integrative (cooperative) and distributive (positional) behaviors declined, behavioral diversity narrowed, and interactions drifted toward more distributive tactics. Critically, this distributive drift predicted worse relational experience net of objective outcomes, and adaptation patterns were path dependent on prior behavior. These results establish a methodological bridge for evaluating and comparing AI coaching systems on strategic adaptation as a process and identify failure modes and design targets for adaptive interaction support.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T06:00:09Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Mobasshira Akter Urmi</name>
+    </author>
+    <author>
+      <name>Raiyan Abdul Baten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.09214v1</id>
+    <title>Applying Multi-Agent Negotiation to Solve the Production Routing Problem With Privacy Preserving</title>
+    <updated>2024-06-13T15:15:34Z</updated>
+    <link href="https://arxiv.org/abs/2406.09214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.09214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to address the Production Routing Problem with Privacy Preserving (PRPPP) in supply chain optimization. The integrated optimization of production, inventory, distribution, and routing decisions in real-world industry applications poses several challenges, including increased complexity, discrepancies between planning and execution, and constraints on information sharing. To mitigate these challenges, this paper proposes the use of intelligent agent negotiation within a hybrid Multi-Agent System (MAS) integrated with optimization algorithms. The MAS facilitates communication and coordination among entities, encapsulates private information, and enables negotiation. This, along with optimization algorithms, makes it a compelling framework for establishing optimal solutions. The approach is supported by real-world applications and synergies between MAS and optimization methods, demonstrating its effectiveness in addressing complex supply chain optimization problems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T15:15:34Z</published>
+    <arxiv:comment>The 15th Workshop on Optimization and Learning in Multiagent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Luiza Pellin Biasoto</name>
+    </author>
+    <author>
+      <name>Vinicius Renan de Carvalho</name>
+    </author>
+    <author>
+      <name>Jaime Simão Sichman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.07308v1</id>
+    <title>A Self-rescue Mechanism for an In-pipe Robot for Large Obstacle Negotiation in Water Distribution Systems</title>
+    <updated>2021-09-15T14:06:06Z</updated>
+    <link href="https://arxiv.org/abs/2109.07308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.07308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Water distribution systems (WDS) carry potable water with millions of miles of pipelines and deliver purified water to residential areas. The incidents in the WDS cause leak and water loss, which imposes pressure gradient and public health crisis. Hence, utility managers need to assess the condition of pipelines periodically and localize the leak location (in case it is reported). In our previous works, we designed and developed a size-adaptable modular in-pipe robot [1] and controlled its motion in in-service WDS. However, due to the linearization of the dynamical equations of the robot, the stabilizer controller which is a linear quadratic regulator (LQR) cannot stabilize the large deviations of the stabilizing states due to the presence of obstacles that fails the robot during operation. To this aim, we design a self-rescue mechanism for the robot in which three auxiliary gear-motors retract and extend the arm modules with the designed controller towards a reliable motion in the negotiation of large obstacles and non-straight configurations. Simulation results show that the proposed mechanism along with the motion controller enables the robot to have an improved motion in pipelines.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-15T14:06:06Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>MSaber Kazeminasab</name>
+    </author>
+    <author>
+      <name>Moein Razavi</name>
+    </author>
+    <author>
+      <name>Sajad Dehghani</name>
+    </author>
+    <author>
+      <name>Morteza Khosrotabar</name>
+    </author>
+    <author>
+      <name>M. Katherine Banks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19175v1</id>
+    <title>LLM-Based Agentic Negotiation for 6G: Addressing Uncertainty Neglect and Tail-Event Risk</title>
+    <updated>2025-11-24T14:36:11Z</updated>
+    <link href="https://arxiv.org/abs/2511.19175v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19175v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A critical barrier to the trustworthiness of sixth-generation (6G) agentic autonomous networks is the uncertainty neglect bias; a cognitive tendency for large language model (LLM)-powered agents to make high-stakes decisions based on simple averages while ignoring the tail risk of extreme events. This paper proposes an unbiased, risk-aware framework for agentic negotiation, designed to ensure robust resource allocation in 6G network slicing. Specifically, agents leverage Digital Twins (DTs) to predict full latency distributions, which are then evaluated using a formal framework from extreme value theory, namely, Conditional Value-at-Risk (CVaR). This approach fundamentally shifts the agent's objective from reasoning over the mean to reasoning over the tail, thereby building a statistically-grounded buffer against worst-case outcomes. Furthermore, our framework ensures full uncertainty awareness by requiring agents to quantify epistemic uncertainty -- confidence in their own DTs predictions -- and propagate this meta-verification to make robust decisions, preventing them from acting on unreliable data. We validate this framework in a 6G inter-slice negotiation use-case between an eMBB and a URLLC agent. The results demonstrate the profound failure of the biased, mean-based baseline, which consistently fails its SLAs with a 25\% rate. Our unbiased, CVaR-aware agent successfully mitigates this bias, eliminating SLA violations and reducing the URLLC and eMBB p99.999 latencies by around 11\%. We show this reliability comes at the rational and quantifiable cost of slightly reduced energy savings to 17\%, exposing the false economy of the biased approach. This work provides a concrete methodology for building the trustworthy autonomous systems required for 6G.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T14:36:11Z</published>
+    <arxiv:comment>Link to open-source non-commercial code available</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Hatim Chergui</name>
+    </author>
+    <author>
+      <name>Farhad Rezazadeh</name>
+    </author>
+    <author>
+      <name>Mehdi Bennis</name>
+    </author>
+    <author>
+      <name>Merouane Debbah</name>
+    </author>
+  </entry>
+</feed>
