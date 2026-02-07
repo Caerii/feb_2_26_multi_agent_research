@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -33,6 +33,10 @@ Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 - Multi-turn interaction strategies (MedSAM-Agent clinical fidelity rewards)
 - Security task automation (CVE-Factory expert-level CVE task generation)
 - Memory-based scaling (MeKi ROM-based knowledge injection with zero latency)
+- Auction-based coordination (SALE freelancer marketplace strategy bidding)
+- Wide Research paradigm (WideSeek dynamic hierarchical agent forking)
+- Production observability (Agentic Observability ReAct for alert triage)
+- PR-grounded long-horizon (daVinci-Agency chain-of-PR trajectory mining)
 
 ---
 
@@ -50,28 +54,39 @@ Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 | ProAct | 2602.05327 | Agentic lookahead for long-horizon planning |
 | Internet of Agentic AI | 2602.03145 | Distributed coalition formation |
 | AgentXRay | 2602.05353 | Workflow reconstruction (white-boxing black-box agents) |
-| PieArena | 2602.05302 | MBA negotiation with behavioral profiling |
-| H-AdminSim | 2602.05407 | Hospital admin with FHIR integration |
+| PieArena | 2602.05302 | MBA negotiation benchmark with behavioral profiling |
 | SocialVeil | 2602.05115 | Social intelligence barriers (45% mutual understanding reduction) |
 | GAMMS | 2602.05105 | Lightweight multi-agent simulation framework |
 | CommCP | 2602.06038 | LLM-based communication with conformal prediction |
 | Learning to Share | 2602.05965 | Parallel agentic memory reuse across teams |
-| AI Agent Supply Chains | 2602.05524 | Structured decision prompts for inventory |
 | LinguistAgent | 2602.05493 | Dual-agent workflow for linguistic annotation |
 | Towards Science of Collective AI | 2602.05289 | Collaboration gain metric Γ for scientific MAS |
 | Data-Centric Interpretability (MARL) | 2602.05183 | SAE-based LLM MARL training analysis |
 | CoWork-X | 2602.05004 | Skill-based HTN retrieval with co-evolution |
 | Group-Evolving Agents (GEA) | 2602.04837 | Open-ended self-improvement via experience sharing |
-| WideSeek-R1 | 2602.04634 | Width scaling via MARL for info seeking (4B≈671B) |
-| Vibe AIGC | 2602.04575 | Content generation via agentic orchestration |
 | PCE (Assumptions to Actions) | 2602.04326 | Uncertainty-aware planning for embodied agents |
 | Agent-Omit | 2602.04284 | Adaptive thought/observation omission |
 | Empirical-MCTS | 2602.04248 | Continuous evolution via dual-experience MCTS |
-| OMG-Agent | 2602.04144 | Missing modality generation (coarse-to-fine workflow) |
-| Agentic AI Healthcare Taxonomy | 2602.04813 | 7-dimension evaluation framework (49 studies) |
-| INFORM | 2602.04291 | Causal analysis for multi-expert orchestration (INFORM) |
+| INFORM | 2602.04291 | Causal analysis for multi-expert orchestration |
 | MA3DSG | 2602.04152 | Multi-agent 3D scene graph generation |
-| KGLAMP | 2602.04129 | KG-guided LLM for multi-robot planning/replanning |
+| KGLAMP | 2602.04129 | KG-guided multi-robot planning/replanning |
+| WideSeek-R1 | 2602.04634 | Width scaling via MARL for info seeking (4B≈671B) |
+| Agent Scaling via Diversity | 2602.03794 | Information-theoretic framework: 2 diverse ≈ 16 homogeneous |
+| AOrchestra | 2602.03786 | Automated sub-agent creation (16.28% improvement) |
+| TodyComm | 2602.03688 | Task-oriented dynamic communication topology |
+| Conversational Inertia | 2602.03664 | Context Preference Learning for multi-turn agents |
+| EquiRouter | 2602.03478 | Decision-aware ranking (17% cost reduction) |
+| Search-R2 | 2602.03647 | Actor-Refiner collaboration for search reasoning |
+| IntentRL | 2602.03468 | Proactive user-intent agents via RL |
+| Agentic Proposing | 2602.03279 | Compositional skill synthesis with trajectories |
+| Understanding Multi-Agent LLM Frameworks | 2602.03128 | MAFBench unified evaluation for frameworks |
+| MAS-ProVe | 2602.03053 | Process verification across paradigms |
+| Visual Reasoning over Time Series (MAS4TS) | 2602.03026 | Analyzer-Reasoner-Executor paradigm |
+| Socratic-Geo | 2602.03414 | Synthetic data generation via multi-agent |
+| MADT (Traffic Coordination) | 2602.02903 | Multi-agent traffic via sequence modeling |
+| SALE (Strategy Auctions) | 2602.02751 | Auction-based scaling for small agents |
+| WideSeek | 2602.02636 | Dynamic hierarchical Wide Research |
+| daVinci-Agency | 2602.02619 | Long-horizon via PR-grounded synthesis
 | Agent Scaling via Diversity | 2602.03794 | Information-theoretic框架: 2 diverse agents ≈ 16 homogeneous |
 | AOrchestra | 2602.03786 | Automated sub-agent creation (16.28% improvement vs baseline) |
 | TodyComm | 2602.03688 | Task-oriented dynamic communication topology |
@@ -85,6 +100,9 @@ Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 | Visual Reasoning over Time Series (MAS4TS) | 2602.03026 | Analyzer-Reasoner-Executor paradigm |
 | Socratic-Geo | 2602.03414 | Synthetic data generation via multi-agent interaction |
 | MADT (Spatiotemporal Decision Transformer) | 2602.02903 | Multi-agent traffic coordination via sequence modeling |
+| SALE (Strategy Auctions) | 2602.02751 | Auction-based scaling for small agents across complexity |
+| WideSeek | 2602.02636 | Dynamic hierarchical architecture for Wide Research |
+| daVinci-Agency | 2602.02619 | Long-horizon agency via PR-grounded trajectory synthesis |
 
 ### Efficiency & Infrastructure
 
@@ -93,33 +111,16 @@ Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 | RL-VLA³ | 2602.05765 | Full asynchronism: 59-127% throughput improvement |
 | S3-CoT | 2602.01982 | Succinct Chain-of-Thought with System 1/2 cognitive |
 | SpecMD | 2602.03921 | MoE caching with Least-Stale eviction |
-| SAR-RAG | 2602.04712 | SAR target recognition with RAG |
 | DARWIN | 2602.05848 | Self-improving evolutionary GPT |
 | DeepRead | 2602.05014 | Structure-aware agentic document QA |
 | AgentArk | 2602.03955 | Distills multi-agent intelligence into single model |
-| LoRDO | 2602.04396 | Distributed low-rank optimization (~10× communication reduction) |
-| Med-MMFL | 2602.04416 | Multimodal federated learning benchmark (10 modalities, 6 FL algorithms) |
-| Blockchain FL | 2602.04384 | Blockchain FL for sustainable retail demand forecasting |
-
-### Applications & Specialization
-
-| Paper | ID | Focus |
-|-------|-----|-------|
-| PL-Distill | 2602.01547 | Audio-Language: 8.4B→1.1B compression |
-| OmniVideo-R1 | 2602.05847 | Audio-visual reasoning pipeline |
-| Human Bias Emulation | 2602.05597 | Decision modeling with GPT agents |
-| Structured Context Engineering | 2602.05447 | File-native agentic systems (9,649 experiments) |
-| Capture the Flags | 2602.05523 | Agentic LLM evaluation via semantic transformations |
-| Tinker Tales | 2602.04109 | Child-AI co-creative storytelling with educational scaffolding |
-| MedSAM-Agent | 2602.03320 | Multi-turn RL for interactive medical segmentation |
-| CVE-Factory | 2602.03012 | Multi-agent CVE task generation for code security |
-
-### Efficiency & Infrastructure
-
-| Paper | ID | Focus |
-|-------|-----|-------|
-| SparVAR | 2602.04361 | Training-free sparse attention (>5× faster than FlashAttention) |
-| MeKi | 2602.03359 | Memory-based expert knowledge injection for zero-latency scaling |
+| LoRDO | 2602.04396 | Distributed low-rank optimization (~10× comm reduction) |
+| Med-MMFL | 2602.04416 | Multimodal federated learning benchmark |
+| Blockchain FL | 2602.04384 | Blockchain FL for retail forecasting |
+| FedKRSO | 2602.03019 | Communication/memory efficient FL fine-tuning |
+| SparVAR | 2602.04361 | Training-free sparse attention (>5× faster) |
+| MeKi | 2602.03359 | Memory-based expert knowledge injection |
+| RAP | 2602.02599 | KV-Cache compression via RoPE-aligned pruning |
 
 ### Methodology & Safety
 
@@ -477,6 +478,34 @@ Total papers analyzed: **72 multi-agent systems** from arXiv cs.AI
 **Approach:** Equips each Transformer layer with token-level memory experts injecting pre-stored semantic knowledge; re-parameterization folds training parameters into compact static lookup table; offloads knowledge to ROM
 **Results:** Significantly outperforms dense LLM baselines with identical inference speed
 **Impact:** Decouples model capacity from computational cost; enables on-device LLM scaling via ROM instead of FLOPs
+
+### SALE (Strategy Auctions): Scaling Small Agents Through Auction-Based Coordination
+**ID:** 2602.02751
+**Key:** Freelancer marketplace-inspired agent coordination via strategy auctions
+**Approach:** Agents bid with short strategic plans scored by cost-value mechanism; shared auction memory enables per-task routing and continual self-improvement without separate router training or full model execution
+**Results:** Reduces reliance on largest agent by 53%; lowers overall cost by 35%; consistently improves upon largest agent's pass@1 with negligible overhead
+**Impact:** Demonstrates systems-level view where gains come from market-inspired coordination, not larger models; enables efficient heterogeneous agent ecosystems
+
+### WideSeek: Dynamic Hierarchical Multi-Agent Architecture for Wide Research
+**ID:** 2602.02636
+**Key:** Parallel information synthesis under complex constraints via agent scaling
+**Approach:** Dynamic hierarchical architecture autonomously forks parallel sub-agents based on task requirements; unified training framework linearizes multi-agent trajectories with end-to-end RL; WideSeekBench benchmark for General Broad Information Seeking
+**Results:** Demonstrates effectiveness of multi-agent scaling for Wide Research paradigm
+**Impact:** Establishes new paradigm shift from Deep Research to Wide Research; shows agent scaling as promising direction for broad information retrieval
+
+### daVinci-Agency: Long-Horizon Agency via PR-Grounded Trajectory Synthesis
+**ID:** 2602.02619
+**Key:** Authentic long-dependency data mining from Pull Request sequences
+**Approach:** Three mechanisms mining structured supervision from chain-of-PRs: progressive task decomposition via continuous commits, long-term consistency enforcement via unified objectives, verifiable refinement from bug-fix trajectories
+**Results:** 239 samples averaging 85k tokens and 116 tool calls; fine-tuning GLM-4.6 achieves 47% relative gain on Toolathlon
+**Impact:** Preserves causal dependencies and iterative refinements essential for persistent goal-directed behavior; enables project-level full-cycle task modeling
+
+### Agentic Observability: Automated Alert Triage
+**ID:** 2602.02585
+**Key:** Production-deployed ReAct agent for observability (Adobe E-Commerce)
+**Approach:** Autonomous alert triage using ReAct paradigm;动态 identifies affected service, retrieves correlated logs across distributed systems, plans context-dependent actions (handbook, runbook, RAG code analysis)
+**Results:** 90% reduction in mean time to insight vs manual triage; comparable diagnostic accuracy
+**Impact:** Demonstrates order-of-magnitude reduction in enterprise triage latency; marks pivotal shift toward autonomous observability in production
 
 ### Understanding Agent Scaling in LLM-Based MAS via Diversity
 **ID:** 2602.03794
