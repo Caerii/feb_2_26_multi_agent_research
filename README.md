@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **111 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **113 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -115,6 +115,8 @@ Total papers analyzed: **111 multi-agent systems** from arXiv cs.AI
 | Graph-Based In-Context Planning | 2510.24690 | Tool knowledge graphs for planning |
 | AOAD-MAT | 2510.13343 | Agent order of action decisions in MARL |
 | Hanabi Conventions | 2412.06333 | Action space augmentation for cooperation |
+| Differential Voting | 2601.18824 | Axiomatically diverse preference aggregation |
+ | Beyond Majority Voting | 2510.01499 | Higher-order LLM aggregation algorithms |
 
 ### Efficiency & Infrastructure
 
@@ -819,6 +821,20 @@ Total papers analyzed: **111 multi-agent systems** from arXiv cs.AI
 **Approach:** Special cooperative actions spanning multiple time steps/agents based on human conventions
 **Results:** Significant improvement on self-play and cross-play for various cooperator counts
 **Impact:** Implicit knowledge sharing for partially observable multi-agent problems with limited communication
+
+### Differential Voting: Axiomatic Aggregation
+**ID:** 2601.18824
+**Key:** Differentiable loss functions for diverse aggregation
+**Approach:** Unifying framework constructing instance-wise losses corresponding to classical voting rules (BTL, Copeland, Kemeny)
+**Results:** Formal analysis of calibration, gradient fields, and axiomatic properties for each loss
+**Impact:** Makes preference aggregation explicit in RLHF; enables principled trade-offs between axioms and stability
+
+### Beyond Majority Voting: Higher-Order Aggregation
+**ID:** 2510.01499
+**Key:** First + second-order information for LLM aggregation
+**Approach:** Optimal Weight (OW) and Inverse Surprising Popularity (ISP) algorithms leveraging heterogeneity and correlation
+**Results:** Consistently outperforms majority voting on synthetic datasets, UltraFeedback, MMLU, and ARMMAN healthcare
+**Impact:** Addresses limitations of equal-weight voting for multi-agent LLM pipelines
 
 ---
 
