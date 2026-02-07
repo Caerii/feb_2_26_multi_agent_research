@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **105 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -86,23 +86,21 @@ Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 | MADT (Traffic Coordination) | 2602.02903 | Multi-agent traffic via sequence modeling |
 | SALE (Strategy Auctions) | 2602.02751 | Auction-based scaling for small agents |
 | WideSeek | 2602.02636 | Dynamic hierarchical Wide Research |
-| daVinci-Agency | 2602.02619 | Long-horizon via PR-grounded synthesis
-| Agent Scaling via Diversity | 2602.03794 | Information-theoretic框架: 2 diverse agents ≈ 16 homogeneous |
-| AOrchestra | 2602.03786 | Automated sub-agent creation (16.28% improvement vs baseline) |
-| TodyComm | 2602.03688 | Task-oriented dynamic communication topology |
-| Conversational Inertia | 2602.03664 | Context Preference Learning for multi-turn agents |
-| EquiRouter | 2602.03478 | Decision-aware ranking to mitigate routing collapse (17% cost reduction) |
-| Search-R2 | 2602.03647 | Actor-Refiner collaboration for search-integrated reasoning |
-| IntentRL | 2602.03468 | Proactive user-intent agents for deep research via RL |
-| Agentic Proposing | 2602.03279 | Compositional skill synthesis with synthetic trajectories |
-| Understanding Multi-Agent LLM Frameworks | 2602.03128 | MAFBench unified evaluation for framework choices |
-| MAS-ProVe | 2602.03053 | Process verification across paradigms and contexts |
-| Visual Reasoning over Time Series (MAS4TS) | 2602.03026 | Analyzer-Reasoner-Executor paradigm |
-| Socratic-Geo | 2602.03414 | Synthetic data generation via multi-agent interaction |
-| MADT (Spatiotemporal Decision Transformer) | 2602.02903 | Multi-agent traffic coordination via sequence modeling |
-| SALE (Strategy Auctions) | 2602.02751 | Auction-based scaling for small agents across complexity |
-| WideSeek | 2602.02636 | Dynamic hierarchical architecture for Wide Research |
-| daVinci-Agency | 2602.02619 | Long-horizon agency via PR-grounded trajectory synthesis |
+| daVinci-Agency | 2602.02619 | Long-horizon via PR-grounded synthesis |
+| Live-Evo | 2602.02369 | Online evolution of agentic memory |
+| ProcMEM | 2602.01869 | Reusable procedural memory via Non-Parametric PPO |
+| ROMA | 2602.01848 | Recursive Open Meta-Agent for long-horizon tasks |
+| Persuasion Propagation | 2602.00851 | Belief-level intervention impact on agent behavior |
+| InfoReasoner | 2602.00845 | Information gain reward for retrieval reasoning |
+| World Models | 2602.00785 | Intermediary between agents and real world |
+| L²-VMAS | 2602.00471 | Dual latent memory for visual multi-agent |
+| DebateOCR | 2602.00454 | Cross-modal compression for multi-agent debate |
+| Synapse | 2602.00911 | Federated knowledge exchange for tool-routed LLMs |
+| ADP-MA | 2602.00307 | Meta-agents for autonomous data processing |
+| A-Evolve | 2602.00359 | Agentic evolution for LLM adaptation |
+| SECP | 2602.02170 | Self-evolving coordination protocols with governance |
+| Multi-Agent Teams Hold Experts Back | 2602.01011 | Self-organizing team performance study |
+| DeALOG | 2602.00996 | Decentralized log-mediated reasoning framework |
 
 ### Efficiency & Infrastructure
 
@@ -121,6 +119,10 @@ Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 | SparVAR | 2602.04361 | Training-free sparse attention (>5× faster) |
 | MeKi | 2602.03359 | Memory-based expert knowledge injection |
 | RAP | 2602.02599 | KV-Cache compression via RoPE-aligned pruning |
+| SIDiffAgent | 2602.02051 | Self-improving diffusion agent with memory database |
+| Bandwidth-Efficient Multi-Agent Comm | 2602.02035 | Information bottleneck + vector quantization |
+| COLT | 2602.01935 | Lightweight multi-LLM collaboration via shared MCTS |
+| TABX | 2602.01665 | High-throughput sandbox battle simulator |
 
 ### Methodology & Safety
 
@@ -130,6 +132,12 @@ Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 | THOR | 2602.05424 | Inductive link prediction for hyper-relational KGs |
 | MoE Expert Selection Attack | 2602.04105 | Security vulnerability in MoE routing |
 | Understanding LLM Evaluators | 2602.05110 | Multi-evaluator framework with bias metrics |
+| AgentRx | 2602.02475 | Agent failure diagnosis from execution trajectories |
+| Drift-Bench | 2602.02455 | Cooperative breakdown diagnosis under input faults |
+| Persuasion Propagation | 2602.00851 | Belief-level intervention framework |
+| CAM | 2602.02138 | Causality-based analysis for code generation systems |
+| 4C Framework | 2602.01942 | Human society-inspired agentic security framework |
+| SafePred | 2602.01725 | Predictive guardrail via world models |
 
 ---
 
@@ -598,6 +606,164 @@ Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 **Results:** Reduces average travel time by 5-6% compared to strongest baseline; superior coordination among adjacent intersections on synthetic and real-world scenarios
 **Impact:** Enables offline learning from historical traffic data; sample-efficient alternative to RL for multi-agent traffic coordination
 
+### Live-Evo: Online Evolution of Agentic Memory
+**ID:** 2602.02369
+**Key:** Continuous memory evolution from feedback
+**Approach:** Online framework for agentic memory that evolves based on continuous user feedback
+**Results:** Demonstrates effective memory adaptation over time
+**Impact:** Enables agents to learn and improve from real-world interactions
+
+### ProcMEM: Reusable Procedural Memory
+**ID:** 2602.01869
+**Key:** Non-Parametric PPO for memory reuse
+**Approach:** Procedural memory system enabling skill reuse across tasks via Non-Parametric PPO
+**Results:** Shows transferability of learned procedures
+**Impact:** Reduces need for retraining in multi-agent systems
+
+### ROMA: Recursive Open Meta-Agent
+**ID:** 2602.01848
+**Key:** Long-horizon task recursion
+**Approach:** Hierarchical meta-agent that recursively decomposes long-horizon tasks
+**Results:** Handles complex multi-step planning effectively
+**Impact:** Advances long-horizon planning in agentic systems
+
+### AgentRx: Agent Failure Diagnosis
+**ID:** 2602.02475
+**Key:** Trajectory-based failure diagnosis
+**Approach:** Analyzes execution trajectories to diagnose agent failures
+**Results:** Effective fault identification and localization
+**Impact:** Improves reliability of multi-agent deployments
+
+### Drift-Bench: Cooperative Breakdown Diagnosis
+**ID:** 2602.02455
+**Key:** Input fault scenarios
+**Approach:** Benchmark for diagnosing cooperative failures under input faults
+**Results:** Provides standardized evaluation of robustness
+**Impact:** Enables better testing of multi-agent resilience
+
+### SIDiffAgent: Self-Improving Diffusion Agent
+**ID:** 2602.02051
+**Key:** Memory database for diffusion
+**Approach:** Self-improving agent with diffusion model and memory database
+**Results:** Demonstrates continuous learning capability
+**Impact:** Combines generative models with agentic memory
+
+### Persuasion Propagation: Belief-Level Interventions
+**ID:** 2602.00851
+**Key:** Multi-agent belief dynamics
+**Approach:** Framework for belief-level interventions that propagate through agent networks
+**Results:** Shows significant impact on collective behavior
+**Impact:** Advances understanding of influence in multi-agent systems
+
+### InfoReasoner: Information Gain Reward
+**ID:** 2602.00845
+**Key:** Information-theoretic retrieval
+**Approach:** Reward system based on information gain for retrieval reasoning
+**Results:** Improves retrieval efficiency and relevance
+**Impact:** Optimizes information access in agentic workflows
+
+### World Models: Agent-World Intermediaries
+**ID:** 2602.00785
+**Key:** Environment modeling
+**Approach:** World models act as intermediaries between agents and real world
+**Results:** Better planning and decision-making
+**Impact:** Reduces direct world interaction costs
+
+### L²-VMAS: Dual Latent Memory for Visual MAS
+**ID:** 2602.00471
+**Key:** Visual multi-agent memory
+**Approach:** Dual latent memory system for visual multi-agent environments
+**Results:** Improved coordination in vision tasks
+**Impact:** Advances visual multi-agent research
+
+### DebateOCR: Cross-Modal Multi-Agent Debate
+**ID:** 2602.00454
+**Key:** OCR via debate
+**Approach:** Multi-agent debate framework for OCR with cross-modal compression
+**Results:** High accuracy for text recognition
+**Impact:** Novel application of debate to computer vision
+
+### Synapse: Federated Knowledge Exchange
+**ID:** 2602.00911
+**Key:** Tool-routed LLM federation
+**Approach:** Federated knowledge exchange for tool-routed LLMs
+**Results:** Effective knowledge sharing without data sharing
+**Impact:** Enables collaborative LLM ecosystems
+
+### ADP-MA: Meta-Agents for Data Processing
+**ID:** 2602.00307
+**Key:** Autonomous meta-agents
+**Approach:** Meta-agents for autonomous data pipeline processing
+**Results:** Efficient data handling at scale
+**Impact:** Reduces manual pipeline engineering
+
+### A-Evolve: Agentic Evolution for LLMs
+**ID:** 2602.00359
+**Key:** Position paper on evolution
+**Approach:** Framework for agentic evolution to adapt LLMs over time
+**Impact:** Sets direction for self-adapting language models
+
+### SECP: Self-Evolving Coordination Protocol
+**ID:** 2602.02170
+**Key:** Governed protocol self-modification
+**Approach:** Coordination protocols with validated self-modification while preserving formal invariants
+**Results:** Recursive modification increased proposal coverage from 2 to 3 while preserving all invariants
+**Impact:** Foundation for governed multi-agent systems in safety-critical domains
+
+### CAM: Causality-Based Analysis for Code Generation
+**ID:** 2602.02138
+**Key:** Intermediate feature importance quantification
+**Approach:** Causality framework analyzing intermediate outputs in multi-agent code generation systems
+**Results:** Hybrid backend achieves 7.2% Pass@1 improvement; feature pruning reduces 66.8% token consumption
+**Impact:** Provides actionable insights for MACGS design; enables failure repair
+
+### Bandwidth-Efficient Multi-Agent Communication
+**ID:** 2602.02035
+**Key:** Information bottleneck + vector quantization
+**Approach:** Compression + discretization with gated communication mechanism
+**Results:** 181.8% performance improvement vs no-communication; 41.4% bandwidth reduction
+**Impact:** Enables deployment in bandwidth-constrained environments (swarms, fleets, sensor networks)
+
+### 4C Framework: Human Society-Inspired Security
+**ID:** 2602.01942
+**Key:** Four-dimensional risk organization
+**Approach:** Core (integrity), Connection (trust), Cognition (reasoning), Compliance (governance)
+**Impact:** Shifts from system-centric to behavioral integrity preservation
+
+### COLT: Lightweight Multi-LLM Collaboration
+**ID:** 2602.01935
+**Key:** Shared MCTS reasoning substrate
+**Approach:** Single shared MCTS tree enables cross-model value propagation; model-aware tree policy
+**Results:** Small LLMs match large model performance with reduced cost
+**Impact:** Avoids heavy external machinery; enables cost-effective multi-LLM collaboration
+
+### SafePred: Predictive Guardrail via World Models
+**ID:** 2602.01725
+**Key:** Long-term risk prediction
+**Approach:** World model predicts short- and long-term risks; step-level interventions + task-level re-planning
+**Results:** 97.6% safety performance; 21.4% task utility improvement vs reactive baselines
+**Impact:** Addresses delayed risk emergence in computer-using agents
+
+### TABX: High-Throughput Sandbox Battle Simulator
+**ID:** 2602.01665
+**Key:** JAX-accelerated MARL environment
+**Approach:** Reconfigurable multi-agent tasks with granular parameter control
+**Impact:** Enables systematic investigation of trade-offs; scalable foundation
+
+### Multi-Agent Teams Hold Experts Back
+**ID:** 2602.01011
+**Key:** Self-organizing team performance gap
+**Approach:** Study of unconstrained coordination; conversational analysis of expertise leveraging
+**Results:** LLM teams fail to match expert performance (up to 37.6% loss); integrative compromise vs proper weighting
+**Impact:** Reveals gap in harnessing collective expertise; trade-off between alignment and utilization
+
+### DeALOG: Decentralized Log-Mediated Reasoning
+**ID:** 2602.00996
+**Key:** Shared natural-language log memory
+**Approach:** Specialized agents (Table, Context, Visual, Summarizing, Verification) communicate via log
+**Results:** Competitive performance on FinQA, TAT-QA, CRT-QA, WikiTableQuestions, FeTaQA, MultiModalQA
+**Impact:** Enables collaborative error detection without central control; scalable modularity
+
 ---
 
 ## Cross-Cutting Trends
@@ -659,8 +825,8 @@ Total papers analyzed: **76 multi-agent systems** from arXiv cs.AI
 ---
 
 ## Data Collection Notes
-- **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
-- **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-600 of 1,516 total
+- **Research date:** Feb 2, 2026 (folder name reflects research date, not paper submission dates)
+- **Source:** arXiv cs.AI category (papers from any date)
+- **Scan status:** Entries 1-1100 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
