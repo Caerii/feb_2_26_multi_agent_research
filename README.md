@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **217 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **227 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -67,6 +67,15 @@ Total papers analyzed: **217 multi-agent systems** from arXiv cs.AI
 - Formal normative frameworks (Kelsenian contrary-to-duty logic)
 - Hyperedge relational reasoning (group-wise social intelligence inference)
 - Adaptive coopetition mechanisms (UCB-based resilience with verification)
+- Multi-echelon inventory management (MABIM benchmark for complex supply chains)
+- KV-Cache serving optimization (Tokencake agent-aware GPU memory management)
+- Multi-task communication skills (shared message space across tasks)
+- Multi-agent simulation speedups (C++ core for 10000+ traders)
+- Supply chain integration (multi-agent SCM strategic/tactical/operational coordination)
+- Operations research simulation (ACE0 lightweight AI behavior discovery)
+- mmWave resource coordination (MARL for dense 5G/6G deployment)
+- Legal specialization (TransLaw domain-specific translation with specialized agents)
+- Offline MADRL constraints (B3C BC+critic-clipping for safe multi-agent learning)
 - Privacy-preserved multi-robot coordination (independent specs with global collaborative specs)
 - Knowledge-aware routing (privacy-preserving KB relevance signals)
 - Visual planning agents (VLLM zero-shot physical task planning)
@@ -252,6 +261,15 @@ Total papers analyzed: **217 multi-agent systems** from arXiv cs.AI
 | Symbiotic Agents | 2507.17695 | Trustworthy AGI-driven networks with RAN optimizers and SLA negotiators |
 | COMMA | 2410.07553 | Communicative multimodal multi-agent benchmark with language collaboration |
 | TeamCraft | 2412.05255 | Minecraft multi-modal multi-agent benchmark for collaborative tasks |
+| MABIM Inventory Benchmark | 2306.07542 | Multi-echelon multi-commodity inventory management simulator |
+| Tokencake Serving Framework | 2510.18586 | KV-Cache optimization for LLM multi-agent applications |
+| Learning Communication Skills (MCS) | 2511.03348 | Multi-task communication with Transformer encoder |
+| Fast Agent-Based Simulation | 2008.07871 | Financial markets agent simulation framework |
+| Integrated SCM Multi-Agent System | 0911.0912 | Supply chain management interaction architecture |
+| Behavior Discovery Simulation (ACE0) | 2108.13296 | Operations research AI behavior simulation |
+| Mobility-Aware mmWave Allocation | 2205.06011 | MARL for wireless network resource allocation |
+| TransLaw Legal Translation | 2507.00875 | Specialized agents for professional legal translation |
+| B3C Offline MARL | 2501.18138 | Minimalist offline multi-agent reinforcement learning |
 | HIVE | 2412.11761 | LLM-driven multi-agent control framework for scaling to 2000+ agents |
 | Federated Multi-Agent Mapping | 2404.02289 | Implicit neural mapping for planetary exploration with 93.8% data reduction |
 | Federated Multi-Agent DRL for 6G | 2406.07383 | F-MADDQN and F-MADPPO for radio resource management in industrial 6G |
@@ -1756,6 +1774,64 @@ Total papers analyzed: **217 multi-agent systems** from arXiv cs.AI
 **Approach:** Framework implementing adaptive coopetition where agents dynamically switch between cooperative and competitive modes based on confidence; uses Upper Confidence Bound (UCB) strategy for mode selection balancing exploration and collaboration; incorporates verifier signals providing feedback on reasoning quality guiding adaptation
 **Results:** Improved resilience to adversarial examples through adaptive mode switching; better performance on reasoning benchmarks with cooperative-competitive balance tuned via UCB
 **Impact:** Provides resilience mechanism for virtual organizations where agents need flexible collaboration strategies adapting to task complexity and confidence levels
+
+---
+
+## Batch 21: Benchmarks, Simulation & Infrastructure Papers
+
+### MABIM: Multi-Agent Benchmark for Inventory Management
+**ID:** 2306.07542
+**Key:** Multi-echelon multi-commodity inventory management simulator
+**Approach:** Creates MABIM (Multi-Agent Benchmark for Inventory Management) simulating multi-echelon, multi-commodity inventory scenarios generating diverse tasks with scaling complexity, complex agent interactions, and non-stationary dynamics designed to test MARL applicability to real industrial scenarios
+**Impact:** Provides essential benchmark for virtual AI organizations managing complex supply chains with inventory across multiple echelons and product categories
+
+### Tokencake: KV-Cache Serving Framework for LLM Multi-Agent Applications
+**ID:** 2510.18586
+**Key:** Agent-aware KV-Cache optimization for GPU memory management
+**Approach:** Tokencake serving framework co-optimizing scheduling and memory management with Space Scheduler using dynamic memory partition protecting critical agents from contention; Time Scheduler employs proactive offload and predictive upload mechanism repurposing GPU memory during function call stalls
+**Impact:** Reduces end-to-end latency by 47.06% and improves GPU memory utilization by 16.9% for virtual organizations deploying multi-agent LLM applications
+
+### Learning Communication Skills for Multi-Task Multi-Agent Deep Reinforcement Learning
+**ID:** 2511.03348
+**Key:** Multi-task communication with Transformer-encoded shared message space
+**Approach:** Multi-task Communication Skills (MCS) framework using Transformer encoder to encode task-specific observations into shared message space capturing cross-task communication patterns; prediction network correlates messages with sender actions enhancing task coordination; adapts multi-agent benchmarks to multi-task settings with varying agent counts and action spaces
+**Impact:** Enables virtual organizations to build agents leveraging communication skills across diverse tasks without retraining specialized protocols for each domain
+
+### Fast Agent-Based Simulation Framework
+**ID:** 2008.07871
+**Key:** C++ core with Python API for large-scale multi-agent simulation
+**Approach:** Efficient message-driven C++ implementation with user-friendly Python API enabling large-scale simulations; originally developed for financial markets to study order processing latency and trading dynamics; generic architecture applicable to non-financial scenarios including multi-agent network routing
+**Impact:** Provides high-performance simulation enabling virtual organizations to test large-scale coordination strategies rapidly
+
+### Multi-Agent System Interaction in Integrated Supply Chain Management
+**ID:** 0911.0912
+**Key Supply chain coordination across strategic, tactical, operational levels
+**Approach:** Multi-agent supply chain management architecture addressing coordination between organizations to create more effective and efficient supply chains; highlights limitations of integrated approaches when data unavailable across entire chain; demonstrates MAS architecture interactions via intelligent agents
+**Impact:** Provides model for virtual AI organizations participating in distributed supply chains requiring multi-tier coordination with partial information
+
+### Multi-Agent Simulation for AI Behavior Discovery in Operations Research
+**ID:** 2108.13296
+**Key:** Lightweight ACE0 platform for rapid AI behavior prototyping
+**Approach:** ACE0 lightweight platform evaluating AI method viability in multiagent simulations for operations research; addresses high-fidelity production environment R&D costs; enables agile cost-effective technology evaluation including case study in aerospace domain with collaborative academic research projects
+**Impact:** Allows virtual organizations to rapidly prototype and test AI agent behaviors before deployment in complex operational scenarios
+
+### Mobility-Aware Resource Allocation for mmWave IAB Networks
+**ID:** 2205.06011
+**Key MARL for dynamic mmWave network resource allocation
+**Approach:** Multi-Agent Reinforcement Learning framework optimizing user throughput via flow routing and link scheduling in mmWave Integrated Access and Backhaul networks handling temporal dynamics from user mobility and moving obstacles designs agent communication and coordination schemes for online training addressing feasibility for practical systems
+**Impact:** Provides pattern for virtual organizations managing distributed infrastructure requiring dynamic resource coordination under mobility and blockage constraints
+
+### TransLaw: Professional Legal Translation with Multi-Agent Benchmark
+**ID:** 2507.00875
+**Key:** Specialized agents for Hong Kong case law translation
+**Approach:** Multi-agent framework decomposing translation into word-level expression sentence-level translation and multidimensional review integrating specialized Hong Kong legal glossary database RAG and iterative feedback constructs HKCFA Judgment 97-22 dataset benchmarking 13 LLMs demonstrating superiority over single-agent baselines
+**Impact:** Enables virtual organizations to build domain-specific multi-agent systems for specialized professional workflows requiring subject matter expertise
+
+### B3C: Minimalist Approach to Offline Multi-Agent Reinforcement Learning
+**ID:** 2501.18138
+**Key:** Behavior cloning regularization with critic clipping for offline MADRL
+**Approach:** Behavior Cloning regularization with Critic Clipping (B3C) addressing overestimation in offline multi-agent reinforcement learning by clipping target critic based on maximum returns in dataset pushing RL objective weight limit over BC regularization integrating non-linear value factorization often understudied in offline settings
+**Impact:** Enables virtual organizations to train safe multi-agent policies from historical datasets without online exploration applicable to sensitive domains requiring offline training
 
 ---
 
