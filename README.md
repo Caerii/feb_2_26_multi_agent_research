@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **200 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **207 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -213,6 +213,10 @@ Total papers analyzed: **200 multi-agent systems** from arXiv cs.AI
 | MAViS | 2508.08487 | Multi-agent long-sequence video storytelling with 3E principle |
 | ACPs (Agent Collaboration Protocols) | 2505.13523 | Internet of Agents protocol suite with registration/discovery/interaction |
 | Agent Network Protocol (ANP) | 2508.00007 | AI-native 3-layer system for agent internet communication |
+| Communication Verification under Info Asymmetry | 2510.25595 | Environment-based verifier for Einstein Puzzles |
+| Collaborate, Deliberate, Evaluate | 2509.05882 | LLM alignment effects on coordinated multi-agent outcomes |
+| Agentic Software Project Management | 2601.16392 | Junior PM multi-agent system for Software Engineering 3.0 |
+| XAMT Memory Security | 2512.15790 | Bilevel optimization for covert memory poisoning defense |
 | AI-enhanced Collective Intelligence | 2403.10433 | Multilayer representation for human-AI collectives (cognition/physical/info layers) |
 | Operational Collective Intelligence | 2402.13273 | Aggregative crowdsourced forecasting for coordinated decision-making |
 | Artificial Collective Intelligence Engineering | 2304.05147 | 34-page comprehensive survey on engineering computational collectives |
@@ -1615,6 +1619,58 @@ Total papers analyzed: **200 multi-agent systems** from arXiv cs.AI
 **Key:** Private individual specs plus global collaborative specifications
 **Approach:** Investigates task coordination where each robot has private individual temporal logic task specification and must jointly satisfy globally given collaborative temporal logic specification; proposes hierarchical framework with central server allocating collaborative tasks then independent decentralized synthesis; execution plan adjusting mechanism via privacy-preserved inter-agent communication
 **Impact:** Provides model for virtual organizations balancing individual agent objectives with collective organizational goals while maintaining privacy
+
+---
+
+## Batch 19: Architecture & Collaboration Infrastructure Papers
+
+### Multi-Agent RAG Across Diverse Data Sources
+**ID:** 2412.05838
+**Key:** Specialized agents for heterogeneous data sources with modular execution
+**Approach:** Multi-agent framework with specialized agents optimized for relational databases, NoSQL systems, and document-based storages operating within modular architecture with unified query execution environment; each agent type uses tailored access patterns for its data source while maintaining consistent interface
+**Impact:** Enables virtual organizations to efficiently query complex heterogeneous data landscapes typical of enterprise environments while reducing token overhead and improving accuracy
+
+### Fetch.ai Industrial Multi-Agent Platform Architecture
+**ID:** 2510.18699
+**Key:** Decentralized blockchain foundation with agent-native LLM integration
+**Approach:** Multi-layer system architecture: blockchain foundation layer providing decentralized identity, discovery, and transaction infrastructure; agent-native LLM layer enabling semantic communication; application layer supporting industrial use cases including supply chain, energy systems, and financial services
+**Impact:** Provides comprehensive infrastructure template for autonomous organizations requiring trustworthy, decentralized coordination across distributed operations
+
+### CONVERGE: Vision-Radio Multi-Agent Architecture for O-RAN
+**ID:** 2508.04556
+**Key:** Multi-agent delivering real-time visual and radio sensing to xApps
+**Approach:** Multi-agent framework coordinating visual (camera-based) and radio (spectrum-based) sensing modalities to provide comprehensive situational awareness to Open RAN xApps; enables real-time fusion of heterogeneous sensor data for intelligent RAN optimization
+**Impact:** Models multi-sensor coordination patterns useful for virtual organizations managing distributed physical operations requiring integrated environmental perception
+
+### Communication Verification Under Information Asymmetry
+**ID:** 2510.25595
+**Key:** Environment-based verifier for Einstein Puzzles
+**Approach:** Multi-agent collaboration protocol where environment acts as verifier checking agent statements against ground truth in rule comprehension tasks; addresses information asymmetry where agents must share information without knowing what others know; tested on Einstein Puzzles requiring coordinated reasoning
+**Impact:** Provides verification mechanism for virtual organizations where agents must collaborate with asymmetric information while maintaining accuracy
+
+### Collaborate, Deliberate, Evaluate: LLM Alignment in Multi-Party Settings
+**ID:** 2509.05882
+**Key:** LLM alignment effects on coordinated multi-agent outcomes
+**Approach:** Studies how LLM alignment techniques influence behavior in multi-agent coordination scenarios with multiple parties; introduces intervention agent framework monitoring and adjusting agent behavior to achieve better coordinated outcomes without breaking alignment
+**Impact:** Critical for virtual organizations ensuring individual agent alignment doesn't compromise collective coordination and system-level performance
+
+### Agentic Software Project Management: Junior PM Multi-Agent System for SE 3.0
+**ID:** 2601.16392
+**Key:** Multi-agent framework automating software project management
+**Approach:** "Junior PM" system using multiple LLM agents to automate software project management tasks including task planning, progress tracking, stakeholder communication, and resource coordination; treats project management as multi-agent coordination problem with specialized roles
+**Impact:** Demonstrates feasibility of automating organizational management for virtual software organizations reducing human overhead in project coordination
+
+### XAMT: Covert Memory Poisoning Defense for Heterogeneous MAS
+**ID:** 2512.15790
+**Key:** Bilevel optimization for detecting covert memory attacks
+**Approach:** Introduces XAMT framework detecting covert memory poisoning attacks in heterogeneous multi-agent systems where attackers subtly manipulate agent memories without obvious behavioral changes; uses bilevel optimization to distinguish between legitimate memory updates and malicious manipulation
+**Impact:** Provides security mechanism for virtual organizations where compromised agent memories could cascade into organizational-level failures
+
+### MAViS: Multi-Agent Video Storytelling with 3E Principle
+**ID:** 2508.08487
+**Key:** Long-sequence video understanding via multi-agent stage pipeline
+**Approach:** Multi-agent framework with 3E principle (Explore, Examine, Enhance) for long-sequence video storytelling and understanding; Explore agent identifies key scenes, Examine agent analyzes details, Enhance agent synthesizes narrative; handles hour-level videos requiring temporal coherence
+**Impact:** Models distributed analysis of long-duration temporal data useful for virtual organizations processing extended event sequences from sensor feeds or operation logs
 
 ---
 
