@@ -1,5 +1,10 @@
 # Multi-Agent AI Research - February 2-6, 2026
 
+## Quick Links
+
+- **[Agent.md](Agent.md)** - Research progress, current state, and notes for continuing this work
+- **[TAXONOMY.md](TAXONOMY.md)** - Multiple organization views: by use-case, technical approach, application domain, and scalability
+
 ## Exec Summary
 
 Total papers analyzed: **232 multi-agent systems** from arXiv cs.AI
