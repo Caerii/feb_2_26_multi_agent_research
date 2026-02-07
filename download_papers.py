@@ -10,10 +10,14 @@ import time
 from pathlib import Path
 
 
-def download_paper(paper_id, output_dir="papers"):
-    """Download paper PDF from arXiv"""
+def download_paper(paper_id, base_dir="papers"):
+    """Download paper PDF from arXiv into year subfolder"""
     # arXiv ID format: YYMM.NNNNN
     url = f"https://arxiv.org/pdf/{paper_id}.pdf"
+
+    # Extract year and create subfolder
+    year = "20" + paper_id[:2]  # e.g., "2602.06039" -> "2026"
+    output_dir = os.path.join(base_dir, year)
 
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
@@ -52,7 +56,7 @@ def main():
     total = len(papers)
 
     print(f"Downloading {total} papers from arXiv...")
-    print(f"Output directory: papers/")
+    print(f"Output directory: papers/YYYY/")
     print()
 
     success_count = 0

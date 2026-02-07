@@ -828,7 +828,7 @@ To download all papers locally:
 python download_papers.py
 ```
 
-This will create a `papers/` directory with PDFs for all {len(papers)} papers.
+This will create a `papers/YYYY/` directory structure with PDFs organized by year (e.g., `papers/2026/2602.06039.pdf`).
 
 **Note:** Please be respectful of arXiv's servers. The script includes a 1-second delay between downloads.
 
