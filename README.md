@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **57 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -12,6 +12,12 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 - Agent self-improvement (Group-Evolving Agents, Empirical-MCTS, AgentArk distillation)
 - Application-specific benchmarks (PieArena MBA negotiation, H-AdminSim hospital admin)
 - Healthcare agentic evaluation (7-dimensional taxonomy)
+- Scientific domain agents (Quntur: quantum chemistry research collaborator)
+- Software engineering agents (star topology test generation, document retrieval)
+- Multi-expert orchestration interpretability (INFORM causal vs relational importance)
+- 3D scene understanding (multi-agent scene graph generation)
+- Distributed training optimization (LoRDO ~10× communication reduction)
+- Collaborative planning (KG-guided multi-robot replanning)
 
 ---
 
@@ -48,6 +54,9 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 | Empirical-MCTS | 2602.04248 | Continuous evolution via dual-experience MCTS |
 | OMG-Agent | 2602.04144 | Missing modality generation (coarse-to-fine workflow) |
 | Agentic AI Healthcare Taxonomy | 2602.04813 | 7-dimension evaluation framework (49 studies) |
+| INFORM | 2602.04291 | Causal analysis for multi-expert orchestration (INFORM) |
+| MA3DSG | 2602.04152 | Multi-agent 3D scene graph generation |
+| KGLAMP | 2602.04129 | KG-guided LLM for multi-robot planning/replanning |
 
 ### Efficiency & Infrastructure
 
@@ -60,6 +69,9 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 | DARWIN | 2602.05848 | Self-improving evolutionary GPT |
 | DeepRead | 2602.05014 | Structure-aware agentic document QA |
 | AgentArk | 2602.03955 | Distills multi-agent intelligence into single model |
+| LoRDO | 2602.04396 | Distributed low-rank optimization (~10× communication reduction) |
+| Med-MMFL | 2602.04416 | Multimodal federated learning benchmark (10 modalities, 6 FL algorithms) |
+| Blockchain FL | 2602.04384 | Blockchain FL for sustainable retail demand forecasting |
 
 ### Applications & Specialization
 
@@ -70,6 +82,13 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 | Human Bias Emulation | 2602.05597 | Decision modeling with GPT agents |
 | Structured Context Engineering | 2602.05447 | File-native agentic systems (9,649 experiments) |
 | Capture the Flags | 2602.05523 | Agentic LLM evaluation via semantic transformations |
+| Tinker Tales | 2602.04109 | Child-AI co-creative storytelling with educational scaffolding |
+
+### Efficiency & Infrastructure
+
+| Paper | ID | Focus |
+|-------|-----|-------|
+| SparVAR | 2602.04361 | Training-free sparse attention (>5× faster than FlashAttention) |
 
 ### Methodology & Safety
 
@@ -349,6 +368,62 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 **Approach:** Multi-evaluator framework with statistical analysis
 **Impact:** Improves evaluation methodology
 
+### INFORM: Multi-Expert Orchestration Analysis
+**ID:** 2602.04291
+**Key:** Causal vs. relational importance disentanglement
+**Approach:** Treats orchestration as explicit computation; decouples interaction structure, execution order, causal attribution
+**Results:** Tested on GSM8K, HumanEval, MMLU with 10 8B experts (LLaMA-3.1, Qwen-3, DeepSeek-R1); routing dominance ≠ functional necessity; sparsely routed experts often structurally critical
+**Impact:** Exposes causal/structural dependencies beyond accuracy; informs multi-agent system design
+
+### MA3DSG: Multi-Agent 3D Scene Graph Generation
+**ID:** 2602.04152
+**Key:** Training-free graph alignment for large-scale environments
+**Approach:** Multiple agents generate partial scene graphs; graph alignment algorithm merges into unified global graph
+**Results:** MA3DSG-Bench supports diverse agent configurations and domain sizes
+**Impact:** First scalable multi-agent 3D scene graph framework; enables collaborative single-agent systems
+
+### KGLAMP: Knowledge Graph-Guided Multi-Robot Planning
+**ID:** 2602.04129
+**Key:** KG as persistent memory for heterogeneous robot teams
+**Approach:** Structured KG encodes object relations, spatial reachability, robot capabilities; guides LLM in PDDL spec generation; triggers replanning on inconsistencies
+**Results:** ≥25.5% performance improvement over LLM-only and PDDL-based variants on MAT-THOR benchmark
+**Impact:** Addresses agent heterogeneity and dynamic environments; bridges symbolic and neural planning
+
+### LoRDO: Distributed Low-Rank Optimization
+**ID:** 2602.04396
+**Key:** Low-rank + infrequent communication unification
+**Approach:** Low-rank optimization framework with local updates and periodic synchronization; includes full-rank quasi-hyperbolic update for subspace exploration
+**Results:** Near-parity with low-rank DDP at 125M-720M scale; ~10× communication reduction; improved performance in low-memory settings
+**Impact:** Enables distributed training with bandwidth-limited interconnects
+
+### Med-MMFL: Multimodal Federated Learning Benchmark
+**ID:** 2602.04416
+**Key:** First comprehensive medical MMFL benchmark
+**Approach:** Evaluates 6 FL algorithms across 2-4 modalities (10 total medical modalities: text, pathology, ECG, X-ray, reports, MRI sequences)
+**Results:** Tests segmentation, classification, modality alignment, VQA across iid/non-iid settings
+**Impact:** Standardized evaluation for privacy-preserving medical AI; reproducibility framework with data/partitioning pipelines
+
+### Blockchain Federated Learning for Retail
+**ID:** 2602.04384
+**Key:** Collaborative demand forecasting without data sharing
+**Approach:** Blockchain-based FL across multiple grocery retailers for perishable goods demand forecasting
+**Results:** FL models ≈ ideal shared-data performance; superior to isolated models; reduces waste and boosts efficiency (ISCC 2025)
+**Impact:** Addresses data privacy in sustainable supply chain; collaborative learning across competitive retailers
+
+### Tinker Tales: Child-AI Collaborative Storytelling
+**ID:** 2602.04109
+**Key:** Co-creative storytelling with tangible + voice interaction
+**Approach:** Physical storytelling board with NFC-embedded toys (characters, places, items, emotions); mobile app mediates child-AI collaboration
+**Results:** 10-child study shows children treat AI as attentive collaborator; scaffolding supports narrative coherence without diminishing agency
+**Impact:** Model for child-AI co-creation beyond instructional settings; educational scaffolding design
+
+### SparVAR: Training-Free Sparse Visual Autoregressive
+**ID:** 2602.04361
+**Key:** Exploits VAR attention properties for acceleration
+**Approach:** Dynamically predicts sparse attention pattern from sparse decision scale; cross-scale local sparse attention with block-wise efficient kernel
+**Results:** >5× faster than FlashAttention; 1.57× speed-up while preserving details; 8B model generates 1024×1024 in ~1s; up to 2.28× with scale-skipping
+**Impact:** Training-free acceleration enables high-resolution image generation without last-scale skipping
+
 ---
 
 ## Cross-Cutting Trends
@@ -412,6 +487,6 @@ Total papers analyzed: **43 multi-agent systems** from arXiv cs.AI
 ## Data Collection Notes
 - **Date range:** Feb 2-6, 2026 (arXiv IDs: 2602.0xxxx)
 - **Source:** arXiv cs.AI category
-- **Scan status:** Entries 1-250 of 1,516 total
+- **Scan status:** Entries 1-350 of 1,516 total
 - **Method:** WebFetch tool with markdown format
 - **Focus:** Multi-agent/agentic systems with coordination, collaboration, or collective intelligence
