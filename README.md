@@ -2,7 +2,7 @@
 
 ## Exec Summary
 
-Total papers analyzed: **108 multi-agent systems** from arXiv cs.AI
+Total papers analyzed: **111 multi-agent systems** from arXiv cs.AI
 
 **Key themes emerging:**
 - Agentic coordination protocols (CommCP, CoWork-X, Learning to Share)
@@ -42,6 +42,9 @@ Total papers analyzed: **108 multi-agent systems** from arXiv cs.AI
 - Collective intelligence (SuperBrain swarm co-evolution to meta-intelligence)
 - Privacy-preserving swarms (MPC-encrypted LLM UAV coordination)
 - Human-swarm teaming (LLM-CRF bridges intention-to-action gap in SAR)
+- Graph-based tool planning (tool knowledge graph fusion with domain knowledge)
+- Agent action ordering (AOAD-MAT explicit sequence prediction in MARL)
+- Convention-based cooperation (augmented action space with implicit knowledge sharing)
 
 ---
 
@@ -109,6 +112,9 @@ Total papers analyzed: **108 multi-agent systems** from arXiv cs.AI
 | SuperBrain | 2509.00510 | LLM-assisted swarm intelligence for collective AI |
 | PrivLLMSwarm | 2512.06747 | Privacy-preserving LLM UAV swarms |
 | Human-Swarm Teaming | 2511.04042 | LLM-based disaster rescue framework |
+| Graph-Based In-Context Planning | 2510.24690 | Tool knowledge graphs for planning |
+| AOAD-MAT | 2510.13343 | Agent order of action decisions in MARL |
+| Hanabi Conventions | 2412.06333 | Action space augmentation for cooperation |
 
 ### Efficiency & Infrastructure
 
@@ -792,6 +798,27 @@ Total papers analyzed: **108 multi-agent systems** from arXiv cs.AI
 **Approach:** LLM-CRF system for intention comprehension, hierarchical task decomposition, mission planning with real-time feedback
 **Results:** 64.2% faster task completion; 7% higher success rate; 42.9% reduced cognitive workload (NASA-TLX)
 **Impact:** Enables proactive partner swarms reducing manual monitoring in high-stakes scenarios
+
+### Graph-Based In-Context Planning
+**ID:** 2510.24690
+**Key:** Tool knowledge graph fusion with domain knowledge
+**Approach:** DeepResearch-inspired tool graph + document/SOP knowledge graph with deep-sparse integration
+**Results:** Effective tool interaction modeling and improved plan generation
+**Impact:** Links structural tool dependencies with procedural knowledge for tool-augmented reasoning
+
+### AOAD-MAT: Agent Order of Action Decisions
+**ID:** 2510.13343
+**Key:** Explicit action order in MARL
+**Approach:** Transformer-based actor-critic with subtask for predicting next agent; PPO-based loss
+**Results:** Outperforms MAT and baselines on StarCraft Multi-Agent Challenge and Multi-Agent MuJoCo
+**Impact:** Demonstrates effectiveness of adjusting agent order in sequential decision-making
+
+### Hanabi Conventions for Cooperation
+**ID:** 2412.06333
+**Key:** Augmented action space with conventions
+**Approach:** Special cooperative actions spanning multiple time steps/agents based on human conventions
+**Results:** Significant improvement on self-play and cross-play for various cooperator counts
+**Impact:** Implicit knowledge sharing for partially observable multi-agent problems with limited communication
 
 ---
 
