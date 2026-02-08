@@ -63,7 +63,9 @@ def main():
     fail_count = 0
 
     for i, (paper_id, paper) in enumerate(papers.items(), 1):
-        print(f"[{i}/{total}] {paper['name']}")
+        # Handle Unicode characters in paper names
+        paper_name = paper["name"].encode("utf-8", errors="ignore").decode("utf-8")
+        print(f"[{i}/{total}] {paper_name}")
 
         if download_paper(paper_id):
             success_count += 1
