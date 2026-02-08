@@ -367,3 +367,310 @@ Output directory: papers/YYYY/
   [SKIP] 2510.18699 - already exists
 [183/407] Collaborative Multi-Agent RAG
   [SKIP] 2412.05838 - already exists
+[184/407] Agent-Oriented Visual Programming
+  [SKIP] 2511.13158 - already exists
+[185/407] CONVERGE
+  [SKIP] 2508.04556 - already exists
+[186/407] Deep Reinforcement Learning for Multi-Agent Interaction
+  [SKIP] 2208.01769 - already exists
+[187/407] Learning Bilateral Team Formation
+  [SKIP] 2506.20039 - already exists
+[188/407] Variational Policy Propagation (VPP)
+  [SKIP] 2004.08883 - already exists
+[189/407] LLM Risk Assessment
+  [SKIP] 2602.04358 - already exists
+[190/407] THOR
+  [SKIP] 2602.05424 - already exists
+[191/407] MoE Expert Selection Attack
+  [SKIP] 2602.04105 - already exists
+[192/407] Understanding LLM Evaluators
+  [SKIP] 2602.05110 - already exists
+[193/407] AgentRx
+  [SKIP] 2602.02475 - already exists
+[194/407] Drift-Bench
+  [SKIP] 2602.02455 - already exists
+[195/407] CAM
+  [SKIP] 2602.02138 - already exists
+[196/407] 4C Framework
+  [SKIP] 2602.01942 - already exists
+[197/407] SafePred
+  [SKIP] 2602.01725 - already exists
+[198/407] MAEBE
+  [SKIP] 2506.03053 - already exists
+[199/407] A new approach of designing Multi-Agent Systems
+  [SKIP] 1204.1581 - already exists
+[200/407] Multi-Agent System Interaction in Integrated SCM
+  [SKIP] 0911.0912 - already exists
+[201/407] Towards Participatory Design of Multi-agent Approach to Transport Demands
+  [SKIP] 0910.1865 - already exists
+[202/407] Pommerman: A Multi-Agent Playground
+  [SKIP] 1809.07124 - already exists
+[203/407] Action Guidance with MCTS for Deep Reinforcement Learning
+  [SKIP] 1907.11703 - already exists
+[204/407] Is Independent Learning All You Need in the StarCraft Multi-Agent Challenge?
+  [SKIP] 2011.09533 - already exists
+[205/407] "Teammates, Am I Clear?": Analysing Legible Behaviours in Teams
+  [SKIP] 2507.21631 - already exists
+[206/407] On Hard Exploration for Reinforcement Learning: a Case Study in Pommerman
+  [SKIP] 1907.11788 - already exists
+[207/407] No Press Diplomacy: Modeling Multi-Agent Gameplay
+  [SKIP] 1909.02128 - already exists
+[208/407] Safer Deep RL with Shallow MCTS: A Case Study in Pommerman
+  [SKIP] 1904.05759 - already exists
+[209/407] On the Robustness of Cooperative Multi-Agent Reinforcement Learning
+  [SKIP] 2003.03722 - already exists
+[210/407] Decision-making with Speculative Opponent Models
+  [SKIP] 2211.11940 - already exists
+[211/407] Value-Decomposition Multi-Agent Actor-Critics
+  [SKIP] 2007.12306 - already exists
+[212/407] Welfare Diplomacy: Benchmarking Language Model Cooperation
+  [SKIP] 2310.08901 - already exists
+[213/407] Long-Term Mapping of the Douro River Plume with Multi-Agent Reinforcement Learning
+  [SKIP] 2510.03534 - already exists
+[214/407] Opportunities in AI/ML for the Rubin LSST Dark Energy Science Collaboration
+  [SKIP] 2601.14235 - already exists
+[215/407] It Takes a Village: Multidisciplinarity and Collaboration for the Development of Embodied Conversational Agents
+  [SKIP] 2308.16250 - already exists
+[216/407] Multi-Agent Collaborative Filtering: Orchestrating Users and Items for Agentic Recommendations
+  [SKIP] 2511.18413 - already exists
+[217/407] Don't Just Demo, Teach Me the Principles: A Principle-Based Multi-Agent Prompting Strategy for Text Classification
+  [SKIP] 2502.07165 - already exists
+[218/407] Collaborative Neural Painting
+  [SKIP] 2312.01800 - already exists
+[219/407] To Lead or to Follow? Adaptive Robot Task Planning in Human-Robot Collaboration
+  [SKIP] 2401.01483 - already exists
+[220/407] Human Robot Collaborative Assembly Planning: An Answer Set Programming Approach
+  [SKIP] 2008.03496 - already exists
+[221/407] A Collaborative Extended Reality Prototype for 3D Surgical Planning and Visualization
+  [SKIP] 2601.19303 - already exists
+[222/407] Multi-Robot Geometric Task-and-Motion Planning for Collaborative Manipulation Tasks
+  [SKIP] 2310.08802 - already exists
+[223/407] Collaborative Planning for Catching and Transporting Objects in Unstructured Environments
+  [SKIP] 2311.07100 - already exists
+[224/407] Why Mass Media Matter to Planning Research: The Case of Megaprojects
+  [SKIP] 1304.1665 - already exists
+[225/407] An Optimal Task Planning and Agent-aware Allocation Algorithm in Collaborative Tasks Combining with PDDL and POPF
+  [SKIP] 2407.08534 - already exists
+[226/407] Collaborative planning of integrated hydrogen energy chain multi-energy systems: A review
+  [SKIP] 2405.09936 - already exists
+[227/407] Distributing Collaborative Multi-Robot Planning with Gaussian Belief Propagation
+  [SKIP] 2203.11618 - already exists
+[228/407] Approximate Computing for Robotic path planning -- Experimentation, Case Study and Practical Implications
+  [SKIP] 2104.05773 - already exists
+[229/407] HybridCollab: Unifying In-Person and Remote Collaboration for Cardiovascular Surgical Planning in Mobile Augmented Reality
+  [SKIP] 2504.10440 - already exists
+[230/407] Human-in-the-loop Robotic Manipulation Planning for Collaborative Assembly
+  [SKIP] 1909.11280 - already exists
+[231/407] Collaborative Planning for Mixed-Autonomy Lane Merging
+  [SKIP] 1808.02550 - already exists
+[232/407] Edge Accelerated Robot Navigation With Collaborative Motion Planning
+  [SKIP] 2311.08983 - already exists
+[233/407] Collective Intelligence in Humans: A Literature Review
+  [SKIP] 1204.3401 - already exists
+[234/407] Motivations for Participation in Socially Networked Collective Intelligence Systems
+  [SKIP] 1204.4071 - already exists
+[235/407] Re-differentiation as collective intelligence: The Ktunaxa language online community
+  [SKIP] 1204.3891 - already exists
+[236/407] Health Care Crowds: Collective Intelligence in Public Health
+  [SKIP] 1702.04220 - already exists
+[237/407] Next Generation Crowdsourcing for Collective Intelligence
+  [SKIP] 1702.03109 - already exists
+[238/407] Using Artificial Intelligence to Accelerate Collective Intelligence: Policy Synth and Smarter Crowdsourcing
+  [SKIP] 2407.13960 - already exists
+[239/407] A Survey on Social-Physical Sensing: An Emerging Sensing Paradigm that Explores the Collective Intelligence of Humans and Machine
+  [SKIP] 2104.01360 - already exists
+[240/407] Evaluation Mechanism of Collective Intelligence for Heterogeneous Agents Group
+  [SKIP] 1903.00206 - already exists
+[241/407] Defining the Collective Intelligence Supply Chain
+  [SKIP] 1809.09444 - already exists
+[242/407] An AI Theory of Mind Will Enhance Our Collective Intelligence
+  [SKIP] 2411.09168 - already exists
+[243/407] Collective Intelligence 2012: Proceedings
+  [DOWNLOAD] 1204.2991... FAIL (HTTP 404)
+[244/407] Optimal incentives for collective intelligence
+  [SKIP] 1611.03899 - already exists
+[245/407] Collective intelligence in Massive Online Dialogues
+  [SKIP] 1406.7561 - already exists
+[246/407] An active inference model of collective intelligence
+  [SKIP] 2104.01066 - already exists
+[247/407] A Computational Model of Crowds for Collective Intelligence
+  [SKIP] 1407.0325 - already exists
+[248/407] Learning from Collective Intelligence in Groups
+  [SKIP] 1210.0954 - already exists
+[249/407] DLW-CI: A Dynamic Likelihood-Weighted Cooperative Infotaxis Approach for Multi-Source Search in Urban Environments Using Consumer Drone Networks
+  [DOWNLOAD] 2504.14330... FAIL (HTTP 404)
+[250/407] Adversarial Attacks in Cooperative AI
+  [SKIP] 2111.14833 - already exists
+[251/407] AI versus AI in Financial Crimes and Detection: GenAI Crime Waves to Co-Evolutionary AI
+  [SKIP] 2410.09066 - already exists
+[252/407] AI Ethics for Systemic Issues: A Structural Approach
+  [SKIP] 1911.03216 - already exists
+[253/407] A Survey of the Potential Long-term Impacts of AI
+  [SKIP] 2206.11076 - already exists
+[254/407] ELM-Based Distributed Cooperative Learning Over Networks
+  [DOWNLOAD] 1504.00981... FAIL (HTTP 404)
+[255/407] Exploring Global Climate Cooperation through AI: An Assessment of the AI4GCC Framework by simulations
+  [SKIP] 2303.17990 - already exists
+[256/407] AI's assigned gender affects human-AI cooperation
+  [SKIP] 2412.05214 - already exists
+[257/407] The Role of Cooperation in Responsible AI Development
+  [SKIP] 1907.04534 - already exists
+[258/407] Progressing Towards Responsible AI
+  [SKIP] 2008.07326 - already exists
+[259/407] The Future of the AI Summit Series
+  [SKIP] 2601.02383 - already exists
+[260/407] In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?
+  [SKIP] 2504.12914 - already exists
+[261/407] Coverage-Constrained Human-AI Cooperation with Multiple Experts
+  [SKIP] 2411.11976 - already exists
+[262/407] Evaluating Visual Conversational Agents via Cooperative Human-AI Games
+  [SKIP] 1708.05122 - already exists
+[263/407] Soundness in negotiations
+  [SKIP] 1703.05137 - already exists
+[264/407] Circle Back Next Week: The Effect of Meeting-Free Weeks on Distributed Workers' Unstructured Time and Attention Negotiation
+  [SKIP] 2404.00161 - already exists
+[265/407] Active Learning for Sound Negotiations
+  [SKIP] 2110.02783 - already exists
+[266/407] Negotiation Strategies for Agents with Ordinal Preferences
+  [SKIP] 1805.00913 - already exists
+[267/407] Incorporating forecasting and peer-to-peer negotiation frameworks into a distributed model predictive control approach for meshed electric networks
+  [SKIP] 2105.14547 - already exists
+[268/407] An Efficient Protocol for Negotiation over Combinatorial Domains with Incomplete Information
+  [SKIP] 1202.3740 - already exists
+[269/407] A Mathematical Negotiation Mechanism for Distributed Procurement Problems and a Hybrid Algorithm for its Solution
+  [SKIP] 2006.13140 - already exists
+[270/407] A Survey on Bilateral Multi-Round Cloud-SLA Negotiation Strategies
+  [SKIP] 2507.08868 - already exists
+[271/407] An Agent-based Cloud Service Negotiation in Hybrid Cloud Computing
+  [SKIP] 2006.13109 - already exists
+[272/407] The current state of automated negotiation theory: a literature review
+  [SKIP] 2004.02614 - already exists
+[273/407] Reach-Avoid-Stay-Collision-Avoidance Negotiation Framework for Multi-Agent Systems via Spatiotemporal Tubes
+  [SKIP] 2503.10245 - already exists
+[274/407] Strategic Adaptation Under Contextual Change: Insights from a Dyadic Negotiation Testbed for AI Coaching Technologies
+  [SKIP] 2602.04242 - already exists
+[275/407] Applying Multi-Agent Negotiation to Solve the Production Routing Problem With Privacy Preserving
+  [SKIP] 2406.09214 - already exists
+[276/407] A Self-rescue Mechanism for an In-pipe Robot for Large Obstacle Negotiation in Water Distribution Systems
+  [SKIP] 2109.07308 - already exists
+[277/407] Privacy-Preserving Joint Edge Association and Power Optimization for the Internet of Vehicles via Federated Multi-Agent Reinforcement Learning
+  [SKIP] 2301.11014 - already exists
+[278/407] Securing IoT Communication using Physical Sensor Data -- Graph Layer Security with Federated Multi-Agent Deep Reinforcement Learning
+  [SKIP] 2302.12592 - already exists
+[279/407] Federated Multi-Agent Reinforcement Learning for Privacy-Preserving and Energy-Aware Resource Management in 6G Edge Networks
+  [SKIP] 2509.10163 - already exists
+[280/407] Federated Multi-Agent Deep Reinforcement Learning Approach via Physics-Informed Reward for Multi-Microgrid Energy Management
+  [SKIP] 2301.00641 - already exists
+[281/407] From Static to Adaptive Defense: Federated Multi-Agent Deep Reinforcement Learning-Driven Moving Target Defense Against DoS Attacks in UAV Swarm Networks
+  [SKIP] 2506.07392 - already exists
+[282/407] Privacy-Enhancing Paradigms within Federated Multi-Agent Systems
+  [SKIP] 2503.08175 - already exists
+[283/407] Federated Multi-Agent Actor-Critic Learning for Age Sensitive Mobile Edge Computing
+  [SKIP] 2012.14137 - already exists
+[284/407] The Gradient Convergence Bound of Federated Multi-Agent Reinforcement Learning with Efficient Communication
+  [SKIP] 2103.13026 - already exists
+[285/407] FAuNO: Semi-Asynchronous Federated Reinforcement Learning Framework for Task Offloading in Edge Systems
+  [SKIP] 2506.02668 - already exists
+[286/407] Federated Multi-Agent Deep Reinforcement Learning for Dynamic and Flexible 3D Operation of 5G Multi-MAP Networks
+  [SKIP] 2307.06842 - already exists
+[287/407] Adaptive Digital Twin and Communication-Efficient Federated Learning Network Slicing for 5G-enabled Internet of Things
+  [SKIP] 2407.10987 - already exists
+[288/407] AI-Enabled Unmanned Vehicle-Assisted Reconfigurable Intelligent Surfaces: Deployment, Prototyping, Experiments, and Opportunities
+  [SKIP] 2311.04241 - already exists
+[289/407] Making Tunable Parameters State-Dependent in Weather and Climate Models with Reinforcement Learning
+  [SKIP] 2601.04268 - already exists
+[290/407] Model-Free Optimal Control of Linear Multi-Agent Systems via Decomposition and Hierarchical Approximation
+  [SKIP] 2008.06604 - already exists
+[291/407] Federated Control with Hierarchical Multi-Agent Deep Reinforcement Learning
+  [SKIP] 1712.08266 - already exists
+[292/407] Coordinating Fully-Cooperative Agents Using Hierarchical Learning Anticipation
+  [SKIP] 2303.08307 - already exists
+[293/407] Hierarchical Heuristic Learning towards Effcient Norm Emergence
+  [SKIP] 1803.03059 - already exists
+[294/407] A Hierarchical Game-Theoretic Decision-Making for Cooperative Multi-Agent Systems Under the Presence of Adversarial Agents
+  [SKIP] 2303.16641 - already exists
+[295/407] Third-Person Visual Imitation Learning via Decoupled Hierarchical Controller
+  [SKIP] 1911.09676 - already exists
+[296/407] Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning
+  [SKIP] 2504.17356 - already exists
+[297/407] Hierarchical Reinforcement Learning with Deep Nested Agents
+  [SKIP] 1805.07008 - already exists
+[298/407] Addendum to: Summary Information for Reasoning About Hierarchical Plans
+  [SKIP] 1708.03019 - already exists
+[299/407] Episodic Memory Verbalization using Hierarchical Representations of Life-Long Robot Experience
+  [SKIP] 2409.17702 - already exists
+[300/407] Creating Hierarchical Dispositions of Needs in an Agent
+  [SKIP] 2412.00044 - already exists
+[301/407] Hierarchical Decentralized Deep Reinforcement Learning Architecture for a Simulated Four-Legged Agent
+  [SKIP] 2210.08003 - already exists
+[302/407] Explaining Agent's Decision-making in a Hierarchical Reinforcement Learning Scenario
+  [SKIP] 2212.06967 - already exists
+[303/407] A Methodology to Engineer and Validate Dynamic Multi-level Multi-agent Based Simulations
+  [SKIP] 1311.5108 - already exists
+[304/407] SocialGFs: Learning Social Gradient Fields for Multi-Agent Reinforcement Learning
+  [SKIP] 2405.01839 - already exists
+[305/407] Multi-Agent Training for Pommerman: Curriculum Learning and Population-based Self-Play Approach
+  [SKIP] 2407.00662 - already exists
+[306/407] Learning Reward Machines in Cooperative Multi-Agent Tasks
+  [SKIP] 2303.14061 - already exists
+[307/407] Quantifying the effects of environment and population diversity in multi-agent reinforcement learning
+  [SKIP] 2102.08370 - already exists
+[308/407] Re-conceptualising the Language Game Paradigm in the Framework of Multi-Agent Reinforcement Learning
+  [SKIP] 2004.04722 - already exists
+[309/407] ACCNet: Actor-Coordinator-Critic Net for "Learning-to-Communicate" with Deep Multi-agent Reinforcement Learning
+  [SKIP] 1706.03235 - already exists
+[310/407] Agent-Temporal Attention for Reward Redistribution in Episodic Multi-Agent Reinforcement Learning
+  [SKIP] 2201.04612 - already exists
+[311/407] PBFT-Backed Semantic Voting for Multi-Agent Memory Pruning
+  [SKIP] 2506.17338 - already exists
+[312/407] Memory in the Age of AI Agents
+  [SKIP] 2512.13564 - already exists
+[313/407] Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs
+  [SKIP] 2512.04668 - already exists
+[314/407] Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory
+  [SKIP] 2508.08997 - already exists
+[315/407] Thinking Fast and Laterally: Multi-Agentic Approach for Reasoning about Uncertain Emerging Events
+  [SKIP] 2412.07977 - already exists
+[316/407] Evaluation of a Conversation Management Toolkit for Multi Agent Programming
+  [SKIP] 1410.2632 - already exists
+[317/407] Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases
+  [SKIP] 2512.03278 - already exists
+[318/407] Verification & Validation of Agent Based Simulations using the VOMAS (Virtual Overlay Multi-agent System) approach
+  [SKIP] 1708.02361 - already exists
+[319/407] Implementing Agents in JavaScript
+  [SKIP] 2505.18228 - already exists
+[320/407] Augmenting Agent Platforms to Facilitate Conversation Reasoning
+  [SKIP] 1508.02685 - already exists
+[321/407] Numerical Abstract Persuasion Argumentation for Expressing Concurrent Multi-Agent Negotiations
+  [SKIP] 2001.08335 - already exists
+[322/407] A Negotiating Strategy for a Hybrid Goal Function in Multilateral Negotiation
+  [SKIP] 2201.04126 - already exists
+[323/407] Towards Learning Multi-agent Negotiations via Self-Play
+  [SKIP] 2001.10208 - already exists
+[324/407] Automata for Infinite Argumentation Structures
+  [SKIP] 1810.04892 - already exists
+[325/407] Reproducibility Study of Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation
+  [SKIP] 2502.16242 - already exists
+[326/407] Container Orchestration on HPC Systems
+  [SKIP] 2012.08866 - already exists
+[327/407] Next-Generation Event-Driven Architectures: Performance, Scalability, and Intelligent Orchestration Across Messaging Frameworks
+  [SKIP] 2510.04404 - already exists
+[328/407] Timed Orchestration for Component-based Systems
+  [SKIP] 1504.05513 - already exists
+[329/407] Extending the Control Plane of Container Orchestrators for I/O Virtualization
+  [SKIP] 2505.06041 - already exists
+[330/407] Live Orchestral Piano, a system for real-time orchestral music generation
+  [SKIP] 1609.01203 - already exists
+[331/407] Orchestration of Music by Grammar Systems
+  [SKIP] 2507.15314 - already exists
+Traceback (most recent call last):
+  File "F:\github\feb_2_26_multi_agent_research\download_papers.py", line 86, in <module>
+    main()
+    ~~~~^^
+  File "F:\github\feb_2_26_multi_agent_research\download_papers.py", line 68, in main
+    print(f"[{i}/{total}] {paper_name}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\locke\scoop\apps\python\current\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u03bb' in position 16: character maps to <undefined>

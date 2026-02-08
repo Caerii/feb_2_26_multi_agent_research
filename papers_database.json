@@ -4959,7 +4959,10 @@
         "maturity": [
           "#applied"
         ]
-      }
+      },
+      "code_links": [
+        "https://github.com/mukobi/welfare-diplomacy"
+      ]
     },
     "2510.03534": {
       "id": "2510.03534",
@@ -7650,7 +7653,10 @@
         "maturity": [
           "#experimental"
         ]
-      }
+      },
+      "code_links": [
+        "https://github.com/ZitongShi/EPEAgent"
+      ]
     },
     "2012.14137": {
       "id": "2012.14137",
@@ -8373,7 +8379,10 @@
         "maturity": [
           "#experimental"
         ]
-      }
+      },
+      "code_links": [
+        "https://github.com/wzaielamri/hddrl"
+      ]
     },
     "2212.06967": {
       "id": "2212.06967",
@@ -8711,7 +8720,10 @@
         "maturity": [
           "#experimental"
         ]
-      }
+      },
+      "code_links": [
+        "https://github.com/baicenxiao/AREL"
+      ]
     },
     "2506.17338": {
       "id": "2506.17338",
@@ -12007,7 +12019,10 @@
         "maturity": [
           "#experimental"
         ]
-      }
+      },
+      "code_links": [
+        "https://github.com/pliang279/Competitive-Emergent-Communication"
+      ]
     },
     "1909.06480": {
       "id": "1909.06480",
