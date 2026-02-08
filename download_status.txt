@@ -1,0 +1,369 @@
+Downloading 407 papers from arXiv...
+Output directory: papers/YYYY/
+
+[1/407] DyTopo
+  [SKIP] 2602.06039 - already exists
+[2/407] AgenticPay
+  [SKIP] 2602.06008 - already exists
+[3/407] M²-Miner
+  [SKIP] 2602.05429 - already exists
+[4/407] TKG-Thinker
+  [SKIP] 2602.05818 - already exists
+[5/407] Graph-based Agent Memory
+  [SKIP] 2602.05665 - already exists
+[6/407] ProAct
+  [SKIP] 2602.05327 - already exists
+[7/407] Internet of Agentic AI
+  [SKIP] 2602.03145 - already exists
+[8/407] AgentXRay
+  [SKIP] 2602.05353 - already exists
+[9/407] PieArena
+  [SKIP] 2602.05302 - already exists
+[10/407] SocialVeil
+  [SKIP] 2602.05115 - already exists
+[11/407] GAMMS
+  [SKIP] 2602.05105 - already exists
+[12/407] CommCP
+  [SKIP] 2602.06038 - already exists
+[13/407] Learning to Share
+  [SKIP] 2602.05965 - already exists
+[14/407] LinguistAgent
+  [SKIP] 2602.05493 - already exists
+[15/407] Towards Science of Collective AI
+  [SKIP] 2602.05289 - already exists
+[16/407] Data-Centric Interpretability (MARL)
+  [SKIP] 2602.05183 - already exists
+[17/407] CoWork-X
+  [SKIP] 2602.05004 - already exists
+[18/407] Group-Evolving Agents (GEA)
+  [SKIP] 2602.04837 - already exists
+[19/407] PCE (Assumptions to Actions)
+  [SKIP] 2602.04326 - already exists
+[20/407] Agent-Omit
+  [SKIP] 2602.04284 - already exists
+[21/407] Empirical-MCTS
+  [SKIP] 2602.04248 - already exists
+[22/407] INFORM
+  [SKIP] 2602.04291 - already exists
+[23/407] MA3DSG
+  [SKIP] 2602.04152 - already exists
+[24/407] KGLAMP
+  [SKIP] 2602.04129 - already exists
+[25/407] WideSeek-R1
+  [SKIP] 2602.04634 - already exists
+[26/407] Agent Scaling via Diversity
+  [SKIP] 2602.03794 - already exists
+[27/407] AOrchestra
+  [SKIP] 2602.03786 - already exists
+[28/407] TodyComm
+  [SKIP] 2602.03688 - already exists
+[29/407] Conversational Inertia
+  [SKIP] 2602.03664 - already exists
+[30/407] EquiRouter
+  [SKIP] 2602.03478 - already exists
+[31/407] Search-R2
+  [SKIP] 2602.03647 - already exists
+[32/407] IntentRL
+  [SKIP] 2602.03468 - already exists
+[33/407] Agentic Proposing
+  [SKIP] 2602.03279 - already exists
+[34/407] Multi-Agent LLM Frameworks (MAFBench)
+  [SKIP] 2602.03128 - already exists
+[35/407] MAS-ProVe
+  [SKIP] 2602.03053 - already exists
+[36/407] Visual Reasoning over Time Series (MAS4TS)
+  [SKIP] 2602.03026 - already exists
+[37/407] Socratic-Geo
+  [SKIP] 2602.03414 - already exists
+[38/407] MADT (Traffic Coordination)
+  [SKIP] 2602.02903 - already exists
+[39/407] SALE (Strategy Auctions)
+  [SKIP] 2602.02751 - already exists
+[40/407] WideSeek
+  [SKIP] 2602.02636 - already exists
+[41/407] daVinci-Agency
+  [SKIP] 2602.02619 - already exists
+[42/407] Live-Evo
+  [SKIP] 2602.02369 - already exists
+[43/407] ProcMEM
+  [SKIP] 2602.01869 - already exists
+[44/407] ROMA
+  [SKIP] 2602.01848 - already exists
+[45/407] Persuasion Propagation
+  [SKIP] 2602.00851 - already exists
+[46/407] InfoReasoner
+  [SKIP] 2602.00845 - already exists
+[47/407] World Models
+  [SKIP] 2602.00785 - already exists
+[48/407] L²-VMAS
+  [SKIP] 2602.00471 - already exists
+[49/407] DebateOCR
+  [SKIP] 2602.00454 - already exists
+[50/407] Synapse
+  [SKIP] 2602.00911 - already exists
+[51/407] ADP-MA
+  [SKIP] 2602.00307 - already exists
+[52/407] A-Evolve
+  [SKIP] 2602.00359 - already exists
+[53/407] SECP
+  [SKIP] 2602.02170 - already exists
+[54/407] Multi-Agent Teams Hold Experts Back
+  [SKIP] 2602.01011 - already exists
+[55/407] DeALOG
+  [SKIP] 2602.00996 - already exists
+[56/407] SuperBrain
+  [SKIP] 2509.00510 - already exists
+[57/407] PrivLLMSwarm
+  [SKIP] 2512.06747 - already exists
+[58/407] Human-Swarm Teaming
+  [SKIP] 2511.04042 - already exists
+[59/407] Graph-Based In-Context Planning
+  [SKIP] 2510.24690 - already exists
+[60/407] AOAD-MAT
+  [SKIP] 2510.13343 - already exists
+[61/407] Hanabi Conventions
+  [SKIP] 2412.06333 - already exists
+[62/407] Differential Voting
+  [SKIP] 2601.18824 - already exists
+[63/407] Beyond Majority Voting
+  [SKIP] 2510.01499 - already exists
+[64/407] MASTER
+  [SKIP] 2512.13930 - already exists
+[65/407] ARCANE
+  [SKIP] 2512.06196 - already exists
+[66/407] Agentic Reasoning Survey
+  [SKIP] 2601.12538 - already exists
+[67/407] SMAGDi
+  [SKIP] 2511.05528 - already exists
+[68/407] AutoTool
+  [SKIP] 2512.13278 - already exists
+[69/407] Agentic Lybic
+  [SKIP] 2509.11067 - already exists
+[70/407] Multi-Agent Orchestration Survey
+  [SKIP] 2601.13671 - already exists
+[71/407] KBA Orchestration
+  [SKIP] 2509.19599 - already exists
+[72/407] Wonderful Team
+  [SKIP] 2407.19094 - already exists
+[73/407] PIP-LLM
+  [SKIP] 2510.22784 - already exists
+[74/407] LLM-Coordination
+  [SKIP] 2310.03903 - already exists
+[75/407] VirTLab
+  [SKIP] 2510.08242 - already exists
+[76/407] The Language of Bargaining
+  [SKIP] 2601.04387 - already exists
+[77/407] TradingAgents
+  [SKIP] 2412.20138 - already exists
+[78/407] Project Synapse
+  [SKIP] 2601.08156 - already exists
+[79/407] Effective GenAI Multi-Agent Collaboration
+  [SKIP] 2412.05449 - already exists
+[80/407] LLM-Based Human-Agent Collaboration
+  [SKIP] 2505.00753 - already exists
+[81/407] MedAide
+  [SKIP] 2410.12532 - already exists
+[82/407] Preventing Rogue Agents
+  [SKIP] 2502.05986 - already exists
+[83/407] Communication Verification under Info Asymmetry
+  [SKIP] 2510.25595 - already exists
+[84/407] Collaborate, Deliberate, Evaluate
+  [SKIP] 2509.05882 - already exists
+[85/407] MAViS
+  [SKIP] 2508.08487 - already exists
+[86/407] ACPs (Agent Collaboration Protocols)
+  [SKIP] 2505.13523 - already exists
+[87/407] Agent Network Protocol (ANP)
+  [SKIP] 2508.00007 - already exists
+[88/407] Agentic Software Project Management
+  [SKIP] 2601.16392 - already exists
+[89/407] Designing for Human-Agent Alignment
+  [SKIP] 2404.04289 - already exists
+[90/407] Warmth/Competence in Agent Cooperation
+  [SKIP] 2201.13448 - already exists
+[91/407] XAMT Memory Security
+  [SKIP] 2512.15790 - already exists
+[92/407] AI-enhanced Collective Intelligence
+  [SKIP] 2403.10433 - already exists
+[93/407] Survey of Multi-Agent Deep RL with Communication
+  [SKIP] 2203.08975 - already exists
+[94/407] Communicating Unexpectedness for OOD MARL
+  [SKIP] 2501.01140 - already exists
+[95/407] Game-Theoretic MARL Trust Region
+  [SKIP] 2106.06828 - already exists
+[96/407] MobileUse: Hierarchical GUI Agent
+  [SKIP] 2507.16853 - already exists
+[97/407] AMAP Agentic Planning
+  [SKIP] 2512.24957 - already exists
+[98/407] Hierarchical RL for Agent Grouping
+  [SKIP] 2501.06554 - already exists
+[99/407] Normative MAS from Kelsenian Perspective
+  [SKIP] 1709.02018 - already exists
+[100/407] Multi-Agent Dynamic Relational Reasoning
+  [SKIP] 2401.12275 - already exists
+[101/407] Adaptive Coopetition for Resilient Reasoning
+  [SKIP] 2510.18179 - already exists
+[102/407] Operational Collective Intelligence
+  [SKIP] 2402.13273 - already exists
+[103/407] Artificial Collective Intelligence Engineering
+  [SKIP] 2304.05147 - already exists
+[104/407] Emergent Collective Intelligence
+  [SKIP] 2301.01609 - already exists
+[105/407] Understanding HMAT Formation
+  [SKIP] 2601.13865 - already exists
+[106/407] SIER
+  [SKIP] 2505.17115 - already exists
+[107/407] BMAM
+  [SKIP] 2601.20465 - already exists
+[108/407] MIRIX
+  [SKIP] 2507.07957 - already exists
+[109/407] LatentMem
+  [SKIP] 2602.03036 - already exists
+[110/407] Resilient Multi-Agent Negotiation
+  [SKIP] 2507.17134 - already exists
+[111/407] Agentic Inventory Replenishment
+  [SKIP] 2511.23366 - already exists
+[112/407] SPIN-Bench
+  [SKIP] 2503.12349 - already exists
+[113/407] Negotiating Team Formation
+  [SKIP] 2010.10380 - already exists
+[114/407] Multi-Agent LLM Swarm Applications
+  [SKIP] 2503.03800 - already exists
+[115/407] Symbiotic Agents
+  [SKIP] 2507.17695 - already exists
+[116/407] COMMA
+  [SKIP] 2410.07553 - already exists
+[117/407] TeamCraft
+  [SKIP] 2412.05255 - already exists
+[118/407] Analyzing Action-Value Networks
+  [SKIP] 1902.07497 - already exists
+[119/407] ML Uncertainty in Manufacturing
+  [SKIP] 2107.13252 - already exists
+[120/407] Autonomous Vehicles MARL
+  [SKIP] 2309.10007 - already exists
+[121/407] MABIM Inventory Benchmark
+  [SKIP] 2306.07542 - already exists
+[122/407] Tokencake Serving Framework
+  [SKIP] 2510.18586 - already exists
+[123/407] Learning Communication Skills (MCS)
+  [SKIP] 2511.03348 - already exists
+[124/407] Fast Agent-Based Simulation
+  [SKIP] 2008.07871 - already exists
+[125/407] Behavior Discovery Simulation (ACE0)
+  [SKIP] 2108.13296 - already exists
+[126/407] Mobility-Aware mmWave Allocation
+  [SKIP] 2205.06011 - already exists
+[127/407] TransLaw Legal Translation
+  [SKIP] 2507.00875 - already exists
+[128/407] B3C Offline MARL
+  [SKIP] 2501.18138 - already exists
+[129/407] HIVE
+  [SKIP] 2412.11761 - already exists
+[130/407] Federated Multi-Agent Mapping
+  [SKIP] 2404.02289 - already exists
+[131/407] Federated Multi-Agent DRL for 6G
+  [SKIP] 2406.07383 - already exists
+[132/407] Adaptive Social Metaverse Streaming
+  [SKIP] 2506.17342 - already exists
+[133/407] FedMRL for Medical Imaging
+  [SKIP] 2407.05800 - already exists
+[134/407] OrchestRA Drug Discovery
+  [SKIP] 2512.21623 - already exists
+[135/407] Learning Transferable Cooperative Behavior
+  [SKIP] 1906.01202 - already exists
+[136/407] Task Allocation with Load Management
+  [SKIP] 2207.08279 - already exists
+[137/407] Onto4MAT
+  [SKIP] 2203.12955 - already exists
+[138/407] AutoML-Agent
+  [SKIP] 2410.02958 - already exists
+[139/407] LLM Agent Survey
+  [SKIP] 2503.21460 - already exists
+[140/407] SMARL
+  [SKIP] 2411.04867 - already exists
+[141/407] Resource Scheduling Negotiation
+  [SKIP] 2402.06938 - already exists
+[142/407] BDI Cloud Marketplace
+  [SKIP] 2206.08468 - already exists
+[143/407] ACOP Protocol
+  [SKIP] 2003.13668 - already exists
+[144/407] MF-MARL Bandwidth
+  [SKIP] 2104.15085 - already exists
+[145/407] LLN-Based 6G Negotiation
+  [SKIP] 2511.19175 - already exists
+[146/407] Swarm Robotics Survey
+  [SKIP] 2101.00671 - already exists
+[147/407] Spectral Swarm Robotics
+  [SKIP] 2403.17147 - already exists
+[148/407] Open Problems in Cooperative AI
+  [SKIP] 2012.08630 - already exists
+[149/407] Normative Disagreement in Cooperative AI
+  [SKIP] 2111.13872 - already exists
+[150/407] Cooperative Open-ended Learning (COLE)
+  [SKIP] 2306.03034 - already exists
+[151/407] Cooperative AI via Decentralized Commitments
+  [SKIP] 2311.07815 - already exists
+[152/407] Normative Equivalence Human-AI
+  [SKIP] 2601.20487 - already exists
+[153/407] Collaborative Human-Agent Planning for Resilience
+  [SKIP] 2104.14089 - already exists
+[154/407] Hierarchical Uncertainty-Aware Planning
+  [SKIP] 2404.17438 - already exists
+[155/407] Planning with Multi-Constraints LLM Agents
+  [SKIP] 2405.16510 - already exists
+[156/407] MACI Collaborative Intelligence
+  [SKIP] 2501.16689 - already exists
+[157/407] Temporal Logic Collaborative Planning
+  [SKIP] 2108.11597 - already exists
+[158/407] ComDML
+  [SKIP] 2405.00839 - already exists
+[159/407] Multi-Agent Risks from Advanced AI
+  [SKIP] 2502.14143 - already exists
+[160/407] TAG (TAME Agent Framework)
+  [SKIP] 2502.15425 - already exists
+[161/407] OKR-Agent
+  [SKIP] 2311.16542 - already exists
+[162/407] Agent-as-a-Judge
+  [SKIP] 2410.10934 - already exists
+[163/407] Learning Value Systems of Agents
+  [SKIP] 2602.04518 - already exists
+[164/407] RL-VLA³
+  [SKIP] 2602.05765 - already exists
+[165/407] S3-CoT
+  [SKIP] 2602.01982 - already exists
+[166/407] SpecMD
+  [SKIP] 2602.03921 - already exists
+[167/407] DARWIN
+  [SKIP] 2602.05848 - already exists
+[168/407] DeepRead
+  [SKIP] 2602.05014 - already exists
+[169/407] AgentArk
+  [SKIP] 2602.03955 - already exists
+[170/407] LoRDO
+  [SKIP] 2602.04396 - already exists
+[171/407] Med-MMFL
+  [SKIP] 2602.04416 - already exists
+[172/407] Blockchain FL
+  [SKIP] 2602.04384 - already exists
+[173/407] FedKRSO
+  [SKIP] 2602.03019 - already exists
+[174/407] SparVAR
+  [SKIP] 2602.04361 - already exists
+[175/407] MeKi
+  [SKIP] 2602.03359 - already exists
+[176/407] RAP
+  [SKIP] 2602.02599 - already exists
+[177/407] SIDiffAgent
+  [SKIP] 2602.02051 - already exists
+[178/407] Bandwidth-Efficient Multi-Agent Comm
+  [SKIP] 2602.02035 - already exists
+[179/407] COLT
+  [SKIP] 2602.01935 - already exists
+[180/407] TABX
+  [SKIP] 2602.01665 - already exists
+[181/407] Less is More
+  [SKIP] 2504.16408 - already exists
+[182/407] Fetch.ai Architecture
+  [SKIP] 2510.18699 - already exists
+[183/407] Collaborative Multi-Agent RAG
+  [SKIP] 2412.05838 - already exists
